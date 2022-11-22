@@ -67,16 +67,16 @@ Place --> budu doplňovat manuálně
 
 # DF preparatoin
 def BlueCoin_create_labels(text):
-    Label_list = ["2017 - Budapešť", "2017 - Španělsko", "2018 - Amsterdam", "2018 - Francie", "2018 - Praha", "2018 - Slovinsko", "2019 - Beskydy", "2019 - Harrachov", "2019 - Itálie", "2019 - Kapverdy", "2019 - Mušov", "2019 - Slovensko", "2020 - Kanárské ost.", "2020 - Lukavice", "2020 - Velikonoce", "2020 - Wichterle", "2021 - Kréta", "2021 - Kutná Hora", "2021 - Pluskoveček", "2021 - Slovinsko", "2021 - Šumava", "2022 - Chorvatsko", "2022 - Rokytnice", "Byt - Chorvatsko", "Byt - Provazníkova", "Byt - Těsná", "Dovolena: All", "KM-BBL: 2019-08", "KM-BBL: 2022-08", "KM-BEU: 2018-06", "KM-BHR: 2018-01", "KM-BHR: 2018-06", "KM-BHR: 2018-08A", "KM-BHR: 2018-08B", "KM-BHR: 2018-10A", "KM-BHR: 2018-10B", "KM-BPL: 2019-10", "KM-BPL: 2019-12", "KM-BPL: 2020-07", "KM-BPL: 2020-08", "KM-BPL: 2021-11", "KM-BR: 2019-01", "KM-BRO: 2018-01", "KM-BSL: 2017-10", "KM-BSL: 2019-03", "KM-BSL: 2019-05", "KM-BSL: 2019-09", "KM-BSL: 2019-10", "KM-BSL: 2019-11", "KM-BSL: 2020-01", "KM-BSL: 2020-02", "KM-Dubai: 2019-03", "KM-Služebka-All", "Renault Laguna", "Sebastien Vaško", "Schampy", "Svatba", "Vánoce", "VASKO TechDesign", "VASKO: Energy Sol.", "VASKO: IoT - PUR", "VASKO: SportBet", "Vklad - Andrea", "Vklad - Honza", "Výlety"]
-    row_labe = []
+    Label_list = ["2017 - Budapešť", "2017 - Španělsko", "2018 - Amsterdam", "2018 - Francie", "2018 - Praha", "2018 - Slovinsko", "2019 - Beskydy", "2019 - Harrachov", "2019 - Itálie", "2019 - Kapverdy", "2019 - Mušov", "2019 - Slovensko", "2020 - Kanárské ost.", "2020 - Lukavice", "2020 - Velikonoce", "2020 - Wichterle", "2021 - Kréta", "2021 - Kutná Hora", "2021 - Pluskoveček", "2021 - Slovinsko", "2021 - Šumava", "2022 - Chorvatsko", "2022 - Rokytnice", "Byt - Chorvatsko", "Byt - Provazníkova", "Byt - Těsná", "Dovolena: All", "KM-BBL: 2019-08", "KM-BBL: 2022-08", "KM-BBL: 2022-11","KM-BEU: 2018-06", "KM-BHR: 2018-01", "KM-BHR: 2018-06", "KM-BHR: 2018-08A", "KM-BHR: 2018-08B", "KM-BHR: 2018-10A", "KM-BHR: 2018-10B", "KM-BPL: 2019-10", "KM-BPL: 2019-12", "KM-BPL: 2020-07", "KM-BPL: 2020-08", "KM-BPL: 2021-11", "KM-BR: 2019-01", "KM-BRO: 2018-01", "KM-BSL: 2017-10", "KM-BSL: 2019-03", "KM-BSL: 2019-05", "KM-BSL: 2019-09", "KM-BSL: 2019-10", "KM-BSL: 2019-11", "KM-BSL: 2020-01", "KM-BSL: 2020-02", "KM-Dubai: 2019-03", "KM-Služebka-All", "Renault Laguna", "Sebastien Vaško", "Schampy", "Svatba", "Vánoce", "VASKO TechDesign", "VASKO: Energy Sol.", "VASKO: IoT - PUR", "VASKO: SportBet", "Vklad - Andrea", "Vklad - Honza", "Výlety"]
+    row_label = []
 
     if text == "nan":
         return "[]"
     else:
         for label in Label_list:
             if label in text:
-                row_labe.append(label)
-        return row_labe
+                row_label.append(label)
+        return row_label
 
 def BlueCoin_delete_df_text(text):
     try:
@@ -85,18 +85,31 @@ def BlueCoin_delete_df_text(text):
         text = text.replace("{", "")
         text = text.replace("}", "")
         text = text.replace("]", "")
-        text = text.replace("nan", "")
         text = text.replace("NaN", "")
+        text_len = len(text)
+        if text_len == 3:
+            text = text.replace("nan", "")
+        else:
+            pass
     except:
         pass
     return text
 
 def Wallet_create_number(text):
-    return text.replace(",", ".")
+    try:
+        return text.replace(",", ".")
+    except:
+        return text
 
-def Waller_get_date(text):
+def Wallet_get_date(text):
     text = text.split(" ")
     return text[0]
+
+def Wallet_Payment_Status(text) -> str:
+    if text == "None":
+        return "Uncleared"
+    else:
+        return text
 
 # General Functions mouse and keyboard
 def mouse_move(pyautogui, time, possition: tuple) -> None:
@@ -235,6 +248,7 @@ import pyautogui
 import time
 from datetime import datetime
 import pandas
+pandas.options.mode.chained_assignment = None
 
 # --------------------------------- Defaults ---------------------------------#
 # X/Y coordinates on notebook screen - Absolute
@@ -299,11 +313,11 @@ Payment_Status_dict = {
 Payment_Status_df = pandas.DataFrame(data=Payment_Status_dict, columns=Payment_Status_dict.keys())
 
 # Accout
-Account_list = ["AED", "CZK", "CZK - Společný", "EUR", "GBP", "HRK", "HUF", "SEK", "Trezor", "Stravenky", "AirBank - Společný", "AirBank - Spořící", "AirBank - VASKO TechDesign", "KB - Personal - účet", "Airbank - Svatební půjčka", "KB - Hypotéka", "KB - Stavebíi spoření - úvěr 2", "KB - Stavební spoření - úvěr 1", "KB - VASKOTechDesign - PMG", "Benzina - Karta", "Hornbach Karta", "IKEA - Karta", "Stravenková Karta", "Fortuna", "Chance", "Sazka", "SynotTip", "Tipsport", "Allianz - Penzijní pripojištění", "AXA", "Conseq"]
-Account_Type_list = ["Cash", "Cash", "Cash", "Cash", "Cash", "Cash", "Cash", "Cash", "Cash", "Cash", "Bank", "Bank", "Bank", "Bank", "Loans", "Loans", "Loans", "Loans", "Loans", "Bonus", "Bonus", "Bonus", "Bonus", "Virtual", "Virtual", "Virtual", "Virtual", "Virtual", "Investments", "Investments", "Investments"]
-Account_Currency_list = ["AED", "CZK", "CZK", "EUR", "GBP", "HRK", "HUF", "SEK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK"]
-Account_possition_list = [26, 0, 1, 4, 27, 28, 29, 30, 2, 3, 10, 11, 12, 5, 13, 9, 7, 6, 8, 22, 23, 24, 25, 15, 14, 16, 17, 18, 19, 20, 21]
-Account_possition_TO_list = [27, 1, 2, 5, 28, 29, 30, 31, 3, 4, 11, 12, 13, 6, 14, 10, 8, 7, 9, 23, 24, 25, 26, 16, 15, 17, 18, 19, 20, 21, 22]
+Account_list = ["AED", "CZK", "CZK - Společný", "EUR", "GBP", "HRK", "HUF", "SEK", "Trezor", "Stravenky", "AirBank - Společný", "AirBank - Spořící", "AirBank - VASKO TechDesign", "KB - Personal - účet", "Airbank - Svatební půjčka", "KB - Hypotéka", "KB - Americká Hypotéka", "KB - Stavební spoření - úvěr 2", "KB - Stavební spoření - úvěr 1", "KB - VASKOTechDesign - PMG", "Benzina - Karta", "Hornbach Karta", "IKEA - Karta", "Stravenková Karta", "Fortuna", "Chance", "Sazka", "SynotTip", "Tipsport", "Allianz - Penzijní pripojištění", "AXA", "Conseq"]
+Account_Type_list = ["Cash", "Cash", "Cash", "Cash", "Cash", "Cash", "Cash", "Cash", "Cash", "Cash", "Bank", "Bank", "Bank", "Bank", "Loans", "Loans","Loans", "Loans", "Loans", "Loans", "Bonus", "Bonus", "Bonus", "Bonus", "Virtual", "Virtual", "Virtual", "Virtual", "Virtual", "Investments", "Investments", "Investments"]
+Account_Currency_list = ["AED", "CZK", "CZK", "EUR", "GBP", "HRK", "HUF", "SEK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK"]
+Account_possition_list = [26, 0, 1, 4, 27, 28, 29, 30, 2, 3, 10, 11, 12, 5, 13, 9, 7, 6, 8, 22, 23, 24, 25, 15, 14, 16, 17, 18, 19, 20, 21, 1]         #! Opravit je to špatně kvůli Americké hypotéce (udělat kompletně od začátku)
+Account_possition_TO_list = [27, 1, 2, 5, 28, 29, 30, 31, 3, 4, 11, 12, 13, 6, 14, 10, 8, 7, 9, 23, 24, 25, 26, 16, 15, 17, 18, 19, 20, 21, 22, 1]     #! Opravit je to špatně kvůli Americké hypotéce (udělat kompletně od začátku)
 Accounts_dict = {
     "Account": Account_list,
     "Account_Type": Account_Type_list,
@@ -315,16 +329,15 @@ Accounts_df = pandas.DataFrame(data=Accounts_dict, columns=Accounts_dict.keys())
 # Categorry Mapping
 Category_df = pandas.read_csv(filepath_or_buffer="Category_Mapping.csv", sep=";")
 Category_df["Wallet_Main"] = Category_df["Wallet_Main"].apply(BlueCoin_delete_df_text)
-Category_df["Wallet_Sub-Category"] = Category_df["Wallet_Sub-Category"].apply(BlueCoin_delete_df_text)
-Category_df["Wallet_Sub2-Category"] = Category_df["Wallet_Sub2-Category"].apply(BlueCoin_delete_df_text)
+Category_df["Wallet_Sub_Category"] = Category_df["Wallet_Sub_Category"].apply(BlueCoin_delete_df_text)
+Category_df["Wallet_Sub2_Category"] = Category_df["Wallet_Sub2_Category"].apply(BlueCoin_delete_df_text)
 Category_df["BlueCoin_Type"] = Category_df["BlueCoin_Type"].apply(BlueCoin_delete_df_text)
 Category_df["BlueCoin_Main"] = Category_df["BlueCoin_Main"].apply(BlueCoin_delete_df_text)
-Category_df["BlueCoin_Sub-Category"] = Category_df["BlueCoin_Sub-Category"].apply(BlueCoin_delete_df_text)
+Category_df["BlueCoin_Sub_Category"] = Category_df["BlueCoin_Sub_Category"].apply(BlueCoin_delete_df_text)
 Category_df["Note"] = Category_df["Note"].apply(BlueCoin_delete_df_text)
 
 # --------------------------------- Main ---------------------------------#
-# Read csv.
-BlueCoins_df = pandas.read_csv(filepath_or_buffer="./Data/2022_11_12-transactions_list.csv", sep=";")
+BlueCoins_df = pandas.read_csv(filepath_or_buffer="./Data/2022_11_20-all_transaction.csv", sep=";", header=0)
 BlueCoins_df["Notes"] = BlueCoins_df["Notes"].apply(BlueCoin_delete_df_text)
 BlueCoins_df["Labels"] = BlueCoins_df["Labels"].apply(BlueCoin_delete_df_text)
 BlueCoins_df["Title"] = BlueCoins_df["Title"].apply(BlueCoin_delete_df_text)
@@ -357,6 +370,8 @@ Income_Expense_df["Labels"] = Income_Expense_df["Labels"].apply(BlueCoin_create_
 Transfers_df["Labels"] = Transfers_df["Labels"].apply(BlueCoin_create_labels)
 Pujcky_df["Labels"] = Pujcky_df["Labels"].apply(BlueCoin_create_labels)
 
+Pujcky_df.to_csv(path_or_buf="Wallet_Pujcky_df.csv", sep=";", index=False)
+
 # ----------------- Wallet -----------------#
 # DF - Income / Expense
 Wallet_Income_Expense_df = Income_Expense_df
@@ -371,25 +386,23 @@ Wallet_Income_Expense_df["Exchange Rate"] = Wallet_Income_Expense_df["Exchange R
 Wallet_Income_Expense_df["Amount_LCY"] = round(Wallet_Income_Expense_df["Amount"] / Wallet_Income_Expense_df["Exchange Rate"], 2)
 
 # Category - mapping
+Wallet_Income_Expense_df["Category_1"] = ""
+Wallet_Income_Expense_df["Category_2"] = ""
+Wallet_Income_Expense_df["Category_3"] = ""
 for row in Wallet_Income_Expense_df.iterrows():
     row_df = pandas.Series(data=row[1])
-    
-    BlueCoin_Type = row_df["Type"]
-    BlueCoin_Cateogry_Main = row_df["Category Group Name"]
-    BlueCoin_Cateogry_Sub = row_df["Category"]
 
-    Mask1 = Category_df["BlueCoin_Type"] == BlueCoin_Type
-    Mask2 = Category_df["BlueCoin_Main"] == BlueCoin_Cateogry_Main
-    Mask3 = Category_df["BlueCoin_Sub-Category"] == BlueCoin_Cateogry_Sub
+    Mask1 = Category_df["BlueCoin_Type"] == row_df["Type"]
+    Mask2 = Category_df["BlueCoin_Main"] == row_df["Category Group Name"]
+    Mask3 = Category_df["BlueCoin_Sub_Category"] == row_df["Category"]
 
     Category_mapping_Series = Category_df[Mask1 & Mask2 & Mask3]
-    print(Category_mapping_Series)
 
     Wallet_Income_Expense_df.at[row[0],"Category_1"] = Category_mapping_Series.iloc[0]["Wallet_Main"]
-    Wallet_Income_Expense_df.at[row[0],"Category_2"] = Category_mapping_Series.iloc[0]["Wallet_Sub-Category"]
-    Wallet_Income_Expense_df.at[row[0],"Category_3"] = Category_mapping_Series.iloc[0]["Wallet_Sub2-Category"]
+    Wallet_Income_Expense_df.at[row[0],"Category_2"] = Category_mapping_Series.iloc[0]["Wallet_Sub_Category"]
+    Wallet_Income_Expense_df.at[row[0],"Category_3"] = Category_mapping_Series.iloc[0]["Wallet_Sub2_Category"]
 
-Wallet_Income_Expense_df["Date"] = Wallet_Income_Expense_df["Date"].apply(Waller_get_date)
+Wallet_Income_Expense_df["Date"] = Wallet_Income_Expense_df["Date"].apply(Wallet_get_date)
 Wallet_Income_Expense_df["Time"] = Wallet_Income_Expense_df["Set Time"] 
 
 Wallet_Income_Expense_df["Payee"] = Wallet_Income_Expense_df["Title"] 
@@ -397,16 +410,113 @@ Wallet_Income_Expense_df["Original_Value"] = ""
 Wallet_Income_Expense_df["Original_Value"].loc[Wallet_Income_Expense_df["Currency"] != "CZK"] = Wallet_Income_Expense_df["Amount"]
 
 # Payment Type - mapping
-Wallet_Income_Expense_df["Payment type"] = 
+Wallet_Income_Expense_df["Payment type"] = ""
+for row in Wallet_Income_Expense_df.iterrows():
+    row_df = pandas.Series(data=row[1])
 
-Wallet_Income_Expense_df["Payment status"] = Wallet_Income_Expense_df["Status"] 
+    Mask1 = Accounts_df["Account"] == str(row_df["Account"])
+    Account_mapping_Series = Accounts_df[Mask1]
+
+    if row_df["Type"] == "Expense":
+        if Account_mapping_Series.iloc[0]["Account_Type"] == "Cash":
+            Wallet_Income_Expense_df.at[row[0],"Payment type"] = "Cash"
+        elif  Account_mapping_Series.iloc[0]["Account_Type"] == "Bank":
+            Wallet_Income_Expense_df.at[row[0],"Payment type"] = "Debit card"
+        elif  Account_mapping_Series.iloc[0]["Account_Type"] == "Loans":
+            Wallet_Income_Expense_df.at[row[0],"Payment type"] = "Transfer"
+        elif  Account_mapping_Series.iloc[0]["Account_Type"] == "Virtual":
+            Wallet_Income_Expense_df.at[row[0],"Payment type"] = "Debit card"
+        elif  Account_mapping_Series.iloc[0]["Account_Type"] == "Bonus":
+            Wallet_Income_Expense_df.at[row[0],"Payment type"] = "Debit card"
+        elif  Account_mapping_Series.iloc[0]["Account_Type"] == "Investments":
+            Wallet_Income_Expense_df.at[row[0],"Payment type"] = "Transfer"
+        else:
+            pass
+    elif row_df["Type"] == "Income":
+        if Account_mapping_Series.iloc[0]["Account_Type"] == "Cash":
+            Wallet_Income_Expense_df.at[row[0],"Payment type"] = "Cash"
+        elif  Account_mapping_Series.iloc[0]["Account_Type"] == "Bank":
+            Wallet_Income_Expense_df.at[row[0],"Payment type"] = "Web payment"
+        elif  Account_mapping_Series.iloc[0]["Account_Type"] == "Loans":
+            Wallet_Income_Expense_df.at[row[0],"Payment type"] = "Transfer"
+        elif  Account_mapping_Series.iloc[0]["Account_Type"] == "Virtual":
+            Wallet_Income_Expense_df.at[row[0],"Payment type"] = "Transfer"
+        elif  Account_mapping_Series.iloc[0]["Account_Type"] == "Bonus":
+            Wallet_Income_Expense_df.at[row[0],"Payment type"] = "Web payment"
+        elif  Account_mapping_Series.iloc[0]["Account_Type"] == "Investments":
+            Wallet_Income_Expense_df.at[row[0],"Payment type"] = "Transfer"
+        else:
+            pass
+    else:
+        pass
+
+Wallet_Income_Expense_df["Payment status"] = Wallet_Income_Expense_df["Status"].apply(Wallet_Payment_Status)
 Wallet_Income_Expense_df["Place"] = ""
-Wallet_Income_Expense_df.drop(labels=["Set Time", "Title", "Category Group Name", "Category", "Status"], inplace=True)
-print(Wallet_Income_Expense_df)
+Wallet_Income_Expense_df.drop(labels=["Set Time", "Title", "Category Group Name", "Category", "Status"], inplace=True, axis=1)
+Wallet_Income_Expense_df.to_csv(path_or_buf="Wallet_Income_Expense_df.csv", sep=";", index=False)
+
 # DF - Transferes
+Wallet_Transfers_df = Transfers_df 
+
+Wallet_Transfers_df["Amount"] = Wallet_Transfers_df["Amount"].apply(Wallet_create_number)
+Wallet_Transfers_df["Amount"] = Wallet_Transfers_df["Amount"].apply(float)
+
+Wallet_Transfers_df["Exchange Rate"] = Wallet_Transfers_df["Exchange Rate"].apply(Wallet_create_number)
+Wallet_Transfers_df["Exchange Rate"] = Wallet_Transfers_df["Exchange Rate"].apply(float)
+
+Wallet_Transfers_df["From_Account"] = ""
+Wallet_Transfers_df["From_Amount"] = ""
+Wallet_Transfers_df["From_Amount_LCY"] = ""
+Wallet_Transfers_df["From_Currency"] = ""
+Wallet_Transfers_df["From_Exchange_Rate"] = ""
+Wallet_Transfers_df["To_Account"] = ""
+Wallet_Transfers_df["To_Amount"] = ""
+Wallet_Transfers_df["To_Amount_LCY"] = ""
+Wallet_Transfers_df["To_Currency"] = ""
+Wallet_Transfers_df["To_Exchange_Rate"] = ""
+
+for row in Wallet_Transfers_df.iterrows():
+    row_df = pandas.Series(data=row[1])
+
+    if row_df["Amount"] < 0:
+        Wallet_Transfers_df.at[row[0],"From_Account"] = row_df["Account"]
+        Wallet_Transfers_df.at[row[0],"From_Amount"] = row_df["Amount"]
+        Wallet_Transfers_df.at[row[0],"From_Amount_LCY"] = row_df["Amount"] * row_df["Exchange Rate"]
+        Wallet_Transfers_df.at[row[0],"From_Currency"] = row_df["Currency"]
+        Wallet_Transfers_df.at[row[0],"From_Exchange_Rate"] = row_df["Exchange Rate"]
+    elif row_df["Amount"] > 0:
+        Wallet_Transfers_df.at[row[0]-1,"To_Account"] = row_df["Account"]
+        Wallet_Transfers_df.at[row[0]-1,"To_Amount"] = row_df["Amount"]
+        Wallet_Transfers_df.at[row[0]-1,"To_Amount_LCY"] = row_df["Amount"] * row_df["Exchange Rate"]
+        Wallet_Transfers_df.at[row[0]-1,"To_Currency"] = row_df["Currency"]
+        Wallet_Transfers_df.at[row[0]-1,"To_Exchange_Rate"] = row_df["Exchange Rate"]
+    else:
+        print("Issue")
+
+Wallet_Transfers_df2 = Wallet_Transfers_df[Wallet_Transfers_df['From_Account'] != ""].reset_index()
+Wallet_Transfers_df2.drop(labels=["index"], inplace=True, axis=1)
+del Wallet_Transfers_df
+Wallet_Transfers_df = Wallet_Transfers_df2
+del Wallet_Transfers_df2
+
+Wallet_Transfers_df["From_Amount"] = Wallet_Transfers_df["From_Amount"].apply(abs)
+Wallet_Transfers_df["From_Amount_LCY"] = Wallet_Transfers_df["From_Amount_LCY"].apply(abs)
+Wallet_Transfers_df["To_Amount"] = Wallet_Transfers_df["To_Amount"].apply(abs)
+Wallet_Transfers_df["To_Amount_LCY"] = Wallet_Transfers_df["To_Amount_LCY"].apply(abs)
+
+Wallet_Transfers_df["Date"] = Wallet_Transfers_df["Date"].apply(Wallet_get_date)
+Wallet_Transfers_df["Time"] = Wallet_Transfers_df["Set Time"]
+
+Wallet_Transfers_df["Payment type"] = "Transfer"
+Wallet_Transfers_df["Payment status"] = Wallet_Transfers_df["Status"].apply(Wallet_Payment_Status)
+Wallet_Transfers_df["Place"] = ""
+
+Wallet_Transfers_df.drop(labels=["Amount", "Currency", "Category Group Name", "Category", "Status", "Exchange Rate", "Title", "Account", "Set Time"], inplace=True, axis=1)
+Wallet_Transfers_df.to_csv(path_or_buf="Wallet_Transfers_df.csv", sep=";", index=False)
 
 
 
-# Web App --> issues
+# Web App
+
 
 print("Finished")

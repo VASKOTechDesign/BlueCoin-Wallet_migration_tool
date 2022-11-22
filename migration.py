@@ -112,34 +112,34 @@ def Wallet_Payment_Status(text) -> str:
         return text
 
 # General Functions mouse and keyboard
-def mouse_move(pyautogui, time, possition: tuple) -> None:
-    time.sleep(0.25)
+def mouse_move(pyautogui, time, waiting_time,possition: tuple) -> None:
+    time.sleep(waiting_time)
     pyautogui.moveTo(possition[0], possition[1])
 
-def mouse_move_one_line(pyautogui, time) -> None:
-    time.sleep(0.25)
+def mouse_move_one_line(pyautogui, time, waiting_time) -> None:
+    time.sleep(waiting_time)
     possition = pyautogui.position()
     pyautogui.moveTo(possition[0], possition[1] + 35)
 
-def mouse_clic(pyautogui, time) -> None:
-    time.sleep(0.25)
+def mouse_clic(pyautogui, time, waiting_time) -> None:
+    time.sleep(waiting_time)
     pyautogui.click()
 
-def mouse_scroll(pyautogui, time, line) -> None:
-    time.sleep(0.25)
+def mouse_scroll(pyautogui, time, waiting_time, line) -> None:
+    time.sleep(waiting_time)
     pyautogui.scroll(line)
 
-def press_one_key(pyautogui, time, key) -> None:
-    time.sleep(0.25)
+def press_one_key(pyautogui, time, waiting_time, key) -> None:
+    time.sleep(waiting_time)
     pyautogui.press(key)
 
-def press_two_keys(pyautogui, time, key1, key2) -> None:
-    time.sleep(0.25)
+def press_two_keys(pyautogui, time, waiting_time, key1, key2) -> None:
+    time.sleep(waiting_time)
     with pyautogui.hold(key1):
         pyautogui.press([key2])
 
-def write_text(pyautogui, time, text) -> None:
-    time.sleep(0.25)
+def write_text(pyautogui, time, waiting_time, text) -> None:
+    time.sleep(waiting_time)
     pyautogui.write(text)
 
 # Each Fields fill in WEB app
@@ -192,7 +192,7 @@ def Callendar_Line_index(Transaction_date, datetime) -> int:
             
     return Line_index
 
-def Calendar_direct_write(pyautogui, Transaction_date, datetime, possition, time) -> None:
+def Calendar_direct_write(pyautogui, Transaction_date, datetime, possition, time, waiting_time) -> None:
     mouse_move(pyautogui, time, possition)
     mouse_clic(pyautogui, time)
     press_two_keys(pyautogui, time, "ctrl", "a")
@@ -214,7 +214,7 @@ def Time_Scroll_up(pyautogui, time, first_line) -> None:
     mouse_move(pyautogui, time, first_line)
     pyautogui.scroll(clicks=30000)
 
-def Time_Set_correct(pyautogui, Transaction_Time, time, Time_First_line, Time_possition) -> None:
+def Time_Set_correct(pyautogui, Transaction_Time, time, waiting_time,Time_First_line, Time_possition) -> None:
     mouse_move(pyautogui, time, Time_possition)
     mouse_clic(pyautogui, time)
     Time_Scroll_up(pyautogui, time, Time_First_line)
@@ -236,11 +236,11 @@ def Time_Set_correct(pyautogui, Transaction_Time, time, Time_First_line, Time_po
         possition_Y +=  No_scrolls * One_line_height
         possition = (possition_X, possition_Y)
         mouse_move(pyautogui, time, possition)
-        time.sleep(0.25)
+        time.sleep(waiting_time)
         mouse_clic(pyautogui, time)
     else:
         mouse_scroll(pyautogui, Scroll_click)
-        time.sleep(0.25)
+        time.sleep(waiting_time)
         mouse_clic(pyautogui, time)
     press_one_key(pyautogui, time, "tab")
         
@@ -292,6 +292,7 @@ Payment_type_possition = (1200, 570)        # Payment type
 Payment_Status_possition = (1200, 650)      # Payment Status 
 Add_record = (770, 750)                     # Add record
 Add_record_new = (770, 795)                 # Add record and create new
+Cancel_cross = (1400, 270)                 # Add record and create new
 
 # Payment Type
 Payment_Type_list = ["Cash", "Debit card", "Credit card", "Transfer", "Voucher", "Mobile payment", "Web payment"]
@@ -326,6 +327,14 @@ Accounts_dict = {
     "Account_possition_TO_list": Account_possition_TO_list}
 Accounts_df = pandas.DataFrame(data=Accounts_dict, columns=Accounts_dict.keys())
 
+# Currency
+Currency_list = ["CZK", "CZK", "AED", "EUR", "GBP", "HRK", "HUF", "SEK"]
+Currency_possition_list = [1, 2, 3, 4, 5, 6, 7, 8]
+Currency_dict = {
+    "Currency": Currency_list,
+    "Currency_Posstion": Currency_possition_list}
+Currency_df = pandas.DataFrame(data=Currency_dict, columns=Currency_dict.keys())
+
 # Categorry Mapping
 Category_df = pandas.read_csv(filepath_or_buffer="Category_Mapping.csv", sep=";")
 Category_df["Wallet_Main"] = Category_df["Wallet_Main"].apply(BlueCoin_delete_df_text)
@@ -337,10 +346,11 @@ Category_df["BlueCoin_Sub_Category"] = Category_df["BlueCoin_Sub_Category"].appl
 Category_df["Note"] = Category_df["Note"].apply(BlueCoin_delete_df_text)
 
 # --------------------------------- Main ---------------------------------#
-BlueCoins_df = pandas.read_csv(filepath_or_buffer="./Data/2022_11_20-all_transaction.csv", sep=";", header=0)
+BlueCoins_df = pandas.read_csv(filepath_or_buffer="./Data/2022_11_20-all_transaction_test.csv", sep=";", header=0)
 BlueCoins_df["Notes"] = BlueCoins_df["Notes"].apply(BlueCoin_delete_df_text)
 BlueCoins_df["Labels"] = BlueCoins_df["Labels"].apply(BlueCoin_delete_df_text)
 BlueCoins_df["Title"] = BlueCoins_df["Title"].apply(BlueCoin_delete_df_text)
+
 
 # ----------------- BlueCoin-----------------#
 # ----- Delete -----#
@@ -515,8 +525,58 @@ Wallet_Transfers_df.drop(labels=["Amount", "Currency", "Category Group Name", "C
 Wallet_Transfers_df.to_csv(path_or_buf="Wallet_Transfers_df.csv", sep=";", index=False)
 
 
-
 # Web App
+for row in Wallet_Income_Expense_df.iterrows():
+    # Just fr testing --> hould be befote forloop
+    mouse_move(pyautogui, time, 0.25, New_record_button_possition)
+    mouse_clic(pyautogui, time, 0.1)
 
+    row_df = pandas.Series(data=row[1])
 
+    # Type:
+    if row_df["Type"] == "Expense":
+        mouse_move(pyautogui, time, 0.25, Expense_button_possition)
+        mouse_clic(pyautogui, time, 0.1)
+    elif row_df["Type"] == "Income":
+        mouse_move(pyautogui, time, 0.25, Income_button_possition)
+        mouse_clic(pyautogui, time, 0.1)
+    else:
+        pass
+        #! Register issue into LOG
+    
+    # Account
+    Account_index = Accounts_df[Accounts_df["Account"] == row_df["Account"]].index
+    Account_pos = int(Accounts_df.iloc[Account_index]["Account_Possition"].values[0])
+    mouse_move(pyautogui, time, 0.25, Account_possition)
+    mouse_clic(pyautogui, time, 0.1)
+    for i in range(Account_pos):
+        press_one_key(pyautogui, time, 0.1, "down")
+    press_one_key(pyautogui, time, 0.25, "enter")
+
+    # Amount
+    mouse_move(pyautogui, time, 0.25, Amount_possition)
+    mouse_clic(pyautogui, time, 0.1)
+    write_text(pyautogui, time, 0.1, str(row_df["Amount"]))
+
+    # Currency   
+    if row_df["Currency"] == "CZK":
+        pass
+    elif row_df["Currency"] != "CZK":
+        Account_index = Accounts_df[Accounts_df["Account"] == row_df["Account"]].index
+        Account_Type = str(Accounts_df.iloc[Account_index]["Account_Type"].values[0])
+        if Account_Type == "Bank":
+            Currency_index = Currency_df[Currency_df["Currency"] == row_df["Currency"]].index
+            Currency_pos = int(Currency_df.iloc[Currency_index]["Currency_Posstion"].values[0])
+            press_one_key(pyautogui, time, 0.25, "tab")
+            for i in range(1, Currency_pos + 5):        # +5 --> nešlo to jinak, web se automaticky nasměřuje na EUR po kliknutí
+                press_one_key(pyautogui, time, 0.1, "down")
+            press_one_key(pyautogui, time, 0.25, "enter")
+        else:
+            pass
+            #! Register issue into LOG
+    else:
+        pass
+
+    mouse_move(pyautogui, time, 0.25, Cancel_cross)
+    mouse_clic(pyautogui, time, 0.1)
 print("Finished")

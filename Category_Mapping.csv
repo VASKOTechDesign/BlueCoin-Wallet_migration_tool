@@ -23,7 +23,7 @@ Shopping;Gifts, joy;Květiny;Expense;Nakup;Kvetiny;
 Shopping;Ostatní;;Expense;Nakup;Ostatni;na Skupinu 2
 Shopping;Home, garden;Bydlení, accesories;Expense;Nakup;Bydleni, accesories;
 Shopping;Home, garden;Nábytek;Expense;Nakup;Nabytek;
-Shopping;Jewels, accessories;Sperky;Expense;Nakup;Sperky;
+Shopping;Jewels, accessories;Šperky;Expense;Nakup;Sperky;
 Shopping;Kids;Kids-Hračky;Expense;Nakup;Hracky;
 Shopping;Pets, animals;Feromony;Expense;Zvirata;Feromony;
 Shopping;Pets, animals;Pets-Hračky;Expense;Zvirata;Hracky;
@@ -88,7 +88,7 @@ Life & Entertaiment;Services - General;Cistírna, prádelna;Expense;Sluzby;Cisti
 Life & Entertaiment;Services - General;WC;Expense;Sluzby;WC;
 Life & Entertaiment;Services - General;Hlídání;Expense;Zvirata;Hlidani;
 Life & Entertaiment;Services - General;Fotography/Video;Expense;Sluzby;Foto, Video;
-Life & Entertaiment;Services - General;Pronájem Věcí;Expense;Sluzby;Pronajem;
+Life & Entertaiment;Services - General;Pronájem věcí;Expense;Sluzby;Pronajem;
 Life & Entertaiment;Books, audio;Hudba;Expense;Nakup;Hudba;
 Life & Entertaiment;Books, audio;Literatura;Expense;Nakup;Literatura;
 Life & Entertaiment;Charity, gifts;;Expense;;;
@@ -99,12 +99,12 @@ Life & Entertaiment;Events - Culture, Sports;Koncerty;Expense;Zabava;Koncerty;
 Life & Entertaiment;Events - Culture, Sports;Ples;Expense;Zabava;Ples;
 Life & Entertaiment;Events - Culture, Sports;Představení;Expense;Zabava;Predstaveni;
 Life & Entertaiment;Events - Culture, Sports;Sportovní utkání;Expense;Zabava;Sportovni utkani;
-Life & Entertaiment;Education, development;kurzy;Expense;Sluzby;Kurzy;
-Life & Entertaiment;Education, development;učebnice;Expense;Nakup;Ucebnice;
+Life & Entertaiment;Education, development;Kurzy;Expense;Sluzby;Kurzy;
+Life & Entertaiment;Education, development;Učebnice;Expense;Nakup;Ucebnice;
 Life & Entertaiment;Education, development;Psychologie, Koučing, Seberozvoj;Expense;Sluzby;Psychologie, Koucing, Seberozvoj;
-Life & Entertaiment;Halth care, Doctor;Doktor;Expense;Sluzby;Doktor;
-Life & Entertaiment;Halth care, Doctor;Zubar;Expense;Sluzby;Zubar;
-Life & Entertaiment;Halth care, Doctor;Veterinář;Expense;Zvirata;Veterina;
+Life & Entertaiment;Health care, doctor;Doktor;Expense;Sluzby;Doktor;
+Life & Entertaiment;Health care, doctor;Zubař;Expense;Sluzby;Zubar;
+Life & Entertaiment;Health care, doctor;Veterinář;Expense;Zvirata;Veterina;
 Life & Entertaiment;Hobbies;3D Printing;Expense;Nakup;Fillament;VASKO TechDesign
 Life & Entertaiment;Hobbies;Programming;;;;
 Life & Entertaiment;Hobbies;IoT;;;;
@@ -149,6 +149,7 @@ Financial expenses;Lottery, gambling;Game Bet;Expense;Lottery/Betting;Game bet;
 Financial expenses;Lottery, gambling;Win;Income;Lottery/Betting;Win;
 Financial expenses;Fines;Pokuta;Expense;Financni sluzby;Pokuta;
 Financial expenses;Insurances;Životní pojištění;Expense;Financni sluzby;Zivotni pojisteni;
+Financial expenses;Insurances;Penzijní pojištění;;;;
 Financial expenses;Loan, interests;Pujčky ostatní - úmor;Expense;Bankovni operace - vydaje;Pujcky - umor;
 Financial expenses;Loan, interests;Pujčky ostatní - úrok;Expense;Bankovni operace - vydaje;Pujcky - urok;
 Financial expenses;Loan, interests;Osobní půjčky - Expense;Expense;Financni sluzby;Pujcky - pujceni;Pujčuju Andě

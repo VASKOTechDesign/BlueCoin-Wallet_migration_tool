@@ -142,6 +142,41 @@ def write_text(pyautogui, time, waiting_time, text) -> None:
     time.sleep(waiting_time)
     pyautogui.write(text)
 
+def Replace_diacritic(text):
+    try:
+        text = text.replace("á", "a")
+        text = text.replace("é", "e")
+        text = text.replace("ě", "e")
+        text = text.replace("í", "i")
+        text = text.replace("ó", "o")
+        text = text.replace("ú", "u")
+        text = text.replace("ů", "u")
+        text = text.replace("ý", "y")
+        text = text.replace("č", "c")
+        text = text.replace("ď", "d")
+        text = text.replace("ň", "n")
+        text = text.replace("ř", "r")
+        text = text.replace("š", "s")
+        text = text.replace("ť", "t")
+        text = text.replace("ž", "z")
+        text = text.replace("Á", "A")
+        text = text.replace("É", "E")
+        text = text.replace("Ě", "E")
+        text = text.replace("Í", "I")
+        text = text.replace("Ó", "O")
+        text = text.replace("Ú", "U")
+        text = text.replace("Ý", "Y")
+        text = text.replace("Č", "C")
+        text = text.replace("Ď", "D")
+        text = text.replace("Ň", "N")
+        text = text.replace("Ř", "R")
+        text = text.replace("Š", "S")
+        text = text.replace("Ť", "T")
+        text = text.replace("Ž", "Z")
+    except:
+        pass
+    return  text
+
 # Each Fields fill in WEB app
 def Date_Month_Difference(Transaction_date, datetime) -> int:
     Transaction_date = datetime.strptime(Transaction_date,"%d.%m.%Y")
@@ -266,6 +301,7 @@ Transfer_To_Amount = (900, 510)             # Transfer To Amount
 Transfer_From_Currency = (700, 510)         # Transfer From Currency
 Transfer_To_Currency = (980, 510)           # Transfer To Currency
 Category_Search_possition = (600, 610)      # Category
+Category_First_line = (600, 645)            # Category
 Category_Choose_possition = (750, 610)      # Category
 Labels_Search_possition = (900, 610)        # Labels
 Date_possition = (630, 680)                 # Date
@@ -380,7 +416,7 @@ Income_Expense_df["Labels"] = Income_Expense_df["Labels"].apply(BlueCoin_create_
 Transfers_df["Labels"] = Transfers_df["Labels"].apply(BlueCoin_create_labels)
 Pujcky_df["Labels"] = Pujcky_df["Labels"].apply(BlueCoin_create_labels)
 
-Pujcky_df.to_csv(path_or_buf="Wallet_Pujcky_df.csv", sep=";", index=False)
+#Pujcky_df.to_csv(path_or_buf="Wallet_Pujcky_df.csv", sep=";", index=False)
 
 # ----------------- Wallet -----------------#
 # DF - Income / Expense
@@ -463,7 +499,7 @@ for row in Wallet_Income_Expense_df.iterrows():
 Wallet_Income_Expense_df["Payment status"] = Wallet_Income_Expense_df["Status"].apply(Wallet_Payment_Status)
 Wallet_Income_Expense_df["Place"] = ""
 Wallet_Income_Expense_df.drop(labels=["Set Time", "Title", "Category Group Name", "Category", "Status"], inplace=True, axis=1)
-Wallet_Income_Expense_df.to_csv(path_or_buf="Wallet_Income_Expense_df.csv", sep=";", index=False)
+#Wallet_Income_Expense_df.to_csv(path_or_buf="Wallet_Income_Expense_df.csv", sep=";", index=False)
 
 # DF - Transferes
 Wallet_Transfers_df = Transfers_df 
@@ -522,15 +558,13 @@ Wallet_Transfers_df["Payment status"] = Wallet_Transfers_df["Status"].apply(Wall
 Wallet_Transfers_df["Place"] = ""
 
 Wallet_Transfers_df.drop(labels=["Amount", "Currency", "Category Group Name", "Category", "Status", "Exchange Rate", "Title", "Account", "Set Time"], inplace=True, axis=1)
-Wallet_Transfers_df.to_csv(path_or_buf="Wallet_Transfers_df.csv", sep=";", index=False)
-
+#Wallet_Transfers_df.to_csv(path_or_buf="Wallet_Transfers_df.csv", sep=";", index=False)
 
 # Web App
+time.sleep(5)
+mouse_move(pyautogui, time, 0.25, New_record_button_possition)
+mouse_clic(pyautogui, time, 0.1)
 for row in Wallet_Income_Expense_df.iterrows():
-    # Just fr testing --> hould be befote forloop
-    mouse_move(pyautogui, time, 0.25, New_record_button_possition)
-    mouse_clic(pyautogui, time, 0.1)
-
     row_df = pandas.Series(data=row[1])
 
     # Type:
@@ -577,6 +611,16 @@ for row in Wallet_Income_Expense_df.iterrows():
     else:
         pass
 
-    mouse_move(pyautogui, time, 0.25, Cancel_cross)
+    # Category
+    mouse_move(pyautogui, time, 0.25, Category_Search_possition)
     mouse_clic(pyautogui, time, 0.1)
+    mouse_clic(pyautogui, time, 0.1)
+    write_text(pyautogui, time, 0.1, Replace_diacritic(str(row_df["Category_3"])))
+    mouse_move(pyautogui, time, 0.25, Category_First_line)
+    mouse_clic(pyautogui, time, 0.1)
+
+    # Add transaction
+    mouse_move(pyautogui, time, 0.25, Add_record_new)
+    mouse_clic(pyautogui, time, 0.1)
+
 print("Finished")

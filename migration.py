@@ -67,9 +67,8 @@ Place --> budu doplňovat manuálně
 
 # DF preparatoin
 def BlueCoin_create_labels(text):
-    Label_list = ["2017 - Budapešť", "2017 - Španělsko", "2018 - Amsterdam", "2018 - Francie", "2018 - Praha", "2018 - Slovinsko", "2019 - Beskydy", "2019 - Harrachov", "2019 - Itálie", "2019 - Kapverdy", "2019 - Mušov", "2019 - Slovensko", "2020 - Kanárské ost.", "2020 - Lukavice", "2020 - Velikonoce", "2020 - Wichterle", "2021 - Kréta", "2021 - Kutná Hora", "2021 - Pluskoveček", "2021 - Slovinsko", "2021 - Šumava", "2022 - Chorvatsko", "2022 - Rokytnice", "Byt - Chorvatsko", "Byt - Provazníkova", "Byt - Těsná", "Dovolena: All", "KM-BBL: 2019-08", "KM-BBL: 2022-08", "KM-BBL: 2022-11","KM-BEU: 2018-06", "KM-BHR: 2018-01", "KM-BHR: 2018-06", "KM-BHR: 2018-08A", "KM-BHR: 2018-08B", "KM-BHR: 2018-10A", "KM-BHR: 2018-10B", "KM-BPL: 2019-10", "KM-BPL: 2019-12", "KM-BPL: 2020-07", "KM-BPL: 2020-08", "KM-BPL: 2021-11", "KM-BR: 2019-01", "KM-BRO: 2018-01", "KM-BSL: 2017-10", "KM-BSL: 2019-03", "KM-BSL: 2019-05", "KM-BSL: 2019-09", "KM-BSL: 2019-10", "KM-BSL: 2019-11", "KM-BSL: 2020-01", "KM-BSL: 2020-02", "KM-Dubai: 2019-03", "KM-Služebka-All", "Renault Laguna", "Sebastien Vaško", "Schampy", "Svatba", "Vánoce", "VASKO TechDesign", "VASKO: Energy Sol.", "VASKO: IoT - PUR", "VASKO: SportBet", "Vklad - Andrea", "Vklad - Honza", "Výlety"]
+    Label_list = ["2017 - Budapešť", "2017 - Španělsko", "2018 - Amsterdam", "2018 - Francie", "2018 - Praha", "2018 - Slovinsko", "2019 - Beskydy", "2019 - Harrachov", "2019 - Itálie", "2019 - Kapverdy", "2019 - Mušov", "2019 - Slovensko", "2020 - Kanárské ost.", "2020 - Lukavice", "2020 - Velikonoce", "2020 - Wichterle", "2021 - Kréta", "2021 - Kutná Hora", "2021 - Pluskoveček", "2021 - Slovinsko", "2021 - Šumava", "2022 - Chorvatsko", "2022 - Rokytnice", "Byt - Rogoznica", "Byt - Provazníkova", "Byt - Těsná", "Dovolena: All", "KM-BBL: 2019-08", "KM-BBL: 2022-08", "KM-BBL: 2022-11","KM-BEU: 2018-06", "KM-BHR: 2018-01", "KM-BHR: 2018-06", "KM-BHR: 2018-08A", "KM-BHR: 2018-08B", "KM-BHR: 2018-10A", "KM-BHR: 2018-10B", "KM-BPL: 2019-10", "KM-BPL: 2019-12", "KM-BPL: 2020-07", "KM-BPL: 2020-08", "KM-BPL: 2021-11", "KM-BR: 2019-01", "KM-BRO: 2018-01", "KM-BSL: 2017-10", "KM-BSL: 2019-03", "KM-BSL: 2019-05", "KM-BSL: 2019-09", "KM-BSL: 2019-10", "KM-BSL: 2019-11", "KM-BSL: 2020-01", "KM-BSL: 2020-02", "KM-Dubai: 2019-03", "KM-Služebka-All", "Renault Laguna", "Sebastien Vaško", "Schampy", "Svatba", "Vánoce", "VASKO TechDesign", "VASKO: Energy Sol.", "VASKO: IoT - PUR", "VASKO: SportBet", "Vklad - Andrea", "Vklad - Honza", "Výlety"]
     row_label = []
-
     if text == "nan":
         return "[]"
     else:
@@ -111,8 +110,17 @@ def Wallet_Payment_Status(text) -> str:
     else:
         return text
 
+def Wallet_Labels_List(text) -> list:
+    text = str(text)
+    text = text.replace(", ", ",")
+    text = text.replace("[", "")
+    text = text.replace("]", "")
+    text = text.replace('"', "")
+    text = text.replace("'", "")
+    return text.split(sep=",")
+
 # General Functions mouse and keyboard
-def mouse_move(pyautogui, time, waiting_time,possition: tuple) -> None:
+def mouse_move(pyautogui, time, waiting_time, possition: tuple) -> None:
     time.sleep(waiting_time)
     pyautogui.moveTo(possition[0], possition[1])
 
@@ -192,66 +200,24 @@ def Date_Month_Difference(Transaction_date, datetime) -> int:
     difference = Current_Month - Transaction_Month + 12*(Current_Year - Transaction_Year)
     return difference
 
-def Callendar_Colum_index(Transaction_date, datetime) -> int:
-    # to find correct weekday to which the date belongs to Callendar_matrix_possition --> correctly grab possition
-    Transaction_date = datetime.strptime(Transaction_date, "%d.%m.%Y")
-    week_day = Transaction_date.weekday() 
-    #! Because calendar starts on Sunday
-    if week_day == 6:
-        colum_index = 0
-    else:
-        colum_index = week_day + 1
-    return colum_index
-
-def Callendar_Line_index(Transaction_date, datetime) -> int:
-    # to find correct week to which the date belongs to Callendar_matrix_possition --> correctly grab possition
-    Transaction_date = datetime.strptime(Transaction_date,"%d.%m.%Y")
-    Transaction_date_day = Transaction_date.day
-    Transaction_date_month = Transaction_date.month
-    Transaction_date_year = Transaction_date.year
-
-    First_day_of_Month_week = f"01.{Transaction_date_month}.{Transaction_date_year}"
-    First_day_Colum_index = Callendar_Colum_index(First_day_of_Month_week, datetime)
-    Calculated_day = 6 - First_day_Colum_index + 1
-    Line_index = 0
-    
-    while True:
-        if (Calculated_day + 7) <= Transaction_date_day:
-            Line_index += 1 
-            Calculated_day += 7
-        elif (Transaction_date_day - Calculated_day) > 0:
-            Line_index += 1 
-            Calculated_day += 7
-        else:
-            break
-            
-    return Line_index
-
-def Calendar_direct_write(pyautogui, Transaction_date, datetime, possition, time, waiting_time) -> None:
-    mouse_move(pyautogui, time, possition)
-    mouse_clic(pyautogui, time)
-    press_two_keys(pyautogui, time, "ctrl", "a")
-    press_one_key(pyautogui, time, "delete")
-
+def Calendar_direct_write(pyautogui, Transaction_date, datetime, time) -> None:
+    press_two_keys(pyautogui, time, 0.1, "ctrl", "a")
+    press_one_key(pyautogui, time, 0.1, "delete")
     # Define correct format of Date
-    Transaction_date = datetime.strptime(Transaction_date,"%d.%m.%Y")
+    Transaction_date = datetime.strptime(Transaction_date,"%Y-%m-%d")
     Months = ["empty_index","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
-
     Transaction_Day = Transaction_date.day
     Transaction_Month = Transaction_date.month
     Transaction_Month = Months[Transaction_Month]
     Transaction_Year = Transaction_date.year
     date_formated = f"{Transaction_Month} {Transaction_Day}, {Transaction_Year}"
-    write_text(pyautogui, time, date_formated)
-    press_one_key(pyautogui, time, "tab")
+    write_text(pyautogui, time, 0.1, date_formated)
        
 def Time_Scroll_up(pyautogui, time, first_line) -> None:
-    mouse_move(pyautogui, time, first_line)
-    pyautogui.scroll(clicks=30000)
+    mouse_move(pyautogui, time, 0.25, first_line)
+    mouse_scroll(pyautogui, time, 0.5, 30000)
 
-def Time_Set_correct(pyautogui, Transaction_Time, time, waiting_time,Time_First_line, Time_possition) -> None:
-    mouse_move(pyautogui, time, Time_possition)
-    mouse_clic(pyautogui, time)
+def Time_Set_correct(pyautogui, Transaction_Time, time, waiting_time,Time_First_line) -> None:
     Time_Scroll_up(pyautogui, time, Time_First_line)
     One_line_height = 83
     Transaction_Time_split = Transaction_Time.split(":")
@@ -263,26 +229,26 @@ def Time_Set_correct(pyautogui, Transaction_Time, time, waiting_time,Time_First_
 
     # Scroll down to correct time
     if No_scrolls >= 90:
-        mouse_scroll(pyautogui, -7470)
+        mouse_scroll(pyautogui, time, 0.5, -7470)
         No_scrolls = No_scrolls - 89
         possition_X = Time_First_line[0]
         possition_Y = Time_First_line[1]
         One_line_height = 30
         possition_Y +=  No_scrolls * One_line_height
         possition = (possition_X, possition_Y)
-        mouse_move(pyautogui, time, possition)
+        mouse_move(pyautogui, time, 0.25, possition)
         time.sleep(waiting_time)
-        mouse_clic(pyautogui, time)
+        mouse_clic(pyautogui, time, 0.1)
     else:
-        mouse_scroll(pyautogui, Scroll_click)
+        mouse_scroll(pyautogui, time, 0.5, Scroll_click)
         time.sleep(waiting_time)
-        mouse_clic(pyautogui, time)
-    press_one_key(pyautogui, time, "tab")
+        mouse_clic(pyautogui, time, 0.1)
         
 import pyautogui
 import time
 from datetime import datetime
 import pandas
+import pyperclip
 pandas.options.mode.chained_assignment = None
 
 # --------------------------------- Defaults ---------------------------------#
@@ -294,6 +260,7 @@ Transfer_button_possition = (900, 350)      # Transfer Button
 Account_possition = (750, 430)              # Acount
 Amount_possition = (760, 500)               # Amount
 Currency_possition = (850, 500)             # Currency
+Currency_First_line = (850, 540)            # Currency
 Trasnfer_From_Account = (600, 440)          # Transfer From Account
 Trasnfer_To_Account = (860, 440)            # Transfer To Account
 Transfer_From_Amount = (600, 510)           # Transfer From Amount
@@ -350,22 +317,24 @@ Payment_Status_dict = {
 Payment_Status_df = pandas.DataFrame(data=Payment_Status_dict, columns=Payment_Status_dict.keys())
 
 # Accout
-Account_list = ["AED", "CZK", "CZK - Společný", "EUR", "GBP", "HRK", "HUF", "SEK", "Trezor", "Stravenky", "AirBank - Společný", "AirBank - Spořící", "AirBank - VASKO TechDesign", "KB - Personal - účet", "Airbank - Svatební půjčka", "KB - Hypotéka", "KB - Americká Hypotéka", "KB - Stavební spoření - úvěr 2", "KB - Stavební spoření - úvěr 1", "KB - VASKOTechDesign - PMG", "Benzina - Karta", "Hornbach Karta", "IKEA - Karta", "Stravenková Karta", "Fortuna", "Chance", "Sazka", "SynotTip", "Tipsport", "Allianz - Penzijní pripojištění", "AXA", "Conseq"]
-Account_Type_list = ["Cash", "Cash", "Cash", "Cash", "Cash", "Cash", "Cash", "Cash", "Cash", "Cash", "Bank", "Bank", "Bank", "Bank", "Loans", "Loans","Loans", "Loans", "Loans", "Loans", "Bonus", "Bonus", "Bonus", "Bonus", "Virtual", "Virtual", "Virtual", "Virtual", "Virtual", "Investments", "Investments", "Investments"]
+Account_list = ["AED", "CZK", "CZK - Společný", "EUR", "GBP", "HRK", "HUF", "SEK", "Trezor", "Stravenky", "AirBank - Společný", "AirBank - Spořící", "AirBank - VASKO TechDesign", "KB - Personal - účet", "Airbank - Svatební půjčka", "KB - Hypotéka", "KB - Americká Hypotéka", "KB - Stavební spoření - úvěr 1", "KB - Stavební spoření - úvěr 2", "KB - VASKOTechDesign - PMG", "Benzina - Karta", "Hornbach Karta", "IKEA - Karta", "Stravenková Karta", "Chance", "Fortuna", "Sazka", "SynotTip", "Tipsport", "Allianz - Penzijní pripojištění", "AXA", "Conseq"]
+Account_Type_list = ["Cash", "Cash", "Cash", "Cash", "Cash", "Cash", "Cash", "Cash", "Cash", "Cash", "Bank", "Bank", "Bank", "Bank", "Loans", "Loans", "Loans", "Loans", "Loans", "Loans", "Bonus", "Bonus", "Bonus", "Bonus", "Virtual", "Virtual", "Virtual", "Virtual", "Virtual", "Investments", "Investments", "Investments"]
 Account_Currency_list = ["AED", "CZK", "CZK", "EUR", "GBP", "HRK", "HUF", "SEK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK"]
-Account_possition_list = [26, 0, 1, 4, 27, 28, 29, 30, 2, 3, 10, 11, 12, 5, 13, 9, 7, 6, 8, 22, 23, 24, 25, 15, 14, 16, 17, 18, 19, 20, 21, 1]         #! Opravit je to špatně kvůli Americké hypotéce (udělat kompletně od začátku)
-Account_possition_TO_list = [27, 1, 2, 5, 28, 29, 30, 31, 3, 4, 11, 12, 13, 6, 14, 10, 8, 7, 9, 23, 24, 25, 26, 16, 15, 17, 18, 19, 20, 21, 22, 1]     #! Opravit je to špatně kvůli Americké hypotéce (udělat kompletně od začátku)
+Account_possition_list = [27, 0, 1, 4, 28, 29, 30, 31, 2, 2, 11, 12, 13, 5, 14, 9, 10, 6, 7, 8, 23, 24, 25, 26, 15, 16, 17, 18, 19, 20, 21, 22]
+Account_possition_FROM_list = [27, 0, 1, 4, 28, 29, 30, 31, 2, 2, 11, 12, 13, 5, 14, 9, 10, 6, 7, 8, 23, 24, 25, 26, 15, 16, 17, 18, 19, 20, 21, 22]
+Account_possition_TO_list = [28, 1, 2, 5, 29, 30, 31, 32, 3, 3, 12, 13, 14, 6, 15, 10, 11, 7, 8, 9, 24, 25, 26, 27, 16, 17, 18, 19, 20, 21, 22, 23]
 Accounts_dict = {
     "Account": Account_list,
     "Account_Type": Account_Type_list,
     "Account_Currency": Account_Currency_list,
     "Account_Possition": Account_possition_list,
+    "Account_possition_TO_list": Account_possition_FROM_list,
     "Account_possition_TO_list": Account_possition_TO_list}
 Accounts_df = pandas.DataFrame(data=Accounts_dict, columns=Accounts_dict.keys())
 
 # Currency
-Currency_list = ["CZK", "CZK", "AED", "EUR", "GBP", "HRK", "HUF", "SEK"]
-Currency_possition_list = [1, 2, 3, 4, 5, 6, 7, 8]
+Currency_list = ["CZK", "CZK", "AED", "EUR", "GBP", "HRK", "HUF", "SEK", "USD"]
+Currency_possition_list = [0, 1, 2, 3, 4, 5, 6, 7, 8]
 Currency_dict = {
     "Currency": Currency_list,
     "Currency_Posstion": Currency_possition_list}
@@ -382,7 +351,7 @@ Category_df["BlueCoin_Sub_Category"] = Category_df["BlueCoin_Sub_Category"].appl
 Category_df["Note"] = Category_df["Note"].apply(BlueCoin_delete_df_text)
 
 # --------------------------------- Main ---------------------------------#
-BlueCoins_df = pandas.read_csv(filepath_or_buffer="./Data/2022_11_20-all_transaction_test.csv", sep=";", header=0)
+BlueCoins_df = pandas.read_csv(filepath_or_buffer="./Data/2022_11_20-all_transaction.csv", sep=";", header=0)
 BlueCoins_df["Notes"] = BlueCoins_df["Notes"].apply(BlueCoin_delete_df_text)
 BlueCoins_df["Labels"] = BlueCoins_df["Labels"].apply(BlueCoin_delete_df_text)
 BlueCoins_df["Title"] = BlueCoins_df["Title"].apply(BlueCoin_delete_df_text)
@@ -456,7 +425,7 @@ Wallet_Income_Expense_df["Original_Value"] = ""
 Wallet_Income_Expense_df["Original_Value"].loc[Wallet_Income_Expense_df["Currency"] != "CZK"] = Wallet_Income_Expense_df["Amount"]
 
 # Payment Type - mapping
-Wallet_Income_Expense_df["Payment type"] = ""
+Wallet_Income_Expense_df["Payment_type"] = ""
 for row in Wallet_Income_Expense_df.iterrows():
     row_df = pandas.Series(data=row[1])
 
@@ -465,38 +434,38 @@ for row in Wallet_Income_Expense_df.iterrows():
 
     if row_df["Type"] == "Expense":
         if Account_mapping_Series.iloc[0]["Account_Type"] == "Cash":
-            Wallet_Income_Expense_df.at[row[0],"Payment type"] = "Cash"
+            Wallet_Income_Expense_df.at[row[0],"Payment_type"] = "Cash"
         elif  Account_mapping_Series.iloc[0]["Account_Type"] == "Bank":
-            Wallet_Income_Expense_df.at[row[0],"Payment type"] = "Debit card"
+            Wallet_Income_Expense_df.at[row[0],"Payment_type"] = "Debit card"
         elif  Account_mapping_Series.iloc[0]["Account_Type"] == "Loans":
-            Wallet_Income_Expense_df.at[row[0],"Payment type"] = "Transfer"
+            Wallet_Income_Expense_df.at[row[0],"Payment_type"] = "Transfer"
         elif  Account_mapping_Series.iloc[0]["Account_Type"] == "Virtual":
-            Wallet_Income_Expense_df.at[row[0],"Payment type"] = "Debit card"
+            Wallet_Income_Expense_df.at[row[0],"Payment_type"] = "Debit card"
         elif  Account_mapping_Series.iloc[0]["Account_Type"] == "Bonus":
-            Wallet_Income_Expense_df.at[row[0],"Payment type"] = "Debit card"
+            Wallet_Income_Expense_df.at[row[0],"Payment_type"] = "Debit card"
         elif  Account_mapping_Series.iloc[0]["Account_Type"] == "Investments":
-            Wallet_Income_Expense_df.at[row[0],"Payment type"] = "Transfer"
+            Wallet_Income_Expense_df.at[row[0],"Payment_type"] = "Transfer"
         else:
             pass
     elif row_df["Type"] == "Income":
         if Account_mapping_Series.iloc[0]["Account_Type"] == "Cash":
-            Wallet_Income_Expense_df.at[row[0],"Payment type"] = "Cash"
+            Wallet_Income_Expense_df.at[row[0],"Payment_type"] = "Cash"
         elif  Account_mapping_Series.iloc[0]["Account_Type"] == "Bank":
-            Wallet_Income_Expense_df.at[row[0],"Payment type"] = "Web payment"
+            Wallet_Income_Expense_df.at[row[0],"Payment_type"] = "Web payment"
         elif  Account_mapping_Series.iloc[0]["Account_Type"] == "Loans":
-            Wallet_Income_Expense_df.at[row[0],"Payment type"] = "Transfer"
+            Wallet_Income_Expense_df.at[row[0],"Payment_type"] = "Transfer"
         elif  Account_mapping_Series.iloc[0]["Account_Type"] == "Virtual":
-            Wallet_Income_Expense_df.at[row[0],"Payment type"] = "Transfer"
+            Wallet_Income_Expense_df.at[row[0],"Payment_type"] = "Transfer"
         elif  Account_mapping_Series.iloc[0]["Account_Type"] == "Bonus":
-            Wallet_Income_Expense_df.at[row[0],"Payment type"] = "Web payment"
+            Wallet_Income_Expense_df.at[row[0],"Payment_type"] = "Web payment"
         elif  Account_mapping_Series.iloc[0]["Account_Type"] == "Investments":
-            Wallet_Income_Expense_df.at[row[0],"Payment type"] = "Transfer"
+            Wallet_Income_Expense_df.at[row[0],"Payment_type"] = "Transfer"
         else:
             pass
     else:
         pass
 
-Wallet_Income_Expense_df["Payment status"] = Wallet_Income_Expense_df["Status"].apply(Wallet_Payment_Status)
+Wallet_Income_Expense_df["Payment_Status"] = Wallet_Income_Expense_df["Status"].apply(Wallet_Payment_Status)
 Wallet_Income_Expense_df["Place"] = ""
 Wallet_Income_Expense_df.drop(labels=["Set Time", "Title", "Category Group Name", "Category", "Status"], inplace=True, axis=1)
 #Wallet_Income_Expense_df.to_csv(path_or_buf="Wallet_Income_Expense_df.csv", sep=";", index=False)
@@ -553,8 +522,8 @@ Wallet_Transfers_df["To_Amount_LCY"] = Wallet_Transfers_df["To_Amount_LCY"].appl
 Wallet_Transfers_df["Date"] = Wallet_Transfers_df["Date"].apply(Wallet_get_date)
 Wallet_Transfers_df["Time"] = Wallet_Transfers_df["Set Time"]
 
-Wallet_Transfers_df["Payment type"] = "Transfer"
-Wallet_Transfers_df["Payment status"] = Wallet_Transfers_df["Status"].apply(Wallet_Payment_Status)
+Wallet_Transfers_df["Payment_type"] = "Transfer"
+Wallet_Transfers_df["Payment_Status"] = Wallet_Transfers_df["Status"].apply(Wallet_Payment_Status)
 Wallet_Transfers_df["Place"] = ""
 
 Wallet_Transfers_df.drop(labels=["Amount", "Currency", "Category Group Name", "Category", "Status", "Exchange Rate", "Title", "Account", "Set Time"], inplace=True, axis=1)
@@ -562,10 +531,12 @@ Wallet_Transfers_df.drop(labels=["Amount", "Currency", "Category Group Name", "C
 
 # Web App
 time.sleep(5)
-mouse_move(pyautogui, time, 0.25, New_record_button_possition)
-mouse_clic(pyautogui, time, 0.1)
 for row in Wallet_Income_Expense_df.iterrows():
     row_df = pandas.Series(data=row[1])
+
+    # New Record
+    mouse_move(pyautogui, time, 0.25, New_record_button_possition)
+    mouse_clic(pyautogui, time, 0.1)
 
     # Type:
     if row_df["Type"] == "Expense":
@@ -586,30 +557,33 @@ for row in Wallet_Income_Expense_df.iterrows():
     for i in range(Account_pos):
         press_one_key(pyautogui, time, 0.1, "down")
     press_one_key(pyautogui, time, 0.25, "enter")
+    press_one_key(pyautogui, time, 0.1, "tab")
 
     # Amount
-    mouse_move(pyautogui, time, 0.25, Amount_possition)
-    mouse_clic(pyautogui, time, 0.1)
     write_text(pyautogui, time, 0.1, str(row_df["Amount"]))
 
+
     # Currency   
-    if row_df["Currency"] == "CZK":
-        pass
-    elif row_df["Currency"] != "CZK":
-        Account_index = Accounts_df[Accounts_df["Account"] == row_df["Account"]].index
-        Account_Type = str(Accounts_df.iloc[Account_index]["Account_Type"].values[0])
-        if Account_Type == "Bank":
-            Currency_index = Currency_df[Currency_df["Currency"] == row_df["Currency"]].index
-            Currency_pos = int(Currency_df.iloc[Currency_index]["Currency_Posstion"].values[0])
-            press_one_key(pyautogui, time, 0.25, "tab")
-            for i in range(1, Currency_pos + 5):        # +5 --> nešlo to jinak, web se automaticky nasměřuje na EUR po kliknutí
-                press_one_key(pyautogui, time, 0.1, "down")
-            press_one_key(pyautogui, time, 0.25, "enter")
+    mouse_move(pyautogui, time, 0.25, Currency_possition)
+    mouse_clic(pyautogui, time, 0.1)
+    Account_index = Accounts_df[Accounts_df["Account"] == row_df["Account"]].index
+    Account_Type = str(Accounts_df.iloc[Account_index]["Account_Type"].values[0])
+    if Account_Type == "Bank":
+        Currency_index = Currency_df[Currency_df["Currency"] == row_df["Currency"]].index
+        Currency_pos = int(Currency_df.iloc[Currency_index]["Currency_Posstion"].values[0])
+        if row_df["Currency"] != "USD":
+            Currency_line_height = 40
+            Currency_possition2 = 540 + Currency_line_height * Currency_pos
+            mouse_move(pyautogui, time, 0.25, (850, Currency_possition2))
+            mouse_clic(pyautogui, time, 0.1)
         else:
-            pass
-            #! Register issue into LOG
+            Currency_possition2 = 820
+            mouse_move(pyautogui, time, 0.25, Currency_First_line)
+            mouse_move(pyautogui, time, 0.25, (850, Currency_possition2))
+            mouse_clic(pyautogui, time, 0.1)
     else:
         pass
+        
 
     # Category
     mouse_move(pyautogui, time, 0.25, Category_Search_possition)
@@ -618,9 +592,75 @@ for row in Wallet_Income_Expense_df.iterrows():
     write_text(pyautogui, time, 0.1, Replace_diacritic(str(row_df["Category_3"])))
     mouse_move(pyautogui, time, 0.25, Category_First_line)
     mouse_clic(pyautogui, time, 0.1)
+    press_one_key(pyautogui, time, 0.1, "tab")
+    press_one_key(pyautogui, time, 0.1, "tab")
 
-    # Add transaction
-    mouse_move(pyautogui, time, 0.25, Add_record_new)
+    # Date
+    Calendar_direct_write(pyautogui, row_df["Date"], datetime, time)
+    press_one_key(pyautogui, time, 0.1, "tab")
+
+    # Time
+    Time_Set_correct(pyautogui, row_df["Time"], time, 0.5, Time_First_line)
+
+    # Payee
+    mouse_move(pyautogui, time, 0.25, Payee_possition)
     mouse_clic(pyautogui, time, 0.1)
+    pyperclip.copy(str(row_df["Payee"]))
+    pyautogui.hotkey("ctrl", "v")
+    press_one_key(pyautogui, time, 0.1, "tab")
+
+    # Note - Original Value if not CZK, enter and not
+    if row_df["Currency"] != "CZK":
+        write_text(pyautogui, time, 0.1, str(row_df["Currency"]))
+        write_text(pyautogui, time, 0.1, ": ")
+        write_text(pyautogui, time, 0.1, str(row_df["Original_Value"]))
+        write_text(pyautogui, time, 0.1, ",")
+        press_one_key(pyautogui, time, 0.25, "enter")
+    else:
+        pass
+    if str(row_df["Notes"]) != "":
+        pyperclip.copy(str(row_df["Notes"]))
+        pyautogui.hotkey("ctrl", "v")
+    else:
+        pass
+    press_one_key(pyautogui, time, 0.1, "tab")
+
+    # Payment Type
+    Payment_Type_index = Payment_Type_df[Payment_Type_df["Payment_Type"] == str(row_df["Payment_type"])].index
+    Payment_Type_pos = int(Payment_Type_df.iloc[Payment_Type_index]["Payment_Type_Possition"].values[0])
+    for i in range(Payment_Type_pos):
+        press_one_key(pyautogui, time, 0.1, "down")
+    press_one_key(pyautogui, time, 0.25, "enter")
+    press_one_key(pyautogui, time, 0.1, "tab")
+    
+    # Payment Status
+    Payment_Status_index = Payment_Status_df[Payment_Status_df["Payment_Status"] == str(row_df["Payment_Status"])].index
+    Payment_Status_pos = int(Payment_Status_df.iloc[Payment_Status_index]["Payment_Status_Possition"].values[0])
+    for i in range(Payment_Status_pos):
+        press_one_key(pyautogui, time, 0.1, "down")
+    press_one_key(pyautogui, time, 0.25, "enter")
+
+    # Labels
+    if str(row_df["Labels"]) != "[]":
+        # Return to Labels --> beucase if there is a lot of them then it change measurements of page
+        mouse_move(pyautogui, time, 0.25, Labels_Search_possition)
+        mouse_clic(pyautogui, time, 0.1)
+
+        # Write Labels
+        labels_text = Replace_diacritic(str(row_df["Labels"]))
+        labels = Wallet_Labels_List(labels_text)
+        for label in labels:
+            write_text(pyautogui, time, 0.1, label)
+            press_one_key(pyautogui, time, 0.25, "enter")
+
+        # Record Transaction
+        for i in range(3):
+            press_one_key(pyautogui, time, 0.1, "tab")
+        press_one_key(pyautogui, time, 0.25, "enter")
+    else:
+        # Record Transaction
+        mouse_move(pyautogui, time, 0.25, Add_record)
+        mouse_clic(pyautogui, time, 0.1)
+
 
 print("Finished")

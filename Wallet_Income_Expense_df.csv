@@ -1,3 +1,0 @@
-Type;Date;Amount;Currency;Exchange Rate;Account;Notes;Labels;Amount_LCY;Category_1;Category_2;Category_3;Time;Payee;Original_Value;Payment type;Payment status;Place
-Expense;2022-11-19;1075.0;EUR;1.0;KB - Personal - účet;VS: 3896802499, KS: 3558;[];1075.0;Financial expenses;Insurances;Životní pojištění;07:00;Uniqa;1075.0;Debit card;Cleared;
-Expense;2022-11-18;65.0;GBP;1.0;KB - Personal - účet;;[];65.0;Food & Drinks;Groceries;Alkohol;16:50;Hulata Vinoteka;65.0;Debit card;Cleared;

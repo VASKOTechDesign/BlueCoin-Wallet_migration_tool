@@ -62,7 +62,7 @@ Transportation;Transport;Lanovka;Expense;Doprava;Lanovka;
 Transportation;Transport;MHD;Expense;Doprava;MHD;
 Transportation;Transport;Vlak;Expense;Doprava;Vlak;
 Transportation;Transport;Taxi;Expense;Doprava;Taxi;
-Transportation;Highway, Tolls;Dalnicni_známky;Expense;Doprava;Dalnicni znamky;
+Transportation;Highway, Tolls;Dalnicni_známka;Expense;Doprava;Dalnicni znamky;
 Transportation;Highway, Tolls;Toll;Expense;Doprava;Toll;
 Vehicle;Fuel;Diesel;Expense;Auto;Diesel;
 Vehicle;Fuel;Benzín;Expense;Auto;Benzin;
@@ -83,22 +83,22 @@ Life & Entertaiment;Active sport, fitness;PingPong;Expense;Sport;Pingpong;
 Life & Entertaiment;Active sport, fitness;Multisport;Expense;Prace;Multisport;
 Life & Entertaiment;Active sport, fitness;Závody;Expense;Sport;Zavody;
 Life & Entertaiment;Active sport, fitness;Sportovní_doplňky;Expense;Nakup;Sportovni doplnky;
-Life & Entertaiment;Services - General;;Expense;Sluzby;Ostatni;na Skupinu 2
-Life & Entertaiment;Services - General;Cistírna,_prádelna;Expense;Sluzby;Cistirna, Pradelna;
-Life & Entertaiment;Services - General;WC;Expense;Sluzby;WC;
-Life & Entertaiment;Services - General;Hlídání;Expense;Zvirata;Hlidani;
-Life & Entertaiment;Services - General;Fotography/Video;Expense;Sluzby;Foto, Video;
-Life & Entertaiment;Services - General;Pronájem_věcí;Expense;Sluzby;Pronajem;
+Life & Entertaiment;Services_-_General;;Expense;Sluzby;Ostatni;na Skupinu 2
+Life & Entertaiment;Services_-_General;Cistírna,_prádelna;Expense;Sluzby;Cistirna, Pradelna;
+Life & Entertaiment;Services_-_General;Toaleta;Expense;Sluzby;WC;
+Life & Entertaiment;Services_-_General;Hlídání;Expense;Zvirata;Hlidani;
+Life & Entertaiment;Services_-_General;Fotography/Video;Expense;Sluzby;Foto, Video;
+Life & Entertaiment;Services_-_General;Pronájem_věcí;Expense;Sluzby;Pronajem;
 Life & Entertaiment;Books, audio;Hudba;Expense;Nakup;Hudba;
 Life & Entertaiment;Books, audio;Literatura;Expense;Nakup;Literatura;
 Life & Entertaiment;Charity, gifts;;Expense;;;
 Life & Entertaiment;Charity, gifts;Charita;Expense;Financni sluzby;Charita;
-Life & Entertaiment;Events - Culture, Sports;;Expense;Zabava;Ostatni;na Skupinu 2
-Life & Entertaiment;Events - Culture, Sports;Kino;Expense;Zabava;Kino;
-Life & Entertaiment;Events - Culture, Sports;Koncerty;Expense;Zabava;Koncerty;
-Life & Entertaiment;Events - Culture, Sports;Ples;Expense;Zabava;Ples;
-Life & Entertaiment;Events - Culture, Sports;Představení;Expense;Zabava;Predstaveni;
-Life & Entertaiment;Events - Culture, Sports;Sportovní_utkání;Expense;Zabava;Sportovni utkani;
+Life & Entertaiment;Events_-_Culture,_Sports;;Expense;Zabava;Ostatni;na Skupinu 2
+Life & Entertaiment;Events_-_Culture,_Sports;Kino;Expense;Zabava;Kino;
+Life & Entertaiment;Events_-_Culture,_Sports;Koncerty;Expense;Zabava;Koncerty;
+Life & Entertaiment;Events_-_Culture,_Sports;Ples;Expense;Zabava;Ples;
+Life & Entertaiment;Events_-_Culture,_Sports;Představení;Expense;Zabava;Predstaveni;
+Life & Entertaiment;Events_-_Culture,_Sports;Sportovní_utkání;Expense;Zabava;Sportovni utkani;
 Life & Entertaiment;Education, development;Kurzy;Expense;Sluzby;Kurzy;
 Life & Entertaiment;Education, development;Učebnice;Expense;Nakup;Ucebnice;
 Life & Entertaiment;Education, development;Psychologie,_Koučing,_Seberozvoj;Expense;Sluzby;Psychologie, Koucing, Seberozvoj;
@@ -109,10 +109,10 @@ Life & Entertaiment;Hobbies;3D_Printing;Expense;Nakup;Fillament;VASKO TechDesign
 Life & Entertaiment;Hobbies;Programming;;;;
 Life & Entertaiment;Hobbies;IoT;;;;
 Life & Entertaiment;Hobbies;Gadgets;Expense;Nakup;Gadgets;
-Life & Entertaiment;Holiday, trips, hotels;;Expense;Dovolene/Vylety;Ostatni;na Skupinu 2
-Life & Entertaiment;Holiday, trips, hotels;Ubytování;Expense;Dovolene/Vylety;Ubytovani;
-Life & Entertaiment;Holiday, trips, hotels;Výlety;Expense;Dovolene/Vylety;Vylety;
-Life & Entertaiment;Holiday, trips, hotels;Zájezdy;Expense;Dovolene/Vylety;Zajezdy;
+Life & Entertaiment;Holiday,_trips,_hotels;;Expense;Dovolene/Vylety;Ostatni;na Skupinu 2
+Life & Entertaiment;Holiday,_trips,_hotels;Ubytování;Expense;Dovolene/Vylety;Ubytovani;
+Life & Entertaiment;Holiday,_trips,_hotels;Výlety;Expense;Dovolene/Vylety;Vylety;
+Life & Entertaiment;Holiday,_trips,_hotels;Zájezdy;Expense;Dovolene/Vylety;Zajezdy;
 Life & Entertaiment;Events - General;Trhy,_Streetfood;Expense;Zabava;Trhy, Streetfood ..;
 Life & Entertaiment;Events - General;Výstavy,_Hrady,_zámky_...;Expense;Zabava;Vystavy, Hrady, Zamky ...;
 Life & Entertaiment;Events - General;Zoo;Expense;Zabava;Zoo;

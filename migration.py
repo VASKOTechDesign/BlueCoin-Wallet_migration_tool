@@ -107,6 +107,8 @@ def Wallet_get_date(text):
 def Wallet_Payment_Status(text) -> str:
     if text == "None":
         return "Uncleared"
+    elif text == "Void":
+        return "Uncleared"
     else:
         return text
 
@@ -333,7 +335,7 @@ Accounts_dict = {
 Accounts_df = pandas.DataFrame(data=Accounts_dict, columns=Accounts_dict.keys())
 
 # Currency
-Currency_list = ["CZK", "CZK", "AED", "EUR", "GBP", "HRK", "HUF", "SEK", "USD"]
+Currency_list = ["CZK", "AED", "EUR", "GBP", "HRK", "HUF", "SEK", "USD", "CZK"]
 Currency_possition_list = [0, 1, 2, 3, 4, 5, 6, 7, 8]
 Currency_dict = {
     "Currency": Currency_list,
@@ -560,36 +562,41 @@ for row in Wallet_Income_Expense_df.iterrows():
     press_one_key(pyautogui, time, 0.1, "tab")
 
     # Amount
-    write_text(pyautogui, time, 0.1, str(row_df["Amount"]))
-
-
-    # Currency   
-    mouse_move(pyautogui, time, 0.25, Currency_possition)
-    mouse_clic(pyautogui, time, 0.1)
     Account_index = Accounts_df[Accounts_df["Account"] == row_df["Account"]].index
     Account_Type = str(Accounts_df.iloc[Account_index]["Account_Type"].values[0])
     if Account_Type == "Bank":
-        Currency_index = Currency_df[Currency_df["Currency"] == row_df["Currency"]].index
-        Currency_pos = int(Currency_df.iloc[Currency_index]["Currency_Posstion"].values[0])
-        if row_df["Currency"] != "USD":
-            Currency_line_height = 40
-            Currency_possition2 = 540 + Currency_line_height * Currency_pos
-            mouse_move(pyautogui, time, 0.25, (850, Currency_possition2))
-            mouse_clic(pyautogui, time, 0.1)
+        if  row_df["Currency"] != "CZK":
+            write_text(pyautogui, time, 0.1, str(row_df["Amount_LCY"]))
         else:
-            Currency_possition2 = 820
-            mouse_move(pyautogui, time, 0.25, Currency_First_line)
-            mouse_move(pyautogui, time, 0.25, (850, Currency_possition2))
-            mouse_clic(pyautogui, time, 0.1)
+            write_text(pyautogui, time, 0.1, str(row_df["Amount"]))
+    else:
+        write_text(pyautogui, time, 0.1, str(row_df["Amount"]))
+
+    # Currency   
+    if Account_Type == "Bank":
+        mouse_move(pyautogui, time, 0.25, Currency_possition)
+        mouse_clic(pyautogui, time, 0.1)
+        Currency_index = Currency_df[Currency_df["Currency"] == "CZK"].index
+        Currency_pos = int(Currency_df.iloc[Currency_index]["Currency_Posstion"].values[0])
+        Currency_line_height = 35
+        Currency_possition2 = 540 + Currency_line_height * Currency_pos
+        mouse_move(pyautogui, time, 0.25, (850, Currency_possition2))
+        mouse_clic(pyautogui, time, 0.1)
     else:
         pass
         
-
     # Category
     mouse_move(pyautogui, time, 0.25, Category_Search_possition)
     mouse_clic(pyautogui, time, 0.1)
     mouse_clic(pyautogui, time, 0.1)
-    write_text(pyautogui, time, 0.1, Replace_diacritic(str(row_df["Category_3"])))
+    if str(row_df["Category_3"]) != "":
+        write_text(pyautogui, time, 0.1, Replace_diacritic(str(row_df["Category_3"])))
+    elif str(row_df["Category_2"]) != "":
+        write_text(pyautogui, time, 0.1, Replace_diacritic(str(row_df["Category_2"])))
+    elif str(row_df["Category_1"]) != "":
+        write_text(pyautogui, time, 0.1, Replace_diacritic(str(row_df["Category_1"])))
+    else:
+        pyautogui.alert(text='Record with empty Category', title='Allert - stop running', button='OK')
     mouse_move(pyautogui, time, 0.25, Category_First_line)
     mouse_clic(pyautogui, time, 0.1)
     press_one_key(pyautogui, time, 0.1, "tab")
@@ -611,11 +618,17 @@ for row in Wallet_Income_Expense_df.iterrows():
 
     # Note - Original Value if not CZK, enter and not
     if row_df["Currency"] != "CZK":
-        write_text(pyautogui, time, 0.1, str(row_df["Currency"]))
-        write_text(pyautogui, time, 0.1, ": ")
-        write_text(pyautogui, time, 0.1, str(row_df["Original_Value"]))
-        write_text(pyautogui, time, 0.1, ",")
-        press_one_key(pyautogui, time, 0.25, "enter")
+        if Account_Type == "Bank":
+            write_text(pyautogui, time, 0.1, str(row_df["Currency"]))
+            write_text(pyautogui, time, 0.1, ": ")
+            write_text(pyautogui, time, 0.1, str(row_df["Original_Value"]))
+            write_text(pyautogui, time, 0.1, ",")
+            press_one_key(pyautogui, time, 0.25, "enter")
+        else:
+            write_text(pyautogui, time, 0.1, "CZK: ")
+            write_text(pyautogui, time, 0.1, str(row_df["Amount_LCY"]))
+            write_text(pyautogui, time, 0.1, ",")
+            press_one_key(pyautogui, time, 0.25, "enter")
     else:
         pass
     if str(row_df["Notes"]) != "":
@@ -661,6 +674,5 @@ for row in Wallet_Income_Expense_df.iterrows():
         # Record Transaction
         mouse_move(pyautogui, time, 0.25, Add_record)
         mouse_clic(pyautogui, time, 0.1)
-
 
 print("Finished")

@@ -1,70 +1,3 @@
-"""
-Tool:
-- je to migrační tool, který využívá selenium k vytváření záznamů v aplikaci Wallet
-- po každém vypsání kliknout do levého vrchního rohu po odstanění pop-up formuláře (jako to má Labels)
-
-Transaction type
-    --> vybrat mezi Expense, Income, Transfer
-Account:
-    --> pozor, aby šlo zapsat musejí být všechny accounts viditelné !!!
-
-Amount:
-    --> oddělovač může být čárka i tečka
-
-Curency
-    --> Expense, Income 
-    --> když v cizí měně (tak dát do poznámky info o tom kolik to bylo v původní měně)
-    Example: 
-        Note = "8 EUR"
-
-Exchange Rate:
-    --> u Transferu nejde změnit ve WEb aplikaci
-
-Category:
-    --> vybrat správnou podle mapování
-        Způsob 1: 
-            double click do fieldu --> nastartuje Search, zapsat co chci vyhledat a pak přesunout myš na první dostupnou hodnotu (pozor neumí mezery!!!)
-            --> mezery by šlo nahradit spodním pottržítkem
-        Způsob 2:
-            po 
-        
-Labels:
-    --> prně je potřeba vybrat všechny existující label z Bluecoin a vložit je do listu 
-    --> pokud je zdrojové pole Datatrame prázdné tak vynechat,  
-        for label in Lables:
-            search
-                Ano --> napsat a enter
-                Ne --> vynechat
-    --> kliknout a napsat label 
-
-Date:
-    --> Postup
-        1) Označit vše a vymazat
-        2) vepsat datum format "dd.mm.yyyy" + Enter
-
-Time:
-    --> postup
-        1) kliknout do pole
-        2) scrolovat až nahozu
-        3) najít správný čas
-        4) kliknout
-
-Payee
-    --> zkopírovat 
-
-Note 
-    --> zkopírovat
-
-Payment type 
-    CASH account = CASH
-    BAnkovní = Debit CArd
-
-Payment Status 
-    vepsat fixní hodnotu "UnCleared"
-
-Place --> budu doplňovat manuálně
-"""
-
 # DF preparatoin
 def BlueCoin_create_labels(text):
     Label_list = ["2017 - Budapešť", "2017 - Španělsko", "2018 - Amsterdam", "2018 - Francie", "2018 - Praha", "2018 - Slovinsko", "2019 - Beskydy", "2019 - Harrachov", "2019 - Itálie", "2019 - Kapverdy", "2019 - Mušov", "2019 - Slovensko", "2020 - Kanárské ost.", "2020 - Lukavice", "2020 - Velikonoce", "2020 - Wichterle", "2021 - Kréta", "2021 - Kutná Hora", "2021 - Pluskoveček", "2021 - Slovinsko", "2021 - Šumava", "2022 - Chorvatsko", "2022 - Rokytnice", "Byt - Rogoznica", "Byt - Provazníkova", "Byt - Těsná", "Dovolena: All", "KM-BBL: 2019-08", "KM-BBL: 2022-08", "KM-BBL: 2022-11","KM-BEU: 2018-06", "KM-BHR: 2018-01", "KM-BHR: 2018-06", "KM-BHR: 2018-08A", "KM-BHR: 2018-08B", "KM-BHR: 2018-10A", "KM-BHR: 2018-10B", "KM-BPL: 2019-10", "KM-BPL: 2019-12", "KM-BPL: 2020-07", "KM-BPL: 2020-08", "KM-BPL: 2021-11", "KM-BR: 2019-01", "KM-BRO: 2018-01", "KM-BSL: 2017-10", "KM-BSL: 2019-03", "KM-BSL: 2019-05", "KM-BSL: 2019-09", "KM-BSL: 2019-10", "KM-BSL: 2019-11", "KM-BSL: 2020-01", "KM-BSL: 2020-02", "KM-Dubai: 2019-03", "KM-Služebka-All", "Renault Laguna", "Sebastien Vaško", "Schampy", "Svatba", "Vánoce", "VASKO TechDesign", "VASKO: Energy Sol.", "VASKO: IoT - PUR", "VASKO: SportBet", "Vklad - Andrea", "Vklad - Honza", "Výlety"]
@@ -331,7 +264,7 @@ Accounts_dict = {
     "Account_Type": Account_Type_list,
     "Account_Currency": Account_Currency_list,
     "Account_Possition": Account_possition_list,
-    "Account_possition_TO_list": Account_possition_FROM_list,
+    "Account_possition_From_list": Account_possition_FROM_list,
     "Account_possition_TO_list": Account_possition_TO_list}
 Accounts_df = pandas.DataFrame(data=Accounts_dict, columns=Accounts_dict.keys())
 
@@ -692,7 +625,7 @@ for row in Wallet_Transfers_df.iterrows():
     # From
     # From Account
     From_Account_index = Accounts_df[Accounts_df["Account"] == row_df["From_Account"]].index
-    From_Account_pos = int(Accounts_df.iloc[From_Account_index]["Account_Possition"].values[0])
+    From_Account_pos = int(Accounts_df.iloc[From_Account_index]["Account_possition_From_list"].values[0])
     mouse_move(pyautogui, time, 0.25, Trasnfer_From_Account)
     mouse_clic(pyautogui, time, 0.1)
     for i in range(From_Account_pos):
@@ -717,7 +650,7 @@ for row in Wallet_Transfers_df.iterrows():
         From_Currency_index = Currency_df[Currency_df["Currency"] == "CZK"].index
         From_Currency_pos = int(Currency_df.iloc[From_Currency_index]["Currency_Posstion"].values[0])
         From_Currency_possition2 = 540 + Currency_line_height * From_Currency_pos
-        mouse_move(pyautogui, time, 0.25, (850, From_Currency_possition2))
+        mouse_move(pyautogui, time, 0.25, (700, From_Currency_possition2))
         mouse_clic(pyautogui, time, 0.1)
     else:
         pass
@@ -725,7 +658,7 @@ for row in Wallet_Transfers_df.iterrows():
     # To
     # To Account
     To_Account_index = Accounts_df[Accounts_df["Account"] == row_df["To_Account"]].index
-    To_Account_pos = int(Accounts_df.iloc[To_Account_index]["Account_Possition"].values[0])
+    To_Account_pos = int(Accounts_df.iloc[To_Account_index]["Account_possition_TO_list"].values[0])
     mouse_move(pyautogui, time, 0.25, Trasnfer_To_Account)
     mouse_clic(pyautogui, time, 0.1)
     for i in range(To_Account_pos):
@@ -733,29 +666,22 @@ for row in Wallet_Transfers_df.iterrows():
     press_one_key(pyautogui, time, 0.25, "enter")
     press_one_key(pyautogui, time, 0.1, "tab")
 
-    # To Amount
+    # To Currency
     To_Account_Type = str(Accounts_df.iloc[To_Account_index]["Account_Type"].values[0])
-    if To_Account_Type == "Bank":
-        if  row_df["To_Currency"] != "CZK":
-            write_text(pyautogui, time, 0.1, str(row_df["To_Amount_LCY"]))
-        else:
-            write_text(pyautogui, time, 0.1, str(row_df["To_Amount"]))
-    else:
-        write_text(pyautogui, time, 0.1, str(row_df["To_Amount"]))
-
-    # To Currency   
     if To_Account_Type == "Bank":
         mouse_move(pyautogui, time, 0.25, Transfer_To_Currency)
         mouse_clic(pyautogui, time, 0.1)
         To_Currency_index = Currency_df[Currency_df["Currency"] == "CZK"].index
         To_Currency_pos = int(Currency_df.iloc[To_Currency_index]["Currency_Posstion"].values[0])
         To_Currency_possition2 = 540 + Currency_line_height * To_Currency_pos
-        mouse_move(pyautogui, time, 0.25, (850, To_Currency_possition2))
+        mouse_move(pyautogui, time, 0.25, (980, To_Currency_possition2))
         mouse_clic(pyautogui, time, 0.1)
     else:
         pass
 
     # Date
+    mouse_move(pyautogui, time, 0.25, Callendar_date)
+    mouse_clic(pyautogui, time, 0.1)
     Calendar_direct_write(pyautogui, row_df["Date"], datetime, time)
     press_one_key(pyautogui, time, 0.1, "tab")
 
@@ -765,7 +691,7 @@ for row in Wallet_Transfers_df.iterrows():
     # Notes
     mouse_move(pyautogui, time, 0.25, Note_possition)
     mouse_clic(pyautogui, time, 0.1)
-    #! Přidat poznámku o převodu měn a hodnoty
+    #! Přidat poznámku o převodu měn a hodnoty + exchange Rage
     if str(row_df["Notes"]) != "":
         pyperclip.copy(str(row_df["Notes"]))
         pyautogui.hotkey("ctrl", "v")

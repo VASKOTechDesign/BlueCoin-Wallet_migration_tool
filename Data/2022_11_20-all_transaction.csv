@@ -1,35 +1,5 @@
 ﻿Type;Date;Set Time;Title;Amount;Currency;Exchange Rate;Category Group Name;Category;Account;Notes;Labels;Status
-Expense;2022-11-19 07:00:48;07:00;Uniqa;-1075.00;CZK;1.0000000000;Financni sluzby;Zivotni pojisteni;KB - Personal - účet;VS: 3896802499, KS: 3558;;Cleared
-Expense;2022-11-18 16:50:50;16:50;Hulata Vinoteka;-65.00;CZK;1.0000000000;Nakup;Alkohol;AirBank - Společný;;;Cleared
-Expense;2022-11-18 16:36:25;16:36;Lidl;-95.70;CZK;1.0000000000;Nakup;Potraviny;KB - Personal - účet;;;Cleared
-Expense;2022-11-18 16:36:15;16:36;Lidl;-59.90;CZK;1.0000000000;Nakup;Alkohol;AirBank - Společný;;;Cleared
-Expense;2022-11-18 16:35:47;16:35;Lidl;-142.20;CZK;1.0000000000;Nakup;Potraviny;AirBank - Společný;Kojenecká voda;Sebastien Vaško;Cleared
-Expense;2022-11-18 15:08:48;15:08;Ceska Posta;-240.00;CZK;1.0000000000;Sluzby;Administrativni poplatky;AirBank - Společný;Ověření podpisu KB - Americká hypotéka vklad na katastr;Byt - Chorvatsko;Cleared
-Expense;2022-11-17 20:25:13;20:25;Lidl;-169.00;CZK;1.0000000000;Auto;Nakup;KB - Personal - účet;Zimní směs do ostřikovačů 5l;Renault Laguna;Cleared
-Expense;2022-11-17 20:24:17;20:24;Lidl;-29.90;CZK;1.0000000000;Nakup;Drogerie, Hyg. potreby;AirBank - Společný;[{}];;Cleared
-Expense;2022-11-17 20:24:17;20:24;Lidl;-1282.67;CZK;1.0000000000;Nakup;Potraviny;AirBank - Společný;[{}];;Cleared
-Expense;2022-11-17 15:03:54;15:03;Riverside Coffee;-162.00;CZK;1.0000000000;Obcerstveni;Kavarna;AirBank - Společný;[{}];;Cleared
-Expense;2022-11-17 15:03:54;15:03;Riverside Coffee;-8.00;CZK;1.0000000000;Financni sluzby;Tuzer;AirBank - Společný;[{}];;Cleared
-Expense;2022-11-16 20:31:26;20:31;Ostatni;-20.00;CZK;1.0000000000;Financni sluzby;Charita;CZK;;;Reconciled
-Expense;2022-11-16 20:26:13;20:26;Reserved;-405.00;CZK;1.0000000000;Nakup;Darky;KB - Personal - účet;Dárek za Bastikovi zuby, jedny saty;;Cleared
-Expense;2022-11-16 19:53:44;19:53;Zlata Lod;-195.00;CZK;1.0000000000;Obcerstveni;Hospoda;KB - Personal - účet;[{}];;Cleared
-Expense;2022-11-16 19:53:44;19:53;Zlata Lod;-15.00;CZK;1.0000000000;Financni sluzby;Tuzer;KB - Personal - účet;[{}];;Cleared
-Expense;2022-11-16 17:43:55;17:43;Policie ČR;-900.00;CZK;1.0000000000;Financni sluzby;Pokuta;KB - Personal - účet;Za rychlost u Slavkova;Renault Laguna;Cleared
-Expense;2022-11-16 10:55:58;10:55;Crocus;-18.00;CZK;1.0000000000;Prace;Svacina;KB - Personal - účet;;;Cleared
-Income;2022-11-16 10:51:52;10:51;Komercni Banka;4540.43;CZK;1.0000000000;Technical;Hypoteka - umor;KB - Hypotéka;;;Reconciled
-Expense;2022-11-16 07:00:52;07:00;Komercni Banka;-4540.43;CZK;1.0000000000;Bankovni operace - vydaje;Hypoteka - umor;KB - Personal - účet;[{}];Byt - Těsná;Cleared
-Expense;2022-11-16 07:00:52;07:00;Komercni Banka;-2543.57;CZK;1.0000000000;Bankovni operace - vydaje;Hypoteka - urok;KB - Personal - účet;[{}];Byt - Těsná;Cleared
-Expense;2022-11-16 07:00:46;07:00;SVJ Tesna;-90.00;CZK;1.0000000000;Bydleni - vydaj;Elektrina;KB - Personal - účet;[{}];Byt - Těsná;Cleared
-Expense;2022-11-16 07:00:46;07:00;SVJ Tesna;-630.00;CZK;1.0000000000;Bydleni - vydaj;Voda;KB - Personal - účet;[{}];Byt - Těsná;Cleared
-Expense;2022-11-16 07:00:46;07:00;SVJ Tesna;-1969.00;CZK;1.0000000000;Bydleni - vydaj;Fond oprav;KB - Personal - účet;[{}];Byt - Těsná;Cleared
-Income;2022-11-16 07:00:32;07:00;Modra Pyramida;670.00;CZK;1.0000000000;Technical;Stavebko - umor;KB - Stavební spoření - úvěr 2;;;Cleared
-Expense;2022-11-16 07:00:02;07:00;Eon;-3100.00;CZK;1.0000000000;Bydleni - vydaj;Elektrina;KB - Personal - účet;;Byt - Těsná;Cleared
-Expense;2022-11-16 06:12:24;06:12;Modra Pyramida;-670.00;CZK;1.0000000000;Bankovni operace - vydaje;Vehicle - umor;KB - Personal - účet;[{}];Renault Laguna;Cleared
-Expense;2022-11-16 06:12:24;06:12;Modra Pyramida;-748.50;CZK;1.0000000000;Bankovni operace - vydaje;Vehicle - urok;KB - Personal - účet;[{}];Renault Laguna;Cleared
 Transfer;2022-11-15 20:54:43;20:54;Transfer;-43.60;CZK;1.0000000000;(Transfer);(Transfer);KB - Personal - účet;;Vklad - Honza;Cleared
 Transfer;2022-11-15 20:54:43;20:54;Transfer;43.60;CZK;1.0000000000;(Transfer);(Transfer);AirBank - Společný;;Vklad - Honza;Cleared
-Expense;2022-11-15 19:59:53;19:59;Kaufland;-43.60;CZK;1.0000000000;Prace;Svacina;CZK;;;Reconciled
 Transfer;2022-11-15 19:58:09;19:58;Transfer;-43.60;CZK;1.0000000000;(Transfer);(Transfer);AirBank - Společný;Kaufland: omylem zaplaceno společnou kartou;Vklad - Honza;Cleared
 Transfer;2022-11-15 19:58:09;19:58;Transfer;43.60;CZK;1.0000000000;(Transfer);(Transfer);CZK;Kaufland: omylem zaplaceno společnou kartou;Vklad - Honza;Cleared
-Expense;2022-11-15 19:56:19;19:56;Kaufland;-209.70;CZK;1.0000000000;Nakup;Drogerie, Hyg. potreby;AirBank - Společný;[{}];;Cleared
-Expense;2022-11-15 19:56:19;19:56;Kaufland;-302.88;CZK;1.0000000000;Nakup;Potraviny;AirBank - Společný;[{}];;Cleared

@@ -1,4 +1,18 @@
 # DF preparatoin
+def Replace_signs_in_file(From_File_Name, To_File_Name) -> None:
+    with open(file=f"./Data/{From_File_Name}.csv", mode="tr", encoding="utf-8-sig") as f:
+        lines = f.readlines()
+    f.close()
+    with open(file=f"./Data/{To_File_Name}.csv", mode="w", encoding="utf-8-sig") as f_result:
+        for line in lines:
+            line = line.rstrip("\n")
+            line = line.replace('","',";")
+            line = line[1:]
+            line = line[:-1]
+            line = line + "\n"
+            f_result.write(line)
+    f_result.close()
+
 def BlueCoin_create_labels(text):
     Label_list = ["2017 - Budapešť", "2017 - Španělsko", "2018 - Amsterdam", "2018 - Francie", "2018 - Praha", "2018 - Slovinsko", "2019 - Beskydy", "2019 - Harrachov", "2019 - Itálie", "2019 - Kapverdy", "2019 - Mušov", "2019 - Slovensko", "2020 - Kanárské ost.", "2020 - Lukavice", "2020 - Velikonoce", "2020 - Wichterle", "2021 - Kréta", "2021 - Kutná Hora", "2021 - Pluskoveček", "2021 - Slovinsko", "2021 - Šumava", "2022 - Chorvatsko", "2022 - Rokytnice", "Byt - Rogoznica", "Byt - Provazníkova", "Byt - Těsná", "Dovolena: All", "KM-BBL: 2019-08", "KM-BBL: 2022-08", "KM-BBL: 2022-11","KM-BEU: 2018-06", "KM-BHR: 2018-01", "KM-BHR: 2018-06", "KM-BHR: 2018-08A", "KM-BHR: 2018-08B", "KM-BHR: 2018-10A", "KM-BHR: 2018-10B", "KM-BPL: 2019-10", "KM-BPL: 2019-12", "KM-BPL: 2020-07", "KM-BPL: 2020-08", "KM-BPL: 2021-11", "KM-BR: 2019-01", "KM-BRO: 2018-01", "KM-BSL: 2017-10", "KM-BSL: 2019-03", "KM-BSL: 2019-05", "KM-BSL: 2019-09", "KM-BSL: 2019-10", "KM-BSL: 2019-11", "KM-BSL: 2020-01", "KM-BSL: 2020-02", "KM-Dubai: 2019-03", "KM-Služebka-All", "Renault Laguna", "Sebastien Vaško", "Schampy", "Svatba", "Vánoce", "VASKO TechDesign", "VASKO: Energy Sol.", "VASKO: IoT - PUR", "VASKO: SportBet", "Vklad - Andrea", "Vklad - Honza", "Výlety"]
     row_label = []
@@ -196,7 +210,7 @@ Account_possition = (750, 430)              # Acount
 Amount_possition = (760, 500)               # Amount
 Currency_possition = (850, 500)             # Currency
 Currency_First_line = (850, 540)            # Currency
-Currency_line_height = 35
+Currency_line_height = 35                   # Currency line height
 Trasnfer_From_Account = (600, 440)          # Transfer From Account
 Trasnfer_To_Account = (860, 440)            # Transfer To Account
 Transfer_From_Amount = (600, 510)           # Transfer From Amount
@@ -287,14 +301,15 @@ Category_df["BlueCoin_Sub_Category"] = Category_df["BlueCoin_Sub_Category"].appl
 Category_df["Note"] = Category_df["Note"].apply(BlueCoin_delete_df_text)
 
 # --------------------------------- Main ---------------------------------#
-BlueCoins_df = pandas.read_csv(filepath_or_buffer="./Data/2022_11_20-all_transaction.csv", sep=";", header=0)
+From_File_Name = "2022_11_20-all_transaction"
+To_File_Name = "2022_11_20-Toprocess"
+Replace_signs_in_file(From_File_Name, To_File_Name)
+BlueCoins_df = pandas.read_csv(filepath_or_buffer=f"./Data/{To_File_Name}.csv", sep=";", header=0)
 BlueCoins_df["Notes"] = BlueCoins_df["Notes"].apply(BlueCoin_delete_df_text)
 BlueCoins_df["Labels"] = BlueCoins_df["Labels"].apply(BlueCoin_delete_df_text)
 BlueCoins_df["Title"] = BlueCoins_df["Title"].apply(BlueCoin_delete_df_text)
 
-
 # ----------------- BlueCoin-----------------#
-# ----- Delete -----#
 # Delete starting balance
 New_Balance_row = BlueCoins_df[BlueCoins_df["Type"] == "New Account"].index
 BlueCoins_df = BlueCoins_df.drop(New_Balance_row, axis=0)
@@ -432,13 +447,13 @@ for row in Wallet_Transfers_df.iterrows():
     if row_df["Amount"] < 0:
         Wallet_Transfers_df.at[row[0],"From_Account"] = row_df["Account"]
         Wallet_Transfers_df.at[row[0],"From_Amount"] = row_df["Amount"]
-        Wallet_Transfers_df.at[row[0],"From_Amount_LCY"] = row_df["Amount"] * row_df["Exchange Rate"]
+        Wallet_Transfers_df.at[row[0],"From_Amount_LCY"] = round(row_df["Amount"] / row_df["Exchange Rate"], 2)
         Wallet_Transfers_df.at[row[0],"From_Currency"] = row_df["Currency"]
         Wallet_Transfers_df.at[row[0],"From_Exchange_Rate"] = row_df["Exchange Rate"]
     elif row_df["Amount"] > 0:
         Wallet_Transfers_df.at[row[0]-1,"To_Account"] = row_df["Account"]
         Wallet_Transfers_df.at[row[0]-1,"To_Amount"] = row_df["Amount"]
-        Wallet_Transfers_df.at[row[0]-1,"To_Amount_LCY"] = row_df["Amount"] * row_df["Exchange Rate"]
+        Wallet_Transfers_df.at[row[0]-1,"To_Amount_LCY"] = round(row_df["Amount"] / row_df["Exchange Rate"], 2)
         Wallet_Transfers_df.at[row[0]-1,"To_Currency"] = row_df["Currency"]
         Wallet_Transfers_df.at[row[0]-1,"To_Exchange_Rate"] = row_df["Exchange Rate"]
     else:
@@ -551,15 +566,10 @@ for row in Wallet_Income_Expense_df.iterrows():
     # Note - Original Value if not CZK, enter and not
     if row_df["Currency"] != "CZK":
         if Account_Type == "Bank":
-            write_text(pyautogui, time, 0.1, str(row_df["Currency"]))
-            write_text(pyautogui, time, 0.1, ": ")
-            write_text(pyautogui, time, 0.1, str(row_df["Original_Value"]))
-            write_text(pyautogui, time, 0.1, ",")
+            write_text(pyautogui, time, 0.1, str(f"""{row_df["Currency"]}: {row_df["Original_Value"]},"""))
             press_one_key(pyautogui, time, 0.25, "enter")
         else:
-            write_text(pyautogui, time, 0.1, "CZK: ")
-            write_text(pyautogui, time, 0.1, str(row_df["Amount_LCY"]))
-            write_text(pyautogui, time, 0.1, ",")
+            write_text(pyautogui, time, 0.1, str(f"""CZK: {row_df["Amount_LCY"]},"""))
             press_one_key(pyautogui, time, 0.25, "enter")
     else:
         pass
@@ -664,7 +674,6 @@ for row in Wallet_Transfers_df.iterrows():
     for i in range(To_Account_pos):
         press_one_key(pyautogui, time, 0.1, "down")
     press_one_key(pyautogui, time, 0.25, "enter")
-    press_one_key(pyautogui, time, 0.1, "tab")
 
     # To Currency
     To_Account_Type = str(Accounts_df.iloc[To_Account_index]["Account_Type"].values[0])
@@ -691,7 +700,14 @@ for row in Wallet_Transfers_df.iterrows():
     # Notes
     mouse_move(pyautogui, time, 0.25, Note_possition)
     mouse_clic(pyautogui, time, 0.1)
-    #! Přidat poznámku o převodu měn a hodnoty + exchange Rage
+    if (row_df["From_Currency"] != "CZK") or (row_df["To_Currency"] != "CZK"):
+        write_text(pyautogui, time, 0.1, str(f"""{row_df["From_Currency"]}: {row_df["From_Amount"]} - (CZK: {row_df["From_Amount_LCY"]}),"""))
+        press_one_key(pyautogui, time, 0.25, "enter")
+
+        write_text(pyautogui, time, 0.1, str(f"""{row_df["To_Currency"]}: {row_df["To_Amount"]} - (CZK: {row_df["To_Amount_LCY"]}),"""))
+        press_one_key(pyautogui, time, 0.25, "enter")
+    else:
+        pass
     if str(row_df["Notes"]) != "":
         pyperclip.copy(str(row_df["Notes"]))
         pyautogui.hotkey("ctrl", "v")

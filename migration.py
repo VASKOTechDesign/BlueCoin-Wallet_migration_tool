@@ -302,7 +302,7 @@ Category_df["Note"] = Category_df["Note"].apply(BlueCoin_delete_df_text)
 
 # --------------------------------- Main ---------------------------------#
 From_File_Name = "2022_11_20-all_transaction"
-To_File_Name = "2022_11_20-Toprocess"
+To_File_Name = "2022_11_20-To_process"
 Replace_signs_in_file(From_File_Name, To_File_Name)
 BlueCoins_df = pandas.read_csv(filepath_or_buffer=f"./Data/{To_File_Name}.csv", sep=";", header=0)
 BlueCoins_df["Notes"] = BlueCoins_df["Notes"].apply(BlueCoin_delete_df_text)

@@ -201,6 +201,10 @@ import pyperclip
 pandas.options.mode.chained_assignment = None
 
 # --------------------------------- Defaults ---------------------------------#
+# Currency and amount Method
+Expense_Income_Method = "CZK" # Values: "CZK", "Original"
+Transfer_Method = "CZK" # Values: "CZK", "Original"
+
 # X/Y coordinates on notebook screen - Absolute
 New_record_button_possition = (1460,70)     # New record
 Expense_button_possition = (660, 350)       # Expense button
@@ -245,7 +249,7 @@ Payment_type_possition = (1200, 570)        # Payment type
 Payment_Status_possition = (1200, 650)      # Payment Status 
 Add_record = (770, 750)                     # Add record
 Add_record_new = (770, 795)                 # Add record and create new
-Cancel_cross = (1400, 270)                 # Add record and create new
+Cancel_cross = (1400, 270)                  # Add record and create new
 
 # Payment Type
 Payment_Type_list = ["Cash", "Debit card", "Credit card", "Transfer", "Voucher", "Mobile payment", "Web payment"]
@@ -301,8 +305,11 @@ Category_df["BlueCoin_Sub_Category"] = Category_df["BlueCoin_Sub_Category"].appl
 Category_df["Note"] = Category_df["Note"].apply(BlueCoin_delete_df_text)
 
 # --------------------------------- Main ---------------------------------#
-From_File_Name = "2022_11_20-all_transaction"
-To_File_Name = "2022_11_20-To_process"
+Year_to_Process = 2016
+From_File_Name = f"{Year_to_Process}_transactions_list"
+From_File_Name = f"test"
+To_File_Name = f"{Year_to_Process}transactions_list_process"
+To_File_Name = "test_test"
 Replace_signs_in_file(From_File_Name, To_File_Name)
 BlueCoins_df = pandas.read_csv(filepath_or_buffer=f"./Data/{To_File_Name}.csv", sep=";", header=0)
 BlueCoins_df["Notes"] = BlueCoins_df["Notes"].apply(BlueCoin_delete_df_text)
@@ -335,8 +342,7 @@ del Pujcky_mask_1, Pujcky_mask_2
 Income_Expense_df["Labels"] = Income_Expense_df["Labels"].apply(BlueCoin_create_labels)
 Transfers_df["Labels"] = Transfers_df["Labels"].apply(BlueCoin_create_labels)
 Pujcky_df["Labels"] = Pujcky_df["Labels"].apply(BlueCoin_create_labels)
-
-#Pujcky_df.to_csv(path_or_buf="Wallet_Pujcky_df.csv", sep=";", index=False)
+Pujcky_df.to_csv(path_or_buf=f"{Year_to_Process}_Wallet_Pujcky_df.csv", sep=";", index=False)
 
 # ----------------- Wallet -----------------#
 # DF - Income / Expense
@@ -372,8 +378,6 @@ Wallet_Income_Expense_df["Date"] = Wallet_Income_Expense_df["Date"].apply(Wallet
 Wallet_Income_Expense_df["Time"] = Wallet_Income_Expense_df["Set Time"] 
 
 Wallet_Income_Expense_df["Payee"] = Wallet_Income_Expense_df["Title"] 
-Wallet_Income_Expense_df["Original_Value"] = ""
-Wallet_Income_Expense_df["Original_Value"].loc[Wallet_Income_Expense_df["Currency"] != "CZK"] = Wallet_Income_Expense_df["Amount"]
 
 # Payment Type - mapping
 Wallet_Income_Expense_df["Payment_type"] = ""
@@ -419,7 +423,7 @@ for row in Wallet_Income_Expense_df.iterrows():
 Wallet_Income_Expense_df["Payment_Status"] = Wallet_Income_Expense_df["Status"].apply(Wallet_Payment_Status)
 Wallet_Income_Expense_df["Place"] = ""
 Wallet_Income_Expense_df.drop(labels=["Set Time", "Title", "Category Group Name", "Category", "Status"], inplace=True, axis=1)
-Wallet_Income_Expense_df.to_csv(path_or_buf="Wallet_Income_Expense_df.csv", sep=";", index=False)
+Wallet_Income_Expense_df.to_csv(path_or_buf=f"{Year_to_Process}_Wallet_Income_Expense_df.csv", sep=";", index=False, columns=["Type","Date","Time","Account","Amount","Amount_LCY","Currency","Category_1","Category_2","Category_3","Payee","Payment_type","Payment_Status","Labels","Notes"])
 
 # DF - Transferes
 Wallet_Transfers_df = Transfers_df 
@@ -478,7 +482,7 @@ Wallet_Transfers_df["Payment_Status"] = Wallet_Transfers_df["Status"].apply(Wall
 Wallet_Transfers_df["Place"] = ""
 
 Wallet_Transfers_df.drop(labels=["Amount", "Currency", "Category Group Name", "Category", "Status", "Exchange Rate", "Title", "Account", "Set Time"], inplace=True, axis=1)
-Wallet_Transfers_df.to_csv(path_or_buf="Wallet_Transfers_df.csv", sep=";", index=False)
+Wallet_Transfers_df.to_csv(path_or_buf=f"{Year_to_Process}_Wallet_Transfers_df.csv", sep=";", index=False, columns=["Type","Date","Time","From_Account","To_Account","From_Amount","From_Amount_LCY","To_Amount","To_Amount_LCY","From_Currency","To_Currency","Payment_type","Payment_Status","Labels","Notes"])
 
 # Web App
 time.sleep(5)
@@ -513,10 +517,16 @@ for row in Wallet_Income_Expense_df.iterrows():
     # Amount
     Account_Type = str(Accounts_df.iloc[Account_index]["Account_Type"].values[0])
     if Account_Type == "Bank":
-        if  row_df["Currency"] != "CZK":
-            write_text(pyautogui, time, 0.1, str(row_df["Amount_LCY"]))
-        else:
+        if Expense_Income_Method == "CZK":
+            if  row_df["Currency"] != "CZK":
+                write_text(pyautogui, time, 0.1, str(row_df["Amount_LCY"]))
+            else:
+                write_text(pyautogui, time, 0.1, str(row_df["Amount"]))
+        elif Expense_Income_Method == "Original":
             write_text(pyautogui, time, 0.1, str(row_df["Amount"]))
+        else:
+            pass
+            #! write issue to Log   
     else:
         write_text(pyautogui, time, 0.1, str(row_df["Amount"]))
 
@@ -524,9 +534,17 @@ for row in Wallet_Income_Expense_df.iterrows():
     if Account_Type == "Bank":
         mouse_move(pyautogui, time, 0.25, Currency_possition)
         mouse_clic(pyautogui, time, 0.1)
-        Currency_index = Currency_df[Currency_df["Currency"] == "CZK"].index
-        Currency_pos = int(Currency_df.iloc[Currency_index]["Currency_Posstion"].values[0])
-        Currency_possition2 = 540 + Currency_line_height * Currency_pos
+        if Expense_Income_Method == "CZK":
+            Currency_index = Currency_df[Currency_df["Currency"] == "CZK"].index
+            Currency_pos = int(Currency_df.iloc[Currency_index]["Currency_Posstion"].values[0])
+            Currency_possition2 = 540 + Currency_line_height * Currency_pos
+        elif Expense_Income_Method == "Original":
+            Currency_index = Currency_df[Currency_df["Currency"] == row_df["Currency"]].index
+            Currency_pos = int(Currency_df.iloc[Currency_index]["Currency_Posstion"].values[0])
+            Currency_possition2 = 540 + Currency_line_height * Currency_pos
+        else:
+            pass
+            #! write issue to Log
         mouse_move(pyautogui, time, 0.25, (850, Currency_possition2))
         mouse_clic(pyautogui, time, 0.1)
     else:
@@ -563,10 +581,16 @@ for row in Wallet_Income_Expense_df.iterrows():
     pyautogui.hotkey("ctrl", "v")
     press_one_key(pyautogui, time, 0.1, "tab")
 
-    # Note - Original Value if not CZK, enter and not
+    # Note
     if row_df["Currency"] != "CZK":
         if Account_Type == "Bank":
-            write_text(pyautogui, time, 0.1, str(f"""{row_df["Currency"]}: {row_df["Original_Value"]},"""))
+            if Expense_Income_Method == "CZK":
+                write_text(pyautogui, time, 0.1, str(f"""{row_df["Currency"]}: {row_df["Amount"]},"""))
+            elif Expense_Income_Method == "Original":
+                write_text(pyautogui, time, 0.1, str(f"""CZK: {row_df["Amount_LCY"]},"""))
+            else:
+                pass
+                #! write issue to Log
             press_one_key(pyautogui, time, 0.25, "enter")
         else:
             write_text(pyautogui, time, 0.1, str(f"""CZK: {row_df["Amount_LCY"]},"""))
@@ -646,10 +670,16 @@ for row in Wallet_Transfers_df.iterrows():
     # From Amount
     From_Account_Type = str(Accounts_df.iloc[From_Account_index]["Account_Type"].values[0])
     if From_Account_Type == "Bank":
-        if  row_df["From_Currency"] != "CZK":
-            write_text(pyautogui, time, 0.1, str(row_df["From_Amount_LCY"]))
-        else:
+        if Transfer_Method == "CZK":
+            if  row_df["From_Currency"] != "CZK":
+                write_text(pyautogui, time, 0.1, str(row_df["From_Amount_LCY"]))
+            else:
+                write_text(pyautogui, time, 0.1, str(row_df["From_Amount"]))
+        elif Transfer_Method == "Original":
             write_text(pyautogui, time, 0.1, str(row_df["From_Amount"]))
+        else:
+            pass
+            #! Zapsat chybu do logu
     else:
         write_text(pyautogui, time, 0.1, str(row_df["From_Amount"]))
 
@@ -657,9 +687,17 @@ for row in Wallet_Transfers_df.iterrows():
     if From_Account_Type == "Bank":
         mouse_move(pyautogui, time, 0.25, Transfer_From_Currency)
         mouse_clic(pyautogui, time, 0.1)
-        From_Currency_index = Currency_df[Currency_df["Currency"] == "CZK"].index
-        From_Currency_pos = int(Currency_df.iloc[From_Currency_index]["Currency_Posstion"].values[0])
-        From_Currency_possition2 = 540 + Currency_line_height * From_Currency_pos
+        if Transfer_Method == "CZK":
+            From_Currency_index = Currency_df[Currency_df["Currency"] == "CZK"].index
+            From_Currency_pos = int(Currency_df.iloc[From_Currency_index]["Currency_Posstion"].values[0])
+            From_Currency_possition2 = 540 + Currency_line_height * From_Currency_pos
+        elif Transfer_Method == "Original":
+            From_Currency_index = Currency_df[Currency_df["Currency"] == row_df["From_Currency"]].index
+            From_Currency_pos = int(Currency_df.iloc[From_Currency_index]["Currency_Posstion"].values[0])
+            From_Currency_possition2 = 540 + Currency_line_height * From_Currency_pos
+        else:
+            pass
+            #! Zapsat chybu do logu
         mouse_move(pyautogui, time, 0.25, (700, From_Currency_possition2))
         mouse_clic(pyautogui, time, 0.1)
     else:
@@ -680,9 +718,17 @@ for row in Wallet_Transfers_df.iterrows():
     if To_Account_Type == "Bank":
         mouse_move(pyautogui, time, 0.25, Transfer_To_Currency)
         mouse_clic(pyautogui, time, 0.1)
-        To_Currency_index = Currency_df[Currency_df["Currency"] == "CZK"].index
-        To_Currency_pos = int(Currency_df.iloc[To_Currency_index]["Currency_Posstion"].values[0])
-        To_Currency_possition2 = 540 + Currency_line_height * To_Currency_pos
+        if Transfer_Method == "CZK":
+            To_Currency_index = Currency_df[Currency_df["Currency"] == "CZK"].index
+            To_Currency_pos = int(Currency_df.iloc[To_Currency_index]["Currency_Posstion"].values[0])
+            To_Currency_possition2 = 540 + Currency_line_height * To_Currency_pos
+        elif Transfer_Method == "Original":
+            To_Currency_index = Currency_df[Currency_df["Currency"] ==  row_df["To_Currency"]].index
+            To_Currency_pos = int(Currency_df.iloc[To_Currency_index]["Currency_Posstion"].values[0])
+            To_Currency_possition2 = 540 + Currency_line_height * To_Currency_pos
+        else:
+            pass
+            #! Zapsat chybu do logu
         mouse_move(pyautogui, time, 0.25, (980, To_Currency_possition2))
         mouse_clic(pyautogui, time, 0.1)
     else:
@@ -701,10 +747,10 @@ for row in Wallet_Transfers_df.iterrows():
     mouse_move(pyautogui, time, 0.25, Note_possition)
     mouse_clic(pyautogui, time, 0.1)
     if (row_df["From_Currency"] != "CZK") or (row_df["To_Currency"] != "CZK"):
-        write_text(pyautogui, time, 0.1, str(f"""{row_df["From_Currency"]}: {row_df["From_Amount"]} - (CZK: {row_df["From_Amount_LCY"]}),"""))
+        write_text(pyautogui, time, 0.1, str(f"""{row_df["From_Currency"]}: {row_df["From_Amount"]} = CZK: {row_df["From_Amount_LCY"]}, """))
         press_one_key(pyautogui, time, 0.25, "enter")
 
-        write_text(pyautogui, time, 0.1, str(f"""{row_df["To_Currency"]}: {row_df["To_Amount"]} - (CZK: {row_df["To_Amount_LCY"]}),"""))
+        write_text(pyautogui, time, 0.1, str(f"""{row_df["To_Currency"]}: {row_df["To_Amount"]} = CZK: {row_df["To_Amount_LCY"]}, """))
         press_one_key(pyautogui, time, 0.25, "enter")
     else:
         pass

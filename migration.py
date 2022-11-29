@@ -13,7 +13,16 @@ def Replace_signs_in_file(From_File_Name, To_File_Name) -> None:
             f_result.write(line)
     f_result.close()
 
-def BlueCoin_create_labels(text):
+def Log_file_Errors_write(data, Issue_text: None) -> None:
+    with open(file="Errors_log", mode="a", encoding="utf-8-sig") as error_file:
+        data = data.transpose()  
+        data = data.apply(str)     
+        error_file.write(f"\n------------------------------------------------\n")
+        error_file.write(f"Issue text: {Issue_text}\n")
+        error_file.write(f"{data}\n")
+    error_file.close()
+
+def BlueCoin_create_labels(text) -> str:
     Label_list = ["2017 - Budapešť", "2017 - Španělsko", "2018 - Amsterdam", "2018 - Francie", "2018 - Praha", "2018 - Slovinsko", "2019 - Beskydy", "2019 - Harrachov", "2019 - Itálie", "2019 - Kapverdy", "2019 - Mušov", "2019 - Slovensko", "2020 - Kanárské ost.", "2020 - Lukavice", "2020 - Velikonoce", "2020 - Wichterle", "2021 - Kréta", "2021 - Kutná Hora", "2021 - Pluskoveček", "2021 - Slovinsko", "2021 - Šumava", "2022 - Chorvatsko", "2022 - Rokytnice", "Byt - Rogoznica", "Byt - Provazníkova", "Byt - Těsná", "Dovolena: All", "KM-BBL: 2019-08", "KM-BBL: 2022-08", "KM-BBL: 2022-11","KM-BEU: 2018-06", "KM-BHR: 2018-01", "KM-BHR: 2018-06", "KM-BHR: 2018-08A", "KM-BHR: 2018-08B", "KM-BHR: 2018-10A", "KM-BHR: 2018-10B", "KM-BPL: 2019-10", "KM-BPL: 2019-12", "KM-BPL: 2020-07", "KM-BPL: 2020-08", "KM-BPL: 2021-11", "KM-BR: 2019-01", "KM-BRO: 2018-01", "KM-BSL: 2017-10", "KM-BSL: 2019-03", "KM-BSL: 2019-05", "KM-BSL: 2019-09", "KM-BSL: 2019-10", "KM-BSL: 2019-11", "KM-BSL: 2020-01", "KM-BSL: 2020-02", "KM-Dubai: 2019-03", "KM-Služebka-All", "Renault Laguna", "Sebastien Vaško", "Schampy", "Svatba", "Vánoce", "VASKO TechDesign", "VASKO: Energy Sol.", "VASKO: IoT - PUR", "VASKO: SportBet", "Vklad - Andrea", "Vklad - Honza", "Výlety"]
     row_label = []
     if text == "nan":
@@ -24,7 +33,7 @@ def BlueCoin_create_labels(text):
                 row_label.append(label)
         return row_label
 
-def BlueCoin_delete_df_text(text):
+def BlueCoin_delete_df_text(text) -> str:
     try:
         text = str(text)
         text = text.replace("[", "")
@@ -41,13 +50,13 @@ def BlueCoin_delete_df_text(text):
         pass
     return text
 
-def Wallet_create_number(text):
+def Wallet_create_number(text) -> str:
     try:
         return text.replace(",", ".")
     except:
         return text
 
-def Wallet_get_date(text):
+def Wallet_get_date(text) -> str:
     text = text.split(" ")
     return text[0]
 
@@ -501,8 +510,7 @@ for row in Wallet_Income_Expense_df.iterrows():
         mouse_move(pyautogui, time, 0.25, Income_button_possition)
         mouse_clic(pyautogui, time, 0.1)
     else:
-        pass
-        #! Register issue into LOG
+        Log_file_Errors_write(row_df, "Type is not Expense or Income")
     
     # Account
     Account_index = Accounts_df[Accounts_df["Account"] == row_df["Account"]].index
@@ -525,8 +533,7 @@ for row in Wallet_Income_Expense_df.iterrows():
         elif Expense_Income_Method == "Original":
             write_text(pyautogui, time, 0.1, str(row_df["Amount"]))
         else:
-            pass
-            #! write issue to Log   
+            Log_file_Errors_write(row_df, "Amount cannot be set becaue Currency Method setup do not exists")   
     else:
         write_text(pyautogui, time, 0.1, str(row_df["Amount"]))
 
@@ -543,8 +550,7 @@ for row in Wallet_Income_Expense_df.iterrows():
             Currency_pos = int(Currency_df.iloc[Currency_index]["Currency_Posstion"].values[0])
             Currency_possition2 = 540 + Currency_line_height * Currency_pos
         else:
-            pass
-            #! write issue to Log
+            Log_file_Errors_write(row_df, "Currency cannot be set becaue Currency Method setup do not exists")
         mouse_move(pyautogui, time, 0.25, (850, Currency_possition2))
         mouse_clic(pyautogui, time, 0.1)
     else:
@@ -589,8 +595,7 @@ for row in Wallet_Income_Expense_df.iterrows():
             elif Expense_Income_Method == "Original":
                 write_text(pyautogui, time, 0.1, str(f"""CZK: {row_df["Amount_LCY"]},"""))                  # Transaction Currency = CZK and Amount recallculated to CZK
             else:
-                pass
-                #! write issue to Log
+                Log_file_Errors_write(row_df, "Note cannot be set becaue Currency Method setup do not exists")
         else:
             write_text(pyautogui, time, 0.1, str(f"""CZK: {row_df["Amount_LCY"]},"""))                      # Transaction Currency = CZK and Amount recallculated to CZK
         press_one_key(pyautogui, time, 0.25, "enter")
@@ -652,8 +657,7 @@ for row in Wallet_Transfers_df.iterrows():
         mouse_move(pyautogui, time, 0.25, Transfer_button_possition)
         mouse_clic(pyautogui, time, 0.1)
     else:
-        pass
-        #! Zapsat chybu do logu
+        Log_file_Errors_write(row_df, "Type is not Transfer")
 
     # From
     # From Account
@@ -677,8 +681,7 @@ for row in Wallet_Transfers_df.iterrows():
         elif Transfer_Method == "Original":
             write_text(pyautogui, time, 0.1, str(row_df["From_Amount"]))
         else:
-            pass
-            #! Zapsat chybu do logu
+            Log_file_Errors_write(row_df, "From Amount cannot be set becaue Currency Method setup do not exists")
     else:
         write_text(pyautogui, time, 0.1, str(row_df["From_Amount"]))
 
@@ -695,8 +698,7 @@ for row in Wallet_Transfers_df.iterrows():
             From_Currency_pos = int(Currency_df.iloc[From_Currency_index]["Currency_Posstion"].values[0])
             From_Currency_possition2 = 540 + Currency_line_height * From_Currency_pos
         else:
-            pass
-            #! Zapsat chybu do logu
+            Log_file_Errors_write(row_df, "From Currency cannot be set becaue Currency Method setup do not exists")
         mouse_move(pyautogui, time, 0.25, (700, From_Currency_possition2))
         mouse_clic(pyautogui, time, 0.1)
     else:
@@ -726,8 +728,7 @@ for row in Wallet_Transfers_df.iterrows():
             To_Currency_pos = int(Currency_df.iloc[To_Currency_index]["Currency_Posstion"].values[0])
             To_Currency_possition2 = 540 + Currency_line_height * To_Currency_pos
         else:
-            pass
-            #! Zapsat chybu do logu
+            Log_file_Errors_write(row_df, "To Currency cannot be set becaue Currency Method setup do not exists")
         mouse_move(pyautogui, time, 0.25, (980, To_Currency_possition2))
         mouse_clic(pyautogui, time, 0.1)
     else:

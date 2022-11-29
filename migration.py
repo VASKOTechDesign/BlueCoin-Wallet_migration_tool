@@ -305,11 +305,9 @@ Category_df["BlueCoin_Sub_Category"] = Category_df["BlueCoin_Sub_Category"].appl
 Category_df["Note"] = Category_df["Note"].apply(BlueCoin_delete_df_text)
 
 # --------------------------------- Main ---------------------------------#
-Year_to_Process = 2016
+Year_to_Process = 2020
 From_File_Name = f"{Year_to_Process}_transactions_list"
-From_File_Name = f"test"
-To_File_Name = f"{Year_to_Process}transactions_list_process"
-To_File_Name = "test_test"
+To_File_Name = f"{Year_to_Process}_transactions_list_process"
 Replace_signs_in_file(From_File_Name, To_File_Name)
 BlueCoins_df = pandas.read_csv(filepath_or_buffer=f"./Data/{To_File_Name}.csv", sep=";", header=0)
 BlueCoins_df["Notes"] = BlueCoins_df["Notes"].apply(BlueCoin_delete_df_text)
@@ -423,6 +421,7 @@ for row in Wallet_Income_Expense_df.iterrows():
 Wallet_Income_Expense_df["Payment_Status"] = Wallet_Income_Expense_df["Status"].apply(Wallet_Payment_Status)
 Wallet_Income_Expense_df["Place"] = ""
 Wallet_Income_Expense_df.drop(labels=["Set Time", "Title", "Category Group Name", "Category", "Status"], inplace=True, axis=1)
+Wallet_Income_Expense_df.sort_values(by=["Date", "Time"], inplace=True, ascending=True)
 Wallet_Income_Expense_df.to_csv(path_or_buf=f"{Year_to_Process}_Wallet_Income_Expense_df.csv", sep=";", index=False, columns=["Type","Date","Time","Account","Amount","Amount_LCY","Currency","Category_1","Category_2","Category_3","Payee","Payment_type","Payment_Status","Labels","Notes"])
 
 # DF - Transferes
@@ -482,6 +481,7 @@ Wallet_Transfers_df["Payment_Status"] = Wallet_Transfers_df["Status"].apply(Wall
 Wallet_Transfers_df["Place"] = ""
 
 Wallet_Transfers_df.drop(labels=["Amount", "Currency", "Category Group Name", "Category", "Status", "Exchange Rate", "Title", "Account", "Set Time"], inplace=True, axis=1)
+Wallet_Transfers_df.sort_values(by=["Date", "Time"], inplace=True, ascending=True)
 Wallet_Transfers_df.to_csv(path_or_buf=f"{Year_to_Process}_Wallet_Transfers_df.csv", sep=";", index=False, columns=["Type","Date","Time","From_Account","To_Account","From_Amount","From_Amount_LCY","To_Amount","To_Amount_LCY","From_Currency","To_Currency","Payment_type","Payment_Status","Labels","Notes"])
 
 # Web App
@@ -585,16 +585,15 @@ for row in Wallet_Income_Expense_df.iterrows():
     if row_df["Currency"] != "CZK":
         if Account_Type == "Bank":
             if Expense_Income_Method == "CZK":
-                write_text(pyautogui, time, 0.1, str(f"""{row_df["Currency"]}: {row_df["Amount"]},"""))
+                write_text(pyautogui, time, 0.1, str(f"""{row_df["Currency"]}: {row_df["Amount"]},"""))     # Original transaction currency and amount
             elif Expense_Income_Method == "Original":
-                write_text(pyautogui, time, 0.1, str(f"""CZK: {row_df["Amount_LCY"]},"""))
+                write_text(pyautogui, time, 0.1, str(f"""CZK: {row_df["Amount_LCY"]},"""))                  # Transaction Currency = CZK and Amount recallculated to CZK
             else:
                 pass
                 #! write issue to Log
-            press_one_key(pyautogui, time, 0.25, "enter")
         else:
-            write_text(pyautogui, time, 0.1, str(f"""CZK: {row_df["Amount_LCY"]},"""))
-            press_one_key(pyautogui, time, 0.25, "enter")
+            write_text(pyautogui, time, 0.1, str(f"""CZK: {row_df["Amount_LCY"]},"""))                      # Transaction Currency = CZK and Amount recallculated to CZK
+        press_one_key(pyautogui, time, 0.25, "enter")
     else:
         pass
     if str(row_df["Notes"]) != "":
@@ -747,10 +746,10 @@ for row in Wallet_Transfers_df.iterrows():
     mouse_move(pyautogui, time, 0.25, Note_possition)
     mouse_clic(pyautogui, time, 0.1)
     if (row_df["From_Currency"] != "CZK") or (row_df["To_Currency"] != "CZK"):
-        write_text(pyautogui, time, 0.1, str(f"""{row_df["From_Currency"]}: {row_df["From_Amount"]} = CZK: {row_df["From_Amount_LCY"]}, """))
+        write_text(pyautogui, time, 0.1, str(f"""{row_df["From_Currency"]}: {row_df["From_Amount"]} = CZK: {row_df["From_Amount_LCY"]}, """))       # Original From Currency and From Amount + recallculation to CZK
         press_one_key(pyautogui, time, 0.25, "enter")
 
-        write_text(pyautogui, time, 0.1, str(f"""{row_df["To_Currency"]}: {row_df["To_Amount"]} = CZK: {row_df["To_Amount_LCY"]}, """))
+        write_text(pyautogui, time, 0.1, str(f"""{row_df["To_Currency"]}: {row_df["To_Amount"]} = CZK: {row_df["To_Amount_LCY"]}, """))             # Original To Currency and To Amount + recallculation to CZK
         press_one_key(pyautogui, time, 0.25, "enter")
     else:
         pass

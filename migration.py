@@ -3,7 +3,7 @@ def Replace_signs_in_file(From_File_Name, To_File_Name) -> None:
     with open(file=f"./Data/{From_File_Name}.csv", mode="tr", encoding="utf-8-sig") as f:
         lines = f.readlines()
     f.close()
-    with open(file=f"./Data/{To_File_Name}.csv", mode="w", encoding="utf-8-sig") as f_result:
+    with open(file=f"./Data/Translated/{To_File_Name}.csv", mode="w", encoding="utf-8-sig") as f_result:
         for line in lines:
             line = line.rstrip("\n")
             line = line.replace('","',";")
@@ -21,6 +21,21 @@ def Log_file_Errors_write(data, Issue_text: None) -> None:
         error_file.write(f"Issue text: {Issue_text}\n")
         error_file.write(f"{data}\n")
     error_file.close()
+
+def Restart_application(pyautogui, time, Cancel_cross, App_button) -> None:
+    global Cycle_Counter
+    Cycle_Counter = 0
+    # Close Web
+    mouse_move(pyautogui, time, 0.25, Cancel_cross)
+    mouse_clic(pyautogui, time, 0.1)
+    time.sleep(5)
+    #Open Web
+    pyautogui.press("win")
+    time.sleep(3)
+    mouse_move(pyautogui, time, 0.25, App_button)
+    mouse_clic(pyautogui, time, 0.1)
+    time.sleep(10)
+    print("WEB page restarted")
 
 def BlueCoin_create_labels(text) -> str:
     Label_list = ["2017 - Budapešť", "2017 - Španělsko", "2018 - Amsterdam", "2018 - Francie", "2018 - Praha", "2018 - Slovinsko", "2019 - Beskydy", "2019 - Harrachov", "2019 - Itálie", "2019 - Kapverdy", "2019 - Mušov", "2019 - Slovensko", "2020 - Kanárské ost.", "2020 - Lukavice", "2020 - Velikonoce", "2020 - Wichterle", "2021 - Kréta", "2021 - Kutná Hora", "2021 - Pluskoveček", "2021 - Slovinsko", "2021 - Šumava", "2022 - Chorvatsko", "2022 - Rokytnice", "Byt - Rogoznica", "Byt - Provazníkova", "Byt - Těsná", "Dovolena: All", "KM-BBL: 2019-08", "KM-BBL: 2022-08", "KM-BBL: 2022-11","KM-BEU: 2018-06", "KM-BHR: 2018-01", "KM-BHR: 2018-06", "KM-BHR: 2018-08A", "KM-BHR: 2018-08B", "KM-BHR: 2018-10A", "KM-BHR: 2018-10B", "KM-BPL: 2019-10", "KM-BPL: 2019-12", "KM-BPL: 2020-07", "KM-BPL: 2020-08", "KM-BPL: 2021-11", "KM-BR: 2019-01", "KM-BRO: 2018-01", "KM-BSL: 2017-10", "KM-BSL: 2019-03", "KM-BSL: 2019-05", "KM-BSL: 2019-09", "KM-BSL: 2019-10", "KM-BSL: 2019-11", "KM-BSL: 2020-01", "KM-BSL: 2020-02", "KM-Dubai: 2019-03", "KM-Služebka-All", "Renault Laguna", "Sebastien Vaško", "Schampy", "Svatba", "Vánoce", "VASKO TechDesign", "VASKO: Energy Sol.", "VASKO: IoT - PUR", "VASKO: SportBet", "Vklad - Andrea", "Vklad - Honza", "Výlety"]
@@ -213,6 +228,13 @@ pandas.options.mode.chained_assignment = None
 # Currency and amount Method
 Expense_Income_Method = "CZK" # Values: "CZK", "Original"
 Transfer_Method = "CZK" # Values: "CZK", "Original"
+Data_to_WEB_Process = "Both"  # "Income_Expense", "Transfers", "Both"
+Year_to_Process = 2017
+No_cycle_to_restar = 100
+From_File_Name = f"{Year_to_Process}_transactions_list"
+To_File_Name = f"{Year_to_Process}_transactions_list_process"
+Replace_signs_in_file(From_File_Name, To_File_Name)
+
 
 # X/Y coordinates on notebook screen - Absolute
 New_record_button_possition = (1460,70)     # New record
@@ -260,6 +282,10 @@ Add_record = (770, 750)                     # Add record
 Add_record_new = (770, 795)                 # Add record and create new
 Cancel_cross = (1400, 270)                  # Add record and create new
 
+#WEB Restart
+Cancel_cross = (1900, 15)                   # Close whole page
+App_button = (350, 575)                     # Start Application 
+
 # Payment Type
 Payment_Type_list = ["Cash", "Debit card", "Credit card", "Transfer", "Voucher", "Mobile payment", "Web payment"]
 Payment_Type_pos_list = []
@@ -283,9 +309,9 @@ Payment_Status_df = pandas.DataFrame(data=Payment_Status_dict, columns=Payment_S
 Account_list = ["AED", "CZK", "CZK - Společný", "EUR", "GBP", "HRK", "HUF", "SEK", "Trezor", "Stravenky", "AirBank - Společný", "AirBank - Spořící", "AirBank - VASKO TechDesign", "KB - Personal - účet", "Airbank - Svatební půjčka", "KB - Hypotéka", "KB - Americká Hypotéka", "KB - Stavební spoření - úvěr 1", "KB - Stavební spoření - úvěr 2", "KB - VASKOTechDesign - PMG", "Benzina - Karta", "Hornbach Karta", "IKEA - Karta", "Stravenková Karta", "Chance", "Fortuna", "Sazka", "SynotTip", "Tipsport", "Allianz - Penzijní pripojištění", "AXA", "Conseq"]
 Account_Type_list = ["Cash", "Cash", "Cash", "Cash", "Cash", "Cash", "Cash", "Cash", "Cash", "Cash", "Bank", "Bank", "Bank", "Bank", "Loans", "Loans", "Loans", "Loans", "Loans", "Loans", "Bonus", "Bonus", "Bonus", "Bonus", "Virtual", "Virtual", "Virtual", "Virtual", "Virtual", "Investments", "Investments", "Investments"]
 Account_Currency_list = ["AED", "CZK", "CZK", "EUR", "GBP", "HRK", "HUF", "SEK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK", "CZK"]
-Account_possition_list = [27, 0, 1, 4, 28, 29, 30, 31, 2, 2, 11, 12, 13, 5, 14, 9, 10, 6, 7, 8, 23, 24, 25, 26, 15, 16, 17, 18, 19, 20, 21, 22]
-Account_possition_FROM_list = [27, 0, 1, 4, 28, 29, 30, 31, 2, 2, 11, 12, 13, 5, 14, 9, 10, 6, 7, 8, 23, 24, 25, 26, 15, 16, 17, 18, 19, 20, 21, 22]
-Account_possition_TO_list = [28, 1, 2, 5, 29, 30, 31, 32, 3, 3, 12, 13, 14, 6, 15, 10, 11, 7, 8, 9, 24, 25, 26, 27, 16, 17, 18, 19, 20, 21, 22, 23]
+Account_possition_list = [27, 0, 1, 4, 28, 29, 30, 31, 2, 3, 11, 12, 13, 5, 14, 9, 10, 6, 7, 8, 23, 24, 25, 26, 15, 16, 17, 18, 19, 20, 21, 22]
+Account_possition_FROM_list = [27, 0, 1, 4, 28, 29, 30, 31, 2, 3, 11, 12, 13, 5, 14, 9, 10, 6, 7, 8, 23, 24, 25, 26, 15, 16, 17, 18, 19, 20, 21, 22]
+Account_possition_TO_list = [28, 1, 2, 5, 29, 30, 31, 32, 3, 4, 12, 13, 14, 6, 15, 10, 11, 7, 8, 9, 24, 25, 26, 27, 16, 17, 18, 19, 20, 21, 22, 23]
 Accounts_dict = {
     "Account": Account_list,
     "Account_Type": Account_Type_list,
@@ -314,11 +340,7 @@ Category_df["BlueCoin_Sub_Category"] = Category_df["BlueCoin_Sub_Category"].appl
 Category_df["Note"] = Category_df["Note"].apply(BlueCoin_delete_df_text)
 
 # --------------------------------- Main ---------------------------------#
-Year_to_Process = 2020
-From_File_Name = f"{Year_to_Process}_transactions_list"
-To_File_Name = f"{Year_to_Process}_transactions_list_process"
-Replace_signs_in_file(From_File_Name, To_File_Name)
-BlueCoins_df = pandas.read_csv(filepath_or_buffer=f"./Data/{To_File_Name}.csv", sep=";", header=0)
+BlueCoins_df = pandas.read_csv(filepath_or_buffer=f"./Data/Translated/{To_File_Name}.csv", sep=";", header=0)
 BlueCoins_df["Notes"] = BlueCoins_df["Notes"].apply(BlueCoin_delete_df_text)
 BlueCoins_df["Labels"] = BlueCoins_df["Labels"].apply(BlueCoin_delete_df_text)
 BlueCoins_df["Title"] = BlueCoins_df["Title"].apply(BlueCoin_delete_df_text)
@@ -349,7 +371,7 @@ del Pujcky_mask_1, Pujcky_mask_2
 Income_Expense_df["Labels"] = Income_Expense_df["Labels"].apply(BlueCoin_create_labels)
 Transfers_df["Labels"] = Transfers_df["Labels"].apply(BlueCoin_create_labels)
 Pujcky_df["Labels"] = Pujcky_df["Labels"].apply(BlueCoin_create_labels)
-Pujcky_df.to_csv(path_or_buf=f"{Year_to_Process}_Wallet_Pujcky_df.csv", sep=";", index=False)
+Pujcky_df.to_csv(path_or_buf=f"./Data/Dataframes/{Year_to_Process}_Wallet_Pujcky_df.csv", sep=";", index=False)
 
 # ----------------- Wallet -----------------#
 # DF - Income / Expense
@@ -431,7 +453,7 @@ Wallet_Income_Expense_df["Payment_Status"] = Wallet_Income_Expense_df["Status"].
 Wallet_Income_Expense_df["Place"] = ""
 Wallet_Income_Expense_df.drop(labels=["Set Time", "Title", "Category Group Name", "Category", "Status"], inplace=True, axis=1)
 Wallet_Income_Expense_df.sort_values(by=["Date", "Time"], inplace=True, ascending=True)
-Wallet_Income_Expense_df.to_csv(path_or_buf=f"{Year_to_Process}_Wallet_Income_Expense_df.csv", sep=";", index=False, columns=["Type","Date","Time","Account","Amount","Amount_LCY","Currency","Category_1","Category_2","Category_3","Payee","Payment_type","Payment_Status","Labels","Notes"])
+Wallet_Income_Expense_df.to_csv(path_or_buf=f"./Data/Dataframes/{Year_to_Process}_Wallet_Income_Expense_df.csv", sep=";", index=False, columns=["Type","Date","Time","Account","Amount","Amount_LCY","Currency","Category_1","Category_2","Category_3","Payee","Payment_type","Payment_Status","Labels","Notes"])
 
 # DF - Transferes
 Wallet_Transfers_df = Transfers_df 
@@ -491,311 +513,328 @@ Wallet_Transfers_df["Place"] = ""
 
 Wallet_Transfers_df.drop(labels=["Amount", "Currency", "Category Group Name", "Category", "Status", "Exchange Rate", "Title", "Account", "Set Time"], inplace=True, axis=1)
 Wallet_Transfers_df.sort_values(by=["Date", "Time"], inplace=True, ascending=True)
-Wallet_Transfers_df.to_csv(path_or_buf=f"{Year_to_Process}_Wallet_Transfers_df.csv", sep=";", index=False, columns=["Type","Date","Time","From_Account","To_Account","From_Amount","From_Amount_LCY","To_Amount","To_Amount_LCY","From_Currency","To_Currency","Payment_type","Payment_Status","Labels","Notes"])
+Wallet_Transfers_df.to_csv(path_or_buf=f"./Data/Dataframes/{Year_to_Process}_Wallet_Transfers_df.csv", sep=";", index=False, columns=["Type","Date","Time","From_Account","To_Account","From_Amount","From_Amount_LCY","To_Amount","To_Amount_LCY","From_Currency","To_Currency","Payment_type","Payment_Status","Labels","Notes"])
 
 # Web App
 time.sleep(5)
-for row in Wallet_Income_Expense_df.iterrows():
-    row_df = pandas.Series(data=row[1])
+Cycle_Counter = 0
+if Data_to_WEB_Process == "Income_Expense" or Data_to_WEB_Process == "Both":
+    for row in Wallet_Income_Expense_df.iterrows():
+        row_df = pandas.Series(data=row[1])
 
-    # New Record
-    mouse_move(pyautogui, time, 0.25, New_record_button_possition)
-    mouse_clic(pyautogui, time, 0.1)
-
-    # Type:
-    if row_df["Type"] == "Expense":
-        mouse_move(pyautogui, time, 0.25, Expense_button_possition)
+        # New Record
+        mouse_move(pyautogui, time, 0.25, New_record_button_possition)
         mouse_clic(pyautogui, time, 0.1)
-    elif row_df["Type"] == "Income":
-        mouse_move(pyautogui, time, 0.25, Income_button_possition)
-        mouse_clic(pyautogui, time, 0.1)
-    else:
-        Log_file_Errors_write(row_df, "Type is not Expense or Income")
-    
-    # Account
-    Account_index = Accounts_df[Accounts_df["Account"] == row_df["Account"]].index
-    Account_pos = int(Accounts_df.iloc[Account_index]["Account_Possition"].values[0])
-    mouse_move(pyautogui, time, 0.25, Account_possition)
-    mouse_clic(pyautogui, time, 0.1)
-    for i in range(Account_pos):
-        press_one_key(pyautogui, time, 0.1, "down")
-    press_one_key(pyautogui, time, 0.25, "enter")
-    press_one_key(pyautogui, time, 0.1, "tab")
 
-    # Amount
-    Account_Type = str(Accounts_df.iloc[Account_index]["Account_Type"].values[0])
-    if Account_Type == "Bank":
-        if Expense_Income_Method == "CZK":
-            if  row_df["Currency"] != "CZK":
-                write_text(pyautogui, time, 0.1, str(row_df["Amount_LCY"]))
-            else:
-                write_text(pyautogui, time, 0.1, str(row_df["Amount"]))
-        elif Expense_Income_Method == "Original":
-            write_text(pyautogui, time, 0.1, str(row_df["Amount"]))
+        # Type:
+        if row_df["Type"] == "Expense":
+            mouse_move(pyautogui, time, 0.25, Expense_button_possition)
+            mouse_clic(pyautogui, time, 0.1)
+        elif row_df["Type"] == "Income":
+            mouse_move(pyautogui, time, 0.25, Income_button_possition)
+            mouse_clic(pyautogui, time, 0.1)
         else:
-            Log_file_Errors_write(row_df, "Amount cannot be set becaue Currency Method setup do not exists")   
-    else:
-        write_text(pyautogui, time, 0.1, str(row_df["Amount"]))
-
-    # Currency   
-    if Account_Type == "Bank":
-        mouse_move(pyautogui, time, 0.25, Currency_possition)
-        mouse_clic(pyautogui, time, 0.1)
-        if Expense_Income_Method == "CZK":
-            Currency_index = Currency_df[Currency_df["Currency"] == "CZK"].index
-            Currency_pos = int(Currency_df.iloc[Currency_index]["Currency_Posstion"].values[0])
-            Currency_possition2 = 540 + Currency_line_height * Currency_pos
-        elif Expense_Income_Method == "Original":
-            Currency_index = Currency_df[Currency_df["Currency"] == row_df["Currency"]].index
-            Currency_pos = int(Currency_df.iloc[Currency_index]["Currency_Posstion"].values[0])
-            Currency_possition2 = 540 + Currency_line_height * Currency_pos
-        else:
-            Log_file_Errors_write(row_df, "Currency cannot be set becaue Currency Method setup do not exists")
-        mouse_move(pyautogui, time, 0.25, (850, Currency_possition2))
-        mouse_clic(pyautogui, time, 0.1)
-    else:
-        pass
+            Log_file_Errors_write(row_df, "Type is not Expense or Income")
         
-    # Category
-    mouse_move(pyautogui, time, 0.25, Category_Search_possition)
-    mouse_clic(pyautogui, time, 0.1)
-    mouse_clic(pyautogui, time, 0.1)
-    if str(row_df["Category_3"]) != "":
-        write_text(pyautogui, time, 0.1, Replace_diacritic(str(row_df["Category_3"])))
-    elif str(row_df["Category_2"]) != "":
-        write_text(pyautogui, time, 0.1, Replace_diacritic(str(row_df["Category_2"])))
-    elif str(row_df["Category_1"]) != "":
-        write_text(pyautogui, time, 0.1, Replace_diacritic(str(row_df["Category_1"])))
-    else:
-        pyautogui.alert(text='Record with empty Category', title='Allert - stop running', button='OK')
-    mouse_move(pyautogui, time, 0.25, Category_First_line)
-    mouse_clic(pyautogui, time, 0.1)
-    press_one_key(pyautogui, time, 0.1, "tab")
-    press_one_key(pyautogui, time, 0.1, "tab")
+        # Account
+        Account_index = Accounts_df[Accounts_df["Account"] == row_df["Account"]].index
+        Account_pos = int(Accounts_df.iloc[Account_index]["Account_Possition"].values[0])
+        mouse_move(pyautogui, time, 0.25, Account_possition)
+        mouse_clic(pyautogui, time, 0.1)
+        for i in range(Account_pos):
+            press_one_key(pyautogui, time, 0.1, "down")
+        press_one_key(pyautogui, time, 0.25, "enter")
+        press_one_key(pyautogui, time, 0.1, "tab")
 
-    # Date
-    Calendar_direct_write(pyautogui, row_df["Date"], datetime, time)
-    press_one_key(pyautogui, time, 0.1, "tab")
-
-    # Time
-    Time_Set_correct(pyautogui, row_df["Time"], time, 0.5, Time_First_line)
-
-    # Payee
-    mouse_move(pyautogui, time, 0.25, Payee_possition)
-    mouse_clic(pyautogui, time, 0.1)
-    pyperclip.copy(str(row_df["Payee"]))
-    pyautogui.hotkey("ctrl", "v")
-    press_one_key(pyautogui, time, 0.1, "tab")
-
-    # Note
-    if row_df["Currency"] != "CZK":
+        # Amount
+        Account_Type = str(Accounts_df.iloc[Account_index]["Account_Type"].values[0])
         if Account_Type == "Bank":
             if Expense_Income_Method == "CZK":
-                write_text(pyautogui, time, 0.1, str(f"""{row_df["Currency"]}: {row_df["Amount"]},"""))     # Original transaction currency and amount
+                if  row_df["Currency"] != "CZK":
+                    write_text(pyautogui, time, 0.1, str(row_df["Amount_LCY"]))
+                else:
+                    write_text(pyautogui, time, 0.1, str(row_df["Amount"]))
             elif Expense_Income_Method == "Original":
-                write_text(pyautogui, time, 0.1, str(f"""CZK: {row_df["Amount_LCY"]},"""))                  # Transaction Currency = CZK and Amount recallculated to CZK
+                write_text(pyautogui, time, 0.1, str(row_df["Amount"]))
             else:
-                Log_file_Errors_write(row_df, "Note cannot be set becaue Currency Method setup do not exists")
+                Log_file_Errors_write(row_df, "Amount cannot be set becaue Currency Method setup do not exists")   
         else:
-            write_text(pyautogui, time, 0.1, str(f"""CZK: {row_df["Amount_LCY"]},"""))                      # Transaction Currency = CZK and Amount recallculated to CZK
-        press_one_key(pyautogui, time, 0.25, "enter")
-    else:
-        pass
-    if str(row_df["Notes"]) != "":
-        pyperclip.copy(str(row_df["Notes"]))
-        pyautogui.hotkey("ctrl", "v")
-    else:
-        pass
-    press_one_key(pyautogui, time, 0.1, "tab")
+            write_text(pyautogui, time, 0.1, str(row_df["Amount"]))
 
-    # Payment Type
-    Payment_Type_index = Payment_Type_df[Payment_Type_df["Payment_Type"] == str(row_df["Payment_type"])].index
-    Payment_Type_pos = int(Payment_Type_df.iloc[Payment_Type_index]["Payment_Type_Possition"].values[0])
-    for i in range(Payment_Type_pos):
-        press_one_key(pyautogui, time, 0.1, "down")
-    press_one_key(pyautogui, time, 0.25, "enter")
-    press_one_key(pyautogui, time, 0.1, "tab")
-    
-    # Payment Status
-    Payment_Status_index = Payment_Status_df[Payment_Status_df["Payment_Status"] == str(row_df["Payment_Status"])].index
-    Payment_Status_pos = int(Payment_Status_df.iloc[Payment_Status_index]["Payment_Status_Possition"].values[0])
-    for i in range(Payment_Status_pos):
-        press_one_key(pyautogui, time, 0.1, "down")
-    press_one_key(pyautogui, time, 0.25, "enter")
-
-    # Labels
-    if str(row_df["Labels"]) != "[]":
-        # Return to Labels --> beucase if there is a lot of them then it change measurements of page
-        mouse_move(pyautogui, time, 0.25, Labels_Search_possition)
-        mouse_clic(pyautogui, time, 0.1)
-
-        # Write Labels
-        labels_text = Replace_diacritic(str(row_df["Labels"]))
-        labels = Wallet_Labels_List(labels_text)
-        for label in labels:
-            write_text(pyautogui, time, 0.1, label)
-            press_one_key(pyautogui, time, 0.25, "enter")
-
-        # Record Transaction
-        for i in range(3):
-            press_one_key(pyautogui, time, 0.1, "tab")
-        press_one_key(pyautogui, time, 0.25, "enter")
-    else:
-        # Record Transaction
-        mouse_move(pyautogui, time, 0.25, Add_record)
-        mouse_clic(pyautogui, time, 0.1)
-
-
-for row in Wallet_Transfers_df.iterrows():
-    row_df = pandas.Series(data=row[1])
-
-    # New Record
-    mouse_move(pyautogui, time, 0.25, New_record_button_possition)
-    mouse_clic(pyautogui, time, 0.1)
-
-    if row_df["Type"] == "Transfer":
-        mouse_move(pyautogui, time, 0.25, Transfer_button_possition)
-        mouse_clic(pyautogui, time, 0.1)
-    else:
-        Log_file_Errors_write(row_df, "Type is not Transfer")
-
-    # From
-    # From Account
-    From_Account_index = Accounts_df[Accounts_df["Account"] == row_df["From_Account"]].index
-    From_Account_pos = int(Accounts_df.iloc[From_Account_index]["Account_possition_From_list"].values[0])
-    mouse_move(pyautogui, time, 0.25, Trasnfer_From_Account)
-    mouse_clic(pyautogui, time, 0.1)
-    for i in range(From_Account_pos):
-        press_one_key(pyautogui, time, 0.1, "down")
-    press_one_key(pyautogui, time, 0.25, "enter")
-    press_one_key(pyautogui, time, 0.1, "tab")
-
-    # From Amount
-    From_Account_Type = str(Accounts_df.iloc[From_Account_index]["Account_Type"].values[0])
-    if From_Account_Type == "Bank":
-        if Transfer_Method == "CZK":
-            if  row_df["From_Currency"] != "CZK":
-                write_text(pyautogui, time, 0.1, str(row_df["From_Amount_LCY"]))
+        # Currency   
+        if Account_Type == "Bank":
+            mouse_move(pyautogui, time, 0.25, Currency_possition)
+            mouse_clic(pyautogui, time, 0.1)
+            if Expense_Income_Method == "CZK":
+                Currency_index = Currency_df[Currency_df["Currency"] == "CZK"].index
+                Currency_pos = int(Currency_df.iloc[Currency_index]["Currency_Posstion"].values[0])
+                Currency_possition2 = 540 + Currency_line_height * Currency_pos
+            elif Expense_Income_Method == "Original":
+                Currency_index = Currency_df[Currency_df["Currency"] == row_df["Currency"]].index
+                Currency_pos = int(Currency_df.iloc[Currency_index]["Currency_Posstion"].values[0])
+                Currency_possition2 = 540 + Currency_line_height * Currency_pos
             else:
+                Log_file_Errors_write(row_df, "Currency cannot be set becaue Currency Method setup do not exists")
+            mouse_move(pyautogui, time, 0.25, (850, Currency_possition2))
+            mouse_clic(pyautogui, time, 0.1)
+        else:
+            pass
+            
+        # Category
+        mouse_move(pyautogui, time, 0.25, Category_Search_possition)
+        mouse_clic(pyautogui, time, 0.1)
+        mouse_clic(pyautogui, time, 0.1)
+        if str(row_df["Category_3"]) != "":
+            write_text(pyautogui, time, 0.1, Replace_diacritic(str(row_df["Category_3"])))
+        elif str(row_df["Category_2"]) != "":
+            write_text(pyautogui, time, 0.1, Replace_diacritic(str(row_df["Category_2"])))
+        elif str(row_df["Category_1"]) != "":
+            write_text(pyautogui, time, 0.1, Replace_diacritic(str(row_df["Category_1"])))
+        else:
+            pyautogui.alert(text='Record with empty Category', title='Allert - stop running', button='OK')
+        mouse_move(pyautogui, time, 0.25, Category_First_line)
+        mouse_clic(pyautogui, time, 0.1)
+        press_one_key(pyautogui, time, 0.1, "tab")
+        press_one_key(pyautogui, time, 0.1, "tab")
+
+        # Date
+        Calendar_direct_write(pyautogui, row_df["Date"], datetime, time)
+        press_one_key(pyautogui, time, 0.1, "tab")
+
+        # Time
+        Time_Set_correct(pyautogui, row_df["Time"], time, 0.5, Time_First_line)
+
+        # Payee
+        mouse_move(pyautogui, time, 0.25, Payee_possition)
+        mouse_clic(pyautogui, time, 0.1)
+        pyperclip.copy(str(row_df["Payee"]))
+        pyautogui.hotkey("ctrl", "v")
+        press_one_key(pyautogui, time, 0.1, "tab")
+
+        # Note
+        if row_df["Currency"] != "CZK":
+            if Account_Type == "Bank":
+                if Expense_Income_Method == "CZK":
+                    write_text(pyautogui, time, 0.1, str(f"""{row_df["Currency"]}: {row_df["Amount"]},"""))     # Original transaction currency and amount
+                elif Expense_Income_Method == "Original":
+                    write_text(pyautogui, time, 0.1, str(f"""CZK: {row_df["Amount_LCY"]},"""))                  # Transaction Currency = CZK and Amount recallculated to CZK
+                else:
+                    Log_file_Errors_write(row_df, "Note cannot be set becaue Currency Method setup do not exists")
+            else:
+                write_text(pyautogui, time, 0.1, str(f"""CZK: {row_df["Amount_LCY"]},"""))                      # Transaction Currency = CZK and Amount recallculated to CZK
+            press_one_key(pyautogui, time, 0.25, "enter")
+        else:
+            pass
+        if str(row_df["Notes"]) != "":
+            pyperclip.copy(str(row_df["Notes"]))
+            pyautogui.hotkey("ctrl", "v")
+        else:
+            pass
+        press_one_key(pyautogui, time, 0.1, "tab")
+
+        # Payment Type
+        Payment_Type_index = Payment_Type_df[Payment_Type_df["Payment_Type"] == str(row_df["Payment_type"])].index
+        Payment_Type_pos = int(Payment_Type_df.iloc[Payment_Type_index]["Payment_Type_Possition"].values[0])
+        for i in range(Payment_Type_pos):
+            press_one_key(pyautogui, time, 0.1, "down")
+        press_one_key(pyautogui, time, 0.25, "enter")
+        press_one_key(pyautogui, time, 0.1, "tab")
+        
+        # Payment Status
+        Payment_Status_index = Payment_Status_df[Payment_Status_df["Payment_Status"] == str(row_df["Payment_Status"])].index
+        Payment_Status_pos = int(Payment_Status_df.iloc[Payment_Status_index]["Payment_Status_Possition"].values[0])
+        for i in range(Payment_Status_pos):
+            press_one_key(pyautogui, time, 0.1, "down")
+        press_one_key(pyautogui, time, 0.25, "enter")
+
+        # Labels
+        if str(row_df["Labels"]) != "[]":
+            # Return to Labels --> beucase if there is a lot of them then it change measurements of page
+            mouse_move(pyautogui, time, 0.25, Labels_Search_possition)
+            mouse_clic(pyautogui, time, 0.1)
+
+            # Write Labels
+            labels_text = Replace_diacritic(str(row_df["Labels"]))
+            labels = Wallet_Labels_List(labels_text)
+            for label in labels:
+                write_text(pyautogui, time, 0.1, label)
+                press_one_key(pyautogui, time, 0.25, "enter")
+
+            # Record Transaction
+            for i in range(3):
+                press_one_key(pyautogui, time, 0.1, "tab")
+            press_one_key(pyautogui, time, 0.25, "enter")
+        else:
+            # Record Transaction
+            mouse_move(pyautogui, time, 0.25, Add_record)
+            mouse_clic(pyautogui, time, 0.1)
+
+        # Restart Web before another read
+        Cycle_Counter += 1
+        if Cycle_Counter == No_cycle_to_restar:
+            Restart_application(pyautogui, time, Cancel_cross, App_button)
+        else:
+            pass
+
+Cycle_Counter = 0
+if Data_to_WEB_Process == "Transfers" or Data_to_WEB_Process == "Both":
+    for row in Wallet_Transfers_df.iterrows():
+        row_df = pandas.Series(data=row[1])
+
+        # New Record
+        mouse_move(pyautogui, time, 0.25, New_record_button_possition)
+        mouse_clic(pyautogui, time, 0.1)
+
+        if row_df["Type"] == "Transfer":
+            mouse_move(pyautogui, time, 0.25, Transfer_button_possition)
+            mouse_clic(pyautogui, time, 0.1)
+        else:
+            Log_file_Errors_write(row_df, "Type is not Transfer")
+
+        # From
+        # From Account
+        From_Account_index = Accounts_df[Accounts_df["Account"] == row_df["From_Account"]].index
+        From_Account_pos = int(Accounts_df.iloc[From_Account_index]["Account_possition_From_list"].values[0])
+        mouse_move(pyautogui, time, 0.25, Trasnfer_From_Account)
+        mouse_clic(pyautogui, time, 0.1)
+        for i in range(From_Account_pos):
+            press_one_key(pyautogui, time, 0.1, "down")
+        press_one_key(pyautogui, time, 0.25, "enter")
+        press_one_key(pyautogui, time, 0.1, "tab")
+
+        # From Amount
+        From_Account_Type = str(Accounts_df.iloc[From_Account_index]["Account_Type"].values[0])
+        if From_Account_Type == "Bank":
+            if Transfer_Method == "CZK":
+                if  row_df["From_Currency"] != "CZK":
+                    write_text(pyautogui, time, 0.1, str(row_df["From_Amount_LCY"]))
+                else:
+                    write_text(pyautogui, time, 0.1, str(row_df["From_Amount"]))
+            elif Transfer_Method == "Original":
                 write_text(pyautogui, time, 0.1, str(row_df["From_Amount"]))
-        elif Transfer_Method == "Original":
+            else:
+                Log_file_Errors_write(row_df, "From Amount cannot be set becaue Currency Method setup do not exists")
+        else:
             write_text(pyautogui, time, 0.1, str(row_df["From_Amount"]))
+
+        # From_Currency   
+        if From_Account_Type == "Bank":
+            mouse_move(pyautogui, time, 0.25, Transfer_From_Currency)
+            mouse_clic(pyautogui, time, 0.1)
+            if Transfer_Method == "CZK":
+                From_Currency_index = Currency_df[Currency_df["Currency"] == "CZK"].index
+                From_Currency_pos = int(Currency_df.iloc[From_Currency_index]["Currency_Posstion"].values[0])
+                From_Currency_possition2 = 540 + Currency_line_height * From_Currency_pos
+            elif Transfer_Method == "Original":
+                From_Currency_index = Currency_df[Currency_df["Currency"] == row_df["From_Currency"]].index
+                From_Currency_pos = int(Currency_df.iloc[From_Currency_index]["Currency_Posstion"].values[0])
+                From_Currency_possition2 = 540 + Currency_line_height * From_Currency_pos
+            else:
+                Log_file_Errors_write(row_df, "From Currency cannot be set becaue Currency Method setup do not exists")
+            mouse_move(pyautogui, time, 0.25, (700, From_Currency_possition2))
+            mouse_clic(pyautogui, time, 0.1)
         else:
-            Log_file_Errors_write(row_df, "From Amount cannot be set becaue Currency Method setup do not exists")
-    else:
-        write_text(pyautogui, time, 0.1, str(row_df["From_Amount"]))
+            pass
 
-    # From_Currency   
-    if From_Account_Type == "Bank":
-        mouse_move(pyautogui, time, 0.25, Transfer_From_Currency)
+        # To
+        # To Account
+        To_Account_index = Accounts_df[Accounts_df["Account"] == row_df["To_Account"]].index
+        To_Account_pos = int(Accounts_df.iloc[To_Account_index]["Account_possition_TO_list"].values[0])
+        mouse_move(pyautogui, time, 0.25, Trasnfer_To_Account)
         mouse_clic(pyautogui, time, 0.1)
-        if Transfer_Method == "CZK":
-            From_Currency_index = Currency_df[Currency_df["Currency"] == "CZK"].index
-            From_Currency_pos = int(Currency_df.iloc[From_Currency_index]["Currency_Posstion"].values[0])
-            From_Currency_possition2 = 540 + Currency_line_height * From_Currency_pos
-        elif Transfer_Method == "Original":
-            From_Currency_index = Currency_df[Currency_df["Currency"] == row_df["From_Currency"]].index
-            From_Currency_pos = int(Currency_df.iloc[From_Currency_index]["Currency_Posstion"].values[0])
-            From_Currency_possition2 = 540 + Currency_line_height * From_Currency_pos
-        else:
-            Log_file_Errors_write(row_df, "From Currency cannot be set becaue Currency Method setup do not exists")
-        mouse_move(pyautogui, time, 0.25, (700, From_Currency_possition2))
-        mouse_clic(pyautogui, time, 0.1)
-    else:
-        pass
-
-    # To
-    # To Account
-    To_Account_index = Accounts_df[Accounts_df["Account"] == row_df["To_Account"]].index
-    To_Account_pos = int(Accounts_df.iloc[To_Account_index]["Account_possition_TO_list"].values[0])
-    mouse_move(pyautogui, time, 0.25, Trasnfer_To_Account)
-    mouse_clic(pyautogui, time, 0.1)
-    for i in range(To_Account_pos):
-        press_one_key(pyautogui, time, 0.1, "down")
-    press_one_key(pyautogui, time, 0.25, "enter")
-
-    # To Currency
-    To_Account_Type = str(Accounts_df.iloc[To_Account_index]["Account_Type"].values[0])
-    if To_Account_Type == "Bank":
-        mouse_move(pyautogui, time, 0.25, Transfer_To_Currency)
-        mouse_clic(pyautogui, time, 0.1)
-        if Transfer_Method == "CZK":
-            To_Currency_index = Currency_df[Currency_df["Currency"] == "CZK"].index
-            To_Currency_pos = int(Currency_df.iloc[To_Currency_index]["Currency_Posstion"].values[0])
-            To_Currency_possition2 = 540 + Currency_line_height * To_Currency_pos
-        elif Transfer_Method == "Original":
-            To_Currency_index = Currency_df[Currency_df["Currency"] ==  row_df["To_Currency"]].index
-            To_Currency_pos = int(Currency_df.iloc[To_Currency_index]["Currency_Posstion"].values[0])
-            To_Currency_possition2 = 540 + Currency_line_height * To_Currency_pos
-        else:
-            Log_file_Errors_write(row_df, "To Currency cannot be set becaue Currency Method setup do not exists")
-        mouse_move(pyautogui, time, 0.25, (980, To_Currency_possition2))
-        mouse_clic(pyautogui, time, 0.1)
-    else:
-        pass
-
-    # Date
-    mouse_move(pyautogui, time, 0.25, Callendar_date)
-    mouse_clic(pyautogui, time, 0.1)
-    Calendar_direct_write(pyautogui, row_df["Date"], datetime, time)
-    press_one_key(pyautogui, time, 0.1, "tab")
-
-    # Time
-    Time_Set_correct(pyautogui, row_df["Time"], time, 0.5, Time_First_line)
-    
-    # Notes
-    mouse_move(pyautogui, time, 0.25, Note_possition)
-    mouse_clic(pyautogui, time, 0.1)
-    if (row_df["From_Currency"] != "CZK") or (row_df["To_Currency"] != "CZK"):
-        write_text(pyautogui, time, 0.1, str(f"""{row_df["From_Currency"]}: {row_df["From_Amount"]} = CZK: {row_df["From_Amount_LCY"]}, """))       # Original From Currency and From Amount + recallculation to CZK
+        for i in range(To_Account_pos):
+            press_one_key(pyautogui, time, 0.1, "down")
         press_one_key(pyautogui, time, 0.25, "enter")
 
-        write_text(pyautogui, time, 0.1, str(f"""{row_df["To_Currency"]}: {row_df["To_Amount"]} = CZK: {row_df["To_Amount_LCY"]}, """))             # Original To Currency and To Amount + recallculation to CZK
-        press_one_key(pyautogui, time, 0.25, "enter")
-    else:
-        pass
-    if str(row_df["Notes"]) != "":
-        pyperclip.copy(str(row_df["Notes"]))
-        pyautogui.hotkey("ctrl", "v")
-    else:
-        pass
-    press_one_key(pyautogui, time, 0.1, "tab")
+        # To Currency
+        To_Account_Type = str(Accounts_df.iloc[To_Account_index]["Account_Type"].values[0])
+        if To_Account_Type == "Bank":
+            mouse_move(pyautogui, time, 0.25, Transfer_To_Currency)
+            mouse_clic(pyautogui, time, 0.1)
+            if Transfer_Method == "CZK":
+                To_Currency_index = Currency_df[Currency_df["Currency"] == "CZK"].index
+                To_Currency_pos = int(Currency_df.iloc[To_Currency_index]["Currency_Posstion"].values[0])
+                To_Currency_possition2 = 540 + Currency_line_height * To_Currency_pos
+            elif Transfer_Method == "Original":
+                To_Currency_index = Currency_df[Currency_df["Currency"] ==  row_df["To_Currency"]].index
+                To_Currency_pos = int(Currency_df.iloc[To_Currency_index]["Currency_Posstion"].values[0])
+                To_Currency_possition2 = 540 + Currency_line_height * To_Currency_pos
+            else:
+                Log_file_Errors_write(row_df, "To Currency cannot be set becaue Currency Method setup do not exists")
+            mouse_move(pyautogui, time, 0.25, (980, To_Currency_possition2))
+            mouse_clic(pyautogui, time, 0.1)
+        else:
+            pass
 
-    # Payment Type -> Always Transfer
-    Payment_Type_index = Payment_Type_df[Payment_Type_df["Payment_Type"] == "Transfer"].index
-    Payment_Type_pos = int(Payment_Type_df.iloc[Payment_Type_index]["Payment_Type_Possition"].values[0])
-    for i in range(Payment_Type_pos):
-        press_one_key(pyautogui, time, 0.1, "down")
-    press_one_key(pyautogui, time, 0.25, "enter")
-    press_one_key(pyautogui, time, 0.1, "tab")
-
-    # Payment Status
-    Payment_Status_index = Payment_Status_df[Payment_Status_df["Payment_Status"] == str(row_df["Payment_Status"])].index
-    Payment_Status_pos = int(Payment_Status_df.iloc[Payment_Status_index]["Payment_Status_Possition"].values[0])
-    for i in range(Payment_Status_pos):
-        press_one_key(pyautogui, time, 0.1, "down")
-    press_one_key(pyautogui, time, 0.25, "enter")
-
-    # Labels
-    if str(row_df["Labels"]) != "[]":
-        # Return to Labels --> beucase if there is a lot of them then it change measurements of page
-        mouse_move(pyautogui, time, 0.25, Labels_Search_possition)
+        # Date
+        mouse_move(pyautogui, time, 0.25, Callendar_date)
         mouse_clic(pyautogui, time, 0.1)
+        Calendar_direct_write(pyautogui, row_df["Date"], datetime, time)
+        press_one_key(pyautogui, time, 0.1, "tab")
 
-        # Write Labels
-        labels_text = Replace_diacritic(str(row_df["Labels"]))
-        labels = Wallet_Labels_List(labels_text)
-        for label in labels:
-            write_text(pyautogui, time, 0.1, label)
+        # Time
+        Time_Set_correct(pyautogui, row_df["Time"], time, 0.5, Time_First_line)
+        
+        # Notes
+        mouse_move(pyautogui, time, 0.25, Note_possition)
+        mouse_clic(pyautogui, time, 0.1)
+        if (row_df["From_Currency"] != "CZK") or (row_df["To_Currency"] != "CZK"):
+            write_text(pyautogui, time, 0.1, str(f"""{row_df["From_Currency"]}: {row_df["From_Amount"]} = CZK: {row_df["From_Amount_LCY"]}, """))       # Original From Currency and From Amount + recallculation to CZK
             press_one_key(pyautogui, time, 0.25, "enter")
 
-        # Record Transaction
-        for i in range(3):
-            press_one_key(pyautogui, time, 0.1, "tab")
+            write_text(pyautogui, time, 0.1, str(f"""{row_df["To_Currency"]}: {row_df["To_Amount"]} = CZK: {row_df["To_Amount_LCY"]}, """))             # Original To Currency and To Amount + recallculation to CZK
+            press_one_key(pyautogui, time, 0.25, "enter")
+        else:
+            pass
+        if str(row_df["Notes"]) != "":
+            pyperclip.copy(str(row_df["Notes"]))
+            pyautogui.hotkey("ctrl", "v")
+        else:
+            pass
+        press_one_key(pyautogui, time, 0.1, "tab")
+
+        # Payment Type -> Always Transfer
+        Payment_Type_index = Payment_Type_df[Payment_Type_df["Payment_Type"] == "Transfer"].index
+        Payment_Type_pos = int(Payment_Type_df.iloc[Payment_Type_index]["Payment_Type_Possition"].values[0])
+        for i in range(Payment_Type_pos):
+            press_one_key(pyautogui, time, 0.1, "down")
         press_one_key(pyautogui, time, 0.25, "enter")
-    else:
-        # Record Transaction
-        mouse_move(pyautogui, time, 0.25, Add_record)
-        mouse_clic(pyautogui, time, 0.1)
+        press_one_key(pyautogui, time, 0.1, "tab")
+
+        # Payment Status
+        Payment_Status_index = Payment_Status_df[Payment_Status_df["Payment_Status"] == str(row_df["Payment_Status"])].index
+        Payment_Status_pos = int(Payment_Status_df.iloc[Payment_Status_index]["Payment_Status_Possition"].values[0])
+        for i in range(Payment_Status_pos):
+            press_one_key(pyautogui, time, 0.1, "down")
+        press_one_key(pyautogui, time, 0.25, "enter")
+
+        # Labels
+        if str(row_df["Labels"]) != "[]":
+            # Return to Labels --> beucase if there is a lot of them then it change measurements of page
+            mouse_move(pyautogui, time, 0.25, Labels_Search_possition)
+            mouse_clic(pyautogui, time, 0.1)
+
+            # Write Labels
+            labels_text = Replace_diacritic(str(row_df["Labels"]))
+            labels = Wallet_Labels_List(labels_text)
+            for label in labels:
+                write_text(pyautogui, time, 0.1, label)
+                press_one_key(pyautogui, time, 0.25, "enter")
+
+            # Record Transaction
+            for i in range(3):
+                press_one_key(pyautogui, time, 0.1, "tab")
+            press_one_key(pyautogui, time, 0.25, "enter")
+        else:
+            # Record Transaction
+            mouse_move(pyautogui, time, 0.25, Add_record)
+            mouse_clic(pyautogui, time, 0.1)
+        
+        # Restart Web before another read
+        Cycle_Counter += 1
+        if Cycle_Counter == No_cycle_to_restar:
+            Restart_application(pyautogui, time, Cancel_cross, App_button)
+        else:
+            pass
 
 print("Finished")

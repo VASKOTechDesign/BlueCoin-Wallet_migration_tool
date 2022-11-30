@@ -1,0 +1,368 @@
+﻿Type;Date;Set Time;Title;Amount;Currency;Exchange Rate;Category Group Name;Category;Account;Notes;Labels;Status
+Expense;2016-12-31 07:00:51;07:00;Modra Pyramida;-25.00;CZK;1.0000000000;Bankovni operace - vydaje;Poplatek za oznameni;KB - Stavební spoření - úvěr 2;;;Reconciled
+Expense;2016-12-31 07:00:51;07:00;Stat;-1.32;CZK;1.0000000000;Dane a clo;Dan z uroku z vkladu;KB - Stavební spoření - úvěr 2;;;Reconciled
+Income;2016-12-31 07:00:51;07:00;Modra Pyramida;8.78;CZK;1.0000000000;Bankovni operace - prijmy;Urok;KB - Stavební spoření - úvěr 2;Urok z vkladu;;Reconciled
+Expense;2016-12-31 00:00:00;00:00;Albert;-200.00;CZK;1.0000000000;Nakup;Potraviny;Stravenky;;;Reconciled
+Expense;2016-12-31 00:00:00;00:00;Fastfood - no name;-160.00;CZK;1.0000000000;Obcerstveni;Fastfood;CZK;;;Reconciled
+Expense;2016-12-31 00:00:00;00:00;Komercni Banka;-159.00;CZK;1.0000000000;Bankovni operace - vydaje;Poplatek za vyber z bankomatu;KB - Personal - účet;;;Reconciled
+Expense;2016-12-31 00:00:00;00:00;Albert;-129.00;CZK;1.0000000000;Nakup;Drogerie, Hyg. potreby;CZK;;;Reconciled
+Expense;2016-12-31 00:00:00;00:00;Komercni Banka;-68.00;CZK;1.0000000000;Bankovni operace - vydaje;Poplatek za vedeni uctu;KB - Personal - účet;;;Reconciled
+Expense;2016-12-31 00:00:00;00:00;Komercni Banka;-39.00;CZK;1.0000000000;Bankovni operace - vydaje;Poplatek za transakce;KB - Personal - účet;;;Reconciled
+Transfer;2016-12-30 00:00:00;00:00;;-500.00;CZK;1.0000000000;(Transfer);(Transfer);KB - Personal - účet;;;Reconciled
+Transfer;2016-12-30 00:00:00;00:00;;500.00;CZK;1.0000000000;(Transfer);(Transfer);CZK;;;Reconciled
+Transfer;2016-12-30 00:00:00;00:00;;-500.00;CZK;1.0000000000;(Transfer);(Transfer);KB - Personal - účet;;;Reconciled
+Transfer;2016-12-30 00:00:00;00:00;;500.00;CZK;1.0000000000;(Transfer);(Transfer);CZK;;;Reconciled
+Expense;2016-12-30 00:00:00;00:00;Hornbach;-314.00;CZK;1.0000000000;Nakup;Bydleni, accesories;KB - Personal - účet;;Byt - Těsná;Reconciled
+Expense;2016-12-30 00:00:00;00:00;H&M;-300.00;CZK;1.0000000000;Nakup;Obleceni;CZK;;;Reconciled
+Expense;2016-12-30 00:00:00;00:00;Fitko- Pruvan;-135.00;CZK;1.0000000000;Sport;Fitko;CZK;;;Reconciled
+Expense;2016-12-30 00:00:00;00:00;Savoy;-80.00;CZK;1.0000000000;Zabava;Party;CZK;;;Reconciled
+Expense;2016-12-30 00:00:00;00:00;Fastfood - no name;-60.00;CZK;1.0000000000;Obcerstveni;Fastfood;CZK;;;Reconciled
+Expense;2016-12-30 00:00:00;00:00;Brno;-40.00;CZK;1.0000000000;Doprava;MHD;CZK;;;Reconciled
+Expense;2016-12-30 00:00:00;00:00;Brno;-40.00;CZK;1.0000000000;Doprava;MHD;KB - Personal - účet;;;Reconciled
+Expense;2016-12-30 00:00:00;00:00;Okay Market;-35.00;CZK;1.0000000000;Obcerstveni;Fastfood;CZK;;;Reconciled
+Expense;2016-12-30 00:00:00;00:00;Trafika;-19.16;CZK;1.0000000000;Nakup;Drogerie, Hyg. potreby;KB - Personal - účet;;;Reconciled
+Expense;2016-12-29 00:00:00;00:00;Alza;-830.00;CZK;1.0000000000;Nakup;Elektronika;KB - Personal - účet;;;Reconciled
+Expense;2016-12-29 00:00:00;00:00;Pull&Bear;-798.00;CZK;1.0000000000;Nakup;Obleceni;KB - Personal - účet;;;Reconciled
+Expense;2016-12-29 00:00:00;00:00;Alza;-649.00;CZK;1.0000000000;Nakup;Elektronika;KB - Personal - účet;;Byt - Těsná;Reconciled
+Expense;2016-12-29 00:00:00;00:00;Deichmann;-623.00;CZK;1.0000000000;Nakup;Shoes;KB - Personal - účet;;;Reconciled
+Expense;2016-12-29 00:00:00;00:00;H&M;-300.00;CZK;1.0000000000;Nakup;Obleceni;KB - Personal - účet;;;Reconciled
+Expense;2016-12-29 00:00:00;00:00;Cropp;-129.00;CZK;1.0000000000;Nakup;Obleceni;KB - Personal - účet;;;Reconciled
+Expense;2016-12-29 00:00:00;00:00;Charlie's street;-100.00;CZK;1.0000000000;Obcerstveni;Restaurace;CZK;;;Reconciled
+Expense;2016-12-29 00:00:00;00:00;Charlie's street;-50.00;CZK;1.0000000000;Obcerstveni;Restaurace;Stravenky;;;Reconciled
+Expense;2016-12-29 00:00:00;00:00;Hornbach;-35.00;CZK;1.0000000000;Nakup;Bydleni, accesories;CZK;;Byt - Těsná;Reconciled
+Expense;2016-12-29 00:00:00;00:00;Brno;-20.00;CZK;1.0000000000;Doprava;MHD;CZK;;;Reconciled
+Expense;2016-12-29 00:00:00;00:00;Brno;-20.00;CZK;1.0000000000;Doprava;MHD;CZK;;;Reconciled
+Expense;2016-12-28 00:00:00;00:00;Albert;-250.00;CZK;1.0000000000;Nakup;Potraviny;Stravenky;;;Reconciled
+Expense;2016-12-28 00:00:00;00:00;Hornbach;-243.21;CZK;1.0000000000;Nakup;Bydleni, accesories;KB - Personal - účet;;Byt - Těsná;Reconciled
+Expense;2016-12-28 00:00:00;00:00;Formanek Lukas;-200.00;CZK;1.0000000000;Financni sluzby;Dary;CZK;;;Reconciled
+Expense;2016-12-28 00:00:00;00:00;Savoy;-80.00;CZK;1.0000000000;Zabava;Party;CZK;;;Reconciled
+Expense;2016-12-28 00:00:00;00:00;Brno;-60.00;CZK;1.0000000000;Doprava;MHD;CZK;;;Reconciled
+Expense;2016-12-28 00:00:00;00:00;Albert;-60.00;CZK;1.0000000000;Nakup;Drogerie, Hyg. potreby;CZK;;;Reconciled
+Expense;2016-12-28 00:00:00;00:00;IQ Restaurant;-50.00;CZK;1.0000000000;Obcerstveni;Restaurace;Stravenky;;;Reconciled
+Expense;2016-12-28 00:00:00;00:00;IQ Restaurant;-45.00;CZK;1.0000000000;Obcerstveni;Restaurace;CZK;;;Reconciled
+Expense;2016-12-28 00:00:00;00:00;Fastfood - no name;-40.00;CZK;1.0000000000;Obcerstveni;Fastfood;CZK;;;Reconciled
+Expense;2016-12-28 00:00:00;00:00;Albert;-10.00;CZK;1.0000000000;Nakup;Potraviny;CZK;;;Reconciled
+Expense;2016-12-27 00:00:00;00:00;Fitko - Mismas;-150.00;CZK;1.0000000000;Sport;Fitko;CZK;;;Reconciled
+Expense;2016-12-27 00:00:00;00:00;Zivo u Palecka;-90.00;CZK;1.0000000000;Obcerstveni;Hospoda;CZK;;;Reconciled
+Transfer;2016-12-25 00:00:00;00:00;;-1000.00;CZK;1.0000000000;(Transfer);(Transfer);KB - Personal - účet;;;Reconciled
+Transfer;2016-12-25 00:00:00;00:00;;1000.00;CZK;1.0000000000;(Transfer);(Transfer);CZK;;;Reconciled
+Expense;2016-12-25 00:00:00;00:00;Mamca;-1000.00;CZK;1.0000000000;Financni sluzby;Dary;CZK;;;Reconciled
+Income;2016-12-25 00:00:00;00:00;Babicka;500.00;CZK;1.0000000000;Others;Dary;CZK;;;Reconciled
+Expense;2016-12-24 00:00:00;00:00;Aku-Shop;-290.00;CZK;1.0000000000;Nakup;Elektronika;KB - Personal - účet;;;Reconciled
+Transfer;2016-12-23 00:00:00;00:00;;-500.00;CZK;1.0000000000;(Transfer);(Transfer);KB - Personal - účet;;;Reconciled
+Transfer;2016-12-23 00:00:00;00:00;;500.00;CZK;1.0000000000;(Transfer);(Transfer);CZK;;;Reconciled
+Transfer;2016-12-23 00:00:00;00:00;;-500.00;CZK;1.0000000000;(Transfer);(Transfer);KB - Personal - účet;;;Reconciled
+Transfer;2016-12-23 00:00:00;00:00;;500.00;CZK;1.0000000000;(Transfer);(Transfer);CZK;;;Reconciled
+Expense;2016-12-23 00:00:00;00:00;Ceske Drahy;-250.00;CZK;1.0000000000;Doprava;Vlak;CZK;;;Reconciled
+Expense;2016-12-23 00:00:00;00:00;My Food;-62.00;CZK;1.0000000000;Prace;Svacina;CZK;;;Reconciled
+Expense;2016-12-23 00:00:00;00:00;Fastfood - no name;-60.00;CZK;1.0000000000;Obcerstveni;Fastfood;CZK;;;Reconciled
+Expense;2016-12-23 00:00:00;00:00;IQ Restaurant;-50.00;CZK;1.0000000000;Prace;Obed;Stravenky;;;Reconciled
+Expense;2016-12-23 00:00:00;00:00;CSAD - Usti Nad Orlici;-40.00;CZK;1.0000000000;Doprava;Autobus;CZK;;;Reconciled
+Expense;2016-12-23 00:00:00;00:00;IQ Restaurant;-40.00;CZK;1.0000000000;Prace;Obed;CZK;;;Reconciled
+Expense;2016-12-23 00:00:00;00:00;Brno;-20.00;CZK;1.0000000000;Doprava;MHD;CZK;;;Reconciled
+Transfer;2016-12-22 00:00:00;00:00;;-1000.00;CZK;1.0000000000;(Transfer);(Transfer);Trezor;;;Reconciled
+Transfer;2016-12-22 00:00:00;00:00;;1000.00;CZK;1.0000000000;(Transfer);(Transfer);CZK;;;Reconciled
+Expense;2016-12-22 00:00:00;00:00;Ostatni;-1400.00;CZK;1.0000000000;Sluzby;Ostatni;CZK;;;Reconciled
+Expense;2016-12-22 00:00:00;00:00;Albert;-290.00;CZK;1.0000000000;Nakup;Ostatni;CZK;;;Reconciled
+Expense;2016-12-22 00:00:00;00:00;MojeLekarna;-180.00;CZK;1.0000000000;Nakup;Leky;CZK;;;Reconciled
+Expense;2016-12-22 00:00:00;00:00;IQ Restaurant;-50.00;CZK;1.0000000000;Prace;Obed;CZK;;;Reconciled
+Expense;2016-12-22 00:00:00;00:00;Crocus;-50.00;CZK;1.0000000000;Prace;Svacina;CZK;;;Reconciled
+Expense;2016-12-22 00:00:00;00:00;IQ Restaurant;-50.00;CZK;1.0000000000;Prace;Obed;Stravenky;;;Reconciled
+Expense;2016-12-22 00:00:00;00:00;Brno;-40.00;CZK;1.0000000000;Zabava;Trhy, Streetfood ..;CZK;;;Reconciled
+Expense;2016-12-22 00:00:00;00:00;Brno;-20.00;CZK;1.0000000000;Doprava;MHD;CZK;;;Reconciled
+Transfer;2016-12-21 00:00:00;00:00;;-1000.00;CZK;1.0000000000;(Transfer);(Transfer);KB - Personal - účet;;;Reconciled
+Transfer;2016-12-21 00:00:00;00:00;;1000.00;CZK;1.0000000000;(Transfer);(Transfer);CZK;;;Reconciled
+Expense;2016-12-21 00:00:00;00:00;IQ Restaurant;-100.00;CZK;1.0000000000;Prace;Obed;Stravenky;;;Reconciled
+Expense;2016-12-21 00:00:00;00:00;Brno;-40.00;CZK;1.0000000000;Doprava;MHD;CZK;;;Reconciled
+Expense;2016-12-21 00:00:00;00:00;Billa;-39.00;CZK;1.0000000000;Prace;Svacina;CZK;;;Reconciled
+Expense;2016-12-20 00:00:00;00:00;Prom-in;-1138.00;CZK;1.0000000000;Nakup;Darky;KB - Personal - účet;Protein vanoce bracha;Vánoce;Reconciled
+Expense;2016-12-20 00:00:00;00:00;Salsa pod Petrovem;-96.00;CZK;1.0000000000;Zabava;Party;CZK;;;Reconciled
+Expense;2016-12-20 00:00:00;00:00;IQ Restaurant;-50.00;CZK;1.0000000000;Prace;Obed;Stravenky;;;Reconciled
+Expense;2016-12-20 00:00:00;00:00;IQ Restaurant;-45.00;CZK;1.0000000000;Prace;Obed;CZK;;;Reconciled
+Expense;2016-12-20 00:00:00;00:00;Brno;-40.00;CZK;1.0000000000;Doprava;MHD;CZK;;;Reconciled
+Expense;2016-12-20 00:00:00;00:00;My Food;-40.00;CZK;1.0000000000;Prace;Svacina;CZK;;;Reconciled
+Expense;2016-12-20 00:00:00;00:00;Billa;-23.40;CZK;1.0000000000;Prace;Svacina;KB - Personal - účet;;;Reconciled
+Expense;2016-12-20 00:00:00;00:00;Brno;-20.00;CZK;1.0000000000;Doprava;MHD;CZK;;;Reconciled
+Income;2016-12-20 00:00:00;00:00;KM - Tomasovic Zbyna;17000.00;CZK;1.0000000000;Others;Pujcky - vraceni;Trezor;;Půjčky;Reconciled
+Income;2016-12-20 00:00:00;00:00;Modra Pyramida;436.00;CZK;1.0000000000;Technical;Stavebko - umor;KB - Stavební spoření - úvěr 1;;;Reconciled
+Income;2016-12-20 00:00:00;00:00;Modra Pyramida;670.00;CZK;1.0000000000;Technical;Stavebko - umor;KB - Stavební spoření - úvěr 2;;;Reconciled
+Expense;2016-12-20 00:00:00;00:00;Modra Pyramida;-207.92;CZK;1.0000000000;Bankovni operace - vydaje;Stavebko - urok;KB - Personal - účet;[{}];Byt - Těsná;Reconciled
+Expense;2016-12-20 00:00:00;00:00;Modra Pyramida;-436.00;CZK;1.0000000000;Bankovni operace - vydaje;Stavebko - umor;KB - Personal - účet;[{}];Byt - Těsná;Reconciled
+Expense;2016-12-20 00:00:00;00:00;Modra Pyramida;-748.50;CZK;1.0000000000;Bankovni operace - vydaje;Vehicle - urok;KB - Personal - účet;[{}];Renault Laguna;Reconciled
+Expense;2016-12-20 00:00:00;00:00;Modra Pyramida;-670.00;CZK;1.0000000000;Bankovni operace - vydaje;Vehicle - umor;KB - Personal - účet;[{}];Renault Laguna;Reconciled
+Transfer;2016-12-19 00:00:00;00:00;;-500.00;CZK;1.0000000000;(Transfer);(Transfer);KB - Personal - účet;;;Reconciled
+Transfer;2016-12-19 00:00:00;00:00;;500.00;CZK;1.0000000000;(Transfer);(Transfer);CZK;;;Reconciled
+Expense;2016-12-19 00:00:00;00:00;Simacek - zednik;-3450.00;CZK;1.0000000000;Sluzby;Opravar;KB - Personal - účet;Omitka;Byt - Těsná;Reconciled
+Expense;2016-12-19 00:00:00;00:00;Datart;-500.00;CZK;1.0000000000;Nakup;Elektronika;CZK;;;Reconciled
+Expense;2016-12-19 00:00:00;00:00;Komercni Banka;-450.00;CZK;1.0000000000;Financni sluzby;Zivotni pojisteni;KB - Personal - účet;;Byt - Těsná;Reconciled
+Expense;2016-12-19 00:00:00;00:00;Lidl;-200.00;CZK;1.0000000000;Nakup;Potraviny;CZK;;;Reconciled
+Expense;2016-12-19 00:00:00;00:00;Kadernictvi - Studio Belle;-200.00;CZK;1.0000000000;Sluzby;Kadernik;CZK;;;Reconciled
+Expense;2016-12-19 00:00:00;00:00;Fitko - Mismas;-150.00;CZK;1.0000000000;Sport;Fitko;CZK;;;Reconciled
+Expense;2016-12-19 00:00:00;00:00;Crocus;-86.00;CZK;1.0000000000;Prace;Svacina;CZK;;;Reconciled
+Expense;2016-12-19 00:00:00;00:00;Brno;-40.80;CZK;1.0000000000;Doprava;MHD;KB - Personal - účet;;;Reconciled
+Expense;2016-12-19 00:00:00;00:00;SVJ Tesna;-2375.00;CZK;1.0000000000;Bydleni - vydaj;Fond oprav;KB - Personal - účet;;Byt - Těsná;Reconciled
+Expense;2016-12-19 00:00:00;00:00;SVJ Tesna;-210.00;CZK;1.0000000000;Bydleni - vydaj;Voda;KB - Personal - účet;;Byt - Těsná;Reconciled
+Expense;2016-12-19 00:00:00;00:00;SVJ Tesna;-30.00;CZK;1.0000000000;Bydleni - vydaj;Elektrina;KB - Personal - účet;;Byt - Těsná;Reconciled
+Transfer;2016-12-18 00:00:00;00:00;;-1000.00;CZK;1.0000000000;(Transfer);(Transfer);Trezor;;;Reconciled
+Transfer;2016-12-18 00:00:00;00:00;;1000.00;CZK;1.0000000000;(Transfer);(Transfer);CZK;;;Reconciled
+Expense;2016-12-18 00:00:00;00:00;Svatoboj;-150.00;CZK;1.0000000000;Obcerstveni;Restaurace;Stravenky;;;Reconciled
+Expense;2016-12-17 00:00:00;00:00;Albert;-233.40;CZK;1.0000000000;Nakup;Potraviny;KB - Personal - účet;;;Reconciled
+Expense;2016-12-17 00:00:00;00:00;Fastfood - no name;-130.00;CZK;1.0000000000;Obcerstveni;Fastfood;CZK;;;Reconciled
+Expense;2016-12-17 00:00:00;00:00;Metro;-100.00;CZK;1.0000000000;Zabava;Koncerty;CZK;;;Reconciled
+Expense;2016-12-17 00:00:00;00:00;Brno;-40.00;CZK;1.0000000000;Doprava;MHD;CZK;;;Reconciled
+Expense;2016-12-17 00:00:00;00:00;Hornbach;-20.00;CZK;1.0000000000;Obcerstveni;Fastfood;CZK;;;Reconciled
+Expense;2016-12-16 00:00:00;00:00;Two Faces;-567.00;CZK;1.0000000000;Prace;Ostatni;CZK;;;Reconciled
+Expense;2016-12-16 00:00:00;00:00;Kometa;-100.00;CZK;1.0000000000;Prace;Obed;Stravenky;;;Reconciled
+Expense;2016-12-16 00:00:00;00:00;Kometa;-20.00;CZK;1.0000000000;Prace;Obed;CZK;;;Reconciled
+Expense;2016-12-15 00:00:00;00:00;Hravy bar;-142.00;CZK;1.0000000000;Sport;Pingpong;CZK;;;Reconciled
+Expense;2016-12-15 00:00:00;00:00;Momenta;-130.00;CZK;1.0000000000;Obcerstveni;Restaurace;CZK;;;Reconciled
+Expense;2016-12-15 00:00:00;00:00;IQ Restaurant;-74.00;CZK;1.0000000000;Prace;Obed;CZK;;;Reconciled
+Expense;2016-12-15 00:00:00;00:00;IQ Restaurant;-50.00;CZK;1.0000000000;Prace;Obed;Stravenky;;;Reconciled
+Income;2016-12-15 00:00:00;00:00;Komercni Banka;3279.13;CZK;1.0000000000;Technical;Hypoteka - umor;KB - Hypotéka;;;Reconciled
+Expense;2016-12-15 00:00:00;00:00;Komercni Banka;-4897.87;CZK;1.0000000000;Bankovni operace - vydaje;Hypoteka - urok;KB - Personal - účet;[{}];Byt - Těsná;Reconciled
+Expense;2016-12-15 00:00:00;00:00;Komercni Banka;-3279.13;CZK;1.0000000000;Bankovni operace - vydaje;Hypoteka - umor;KB - Personal - účet;[{}];Byt - Těsná;Reconciled
+Transfer;2016-12-14 00:00:00;00:00;;-1000.00;CZK;1.0000000000;(Transfer);(Transfer);Trezor;;;Reconciled
+Transfer;2016-12-14 00:00:00;00:00;;1000.00;CZK;1.0000000000;(Transfer);(Transfer);CZK;;;Reconciled
+Expense;2016-12-14 00:00:00;00:00;Fastfood - no name;-100.00;CZK;1.0000000000;Obcerstveni;Fastfood;CZK;;;Reconciled
+Expense;2016-12-14 00:00:00;00:00;Ostatni;-50.00;CZK;1.0000000000;Zabava;Trhy, Streetfood ..;CZK;;;Reconciled
+Expense;2016-12-14 00:00:00;00:00;IQ Restaurant;-50.00;CZK;1.0000000000;Prace;Obed;Stravenky;;;Reconciled
+Expense;2016-12-14 00:00:00;00:00;IQ Restaurant;-40.00;CZK;1.0000000000;Prace;Obed;CZK;;;Reconciled
+Expense;2016-12-14 00:00:00;00:00;Albert;-17.00;CZK;1.0000000000;Nakup;Potraviny;CZK;;;Reconciled
+Income;2016-12-14 00:00:00;00:00;KM - Tomasovic Zbyna;8000.00;CZK;1.0000000000;Others;Pujcky - vraceni;Trezor;;Půjčky;Reconciled
+Transfer;2016-12-13 00:00:00;00:00;;-1000.00;CZK;1.0000000000;(Transfer);(Transfer);KB - Personal - účet;;;Reconciled
+Transfer;2016-12-13 00:00:00;00:00;;1000.00;CZK;1.0000000000;(Transfer);(Transfer);CZK;;;Reconciled
+Transfer;2016-12-13 00:00:00;00:00;;-500.00;CZK;1.0000000000;(Transfer);(Transfer);KB - Personal - účet;;;Reconciled
+Transfer;2016-12-13 00:00:00;00:00;;500.00;CZK;1.0000000000;(Transfer);(Transfer);CZK;;;Reconciled
+Expense;2016-12-13 00:00:00;00:00;Eon;-1500.00;CZK;1.0000000000;Bydleni - vydaj;Elektrina;KB - Personal - účet;;Byt - Těsná;Reconciled
+Expense;2016-12-13 00:00:00;00:00;4Fitness;-980.00;CZK;1.0000000000;Nakup;Doplnky stravy;CZK;;;Reconciled
+Expense;2016-12-13 00:00:00;00:00;O2;-504.99;CZK;1.0000000000;Subscription;Internet;KB - Personal - účet;;Byt - Těsná;Reconciled
+Expense;2016-12-13 00:00:00;00:00;H&M;-350.00;CZK;1.0000000000;Nakup;Obleceni;CZK;;;Reconciled
+Expense;2016-12-13 00:00:00;00:00;Albert;-193.70;CZK;1.0000000000;Nakup;Potraviny;KB - Personal - účet;;;Reconciled
+Expense;2016-12-13 00:00:00;00:00;Reserved;-150.00;CZK;1.0000000000;Nakup;Obleceni;CZK;;;Reconciled
+Expense;2016-12-13 00:00:00;00:00;Fitko - Mismas;-150.00;CZK;1.0000000000;Sport;Fitko;CZK;;;Reconciled
+Expense;2016-12-13 00:00:00;00:00;Albert;-110.00;CZK;1.0000000000;Nakup;Drogerie, Hyg. potreby;KB - Personal - účet;;;Reconciled
+Expense;2016-12-13 00:00:00;00:00;Hospoda - Zlata Lod;-100.00;CZK;1.0000000000;Obcerstveni;Restaurace;Stravenky;;;Reconciled
+Expense;2016-12-13 00:00:00;00:00;Savoy;-90.00;CZK;1.0000000000;Zabava;Party;CZK;;;Reconciled
+Expense;2016-12-13 00:00:00;00:00;Hospoda - Zlata Lod;-30.00;CZK;1.0000000000;Obcerstveni;Restaurace;CZK;;;Reconciled
+Expense;2016-12-13 00:00:00;00:00;Ostatni;-30.00;CZK;1.0000000000;Sluzby;Ostatni;CZK;;;Reconciled
+Expense;2016-12-13 00:00:00;00:00;Tesco;-24.00;CZK;1.0000000000;Nakup;Potraviny;CZK;;;Reconciled
+Expense;2016-12-13 00:00:00;00:00;Albert;-20.00;CZK;1.0000000000;Nakup;Potraviny;CZK;;;Reconciled
+Transfer;2016-12-12 00:00:00;00:00;;-1000.00;CZK;1.0000000000;(Transfer);(Transfer);Trezor;;;Reconciled
+Transfer;2016-12-12 00:00:00;00:00;;1000.00;CZK;1.0000000000;(Transfer);(Transfer);CZK;;;Reconciled
+Expense;2016-12-12 00:00:00;00:00;Paradox;-270.00;CZK;1.0000000000;Zabava;Predstaveni;CZK;;;Reconciled
+Expense;2016-12-12 00:00:00;00:00;IQ Restaurant;-50.00;CZK;1.0000000000;Prace;Obed;Stravenky;;;Reconciled
+Expense;2016-12-12 00:00:00;00:00;IQ Restaurant;-40.00;CZK;1.0000000000;Prace;Obed;CZK;;;Reconciled
+Expense;2016-12-12 00:00:00;00:00;Fastfood - no name;-30.00;CZK;1.0000000000;Obcerstveni;Fastfood;KB - Personal - účet;;;Reconciled
+Expense;2016-12-12 00:00:00;00:00;Billa;-11.00;CZK;1.0000000000;Prace;Svacina;CZK;;;Reconciled
+Transfer;2016-12-11 00:00:00;00:00;;-500.00;CZK;1.0000000000;(Transfer);(Transfer);KB - Personal - účet;;;Reconciled
+Transfer;2016-12-11 00:00:00;00:00;;500.00;CZK;1.0000000000;(Transfer);(Transfer);CZK;;;Reconciled
+Expense;2016-12-11 00:00:00;00:00;Hornbach;-1147.00;CZK;1.0000000000;Nakup;Bydleni, accesories;KB - Personal - účet;;Byt - Těsná;Reconciled
+Expense;2016-12-11 00:00:00;00:00;Taxi - Brno;-360.00;CZK;1.0000000000;Doprava;Taxi;CZK;;;Reconciled
+Expense;2016-12-11 00:00:00;00:00;Fastfood - no name;-40.00;CZK;1.0000000000;Obcerstveni;Fastfood;CZK;;;Reconciled
+Expense;2016-12-11 00:00:00;00:00;Fastfood - no name;-25.00;CZK;1.0000000000;Obcerstveni;Fastfood;CZK;;;Reconciled
+Expense;2016-12-10 00:00:00;00:00;Metro;-400.00;CZK;1.0000000000;Zabava;Koncerty;CZK;;;Reconciled
+Expense;2016-12-10 00:00:00;00:00;Restaurace;-350.00;CZK;1.0000000000;Obcerstveni;Restaurace;CZK;;;Reconciled
+Expense;2016-12-10 00:00:00;00:00;Ostatni;-349.00;CZK;1.0000000000;Zabava;Trhy, Streetfood ..;CZK;;;Reconciled
+Expense;2016-12-09 00:00:00;00:00;Fitko- Pruvan;-105.00;CZK;1.0000000000;Sport;Fitko;CZK;;;Reconciled
+Expense;2016-12-09 00:00:00;00:00;IQ Restaurant;-100.00;CZK;1.0000000000;Prace;Obed;Stravenky;;;Reconciled
+Expense;2016-12-09 00:00:00;00:00;Ostatni;-80.00;CZK;1.0000000000;Zabava;Trhy, Streetfood ..;CZK;;;Reconciled
+Expense;2016-12-09 00:00:00;00:00;Okay Market;-5.00;CZK;1.0000000000;Nakup;Ostatni;CZK;;;Reconciled
+Expense;2016-12-09 00:00:00;00:00;IQ Restaurant;-5.00;CZK;1.0000000000;Prace;Obed;CZK;;;Reconciled
+Income;2016-12-09 00:00:00;00:00;;80.00;CZK;1.0000000000;Others;Nalezy;CZK;;;Reconciled
+Income;2016-12-09 00:00:00;00:00;Konica Minolta;32393.00;CZK;1.0000000000;Prace;Vyplata;KB - Personal - účet;;;Reconciled
+Transfer;2016-12-08 00:00:00;00:00;;-300.00;CZK;1.0000000000;(Transfer);(Transfer);KB - Personal - účet;;;Reconciled
+Transfer;2016-12-08 00:00:00;00:00;;300.00;CZK;1.0000000000;(Transfer);(Transfer);Allianz - Penzijní pripojištění;;;Reconciled
+Expense;2016-12-08 00:00:00;00:00;Tesco;-222.00;CZK;1.0000000000;Nakup;Potraviny;CZK;;;Reconciled
+Expense;2016-12-08 00:00:00;00:00;IQ Restaurant;-100.00;CZK;1.0000000000;Prace;Obed;Stravenky;;;Reconciled
+Expense;2016-12-08 00:00:00;00:00;My Food;-40.00;CZK;1.0000000000;Prace;Svacina;CZK;;;Reconciled
+Transfer;2016-12-07 00:00:00;00:00;;-1500.00;CZK;1.0000000000;(Transfer);(Transfer);KB - Personal - účet;;;Reconciled
+Transfer;2016-12-07 00:00:00;00:00;;1500.00;CZK;1.0000000000;(Transfer);(Transfer);CZK;;;Reconciled
+Expense;2016-12-07 00:00:00;00:00;Aukro;-1280.00;CZK;1.0000000000;Nakup;Bydleni, accesories;KB - Personal - účet;;Byt - Těsná;Reconciled
+Expense;2016-12-07 00:00:00;00:00;H&M;-300.00;CZK;1.0000000000;Nakup;Obleceni;CZK;;;Reconciled
+Expense;2016-12-07 00:00:00;00:00;Fitko - Mismas;-150.00;CZK;1.0000000000;Sport;Fitko;CZK;;;Reconciled
+Expense;2016-12-07 00:00:00;00:00;IQ Restaurant;-85.00;CZK;1.0000000000;Prace;Obed;CZK;;;Reconciled
+Expense;2016-12-07 00:00:00;00:00;Billa;-23.00;CZK;1.0000000000;Prace;Svacina;CZK;;;Reconciled
+Expense;2016-12-07 00:00:00;00:00;Albert;-17.00;CZK;1.0000000000;Nakup;Potraviny;CZK;;;Reconciled
+Income;2016-12-07 00:00:00;00:00;Konica Minolta;1700.00;CZK;1.0000000000;Prace;Stravenky;Stravenky;;;Reconciled
+Expense;2016-12-06 00:00:00;00:00;IQ Restaurant;-90.00;CZK;1.0000000000;Prace;Obed;CZK;;;Reconciled
+Expense;2016-12-06 00:00:00;00:00;Restaurace;-50.00;CZK;1.0000000000;Obcerstveni;Restaurace;CZK;;;Reconciled
+Expense;2016-12-06 00:00:00;00:00;My Food;-50.00;CZK;1.0000000000;Prace;Svacina;CZK;;;Reconciled
+Expense;2016-12-06 00:00:00;00:00;Okay Market;-30.00;CZK;1.0000000000;Prace;Svacina;CZK;;;Reconciled
+Expense;2016-12-06 00:00:00;00:00;Fastfood - no name;-20.00;CZK;1.0000000000;Obcerstveni;Fastfood;CZK;;;Reconciled
+Income;2016-12-06 00:00:00;00:00;Konarikova Vendy;400.00;CZK;1.0000000000;Others;Pujcky - vraceni;CZK;;Půjčky;Reconciled
+Transfer;2016-12-05 00:00:00;00:00;;-600.00;CZK;1.0000000000;(Transfer);(Transfer);KB - Personal - účet;;;Reconciled
+Transfer;2016-12-05 00:00:00;00:00;;600.00;CZK;1.0000000000;(Transfer);(Transfer);CZK;;;Reconciled
+Expense;2016-12-05 00:00:00;00:00;Ostatni;-321.00;CZK;1.0000000000;Zabava;Trhy, Streetfood ..;CZK;;;Reconciled
+Expense;2016-12-05 00:00:00;00:00;IQ Restaurant;-90.00;CZK;1.0000000000;Prace;Obed;CZK;;;Reconciled
+Expense;2016-12-05 00:00:00;00:00;Savoy;-50.00;CZK;1.0000000000;Zabava;Party;CZK;;;Reconciled
+Expense;2016-12-05 00:00:00;00:00;Crocus;-47.00;CZK;1.0000000000;Prace;Svacina;CZK;;;Reconciled
+Expense;2016-12-05 00:00:00;00:00;Fastfood - no name;-35.00;CZK;1.0000000000;Obcerstveni;Fastfood;CZK;;;Reconciled
+Expense;2016-12-04 00:00:00;00:00;Konarikova Vendy;-400.00;CZK;1.0000000000;Financni sluzby;Pujcky - pujceni;KB - Personal - účet;;Půjčky;Reconciled
+Expense;2016-12-04 00:00:00;00:00;Planetarium Brno;-400.00;CZK;1.0000000000;Zabava;Predstaveni;KB - Personal - účet;;;Reconciled
+Expense;2016-12-04 00:00:00;00:00;Albert;-248.00;CZK;1.0000000000;Nakup;Potraviny;CZK;;;Reconciled
+Expense;2016-12-04 00:00:00;00:00;Fastfood - no name;-160.00;CZK;1.0000000000;Obcerstveni;Fastfood;CZK;;;Reconciled
+Expense;2016-12-04 00:00:00;00:00;Albert;-50.00;CZK;1.0000000000;Nakup;Drogerie, Hyg. potreby;CZK;;;Reconciled
+Expense;2016-12-03 00:00:00;00:00;Fastfood - no name;-180.00;CZK;1.0000000000;Obcerstveni;Fastfood;CZK;;;Reconciled
+Expense;2016-12-02 00:00:00;00:00;Lidl;-100.00;CZK;1.0000000000;Nakup;Potraviny;CZK;;;Reconciled
+Expense;2016-12-02 00:00:00;00:00;IQ Restaurant;-90.00;CZK;1.0000000000;Prace;Obed;CZK;;;Reconciled
+Expense;2016-12-02 00:00:00;00:00;My Food;-50.00;CZK;1.0000000000;Prace;Svacina;CZK;;;Reconciled
+Expense;2016-12-01 00:00:00;00:00;IQ Restaurant;-112.00;CZK;1.0000000000;Prace;Obed;CZK;;;Reconciled
+Expense;2016-12-01 00:00:00;00:00;Okay Market;-66.00;CZK;1.0000000000;Prace;Svacina;CZK;;;Reconciled
+Expense;2016-11-30 00:00:00;00:00;KM - Tomasovic Zbyna;-5000.00;CZK;1.0000000000;Financni sluzby;Pujcky - pujceni;Trezor;;Půjčky;Reconciled
+Expense;2016-11-30 00:00:00;00:00;Hornbach;-3935.00;CZK;1.0000000000;Nakup;Bydleni, accesories;CZK;;Byt - Těsná;Reconciled
+Expense;2016-11-30 00:00:00;00:00;Ostatni;-180.00;CZK;1.0000000000;Zabava;Trhy, Streetfood ..;CZK;;;Reconciled
+Expense;2016-11-30 00:00:00;00:00;IQ Restaurant;-90.00;CZK;1.0000000000;Prace;Obed;CZK;;;Reconciled
+Expense;2016-11-30 00:00:00;00:00;Savoy;-85.00;CZK;1.0000000000;Zabava;Party;CZK;;;Reconciled
+Expense;2016-11-30 00:00:00;00:00;Komercni Banka;-72.00;CZK;1.0000000000;Bankovni operace - vydaje;Poplatek za vyber z bankomatu;KB - Personal - účet;;;Reconciled
+Expense;2016-11-30 00:00:00;00:00;Komercni Banka;-68.00;CZK;1.0000000000;Bankovni operace - vydaje;Poplatek za vedeni uctu;KB - Personal - účet;;;Reconciled
+Expense;2016-11-30 00:00:00;00:00;Komercni Banka;-39.00;CZK;1.0000000000;Bankovni operace - vydaje;Poplatek za transakce;KB - Personal - účet;;;Reconciled
+Transfer;2016-11-29 00:00:00;00:00;;-6000.00;CZK;1.0000000000;(Transfer);(Transfer);Trezor;;;Reconciled
+Transfer;2016-11-29 00:00:00;00:00;;6000.00;CZK;1.0000000000;(Transfer);(Transfer);CZK;;;Reconciled
+Expense;2016-11-29 00:00:00;00:00;Ostatni;-990.00;CZK;1.0000000000;Nakup;Literatura;CZK;;;Reconciled
+Expense;2016-11-29 00:00:00;00:00;Sauna - Infinit;-500.00;CZK;1.0000000000;Zabava;Sauna;KB - Personal - účet;Maximus Brno;;Reconciled
+Expense;2016-11-29 00:00:00;00:00;Restaurace;-270.00;CZK;1.0000000000;Obcerstveni;Restaurace;CZK;;;Reconciled
+Expense;2016-11-29 00:00:00;00:00;Albert;-175.00;CZK;1.0000000000;Nakup;Potraviny;KB - Personal - účet;;;Reconciled
+Expense;2016-11-29 00:00:00;00:00;IQ Restaurant;-122.00;CZK;1.0000000000;Prace;Obed;CZK;;;Reconciled
+Expense;2016-11-29 00:00:00;00:00;My Food;-40.00;CZK;1.0000000000;Prace;Svacina;CZK;;;Reconciled
+Expense;2016-11-29 00:00:00;00:00;Okay Market;-23.00;CZK;1.0000000000;Prace;Svacina;CZK;;;Reconciled
+Expense;2016-11-28 00:00:00;00:00;Sono centrum;-500.00;CZK;1.0000000000;Zabava;Koncerty;CZK;;;Reconciled
+Expense;2016-11-28 00:00:00;00:00;IQ Restaurant;-90.00;CZK;1.0000000000;Prace;Obed;CZK;;;Reconciled
+Expense;2016-11-28 00:00:00;00:00;Crocus;-43.00;CZK;1.0000000000;Prace;Svacina;CZK;;;Reconciled
+Transfer;2016-11-27 00:00:00;00:00;;-1000.00;CZK;1.0000000000;(Transfer);(Transfer);KB - Personal - účet;;;Reconciled
+Transfer;2016-11-27 00:00:00;00:00;;1000.00;CZK;1.0000000000;(Transfer);(Transfer);CZK;;;Reconciled
+Transfer;2016-11-27 00:00:00;00:00;;-500.00;CZK;1.0000000000;(Transfer);(Transfer);KB - Personal - účet;;;Reconciled
+Transfer;2016-11-27 00:00:00;00:00;;500.00;CZK;1.0000000000;(Transfer);(Transfer);CZK;;;Reconciled
+Expense;2016-11-27 00:00:00;00:00;Albert;-327.00;CZK;1.0000000000;Nakup;Potraviny;CZK;;;Reconciled
+Transfer;2016-11-26 00:00:00;00:00;;-2000.00;CZK;1.0000000000;(Transfer);(Transfer);Trezor;;;Reconciled
+Transfer;2016-11-26 00:00:00;00:00;;2000.00;CZK;1.0000000000;(Transfer);(Transfer);CZK;;;Reconciled
+Expense;2016-11-26 00:00:00;00:00;Hornbach;-1700.00;CZK;1.0000000000;Nakup;Bydleni, accesories;CZK;;Byt - Těsná;Reconciled
+Expense;2016-11-26 00:00:00;00:00;Hornbach;-336.12;CZK;1.0000000000;Nakup;Bydleni, accesories;KB - Personal - účet;;Byt - Těsná;Reconciled
+Expense;2016-11-26 00:00:00;00:00;Sono centrum;-200.00;CZK;1.0000000000;Zabava;Koncerty;CZK;;;Reconciled
+Expense;2016-11-26 00:00:00;00:00;Fastfood - no name;-100.00;CZK;1.0000000000;Obcerstveni;Fastfood;CZK;;;Reconciled
+Expense;2016-11-25 00:00:00;00:00;Fitko- Pruvan;-125.00;CZK;1.0000000000;Sport;Fitko;CZK;;;Reconciled
+Expense;2016-11-25 00:00:00;00:00;IQ Restaurant;-90.00;CZK;1.0000000000;Prace;Obed;CZK;;;Reconciled
+Expense;2016-11-25 00:00:00;00:00;My Food;-50.00;CZK;1.0000000000;Prace;Svacina;CZK;;;Reconciled
+Income;2016-11-25 00:00:00;00:00;Konica Minolta;3243.00;CZK;1.0000000000;Prace;Sluzebni cesty;KB - Personal - účet;;;Reconciled
+Expense;2016-11-24 00:00:00;00:00;Albert;-230.00;CZK;1.0000000000;Nakup;Potraviny;CZK;;;Reconciled
+Expense;2016-11-24 00:00:00;00:00;IQ Restaurant;-115.00;CZK;1.0000000000;Prace;Obed;CZK;;;Reconciled
+Expense;2016-11-24 00:00:00;00:00;Fastfood - no name;-100.00;CZK;1.0000000000;Obcerstveni;Fastfood;CZK;;;Reconciled
+Expense;2016-11-24 00:00:00;00:00;Crocus;-43.00;CZK;1.0000000000;Prace;Svacina;CZK;;;Reconciled
+Expense;2016-11-24 00:00:00;00:00;Okay Market;-40.00;CZK;1.0000000000;Prace;Svacina;CZK;;;Reconciled
+Expense;2016-11-23 00:00:00;00:00;KM - Tomasovic Zbyna;-20000.00;CZK;1.0000000000;Financni sluzby;Pujcky - pujceni;Trezor;;Půjčky;Reconciled
+Expense;2016-11-23 00:00:00;00:00;Fleda;-629.00;CZK;1.0000000000;Zabava;Koncerty;CZK;;;Reconciled
+Expense;2016-11-23 00:00:00;00:00;Deichmann;-100.00;CZK;1.0000000000;Nakup;Shoes;CZK;;;Reconciled
+Expense;2016-11-23 00:00:00;00:00;IQ Restaurant;-100.00;CZK;1.0000000000;Prace;Obed;Stravenky;;;Reconciled
+Expense;2016-11-23 00:00:00;00:00;IQ Restaurant;-15.00;CZK;1.0000000000;Prace;Obed;CZK;;;Reconciled
+Income;2016-11-23 00:00:00;00:00;Bauhaus;860.00;CZK;1.0000000000;Others;Vratky;CZK;;;Reconciled
+Transfer;2016-11-22 00:00:00;00:00;;-5.00;CZK;1.0000000000;(Transfer);(Transfer);Stravenky;;;Reconciled
+Transfer;2016-11-22 00:00:00;00:00;;5.00;CZK;1.0000000000;(Transfer);(Transfer);CZK;;;Reconciled
+Transfer;2016-11-22 00:00:00;00:00;;-1000.00;CZK;1.0000000000;(Transfer);(Transfer);Trezor;;;Reconciled
+Transfer;2016-11-22 00:00:00;00:00;;1000.00;CZK;1.0000000000;(Transfer);(Transfer);CZK;;;Reconciled
+Expense;2016-11-22 00:00:00;00:00;Aukro;-2080.00;CZK;1.0000000000;Nakup;Bydleni, accesories;KB - Personal - účet;;Byt - Těsná;Reconciled
+Expense;2016-11-22 00:00:00;00:00;Albert;-250.00;CZK;1.0000000000;Nakup;Potraviny;Stravenky;;;Reconciled
+Expense;2016-11-22 00:00:00;00:00;Restaurace;-100.00;CZK;1.0000000000;Obcerstveni;Restaurace;CZK;;;Reconciled
+Expense;2016-11-22 00:00:00;00:00;IQ Restaurant;-95.00;CZK;1.0000000000;Prace;Obed;Stravenky;;;Reconciled
+Expense;2016-11-22 00:00:00;00:00;Okay Market;-66.00;CZK;1.0000000000;Prace;Svacina;CZK;;;Reconciled
+Expense;2016-11-22 00:00:00;00:00;Albert;-42.00;CZK;1.0000000000;Nakup;Potraviny;CZK;;;Reconciled
+Transfer;2016-11-21 00:00:00;00:00;;-500.00;CZK;1.0000000000;(Transfer);(Transfer);KB - Personal - účet;;;Reconciled
+Transfer;2016-11-21 00:00:00;00:00;;500.00;CZK;1.0000000000;(Transfer);(Transfer);CZK;;;Reconciled
+Expense;2016-11-21 00:00:00;00:00;Albert;-290.70;CZK;1.0000000000;Nakup;Potraviny;KB - Personal - účet;;;Reconciled
+Expense;2016-11-21 00:00:00;00:00;Kadernictvi - Studio Belle;-200.00;CZK;1.0000000000;Sluzby;Kadernik;CZK;;;Reconciled
+Expense;2016-11-21 00:00:00;00:00;Fitko - Mismas;-150.00;CZK;1.0000000000;Sport;Fitko;CZK;;;Reconciled
+Expense;2016-11-21 00:00:00;00:00;IQ Restaurant;-115.00;CZK;1.0000000000;Prace;Obed;CZK;;;Reconciled
+Expense;2016-11-21 00:00:00;00:00;Albert;-40.00;CZK;1.0000000000;Nakup;Drogerie, Hyg. potreby;KB - Personal - účet;;;Reconciled
+Expense;2016-11-21 00:00:00;00:00;Okay Market;-15.00;CZK;1.0000000000;Prace;Svacina;CZK;;;Reconciled
+Income;2016-11-21 00:00:00;00:00;Modra Pyramida;436.00;CZK;1.0000000000;Technical;Stavebko - umor;KB - Stavební spoření - úvěr 1;;;Reconciled
+Income;2016-11-21 00:00:00;00:00;Modra Pyramida;670.00;CZK;1.0000000000;Technical;Stavebko - umor;KB - Stavební spoření - úvěr 2;;;Reconciled
+Expense;2016-11-21 00:00:00;00:00;SVJ Tesna;-2375.00;CZK;1.0000000000;Bydleni - vydaj;Fond oprav;KB - Personal - účet;;Byt - Těsná;Reconciled
+Expense;2016-11-21 00:00:00;00:00;SVJ Tesna;-210.00;CZK;1.0000000000;Bydleni - vydaj;Voda;KB - Personal - účet;;Byt - Těsná;Reconciled
+Expense;2016-11-21 00:00:00;00:00;SVJ Tesna;-30.00;CZK;1.0000000000;Bydleni - vydaj;Elektrina;KB - Personal - účet;;Byt - Těsná;Reconciled
+Expense;2016-11-21 00:00:00;00:00;Modra Pyramida;-207.92;CZK;1.0000000000;Bankovni operace - vydaje;Stavebko - urok;KB - Personal - účet;[{}];Byt - Těsná;Reconciled
+Expense;2016-11-21 00:00:00;00:00;Modra Pyramida;-436.00;CZK;1.0000000000;Bankovni operace - vydaje;Stavebko - umor;KB - Personal - účet;[{}];Byt - Těsná;Reconciled
+Expense;2016-11-21 00:00:00;00:00;Modra Pyramida;-748.50;CZK;1.0000000000;Bankovni operace - vydaje;Vehicle - urok;KB - Personal - účet;[{}];Renault Laguna;Reconciled
+Expense;2016-11-21 00:00:00;00:00;Modra Pyramida;-670.00;CZK;1.0000000000;Bankovni operace - vydaje;Vehicle - umor;KB - Personal - účet;[{}];Renault Laguna;Reconciled
+Expense;2016-11-20 00:00:00;00:00;Albert;-250.00;CZK;1.0000000000;Nakup;Potraviny;Stravenky;;;Reconciled
+Expense;2016-11-20 00:00:00;00:00;Restaurace;-60.00;CZK;1.0000000000;Obcerstveni;Restaurace;CZK;;;Reconciled
+Expense;2016-11-20 00:00:00;00:00;Albert;-40.00;CZK;1.0000000000;Nakup;Alkohol;CZK;;;Reconciled
+Expense;2016-11-20 00:00:00;00:00;Albert;-27.00;CZK;1.0000000000;Nakup;Potraviny;CZK;;;Reconciled
+Income;2016-11-20 00:00:00;00:00;;157.00;CZK;1.0000000000;Others;Nalezy;CZK;;;Reconciled
+Expense;2016-11-19 00:00:00;00:00;Savoy;-140.00;CZK;1.0000000000;Zabava;Party;CZK;;;Reconciled
+Expense;2016-11-19 00:00:00;00:00;Fastfood - no name;-110.00;CZK;1.0000000000;Obcerstveni;Fastfood;CZK;;;Reconciled
+Transfer;2016-11-18 00:00:00;00:00;;-600.00;CZK;1.0000000000;(Transfer);(Transfer);KB - Personal - účet;;;Reconciled
+Transfer;2016-11-18 00:00:00;00:00;;600.00;CZK;1.0000000000;(Transfer);(Transfer);CZK;;;Reconciled
+Expense;2016-11-18 00:00:00;00:00;Fitko - Mismas;-150.00;CZK;1.0000000000;Sport;Fitko;CZK;;;Reconciled
+Expense;2016-11-18 00:00:00;00:00;Restaurace;-50.00;CZK;1.0000000000;Obcerstveni;Restaurace;Stravenky;;;Reconciled
+Expense;2016-11-18 00:00:00;00:00;Restaurace;-40.00;CZK;1.0000000000;Obcerstveni;Restaurace;CZK;;;Reconciled
+Income;2016-11-18 00:00:00;00:00;;100.00;CZK;1.0000000000;Others;Nalezy;CZK;;;Reconciled
+Expense;2016-11-17 00:00:00;00:00;Hornbach;-229.00;CZK;1.0000000000;Nakup;Bydleni, accesories;CZK;;Byt - Těsná;Reconciled
+Transfer;2016-11-16 00:00:00;00:00;;-5.00;CZK;1.0000000000;(Transfer);(Transfer);Stravenky;;;Reconciled
+Transfer;2016-11-16 00:00:00;00:00;;5.00;CZK;1.0000000000;(Transfer);(Transfer);CZK;;;Reconciled
+Transfer;2016-11-16 00:00:00;00:00;;-600.00;CZK;1.0000000000;(Transfer);(Transfer);KB - Personal - účet;;;Reconciled
+Transfer;2016-11-16 00:00:00;00:00;;600.00;CZK;1.0000000000;(Transfer);(Transfer);CZK;;;Reconciled
+Expense;2016-11-16 00:00:00;00:00;Aukro;-1900.00;CZK;1.0000000000;Nakup;Bydleni, accesories;KB - Personal - účet;;Byt - Těsná;Reconciled
+Expense;2016-11-16 00:00:00;00:00;Hornbach;-270.00;CZK;1.0000000000;Nakup;Bydleni, accesories;KB - Personal - účet;;Byt - Těsná;Reconciled
+Expense;2016-11-16 00:00:00;00:00;Diamond bar;-100.00;CZK;1.0000000000;Obcerstveni;Restaurace;CZK;;;Reconciled
+Expense;2016-11-16 00:00:00;00:00;IQ Restaurant;-95.00;CZK;1.0000000000;Prace;Obed;Stravenky;;;Reconciled
+Expense;2016-11-16 00:00:00;00:00;Fastfood - no name;-80.00;CZK;1.0000000000;Obcerstveni;Fastfood;CZK;;;Reconciled
+Expense;2016-11-16 00:00:00;00:00;Ostatni;-50.00;CZK;1.0000000000;Sluzby;Ostatni;CZK;;;Reconciled
+Expense;2016-11-16 00:00:00;00:00;Savoy;-50.00;CZK;1.0000000000;Zabava;Party;CZK;;;Reconciled
+Transfer;2016-11-15 00:00:00;00:00;;-1500.00;CZK;1.0000000000;(Transfer);(Transfer);KB - Personal - účet;;;Reconciled
+Transfer;2016-11-15 00:00:00;00:00;;1500.00;CZK;1.0000000000;(Transfer);(Transfer);CZK;;;Reconciled
+Expense;2016-11-15 00:00:00;00:00;Ostatni;-1500.00;CZK;1.0000000000;Sluzby;Ostatni;CZK;;;Reconciled
+Expense;2016-11-15 00:00:00;00:00;Albert;-110.00;CZK;1.0000000000;Nakup;Potraviny;CZK;;;Reconciled
+Expense;2016-11-15 00:00:00;00:00;IQ Restaurant;-100.00;CZK;1.0000000000;Prace;Obed;Stravenky;;;Reconciled
+Expense;2016-11-15 00:00:00;00:00;IQ Restaurant;-30.00;CZK;1.0000000000;Prace;Obed;CZK;;;Reconciled
+Expense;2016-11-15 00:00:00;00:00;Hornbach;-28.00;CZK;1.0000000000;Nakup;Bydleni, accesories;CZK;;Byt - Těsná;Reconciled
+Expense;2016-11-15 00:00:00;00:00;Crocus;-28.00;CZK;1.0000000000;Prace;Svacina;CZK;;;Reconciled
+Income;2016-11-15 00:00:00;00:00;Komercni Banka;3269.61;CZK;1.0000000000;Technical;Hypoteka - umor;KB - Hypotéka;;;Reconciled
+Expense;2016-11-15 00:00:00;00:00;Komercni Banka;-4907.39;CZK;1.0000000000;Bankovni operace - vydaje;Hypoteka - urok;KB - Personal - účet;[{}];Byt - Těsná;Reconciled
+Expense;2016-11-15 00:00:00;00:00;Komercni Banka;-3269.61;CZK;1.0000000000;Bankovni operace - vydaje;Hypoteka - umor;KB - Personal - účet;[{}];Byt - Těsná;Reconciled
+Transfer;2016-11-14 00:00:00;00:00;;-5.00;CZK;1.0000000000;(Transfer);(Transfer);Stravenky;;;Reconciled
+Transfer;2016-11-14 00:00:00;00:00;;5.00;CZK;1.0000000000;(Transfer);(Transfer);CZK;;;Reconciled
+Expense;2016-11-14 00:00:00;00:00;Bauhaus;-4955.00;CZK;1.0000000000;Nakup;Bydleni, accesories;KB - Personal - účet;;Byt - Těsná;Reconciled
+Expense;2016-11-14 00:00:00;00:00;Eon;-1500.00;CZK;1.0000000000;Bydleni - vydaj;Elektrina;KB - Personal - účet;;Byt - Těsná;Reconciled
+Expense;2016-11-14 00:00:00;00:00;Bauhaus;-824.00;CZK;1.0000000000;Nakup;Bydleni, accesories;KB - Personal - účet;;Byt - Těsná;Reconciled
+Expense;2016-11-14 00:00:00;00:00;Lidl;-773.80;CZK;1.0000000000;Nakup;Obleceni;KB - Personal - účet;;;Reconciled
+Expense;2016-11-14 00:00:00;00:00;Komercni Banka;-450.00;CZK;1.0000000000;Financni sluzby;Zivotni pojisteni;KB - Personal - účet;;Byt - Těsná;Reconciled
+Expense;2016-11-14 00:00:00;00:00;IQ Restaurant;-95.00;CZK;1.0000000000;Prace;Obed;Stravenky;;;Reconciled
+Expense;2016-11-14 00:00:00;00:00;Hornbach;-65.00;CZK;1.0000000000;Nakup;Bydleni, accesories;CZK;;Byt - Těsná;Reconciled
+Expense;2016-11-14 00:00:00;00:00;Crocus;-43.00;CZK;1.0000000000;Prace;Svacina;CZK;;;Reconciled
+Expense;2016-11-13 00:00:00;00:00;Kaufland;-364.00;CZK;1.0000000000;Nakup;Potraviny;CZK;;;Reconciled
+Expense;2016-11-13 00:00:00;00:00;Kaufland;-99.00;CZK;1.0000000000;Nakup;Elektronika;CZK;;;Reconciled
+Transfer;2016-11-12 00:00:00;00:00;;-1000.00;CZK;1.0000000000;(Transfer);(Transfer);KB - Personal - účet;;;Reconciled
+Transfer;2016-11-12 00:00:00;00:00;;1000.00;CZK;1.0000000000;(Transfer);(Transfer);CZK;;;Reconciled
+Expense;2016-11-12 00:00:00;00:00;Restaurace;-230.00;CZK;1.0000000000;Obcerstveni;Restaurace;CZK;;;Reconciled
+Income;2016-11-12 00:00:00;00:00;;20.00;CZK;1.0000000000;Others;Nalezy;CZK;;;Reconciled
+Transfer;2016-11-11 00:00:00;00:00;;-200.00;CZK;1.0000000000;(Transfer);(Transfer);Trezor;;;Reconciled
+Transfer;2016-11-11 00:00:00;00:00;;200.00;CZK;1.0000000000;(Transfer);(Transfer);CZK;;;Reconciled
+Transfer;2016-11-11 00:00:00;00:00;;-5.00;CZK;1.0000000000;(Transfer);(Transfer);Stravenky;;;Reconciled
+Transfer;2016-11-11 00:00:00;00:00;;5.00;CZK;1.0000000000;(Transfer);(Transfer);CZK;;;Reconciled
+Expense;2016-11-11 00:00:00;00:00;SVJ Tesna;-800.00;CZK;1.0000000000;Bydleni - vydaj;Uklid;Trezor;;Byt - Těsná;Reconciled
+Expense;2016-11-11 00:00:00;00:00;Fitko - Mismas;-150.00;CZK;1.0000000000;Sport;Fitko;CZK;;;Reconciled
+Expense;2016-11-11 00:00:00;00:00;IQ Restaurant;-95.00;CZK;1.0000000000;Prace;Obed;Stravenky;;;Reconciled
+Expense;2016-11-11 00:00:00;00:00;Savoy;-80.00;CZK;1.0000000000;Zabava;Party;CZK;;;Reconciled
+Expense;2016-11-11 00:00:00;00:00;Fastfood - no name;-35.00;CZK;1.0000000000;Obcerstveni;Fastfood;CZK;;;Reconciled
+Transfer;2016-11-10 00:00:00;00:00;;-500.00;CZK;1.0000000000;(Transfer);(Transfer);KB - Personal - účet;;;Reconciled
+Transfer;2016-11-10 00:00:00;00:00;;500.00;CZK;1.0000000000;(Transfer);(Transfer);CZK;;;Reconciled
+Transfer;2016-11-10 00:00:00;00:00;;-5.00;CZK;1.0000000000;(Transfer);(Transfer);Stravenky;;;Reconciled
+Transfer;2016-11-10 00:00:00;00:00;;5.00;CZK;1.0000000000;(Transfer);(Transfer);CZK;;;Reconciled
+Expense;2016-11-10 00:00:00;00:00;Alza;-469.00;CZK;1.0000000000;Nakup;Elektronika;CZK;;;Reconciled
+Expense;2016-11-10 00:00:00;00:00;Hornbach;-155.00;CZK;1.0000000000;Nakup;Bydleni, accesories;KB - Personal - účet;;Byt - Těsná;Reconciled
+Expense;2016-11-10 00:00:00;00:00;IQ Restaurant;-95.00;CZK;1.0000000000;Prace;Obed;Stravenky;;;Reconciled
+Expense;2016-11-10 00:00:00;00:00;Crocus;-30.00;CZK;1.0000000000;Prace;Svacina;CZK;;;Reconciled
+Income;2016-11-10 00:00:00;00:00;Konica Minolta;31733.00;CZK;1.0000000000;Prace;Vyplata;KB - Personal - účet;[{}];;Reconciled
+Income;2016-11-10 00:00:00;00:00;Konica Minolta;3000.00;CZK;1.0000000000;Prace;OnCall duty;KB - Personal - účet;[{}];;Reconciled
+New Account;2016-11-09 19:46:26;19:46;Conseq;2887.01;CZK;1.0000000000;(New Account);(New Account);Conseq;;;Reconciled
+New Account;2016-11-09 19:45:55;19:45;AXA;7314.02;CZK;1.0000000000;(New Account);(New Account);AXA;;;Reconciled
+New Account;2016-11-09 16:46:46;16:46;IKEA - Karta;500.00;CZK;1.0000000000;(New Account);(New Account);IKEA - Karta;;;Reconciled
+New Account;2016-11-09 16:46:02;16:46;SEK;27.00;SEK;0.3972372209;(New Account);(New Account);SEK;;;Reconciled
+New Account;2016-11-09 16:06:09;16:06;Allianz - Penzijní pripojištění;26380.55;CZK;1.0000000000;(New Account);(New Account);Allianz - Penzijní pripojištění;;;Reconciled
+New Account;2016-11-09 16:05:10;16:05;KB - Stavební spoření - úvěr 2;-176179.57;CZK;1.0000000000;(New Account);(New Account);KB - Stavební spoření - úvěr 2;;;Reconciled
+New Account;2016-11-09 16:04:30;16:04;KB - Stavební spoření - úvěr 1;-43673.00;CZK;1.0000000000;(New Account);(New Account);KB - Stavební spoření - úvěr 1;;;Reconciled
+New Account;2016-11-09 16:03:12;16:03;KB - Hypotéka;-1687353.11;CZK;1.0000000000;(New Account);(New Account);KB - Hypotéka;51-1675741717/0100;;Reconciled
+New Account;2016-11-09 16:02:20;16:02;KB - Personal - účet;1053.16;CZK;1.0000000000;(New Account);(New Account);KB - Personal - účet;107-4710630267/0100;;Reconciled
+New Account;2016-11-09 16:01:46;16:01;Trezor;158000.00;CZK;1.0000000000;(New Account);(New Account);Trezor;;;Reconciled
+New Account;2016-11-09 16:01:21;16:01;Stravenky;1250.00;CZK;1.0000000000;(New Account);(New Account);Stravenky;;;Reconciled
+New Account;2016-11-09 15:57:49;15:57;GBP;4.32;GBP;0.0347268769;(New Account);(New Account);GBP;;;Reconciled
+New Account;2016-11-09 15:56:27;15:56;CZK;85.00;CZK;1.0000000000;(New Account);(New Account);CZK;;;Reconciled
+Expense;2016-11-09 00:00:00;00:00;Albert;-224.50;CZK;1.0000000000;Nakup;Potraviny;KB - Personal - účet;;;Reconciled

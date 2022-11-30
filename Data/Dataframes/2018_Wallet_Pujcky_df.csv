@@ -1,0 +1,59 @@
+Type;Date;Set Time;Title;Amount;Currency;Exchange Rate;Category Group Name;Category;Account;Notes;Labels;Status
+Income;2018-12-23 16:19:28;16:19;Oslejskovi;160.0;CZK;1.0;Others;Pujcky - vraceni;CZK;;[];Reconciled
+Income;2018-12-12 12:08:30;12:08;Kacka od Kaji;2100.0;CZK;1.0;Others;Pujcky - vraceni;KB - Personal - účet;;[];Cleared
+Income;2018-12-12 11:49:15;11:49;KM - Svenda Jan;20.0;CZK;1.0;Others;Pujcky - vraceni;CZK;;[];Reconciled
+Expense;2018-12-12 11:24:32;11:24;KM - Svenda Jan;-20.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;CZK;;[];Reconciled
+Expense;2018-12-12 10:05:24;10:05;Hyza Radek;-900.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;KB - Personal - účet;;[];Cleared
+Expense;2018-12-12 10:05:20;10:05;Vaško Andrea;-420.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;KB - Personal - účet;Caveman;[];Cleared
+Expense;2018-12-12 10:05:10;10:05;Kacka od Kaji;-2100.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;KB - Personal - účet;Caveman;[];Cleared
+Expense;2018-12-12 10:05:02;10:05;Oslejskovi;-450.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;KB - Personal - účet;Caveman;[];Cleared
+Income;2018-11-26 07:00:28;07:00;Vaško Andrea;2141.0;CZK;1.0;Others;Pujcky - vraceni;KB - Personal - účet;;[];Cleared
+Expense;2018-11-23 20:00:54;20:00;Vaško Andrea;-299.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;KB - Personal - účet;Dr. Max - Nikoret - zvikacky;[];Cleared
+Expense;2018-11-12 07:51:54;07:51;Mamca;-12000.0;CZK;1.0;Financni sluzby;Pujcky - vraceni;KB - Personal - účet;;[];Cleared
+Income;2018-11-10 16:40:52;16:40;Vaško Andrea;200.0;CZK;1.0;Others;Pujcky - pujceni;CZK;;[];Reconciled
+Expense;2018-10-20 18:23:41;18:23;Vaško Andrea;-899.0;CZK;1.0;Financni sluzby;Pujcky - vraceni;KB - Personal - účet;Dr. Max - Nikoret - zvikacky;[];Cleared
+Income;2018-10-20 18:05:36;18:05;Vaško Andrea;1000.0;CZK;1.0;Others;Pujcky - pujceni;CZK;;[];Reconciled
+Expense;2018-09-11 18:32:37;18:32;Vaško Andrea;-1000.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;Trezor;;[];Reconciled
+Income;2018-08-11 10:51:17;10:51;Vaško Andrea;80.0;CZK;1.0;Others;Pujcky - vraceni;CZK;Dary na mycku aut;[];Reconciled
+Income;2018-08-02 09:01:57;09:01;Booking;16383.06;CZK;1.0;Others;Pujcky - vraceni;KB - Personal - účet;;['2018 - Slovinsko', 'Dovolena: All'];Reconciled
+Expense;2018-07-30 11:41:33;11:41;KM - Dokulil Tomas;-500.0;CZK;1.0;Financni sluzby;Pujcky - vraceni;CZK;;[];Reconciled
+Income;2018-07-30 10:59:25;10:59;KM - Dokulil Tomas;500.0;CZK;1.0;Others;Pujcky - pujceni;CZK;;[];Reconciled
+Expense;2018-07-29 07:00:59;07:00;Booking;-16398.31;CZK;1.0;Financni sluzby;Pujcky - pujceni;KB - Personal - účet;;['2018 - Slovinsko', 'Dovolena: All'];Reconciled
+Income;2018-07-25 16:34:44;16:34;Auto Kelly;499.0;CZK;1.0;Others;Pujcky - vraceni;CZK;;['Renault Laguna'];Reconciled
+Income;2018-07-20 23:30:57;23:30;Pernica Michal;1400.0;CZK;1.0;Others;Pujcky - vraceni;CZK;;[];Reconciled
+Expense;2018-07-20 23:30:21;23:30;Pernica Michal;-1400.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;KB - Personal - účet;Charlies square;[];Reconciled
+Expense;2018-07-18 18:26:38;18:26;Auto Kelly;-499.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;KB - Personal - účet;BaterkaBaterka;['Renault Laguna'];Reconciled
+Expense;2018-07-17 18:22:44;18:22;Vaško Andrea;-769.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;KB - Personal - účet;Dr. Max - Nikorete - zvikacky;[];Reconciled
+Income;2018-07-16 22:20:50;22:20;Vaško Andrea;55.0;CZK;1.0;Others;Pujcky - vraceni;CZK;;[];Reconciled
+Income;2018-06-26 07:00:21;07:00;Hyza Radek;615.0;CZK;1.0;Others;Pujcky - vraceni;KB - Personal - účet;;[];Reconciled
+Expense;2018-06-22 20:24:54;20:24;Hyza Radek;-615.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;KB - Personal - účet;;[];Reconciled
+Income;2018-06-22 12:00:02;12:00;KM - Kacel Jakub;272.0;CZK;1.0;Others;Pujcky - vraceni;KB - Personal - účet;;[];Reconciled
+Expense;2018-06-09 17:00:50;17:00;KM - Kacel Jakub;-272.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;CZK;;[];Reconciled
+Expense;2018-06-08 11:09:16;11:09;KM - Tomasovic Zbyna;-500.0;CZK;1.0;Financni sluzby;Pujcky - vraceni;CZK;;[];Reconciled
+Income;2018-06-07 07:46:58;07:46;KM - Tomasovic Zbyna;500.0;CZK;1.0;Others;Pujcky - pujceni;CZK;;[];Reconciled
+Income;2018-05-21 10:44:50;10:44;KM - Tomasovic Zbyna;70.0;CZK;1.0;Others;Pujcky - vraceni;CZK;;[];Reconciled
+Expense;2018-05-21 10:03:42;10:03;KM - Tomasovic Zbyna;-70.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;KB - Personal - účet;Foxstyle;[];Reconciled
+Expense;2018-05-15 17:07:30;17:07;Hyza Radek;-1200.0;CZK;1.0;Financni sluzby;Pujcky - vraceni;KB - Personal - účet;Smetanova Litomysl;[];Reconciled
+Income;2018-05-14 14:20:31;14:20;Hyza Radek;1200.0;CZK;1.0;Others;Pujcky - pujceni;KB - Personal - účet;;[];Reconciled
+Expense;2018-04-27 07:36:27;07:36;Mamca;-10000.0;CZK;1.0;Financni sluzby;Pujcky - vraceni;KB - Personal - účet;;[];Reconciled
+Expense;2018-04-24 10:48:10;10:48;Mamca;-10000.0;CZK;1.0;Financni sluzby;Pujcky - vraceni;KB - Personal - účet;;[];Reconciled
+Income;2018-04-17 09:05:31;09:05;Volsa;139.0;CZK;1.0;Others;Pujcky - vraceni;KB - Personal - účet;;[];Reconciled
+Income;2018-04-10 10:59:33;10:59;KM - Klimas Radis;100.0;CZK;1.0;Others;Pujcky - vraceni;CZK;;[];Reconciled
+Expense;2018-04-09 11:00:39;11:00;KM - Tomasovic Zbyna;-5.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;CZK;;[];Reconciled
+Expense;2018-04-09 09:45:08;09:45;KM - Klimas Radis;-100.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;CZK;;[];Reconciled
+Expense;2018-04-08 10:12:53;10:12;Volsa;-139.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;KB - Personal - účet;;[];Reconciled
+Income;2018-04-07 19:05:44;19:05;Volsa;230.0;CZK;1.0;Others;Pujcky - vraceni;CZK;;[];Reconciled
+Expense;2018-04-07 12:04:47;12:04;Volsa;-131.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;KB - Personal - účet;;[];Reconciled
+Expense;2018-04-06 13:44:48;13:44;Volsa;-99.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;KB - Personal - účet;;[];Reconciled
+Expense;2018-03-12 00:00:00;00:00;KM - Folwarczny Jakub;-200.0;CZK;1.0;Financni sluzby;Pujcky - vraceni;CZK;;[];Reconciled
+Income;2018-03-09 00:00:00;00:00;KM - Folwarczny Jakub;200.0;CZK;1.0;Others;Pujcky - pujceni;CZK;;[];Reconciled
+Expense;2018-03-05 00:00:00;00:00;Oslejskovi;-160.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;KB - Personal - účet;Improdzow listky;[];Reconciled
+Expense;2018-03-01 00:00:00;00:00;KM - Liska Miroslav;-200.0;CZK;1.0;Financni sluzby;Pujcky - vraceni;CZK;;[];Reconciled
+Income;2018-02-28 00:00:00;00:00;KM - Liska Miroslav;200.0;CZK;1.0;Others;Pujcky - pujceni;CZK;;[];Reconciled
+Income;2018-02-19 00:00:00;00:00;Polagraph Polaroid;1000.0;CZK;1.0;Others;Pujcky - vraceni;CZK;;[];Reconciled
+Expense;2018-02-16 00:00:00;00:00;Polagraph Polaroid;-1000.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;CZK;;[];Reconciled
+Expense;2018-01-24 00:00:00;00:00;KM - Tomasovic Zbyna;-100.0;CZK;1.0;Financni sluzby;Pujcky - vraceni;Stravenky;;[];Reconciled
+Income;2018-01-24 00:00:00;00:00;KM - Kolar Honza;20.0;CZK;1.0;Others;Pujcky - vraceni;CZK;;[];Reconciled
+Expense;2018-01-19 00:00:00;00:00;KM - Kolar Honza;-20.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;CZK;;[];Reconciled
+Income;2018-01-19 00:00:00;00:00;KM - Tomasovic Zbyna;100.0;CZK;1.0;Others;Pujcky - pujceni;Stravenky;;[];Reconciled
+Expense;2018-01-15 00:00:00;00:00;Vaško Andrea;-600.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;KB - Personal - účet;;[];Reconciled

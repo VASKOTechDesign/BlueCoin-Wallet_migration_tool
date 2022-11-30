@@ -1,0 +1,65 @@
+Type;Date;Set Time;Title;Amount;Currency;Exchange Rate;Category Group Name;Category;Account;Notes;Labels;Status
+Income;2021-12-30 14:25:11;14:25;Modra Pyramida;50.0;CZK;1.0;Others;Pujcky - vraceni;KB - Personal - účet;;['Byt - Těsná'];Cleared
+Expense;2021-12-29 14:16:56;14:16;Modra Pyramida;-50.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;KB - Personal - účet;;['Byt - Těsná'];Cleared
+Expense;2021-11-12 08:19:01;08:19;Vaško Andrea;-1000.0;CZK;1.0;Financni sluzby;Pujcky - vraceni;KB - Personal - účet;;[];Cleared
+Income;2021-11-10 18:01:37;18:01;Vaško Andrea;1000.0;CZK;1.0;Others;Pujcky - pujceni;CZK;;[];Reconciled
+Income;2021-10-21 17:34:33;17:34;Vaško Andrea;1400.0;CZK;1.0;Others;Pujcky - vraceni;AirBank - Společný;Platba spatnou kartou;[];Reconciled
+Expense;2021-10-21 17:30:10;17:30;Vaško Andrea;-1400.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;AirBank - Společný;Platba spatnou kartou;[];Reconciled
+Income;2021-10-13 12:59:26;12:59;KM - Tomasovic Zbyna;230.8;CZK;1.0;Others;Pujcky - vraceni;KB - Personal - účet;;[];Cleared
+Expense;2021-10-13 11:37:07;11:37;KM - Novotny Jan;-190.0;CZK;1.0;Financni sluzby;Pujcky - vraceni;KB - Personal - účet;;[];Cleared
+Expense;2021-10-13 09:42:59;09:42;Mamca;-120.0;CZK;1.0;Financni sluzby;Pujcky - vraceni;KB - Personal - účet;;[];Cleared
+Expense;2021-10-13 09:39:21;09:39;Vaško Andrea;-43.8;CZK;1.0;Financni sluzby;Pujcky - vraceni;KB - Personal - účet;;[];Cleared
+Expense;2021-10-13 09:33:47;09:33;Cupak Martin - Automechanik;-0.56;CZK;1.0;Financni sluzby;Pujcky - vraceni;KB - Personal - účet;Koncert Marese;[];Cleared
+Expense;2021-10-13 09:25:22;09:25;Hyza Radek;-0.69;CZK;1.0;Financni sluzby;Pujcky - vraceni;KB - Personal - účet;;[];Cleared
+Expense;2021-10-13 08:48:09;08:48;Hyzova Misa;-1.0;CZK;1.0;Financni sluzby;Pujcky - vraceni;KB - Personal - účet;;[];Cleared
+Income;2021-09-29 11:07:41;11:07;KM - Novotny Jan;140.0;CZK;1.0;Others;Pujcky - pujceni;CZK;;[];Reconciled
+Income;2021-09-19 22:25:35;22:25;Hyzova Misa;500.0;CZK;1.0;Others;Pujcky - vraceni;KB - Personal - účet;Brno Open;[];Cleared
+Income;2021-09-18 12:29:22;12:29;Vaško Andrea;1000.0;CZK;1.0;Others;Pujcky - pujceni;CZK;;[];Reconciled
+Expense;2021-09-09 19:24:39;19:24;Vaško Andrea;-11000.0;CZK;1.0;Financni sluzby;Pujcky - vraceni;KB - Personal - účet;Za skrin do pokoje;[];Cleared
+Expense;2021-09-01 16:07:56;16:07;Hyzova Misa;-500.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;KB - Personal - účet;Brno Open;[];Cleared
+Income;2021-08-27 16:22:15;16:22;Stern;4500.0;CZK;1.0;Others;Pujcky - vraceni;CZK - Společný;Zaloha na sudy;['Svatba'];Reconciled
+Expense;2021-07-23 07:30:07;07:30;Vaško Andrea;-100.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;CZK;Vymena kovaku za papirovou;[];Reconciled
+Income;2021-07-21 17:09:08;17:09;Vaško Andrea;11000.0;CZK;1.0;Others;Pujcky - pujceni;CZK;Pujcka na skrinky do bordel pokoje;[];Cleared
+Expense;2021-07-14 22:32:29;22:32;Element;-50.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;CZK;;[];Reconciled
+Income;2021-07-14 22:31:25;22:31;Element;100.0;CZK;1.0;Others;Pujcky - vraceni;CZK;;[];Reconciled
+Expense;2021-07-14 22:03:01;22:03;Element;-100.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;CZK;;[];Reconciled
+Income;2021-07-06 18:15:21;18:15;Mamca;120.0;CZK;1.0;Others;Pujcky - pujceni;CZK;;[];Reconciled
+Income;2021-06-25 09:01:49;09:01;Hyza Radek;181.69;CZK;1.0;Others;Pujcky - vraceni;KB - Personal - účet;Za Monte Bu;[];Cleared
+Income;2021-06-24 15:31:30;15:31;Cupera Roman;120.0;CZK;1.0;Others;Pujcky - pujceni;KB - Personal - účet;Monte Bu;[];Cleared
+Expense;2021-06-24 11:55:11;11:55;Marketplace;-19.0;CZK;1.0;Financni sluzby;Pujcky - vraceni;AirBank - Spořící;Vratka preplatku postovneho;['Svatba'];Reconciled
+Expense;2021-06-23 20:04:04;20:04;Hyza Radek;-181.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;KB - Personal - účet;Za Monte Bu;[];Cleared
+Expense;2021-06-23 20:04:03;20:04;Cupera Roman;-120.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;KB - Personal - účet;Monte Bu;[];Cleared
+Income;2021-06-21 16:26:33;16:26;Svet piva;5000.0;CZK;1.0;Others;Pujcky - vraceni;CZK - Společný;Zaloha na pipu;[];Reconciled
+Income;2021-06-18 20:52:27;20:52;Burger fest;50.0;CZK;1.0;Others;Pujcky - vraceni;CZK;;[];Reconciled
+Expense;2021-06-18 19:50:17;19:50;Burger fest;-50.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;CZK;;[];Reconciled
+Expense;2021-06-18 16:25:57;16:25;AirBank;-150000.0;CZK;1.0;Financni sluzby;Pujcky - vraceni;AirBank - Společný;Splátka svatební pujcky;['Svatba'];Reconciled
+Expense;2021-06-18 14:53:26;14:53;Svet piva;-5000.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;CZK - Společný;Zaloha na pipu;[];Reconciled
+Income;2021-06-14 09:05:02;09:05;Kinorent;7000.0;CZK;1.0;Others;Pujcky - vraceni;CZK - Společný;Zaloha na projektor a platno;['Svatba'];Reconciled
+Expense;2021-06-11 09:01:10;09:01;Kinorent;-7000.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;CZK - Společný;Zaloha na projektor a platno;['Svatba'];Reconciled
+Income;2021-06-10 16:58:45;16:58;Globus;477.0;CZK;1.0;Others;Pujcky - vraceni;CZK;Zalohu za lahve a basy;['Svatba'];Reconciled
+Expense;2021-06-10 11:28:53;11:28;Stern;-4500.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;AirBank - Společný;Zaloha na sudy;['Svatba'];Reconciled
+Income;2021-06-04 13:03:02;13:03;AirBank;150000.0;CZK;1.0;Others;Pujcky - pujceni;AirBank - Společný;Svatební pujcka;['Svatba'];None
+Income;2021-05-22 14:20:50;14:20;Slavnosti Chrestu Ivancice;120.0;CZK;1.0;Others;Pujcky - vraceni;CZK;;[];Reconciled
+Expense;2021-05-22 13:05:06;13:05;Slavnosti Chrestu Ivancice;-120.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;CZK;;[];Reconciled
+Income;2021-05-20 11:46:57;11:46;Vaško Andrea;787.0;CZK;1.0;Others;Pujcky - vraceni;AirBank - Společný;Spatna karta;[];Reconciled
+Expense;2021-05-20 11:17:51;11:17;Vaško Andrea;-787.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;AirBank - Společný;Spatna karta;[];Reconciled
+Expense;2021-05-14 15:58:00;15:58;Globus;-477.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;KB - Personal - účet;Zalohu za lahve a basy;['Svatba'];Cleared
+Expense;2021-04-22 11:45:38;11:45;Vaško Andrea;-377.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;AirBank - Společný;Omyl platba spatnou kartou;[];Reconciled
+Expense;2021-04-22 08:00:42;08:00;Vaško Andrea;-600.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;AirBank - Společný;Zbytek z penez pro doplaceni cla satu;['Svatba'];Reconciled
+Income;2021-04-08 07:31:42;07:31;Vaško Andrea;6180.0;CZK;1.0;Others;Pujcky - vraceni;AirBank - Společný;OneDent beleni zubu;[];Reconciled
+Income;2021-04-08 07:00:35;07:00;KM - Hauzar Petr;198.9;CZK;1.0;Others;Pujcky - vraceni;KB - Personal - účet;Kaufland: Republika;[];Cleared
+Expense;2021-04-07 13:43:58;13:43;Vaško Andrea;-6180.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;AirBank - Společný;OneDent beleni zubu;[];Reconciled
+Expense;2021-04-05 20:48:45;20:48;Vaško Andrea;-1000.0;CZK;1.0;Financni sluzby;Pujcky - vraceni;CZK;;[];Reconciled
+Income;2021-04-05 14:51:09;14:51;Vaško Andrea;1000.0;CZK;1.0;Others;Pujcky - pujceni;CZK;;[];Reconciled
+Income;2021-03-30 17:47:25;17:47;KM - Novotny Jan;90.0;CZK;1.0;Others;Pujcky - pujceni;CZK;;[];Reconciled
+Expense;2021-03-22 17:34:14;17:34;KM - Hauzar Petr;-198.9;CZK;1.0;Financni sluzby;Pujcky - pujceni;KB - Personal - účet;Kaufland: Republika;[];Cleared
+Income;2021-02-23 21:34:04;21:34;Vaško Andrea;100.0;CZK;1.0;Others;Pujcky - vraceni;CZK;Penny: Rychlovarna konvice 2ks;[];Reconciled
+Income;2021-02-23 15:32:44;15:32;Vaško Andrea;500.0;CZK;1.0;Others;Pujcky - vraceni;AirBank - Společný;Sephora vonavka;[];Reconciled
+Expense;2021-02-20 23:11:21;23:11;Vaško Andrea;-100.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;CZK;Penny: Rychlovarna konvice 2ks;[];Reconciled
+Expense;2021-02-19 09:37:00;09:37;Vaško Andrea;-500.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;AirBank - Společný;Sephora vonavka;[];Reconciled
+Income;2021-01-29 15:31:27;15:31;SVJ Tesna;3588.0;CZK;1.0;Others;Pujcky - vraceni;CZK;Mall trezor na klice;['Byt - Těsná'];Reconciled
+Expense;2021-01-29 14:49:31;14:49;SVJ Tesna;-3588.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;CZK;Mall trezor na klice;['Byt - Těsná'];Cleared
+Income;2021-01-20 20:09:45;20:09;Bauhaus;9000.0;CZK;1.0;Others;Pujcky - vraceni;KB - Personal - účet;Termokamera;[];Cleared
+Expense;2021-01-15 16:48:21;16:48;Bauhaus;-9000.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;CZK;Termokamera;[];Cleared
+Income;2021-01-15 15:18:40;15:18;Bauhaus;9000.0;CZK;1.0;Others;Pujcky - vraceni;CZK;Termokamera;[];Cleared
+Expense;2021-01-15 15:03:28;15:03;Bauhaus;-9000.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;KB - Personal - účet;Termokamera;[];Cleared

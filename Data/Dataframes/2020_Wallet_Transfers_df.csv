@@ -1,0 +1,61 @@
+Type;Date;Time;From_Account;To_Account;From_Amount;From_Amount_LCY;To_Amount;To_Amount_LCY;From_Currency;To_Currency;Payment_type;Payment_Status;Labels;Notes
+Transfer;2020-01-07;11:15;KB - Personal - účet;CZK;2500.0;2500.0;2500.0;2500.0;CZK;CZK;Transfer;Cleared;[];
+Transfer;2020-01-11;16:10;Trezor;CZK;1000.0;1000.0;1000.0;1000.0;CZK;CZK;Transfer;Reconciled;[];
+Transfer;2020-01-15;18:16;KB - Personal - účet;CZK;1000.0;1000.0;1000.0;1000.0;CZK;CZK;Transfer;Cleared;[];
+Transfer;2020-01-16;15:41;KB - Personal - účet;Trezor;10000.0;10000.0;10000.0;10000.0;CZK;CZK;Transfer;Reconciled;[];
+Transfer;2020-01-23;10:27;Trezor;CZK;1000.0;1000.0;1000.0;1000.0;CZK;CZK;Transfer;Reconciled;[];
+Transfer;2020-01-24;15:02;KB - Personal - účet;CZK;2000.0;2000.0;2000.0;2000.0;CZK;CZK;Transfer;Cleared;[];
+Transfer;2020-01-24;22:15;CZK;Trezor;2000.0;2000.0;2000.0;2000.0;CZK;CZK;Transfer;Reconciled;[];
+Transfer;2020-02-03;07:39;Trezor;CZK;2000.0;2000.0;2000.0;2000.0;CZK;CZK;Transfer;Reconciled;[];
+Transfer;2020-02-07;06:28;Trezor;CZK;9000.0;9000.0;9000.0;9000.0;CZK;CZK;Transfer;Reconciled;[];
+Transfer;2020-02-07;07:47;CZK;KB - Personal - účet;11000.0;11000.0;11000.0;11000.0;CZK;CZK;Transfer;Cleared;[];
+Transfer;2020-02-14;15:45;KB - Personal - účet;CZK;2000.0;2000.0;2000.0;2000.0;CZK;CZK;Transfer;Cleared;[];
+Transfer;2020-02-22;18:47;KB - Personal - účet;CZK;5000.0;5000.0;5000.0;5000.0;CZK;CZK;Transfer;Cleared;[];
+Transfer;2020-03-03;16:34;KB - Personal - účet;CZK;1000.0;1000.0;1000.0;1000.0;CZK;CZK;Transfer;Cleared;[];
+Transfer;2020-03-16;16:22;KB - Personal - účet;CZK;1000.0;1000.0;1000.0;1000.0;CZK;CZK;Transfer;Cleared;[];
+Transfer;2020-04-06;13:45;KB - Personal - účet;CZK;1000.0;1000.0;1000.0;1000.0;CZK;CZK;Transfer;Cleared;[];
+Transfer;2020-04-22;12:20;KB - Personal - účet;CZK;1000.0;1000.0;1000.0;1000.0;CZK;CZK;Transfer;Cleared;[];
+Transfer;2020-05-26;16:54;KB - Personal - účet;CZK;1000.0;1000.0;1000.0;1000.0;CZK;CZK;Transfer;Cleared;[];
+Transfer;2020-05-29;14:13;KB - Personal - účet;CZK;2000.0;2000.0;2000.0;2000.0;CZK;CZK;Transfer;Cleared;[];
+Transfer;2020-06-01;14:37;KB - Personal - účet;CZK;3000.0;3000.0;3000.0;3000.0;CZK;CZK;Transfer;Cleared;[];
+Transfer;2020-06-06;19:07;KB - Personal - účet;CZK;7000.0;7000.0;7000.0;7000.0;CZK;CZK;Transfer;Cleared;[];
+Transfer;2020-06-08;10:58;CZK;KB - Personal - účet;5000.0;5000.0;5000.0;5000.0;CZK;CZK;Transfer;Reconciled;[];
+Transfer;2020-06-12;14:30;KB - Personal - účet;CZK;2000.0;2000.0;2000.0;2000.0;CZK;CZK;Transfer;Cleared;[];
+Transfer;2020-06-23;15:38;KB - Personal - účet;CZK;1000.0;1000.0;1000.0;1000.0;CZK;CZK;Transfer;Cleared;[];
+Transfer;2020-06-30;13:09;KB - Personal - účet;CZK;1000.0;1000.0;1000.0;1000.0;CZK;CZK;Transfer;Cleared;[];
+Transfer;2020-07-17;20:39;KB - Personal - účet;CZK;3000.0;3000.0;3000.0;3000.0;CZK;CZK;Transfer;Cleared;[];
+Transfer;2020-07-20;11:18;KB - Personal - účet;CZK;1000.0;1000.0;1000.0;1000.0;CZK;CZK;Transfer;Cleared;[];
+Transfer;2020-07-24;22:15;KB - Personal - účet;CZK;2000.0;2000.0;2000.0;2000.0;CZK;CZK;Transfer;Cleared;[];
+Transfer;2020-08-04;16:50;KB - Personal - účet;CZK;1000.0;1000.0;1000.0;1000.0;CZK;CZK;Transfer;Cleared;[];
+Transfer;2020-08-06;17:18;KB - Personal - účet;CZK;8000.0;8000.0;8000.0;8000.0;CZK;CZK;Transfer;Cleared;[];
+Transfer;2020-08-18;19:24;KB - Personal - účet;CZK;600.0;600.0;600.0;600.0;CZK;CZK;Transfer;Cleared;[];
+Transfer;2020-08-20;17:56;KB - Personal - účet;CZK;1000.0;1000.0;1000.0;1000.0;CZK;CZK;Transfer;Cleared;[];
+Transfer;2020-08-23;02:03;KB - Personal - účet;CZK;600.0;600.0;600.0;600.0;CZK;CZK;Transfer;Cleared;[];
+Transfer;2020-08-24;19:47;KB - Personal - účet;AirBank - Společný;1.0;1.0;1.0;1.0;CZK;CZK;Transfer;Reconciled;[];
+Transfer;2020-08-26;17:33;KB - Personal - účet;AirBank - Společný;100.0;100.0;100.0;100.0;CZK;CZK;Transfer;Reconciled;[];
+Transfer;2020-09-18;11:08;KB - Personal - účet;AirBank - Spořící;10000.0;10000.0;10000.0;10000.0;CZK;CZK;Transfer;Reconciled;['Vklad - Honza'];Svatba
+Transfer;2020-09-19;14:11;KB - Personal - účet;AirBank - Společný;5000.0;5000.0;5000.0;5000.0;CZK;CZK;Transfer;Reconciled;['Vklad - Honza'];
+Transfer;2020-09-21;17:59;KB - Personal - účet;CZK;1000.0;1000.0;1000.0;1000.0;CZK;CZK;Transfer;Cleared;[];
+Transfer;2020-10-02;11:16;KB - Personal - účet;CZK;2000.0;2000.0;2000.0;2000.0;CZK;CZK;Transfer;Cleared;[];
+Transfer;2020-10-12;08:53;KB - Personal - účet;AirBank - Společný;5000.0;5000.0;5000.0;5000.0;CZK;CZK;Transfer;Reconciled;['Vklad - Honza'];
+Transfer;2020-10-12;08:56;KB - Personal - účet;AirBank - Spořící;35000.0;35000.0;35000.0;35000.0;CZK;CZK;Transfer;Reconciled;['Vklad - Honza'];Svatba
+Transfer;2020-10-15;17:17;KB - Personal - účet;CZK;1500.0;1500.0;1500.0;1500.0;CZK;CZK;Transfer;Cleared;[];
+Transfer;2020-10-26;18:53;KB - Personal - účet;CZK;1500.0;1500.0;1500.0;1500.0;CZK;CZK;Transfer;Cleared;[];
+Transfer;2020-11-11;10:14;KB - Personal - účet;AirBank - Společný;5000.0;5000.0;5000.0;5000.0;CZK;CZK;Transfer;Reconciled;['Vklad - Honza'];
+Transfer;2020-11-11;10:14;KB - Personal - účet;AirBank - Spořící;10000.0;10000.0;10000.0;10000.0;CZK;CZK;Transfer;Reconciled;['Vklad - Honza'];Svatba
+Transfer;2020-11-21;09:25;KB - Personal - účet;CZK;1000.0;1000.0;1000.0;1000.0;CZK;CZK;Transfer;Cleared;[];
+Transfer;2020-11-23;07:39;KB - Personal - účet;AirBank - Společný;5000.0;5000.0;5000.0;5000.0;CZK;CZK;Transfer;Reconciled;['Vklad - Honza'];
+Transfer;2020-11-29;18:36;KB - Personal - účet;CZK;3000.0;3000.0;3000.0;3000.0;CZK;CZK;Transfer;Cleared;[];
+Transfer;2020-12-11;08:19;KB - Personal - účet;AirBank - Společný;5000.0;5000.0;5000.0;5000.0;CZK;CZK;Transfer;Reconciled;['Vklad - Honza'];
+Transfer;2020-12-11;08:19;KB - Personal - účet;AirBank - Spořící;10000.0;10000.0;10000.0;10000.0;CZK;CZK;Transfer;Reconciled;['Vklad - Honza'];Svatba
+Transfer;2020-12-11;14:34;AirBank - Společný;CZK;50.0;50.0;50.0;50.0;CZK;CZK;Transfer;Reconciled;[];
+Transfer;2020-12-11;15:20;KB - Personal - účet;AirBank - Společný;50.0;50.0;50.0;50.0;CZK;CZK;Transfer;Reconciled;[];
+Transfer;2020-12-12;07:00;AirBank - Společný;AirBank - VASKO TechDesign;100.0;100.0;100.0;100.0;CZK;CZK;Transfer;Reconciled;[];
+Transfer;2020-12-12;14:10;KB - Personal - účet;AirBank - Společný;100.0;100.0;100.0;100.0;CZK;CZK;Transfer;Reconciled;[];
+Transfer;2020-12-16;21:34;AirBank - Spořící;AirBank - Společný;167.47;167.47;167.47;167.47;CZK;CZK;Transfer;Reconciled;[];
+Transfer;2020-12-16;21:44;AirBank - Spořící;AirBank - Společný;99.29;99.29;99.29;99.29;CZK;CZK;Transfer;Reconciled;[];
+Transfer;2020-12-16;21:56;AirBank - Spořící;AirBank - Společný;702.98;702.98;702.98;702.98;CZK;CZK;Transfer;Reconciled;[];
+Transfer;2020-12-16;22:21;AirBank - Spořící;AirBank - Společný;418.86;418.86;418.86;418.86;CZK;CZK;Transfer;Reconciled;[];
+Transfer;2020-12-16;22:51;AirBank - Spořící;AirBank - Společný;392.71;392.71;392.71;392.71;CZK;CZK;Transfer;Reconciled;[];
+Transfer;2020-12-21;13:32;KB - Personal - účet;CZK;1000.0;1000.0;1000.0;1000.0;CZK;CZK;Transfer;Cleared;[];
+Transfer;2020-12-30;20:54;KB - Personal - účet;CZK;1420.0;1420.0;1420.0;1420.0;CZK;CZK;Transfer;Cleared;[];

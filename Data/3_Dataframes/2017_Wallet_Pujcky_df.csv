@@ -40,27 +40,3 @@ Income;2017-06-29 00:00:00;00:00;KM - Klimas Radis;50.0;CZK;1.0;Others;Pujcky - 
 Expense;2017-06-20 00:00:00;00:00;KM - Klimas Radis;-20.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;CZK;;[];Reconciled
 Income;2017-06-09 00:00:00;00:00;KM - Liska Miroslav;10.0;CZK;1.0;Others;Pujcky - vraceni;CZK;;[];Reconciled
 Expense;2017-06-08 00:00:00;00:00;KM - Liska Miroslav;-10.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;CZK;;[];Reconciled
-Expense;2017-04-24 00:00:00;00:00;KM - Tomasovic Zbyna;-359.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;KB - Personal - účet;;[];Reconciled
-Expense;2017-04-24 00:00:00;00:00;KM - Tomasovic Zbyna;-50.0;CZK;1.0;Financni sluzby;Pujcky - vraceni;Stravenky;;[];Reconciled
-Income;2017-04-24 00:00:00;00:00;KM - Tomasovic Zbyna;400.0;CZK;1.0;Others;Pujcky - vraceni;CZK;;[];Reconciled
-Expense;2017-04-05 00:00:00;00:00;KM - Nemec Tomas;-300.0;CZK;1.0;Financni sluzby;Pujcky - vraceni;CZK;;[];Reconciled
-Income;2017-04-04 00:00:00;00:00;KM - Nemec Tomas;300.0;CZK;1.0;Others;Pujcky - pujceni;CZK;;[];Reconciled
-Expense;2017-03-29 00:00:00;00:00;KM - Jancovicova Dominika;-200.0;CZK;1.0;Financni sluzby;Pujcky - vraceni;CZK;;[];Reconciled
-Income;2017-03-29 00:00:00;00:00;KM - Jancovicova Dominika;200.0;CZK;1.0;Others;Pujcky - pujceni;CZK;;[];Reconciled
-Expense;2017-03-27 00:00:00;00:00;Volsa;-1380.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;KB - Personal - účet;;[];Reconciled
-Income;2017-03-27 00:00:00;00:00;Volsa;1380.0;CZK;1.0;Others;Pujcky - vraceni;KB - Personal - účet;;[];Reconciled
-Expense;2017-03-09 00:00:00;00:00;KM - Raszka Pavel;-1000.0;CZK;1.0;Financni sluzby;Pujcky - vraceni;KB - Personal - účet;;[];Reconciled
-Income;2017-03-08 00:00:00;00:00;KM - Raszka Pavel;1000.0;CZK;1.0;Others;Pujcky - pujceni;CZK;;[];Reconciled
-Income;2017-02-23 00:00:00;00:00;KM - Tomasovic Zbyna;100.0;CZK;1.0;Others;Pujcky - vraceni;Stravenky;;[];Reconciled
-Expense;2017-02-22 00:00:00;00:00;KM - Tomasovic Zbyna;-100.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;Stravenky;;[];Reconciled
-Income;2017-02-22 00:00:00;00:00;KM - Tomasovic Zbyna;30.0;CZK;1.0;Others;Pujcky - vraceni;CZK;;[];Reconciled
-Expense;2017-02-03 00:00:00;00:00;KM - Tomasovic Zbyna;-1000.0;CZK;1.0;Financni sluzby;Pujcky - vraceni;CZK;;[];Reconciled
-Income;2017-02-02 00:00:00;00:00;KM - Tomasovic Zbyna;1000.0;CZK;1.0;Others;Pujcky - pujceni;CZK;;[];Reconciled
-Income;2017-01-20 00:00:00;00:00;KM - Tomasovic Zbyna;1000.0;CZK;1.0;Others;Pujcky - vraceni;CZK;;[];Reconciled
-Expense;2017-01-13 00:00:00;00:00;KM - Tomasovic Zbyna;-1000.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;CZK;;[];Reconciled
-Expense;2017-01-11 00:00:00;00:00;KM - Raszka Pavel;-1000.0;CZK;1.0;Financni sluzby;Pujcky - vraceni;CZK;;[];Reconciled
-Income;2017-01-11 00:00:00;00:00;KM - Raszka Pavel;1000.0;CZK;1.0;Others;Pujcky - pujceni;CZK;;[];Reconciled
-Expense;2017-01-09 00:00:00;00:00;KM - Klimas Radis;-1000.0;CZK;1.0;Financni sluzby;Pujcky - vraceni;CZK;;[];Reconciled
-Expense;2017-01-09 00:00:00;00:00;KM - Nemec Tomas;-1000.0;CZK;1.0;Financni sluzby;Pujcky - vraceni;CZK;;[];Reconciled
-Income;2017-01-06 00:00:00;00:00;KM - Klimas Radis;1000.0;CZK;1.0;Others;Pujcky - pujceni;CZK;;[];Reconciled
-Income;2017-01-06 00:00:00;00:00;KM - Nemec Tomas;1000.0;CZK;1.0;Others;Pujcky - pujceni;CZK;;[];Reconciled

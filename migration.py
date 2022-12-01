@@ -1,9 +1,9 @@
 # DF preparatoin
 def Replace_signs_in_file(From_File_Name, To_File_Name) -> None:
-    with open(file=f"./Data/{From_File_Name}.csv", mode="tr", encoding="utf-8-sig") as f:
+    with open(file=f"./Data/1_Source_Files/{From_File_Name}.csv", mode="tr", encoding="utf-8-sig") as f:
         lines = f.readlines()
     f.close()
-    with open(file=f"./Data/Translated/{To_File_Name}.csv", mode="w", encoding="utf-8-sig") as f_result:
+    with open(file=f"./Data/2_Translated/{To_File_Name}.csv", mode="w", encoding="utf-8-sig") as f_result:
         for line in lines:
             line = line.rstrip("\n")
             line = line.replace('","',";")
@@ -38,7 +38,7 @@ def Restart_application(pyautogui, time, Cancel_cross, App_button) -> None:
     print("WEB page restarted")
 
 def BlueCoin_create_labels(text) -> str:
-    Label_list = ["2017 - Budapešť", "2017 - Španělsko", "2018 - Amsterdam", "2018 - Francie", "2018 - Praha", "2018 - Slovinsko", "2019 - Beskydy", "2019 - Harrachov", "2019 - Itálie", "2019 - Kapverdy", "2019 - Mušov", "2019 - Slovensko", "2020 - Kanárské ost.", "2020 - Lukavice", "2020 - Velikonoce", "2020 - Wichterle", "2021 - Kréta", "2021 - Kutná Hora", "2021 - Pluskoveček", "2021 - Slovinsko", "2021 - Šumava", "2022 - Chorvatsko", "2022 - Rokytnice", "Byt - Rogoznica", "Byt - Provazníkova", "Byt - Těsná", "Dovolena: All", "KM-BBL: 2019-08", "KM-BBL: 2022-08", "KM-BBL: 2022-11","KM-BEU: 2018-06", "KM-BHR: 2018-01", "KM-BHR: 2018-06", "KM-BHR: 2018-08A", "KM-BHR: 2018-08B", "KM-BHR: 2018-10A", "KM-BHR: 2018-10B", "KM-BPL: 2019-10", "KM-BPL: 2019-12", "KM-BPL: 2020-07", "KM-BPL: 2020-08", "KM-BPL: 2021-11", "KM-BR: 2019-01", "KM-BRO: 2018-01", "KM-BSL: 2017-10", "KM-BSL: 2019-03", "KM-BSL: 2019-05", "KM-BSL: 2019-09", "KM-BSL: 2019-10", "KM-BSL: 2019-11", "KM-BSL: 2020-01", "KM-BSL: 2020-02", "KM-Dubai: 2019-03", "KM-Služebka-All", "Renault Laguna", "Sebastien Vaško", "Schampy", "Svatba", "Vánoce", "VASKO TechDesign", "VASKO: Energy Sol.", "VASKO: IoT - PUR", "VASKO: SportBet", "Vklad - Andrea", "Vklad - Honza", "Výlety"]
+    Label_list = ["2017 - Budapešť", "2017 - Španělsko", "2018 - Amsterdam", "2018 - Francie", "2018 - Praha", "2018 - Slovinsko", "2019 - Beskydy", "2019 - Harrachov", "2019 - Itálie", "2019 - Kapverdy", "2019 - Mušov", "2019 - Slovensko", "2020 - Kanárské ost.", "2020 - Lukavice", "2020 - Velikonoce", "2020 - Wichterle", "2021 - Kréta", "2021 - Kutná Hora", "2021 - Pluskoveček", "2021 - Slovinsko", "2021 - Šumava", "2022 - Chorvatsko", "2022 - Rokytnice", "Byt - Rogoznica", "Byt - Provazníkova", "Byt - Těsná", "Dovolená: All", "KM-BBL: 2019-08", "KM-BBL: 2022-08", "KM-BBL: 2022-11","KM-BEU: 2018-06", "KM-BHR: 2018-01", "KM-BHR: 2018-06", "KM-BHR: 2018-08A", "KM-BHR: 2018-08B", "KM-BHR: 2018-10A", "KM-BHR: 2018-10B", "KM-BPL: 2019-10", "KM-BPL: 2019-12", "KM-BPL: 2020-07", "KM-BPL: 2020-08", "KM-BPL: 2021-11", "KM-BR: 2019-01", "KM-BRO: 2018-01", "KM-BSL: 2017-10", "KM-BSL: 2019-03", "KM-BSL: 2019-05", "KM-BSL: 2019-09", "KM-BSL: 2019-10", "KM-BSL: 2019-11", "KM-BSL: 2020-01", "KM-BSL: 2020-02", "KM-Dubai: 2019-03", "KM-Služebka-All", "Renault Laguna", "Sebastien Vaško", "Schampy", "Svatba", "Vánoce", "VASKO TechDesign", "VASKO: Energy Sol.", "VASKO: IoT - PUR", "VASKO: SportBet", "Vklad - Andrea", "Vklad - Honza", "Výlety"]
     row_label = []
     if text == "nan":
         return "[]"
@@ -229,7 +229,7 @@ pandas.options.mode.chained_assignment = None
 Expense_Income_Method = "CZK" # Values: "CZK", "Original"
 Transfer_Method = "CZK" # Values: "CZK", "Original"
 Data_to_WEB_Process = "Both"  # "Income_Expense", "Transfers", "Both"
-Year_to_Process = 2017
+Year_to_Process = 2018
 No_cycle_to_restar = 100
 From_File_Name = f"{Year_to_Process}_transactions_list"
 To_File_Name = f"{Year_to_Process}_transactions_list_process"
@@ -340,7 +340,7 @@ Category_df["BlueCoin_Sub_Category"] = Category_df["BlueCoin_Sub_Category"].appl
 Category_df["Note"] = Category_df["Note"].apply(BlueCoin_delete_df_text)
 
 # --------------------------------- Main ---------------------------------#
-BlueCoins_df = pandas.read_csv(filepath_or_buffer=f"./Data/Translated/{To_File_Name}.csv", sep=";", header=0)
+BlueCoins_df = pandas.read_csv(filepath_or_buffer=f"./Data/2_Translated/{To_File_Name}.csv", sep=";", header=0)
 BlueCoins_df["Notes"] = BlueCoins_df["Notes"].apply(BlueCoin_delete_df_text)
 BlueCoins_df["Labels"] = BlueCoins_df["Labels"].apply(BlueCoin_delete_df_text)
 BlueCoins_df["Title"] = BlueCoins_df["Title"].apply(BlueCoin_delete_df_text)
@@ -371,7 +371,7 @@ del Pujcky_mask_1, Pujcky_mask_2
 Income_Expense_df["Labels"] = Income_Expense_df["Labels"].apply(BlueCoin_create_labels)
 Transfers_df["Labels"] = Transfers_df["Labels"].apply(BlueCoin_create_labels)
 Pujcky_df["Labels"] = Pujcky_df["Labels"].apply(BlueCoin_create_labels)
-Pujcky_df.to_csv(path_or_buf=f"./Data/Dataframes/{Year_to_Process}_Wallet_Pujcky_df.csv", sep=";", index=False)
+Pujcky_df.to_csv(path_or_buf=f"./Data/3_Dataframes/{Year_to_Process}_Wallet_Pujcky_df.csv", sep=";", index=False)
 
 # ----------------- Wallet -----------------#
 # DF - Income / Expense
@@ -453,7 +453,7 @@ Wallet_Income_Expense_df["Payment_Status"] = Wallet_Income_Expense_df["Status"].
 Wallet_Income_Expense_df["Place"] = ""
 Wallet_Income_Expense_df.drop(labels=["Set Time", "Title", "Category Group Name", "Category", "Status"], inplace=True, axis=1)
 Wallet_Income_Expense_df.sort_values(by=["Date", "Time"], inplace=True, ascending=True)
-Wallet_Income_Expense_df.to_csv(path_or_buf=f"./Data/Dataframes/{Year_to_Process}_Wallet_Income_Expense_df.csv", sep=";", index=False, columns=["Type","Date","Time","Account","Amount","Amount_LCY","Currency","Category_1","Category_2","Category_3","Payee","Payment_type","Payment_Status","Labels","Notes"])
+Wallet_Income_Expense_df.to_csv(path_or_buf=f"./Data/3_Dataframes/{Year_to_Process}_Wallet_Income_Expense_df.csv", sep=";", index=False, columns=["Type","Date","Time","Account","Amount","Amount_LCY","Currency","Category_1","Category_2","Category_3","Payee","Payment_type","Payment_Status","Labels","Notes"])
 
 # DF - Transferes
 Wallet_Transfers_df = Transfers_df 
@@ -513,7 +513,7 @@ Wallet_Transfers_df["Place"] = ""
 
 Wallet_Transfers_df.drop(labels=["Amount", "Currency", "Category Group Name", "Category", "Status", "Exchange Rate", "Title", "Account", "Set Time"], inplace=True, axis=1)
 Wallet_Transfers_df.sort_values(by=["Date", "Time"], inplace=True, ascending=True)
-Wallet_Transfers_df.to_csv(path_or_buf=f"./Data/Dataframes/{Year_to_Process}_Wallet_Transfers_df.csv", sep=";", index=False, columns=["Type","Date","Time","From_Account","To_Account","From_Amount","From_Amount_LCY","To_Amount","To_Amount_LCY","From_Currency","To_Currency","Payment_type","Payment_Status","Labels","Notes"])
+Wallet_Transfers_df.to_csv(path_or_buf=f"./Data/3_Dataframes/{Year_to_Process}_Wallet_Transfers_df.csv", sep=";", index=False, columns=["Type","Date","Time","From_Account","To_Account","From_Amount","From_Amount_LCY","To_Amount","To_Amount_LCY","From_Currency","To_Currency","Payment_type","Payment_Status","Labels","Notes"])
 
 # Web App
 time.sleep(5)
@@ -668,6 +668,8 @@ if Data_to_WEB_Process == "Income_Expense" or Data_to_WEB_Process == "Both":
             # Record Transaction
             mouse_move(pyautogui, time, 0.25, Add_record)
             mouse_clic(pyautogui, time, 0.1)
+
+        time.sleep(1)
 
         # Restart Web before another read
         Cycle_Counter += 1
@@ -830,6 +832,8 @@ if Data_to_WEB_Process == "Transfers" or Data_to_WEB_Process == "Both":
             mouse_move(pyautogui, time, 0.25, Add_record)
             mouse_clic(pyautogui, time, 0.1)
         
+        time.sleep(1)
+
         # Restart Web before another read
         Cycle_Counter += 1
         if Cycle_Counter == No_cycle_to_restar:

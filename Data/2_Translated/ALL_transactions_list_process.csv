@@ -3759,7 +3759,7 @@ Expense;2021-04-22 17:59:54;17:59;Lidl;-69.00;CZK;1.0000000000;Sluzby;Shipping c
 Transfer;2021-04-22 16:29:52;16:29;Transfer;-708.00;CZK;1.0000000000;(Transfer);(Transfer);AirBank - Spořící;;;Reconciled
 Transfer;2021-04-22 16:29:52;16:29;Transfer;708.00;CZK;1.0000000000;(Transfer);(Transfer);AirBank - Společný;;;Reconciled
 Expense;2021-04-22 16:29:20;16:29;Factcool;-708.00;CZK;1.0000000000;Nakup;Obleceni;AirBank - Společný;Anda svatebni boty;Svatba;Reconciled
-Expense;2021-04-22 12:45:43;12:45;Terident;-1250.00;CZK;1.0000000000;Sluzby;Zubar;KB - Personal - účet;Dentalni hygieba;;Cleared
+Expense;2021-04-22 12:45:43;12:45;Terident;-1250.00;CZK;1.0000000000;Sluzby;Dentalni hygiena;KB - Personal - účet;Dentalni hygieba;;Cleared
 Expense;2021-04-22 11:45:38;11:45;Vaško Andrea;-377.00;CZK;1.0000000000;Financni sluzby;Pujcky - pujceni;AirBank - Společný;Omyl platba spatnou kartou;Půjčky;Reconciled
 Expense;2021-04-22 10:54:16;10:54;T-Mobile;-26.62;CZK;1.0000000000;Subscription;Tarif;KB - Personal - účet;;VASKO: Energy Sol. VASKO TechDesign;Cleared
 Expense;2021-04-22 10:54:14;10:54;T-Mobile;-628.99;CZK;1.0000000000;Subscription;Internet;KB - Personal - účet;;Byt - Těsná;Cleared
@@ -4675,7 +4675,7 @@ Expense;2020-10-15 07:00:11;07:00;Modra Pyramida;-750.00;CZK;1.0000000000;Bankov
 Expense;2020-10-15 07:00:07;07:00;Modra Pyramida;-670.00;CZK;1.0000000000;Bankovni operace - vydaje;Vehicle - umor;KB - Personal - účet;[{}];Renault Laguna;Cleared
 Expense;2020-10-15 07:00:07;07:00;Modra Pyramida;-748.50;CZK;1.0000000000;Bankovni operace - vydaje;Vehicle - urok;KB - Personal - účet;[{}];Renault Laguna;Cleared
 Expense;2020-10-14 07:00:02;07:00;Eon;-1730.00;CZK;1.0000000000;Bydleni - vydaj;Elektrina;KB - Personal - účet;;Byt - Těsná;Cleared
-Expense;2020-10-13 10:58:23;10:58;Terident;-1200.00;CZK;1.0000000000;Sluzby;Zubar;KB - Personal - účet;Dentalni hygiena;;Cleared
+Expense;2020-10-13 10:58:23;10:58;Terident;-1200.00;CZK;1.0000000000;Sluzby;Dentalni hygiena;KB - Personal - účet;Dentalni hygiena;;Cleared
 Expense;2020-10-13 10:00:04;10:00;Aliexpress;-82.10;CZK;1.0000000000;Auto;Nakup;KB - Personal - účet;[{Drzak na mobil}];Renault Laguna;Cleared
 Income;2020-10-12 20:46:33;20:46;Vaško Andrea;10000.00;CZK;1.0000000000;Others;Vklad;AirBank - Spořící;Svatba;Vklad - Andrea;Reconciled
 Income;2020-10-12 20:46:07;20:46;Vaško Andrea;5000.00;CZK;1.0000000000;Others;Vklad;AirBank - Společný;;Vklad - Andrea;Reconciled
@@ -4825,7 +4825,7 @@ Expense;2020-09-15 07:00:11;07:00;Modra Pyramida;-750.00;CZK;1.0000000000;Bankov
 Expense;2020-09-15 07:00:07;07:00;Modra Pyramida;-670.00;CZK;1.0000000000;Bankovni operace - vydaje;Vehicle - umor;KB - Personal - účet;[{}];Renault Laguna;Cleared
 Expense;2020-09-15 07:00:07;07:00;Modra Pyramida;-748.50;CZK;1.0000000000;Bankovni operace - vydaje;Vehicle - urok;KB - Personal - účet;[{}];Renault Laguna;Cleared
 Income;2020-09-15 07:00:06;07:00;Komercni Banka;4330.21;CZK;1.0000000000;Technical;Hypoteka - umor;KB - Hypotéka;;;Reconciled
-Expense;2020-09-14 13:30:23;13:30;Terident;-1350.00;CZK;1.0000000000;Sluzby;Zubar;KB - Personal - účet;Zubni hygiena;;Cleared
+Expense;2020-09-14 13:30:23;13:30;Terident;-1350.00;CZK;1.0000000000;Sluzby;Dentalni hygiena;KB - Personal - účet;Dentalni hygiena;;Cleared
 Expense;2020-09-14 09:22:16;09:22;Rohlik;-69.00;CZK;1.0000000000;Sluzby;Shipping cost;KB - Personal - účet;[{}];;Cleared
 Expense;2020-09-14 09:22:16;09:22;Rohlik;-846.19;CZK;1.0000000000;Nakup;Potraviny;KB - Personal - účet;[{}];;Cleared
 Income;2020-09-14 07:00:08;07:00;TopCar Tenerife;500.00;EUR;0.0366460105;Others;Pujcky - vraceni;KB - Personal - účet;;2020 - Kanárské ost. Dovolena: All;Reconciled

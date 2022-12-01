@@ -6753,7 +6753,7 @@ Expense;2020-09-12;18:08;KB - Personal - účet;17.45;477.7;EUR;Shopping;Drug-st
 Income;2020-09-14;07:00;KB - Personal - účet;500.0;13644.05;EUR;Income;Lending, renting;Osobní_půjčky_-_Income;TopCar Tenerife;Web payment;Reconciled;['2020 - Kanárské ost.', 'Dovolena: All'];
 Expense;2020-09-14;09:22;KB - Personal - účet;69.0;69.0;CZK;Communication, PC;Postal services;Shipping_Cost;Rohlik;Debit card;Cleared;[];
 Expense;2020-09-14;09:22;KB - Personal - účet;846.19;846.19;CZK;Food & Drinks;Groceries;Potraviny;Rohlik;Debit card;Cleared;[];
-Expense;2020-09-14;13:30;KB - Personal - účet;1350.0;1350.0;CZK;Life & Entertaiment;Health care, doctor;Zubař;Terident;Debit card;Cleared;[];Zubni hygiena
+Expense;2020-09-14;13:30;KB - Personal - účet;1350.0;1350.0;CZK;Life & Entertaiment;Health care, doctor;Dentální_hygiena;Terident;Debit card;Cleared;[];Dentální hygiena
 Expense;2020-09-15;07:00;KB - Personal - účet;4330.21;4330.21;CZK;Housing;Mortage, loans;Hypotéka_-_úmor;Komercni Banka;Debit card;Cleared;['Byt - Těsná'];
 Expense;2020-09-15;07:00;KB - Personal - účet;2753.79;2753.79;CZK;Housing;Mortage, loans;Hypotéka_-_úrok;Komercni Banka;Debit card;Cleared;['Byt - Těsná'];
 Expense;2020-09-15;07:00;KB - Personal - účet;60.0;60.0;CZK;Housing;Energy, utilities;Elektřina;SVJ Tesna;Debit card;Cleared;['Byt - Těsná'];
@@ -6891,7 +6891,7 @@ Expense;2020-10-12;19:13;AirBank - Společný;235.5;235.5;CZK;Food & Drinks;Groc
 Income;2020-10-12;20:46;AirBank - Spořící;10000.0;10000.0;CZK;Investments;Savings;Vklad;Vaško Andrea;Web payment;Reconciled;['Vklad - Andrea'];Svatba
 Income;2020-10-12;20:46;AirBank - Společný;5000.0;5000.0;CZK;Investments;Savings;Vklad;Vaško Andrea;Web payment;Reconciled;['Vklad - Andrea'];
 Expense;2020-10-13;10:00;KB - Personal - účet;82.1;82.1;CZK;Vehicle;Car shopping;Nákup;Aliexpress;Debit card;Cleared;['Renault Laguna'];Drzak na mobil
-Expense;2020-10-13;10:58;KB - Personal - účet;1200.0;1200.0;CZK;Life & Entertaiment;Health care, doctor;Zubař;Terident;Debit card;Cleared;[];Dentalni hygiena
+Expense;2020-10-13;10:58;KB - Personal - účet;1200.0;1200.0;CZK;Life & Entertaiment;Health care, doctor;Dentální_hygiena;Terident;Debit card;Cleared;[];Dentální hygiena
 Expense;2020-10-14;07:00;KB - Personal - účet;1730.0;1730.0;CZK;Housing;Energy, utilities;Elektřina;Eon;Debit card;Cleared;['Byt - Těsná'];
 Expense;2020-10-15;07:00;KB - Personal - účet;4338.11;4338.11;CZK;Housing;Mortage, loans;Hypotéka_-_úmor;Komercni Banka;Debit card;Cleared;['Byt - Těsná'];
 Expense;2020-10-15;07:00;KB - Personal - účet;2745.89;2745.89;CZK;Housing;Mortage, loans;Hypotéka_-_úrok;Komercni Banka;Debit card;Cleared;['Byt - Těsná'];
@@ -7669,7 +7669,7 @@ Expense;2021-04-22;08:00;AirBank - Společný;5400.0;5400.0;CZK;Communication, P
 Expense;2021-04-22;10:54;KB - Personal - účet;26.62;26.62;CZK;Communication, PC;Phone, Mobile phone;Tarif;T-Mobile;Debit card;Cleared;['VASKO TechDesign', 'VASKO: Energy Sol.'];
 Expense;2021-04-22;10:54;KB - Personal - účet;628.99;628.99;CZK;Communication, PC;Internet;;T-Mobile;Debit card;Cleared;['Byt - Těsná'];
 Expense;2021-04-22;11:45;AirBank - Společný;377.0;377.0;CZK;Financial expenses;Loan, interests;Osobní_půjčky_-_Expense;Vaško Andrea;Debit card;Reconciled;[];Omyl platba spatnou kartou
-Expense;2021-04-22;12:45;KB - Personal - účet;1250.0;1250.0;CZK;Life & Entertaiment;Health care, doctor;Zubař;Terident;Debit card;Cleared;[];Dentalni hygieba
+Expense;2021-04-22;12:45;KB - Personal - účet;1250.0;1250.0;CZK;Life & Entertaiment;Health care, doctor;Dentální_hygiena;Terident;Debit card;Cleared;[];Dentální hygiena
 Expense;2021-04-22;16:29;AirBank - Společný;708.0;708.0;CZK;Shopping;Clothes & shoes;Oblečení;Factcool;Debit card;Reconciled;['Svatba'];Anda svatebni boty
 Expense;2021-04-22;17:59;AirBank - Společný;599.0;599.0;CZK;Shopping;Electronic, acesories;Elektronika;Lidl;Debit card;Reconciled;[];Naparovac
 Expense;2021-04-22;17:59;AirBank - Společný;69.0;69.0;CZK;Communication, PC;Postal services;Shipping_Cost;Lidl;Debit card;Reconciled;[];Naparovac

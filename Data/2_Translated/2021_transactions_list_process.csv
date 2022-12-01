@@ -1669,7 +1669,7 @@ Expense;2021-04-22 17:59:54;17:59;Lidl;-69.00;CZK;1.0000000000;Sluzby;Shipping c
 Transfer;2021-04-22 16:29:52;16:29;Transfer;-708.00;CZK;1.0000000000;(Transfer);(Transfer);AirBank - Spořící;;;Reconciled
 Transfer;2021-04-22 16:29:52;16:29;Transfer;708.00;CZK;1.0000000000;(Transfer);(Transfer);AirBank - Společný;;;Reconciled
 Expense;2021-04-22 16:29:20;16:29;Factcool;-708.00;CZK;1.0000000000;Nakup;Obleceni;AirBank - Společný;Anda svatebni boty;Svatba;Reconciled
-Expense;2021-04-22 12:45:43;12:45;Terident;-1250.00;CZK;1.0000000000;Sluzby;Zubar;KB - Personal - účet;Dentalni hygieba;;Cleared
+Expense;2021-04-22 12:45:43;12:45;Terident;-1250.00;CZK;1.0000000000;Sluzby;Dentalni hygiena;KB - Personal - účet;Dentalni hygieba;;Cleared
 Expense;2021-04-22 11:45:38;11:45;Vaško Andrea;-377.00;CZK;1.0000000000;Financni sluzby;Pujcky - pujceni;AirBank - Společný;Omyl platba spatnou kartou;Půjčky;Reconciled
 Expense;2021-04-22 10:54:16;10:54;T-Mobile;-26.62;CZK;1.0000000000;Subscription;Tarif;KB - Personal - účet;;VASKO: Energy Sol. VASKO TechDesign;Cleared
 Expense;2021-04-22 10:54:14;10:54;T-Mobile;-628.99;CZK;1.0000000000;Subscription;Internet;KB - Personal - účet;;Byt - Těsná;Cleared

@@ -15,7 +15,7 @@ Expense;2018-01-07;00:00;KB - Personal - účet;44.9;44.9;CZK;Shopping;Drug-stor
 Expense;2018-01-08;00:00;CZK;38.0;38.0;CZK;Food & Drinks;Work;Svačina;Crocus;Cash;Reconciled;[];
 Expense;2018-01-08;00:00;CZK;20.0;20.0;CZK;Transportation;Transport;MHD;Brno;Cash;Reconciled;[];
 Expense;2018-01-08;00:00;CZK;20.0;20.0;CZK;Transportation;Transport;MHD;Trafika;Cash;Reconciled;[];
-Income;2018-01-08;00:00;Stravenky;1600.0;1600.0;CZK;Income;Wage, invoices;Stravenky;Konica Minolta;Cash;Reconciled;[];
+Income;2018-01-08;00:00;Stravenky;1600.0;1600.0;CZK;Income;Wage,_invoices;Stravenky;Konica Minolta;Cash;Reconciled;[];
 Expense;2018-01-09;00:00;Stravenky;100.0;100.0;CZK;Food & Drinks;Work;Oběd;IQ Restaurant;Cash;Reconciled;[];
 Expense;2018-01-09;00:00;CZK;20.0;20.0;CZK;Transportation;Transport;MHD;Brno;Cash;Reconciled;[];
 Expense;2018-01-09;00:00;CZK;20.0;20.0;CZK;Transportation;Transport;MHD;Trafika;Cash;Reconciled;[];
@@ -31,7 +31,7 @@ Expense;2018-01-11;00:00;KB - Personal - účet;277.8;277.8;CZK;Communication, P
 Expense;2018-01-11;00:00;Stravenky;100.0;100.0;CZK;Food & Drinks;Work;Oběd;IQ Restaurant;Cash;Reconciled;[];
 Expense;2018-01-11;00:00;CZK;25.0;25.0;CZK;Food & Drinks;Work;Svačina;Crocus;Cash;Reconciled;[];
 Expense;2018-01-11;00:00;CZK;20.0;20.0;CZK;Transportation;Transport;MHD;Brno;Cash;Reconciled;[];
-Income;2018-01-11;00:00;KB - Personal - účet;38113.0;38113.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Reconciled;[];
+Income;2018-01-11;00:00;KB - Personal - účet;38113.0;38113.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Reconciled;[];
 Expense;2018-01-12;00:00;KB - Personal - účet;975.46;975.46;CZK;Food & Drinks;Groceries;Potraviny;Lidl;Debit card;Reconciled;[];
 Expense;2018-01-12;00:00;KB - Personal - účet;299.0;299.0;CZK;Shopping;Electronic, acesories;Elektronika;Lidl;Debit card;Reconciled;[];
 Expense;2018-01-12;00:00;KB - Personal - účet;220.0;220.0;CZK;Shopping;Ostatní;;Lidl;Debit card;Reconciled;[];
@@ -102,11 +102,11 @@ Expense;2018-01-29;00:00;Stravenky;100.0;100.0;CZK;Food & Drinks;Work;Oběd;IQ R
 Expense;2018-01-29;00:00;CZK;60.0;60.0;CZK;Life & Entertaiment;Education, development;Kurzy;Esperanza;Cash;Reconciled;[];
 Expense;2018-01-29;00:00;KB - Personal - účet;39.0;39.0;CZK;Financial expenses;Charges, Fees;Poplatek_za_transakce;Komercni Banka;Debit card;Reconciled;[];
 Expense;2018-01-29;00:00;KB - Personal - účet;39.0;39.0;CZK;Financial expenses;Charges, Fees;Poplatek_za_výběr_z_bankomatu;Komercni Banka;Debit card;Reconciled;[];
-Income;2018-01-30;00:00;KB - Personal - účet;2077.0;2077.0;CZK;Income;Wage, invoices;Služební_Cesty;Konica Minolta;Web payment;Reconciled;['KM-BHR: 2018-01', 'KM-Služebka-All'];
+Income;2018-01-30;00:00;KB - Personal - účet;2077.0;2077.0;CZK;Income;Wage,_invoices;Služební_Cesty;Konica Minolta;Web payment;Reconciled;['KM-BHR: 2018-01', 'KM-Služebka-All'];
 Expense;2018-01-30;00:00;CZK;250.0;250.0;CZK;Food & Drinks;Groceries;Potraviny;Konica Minolta;Cash;Reconciled;[];Klobasy
 Expense;2018-01-30;00:00;Stravenky;100.0;100.0;CZK;Food & Drinks;Work;Oběd;IQ Restaurant;Cash;Reconciled;[];
 Expense;2018-01-30;00:00;CZK;15.0;15.0;CZK;Food & Drinks;Work;Oběd;IQ Restaurant;Cash;Reconciled;[];
-Income;2018-01-30;00:00;KB - Personal - účet;2669.1;2669.1;CZK;Income;Wage, invoices;Služební_Cesty;Konica Minolta;Web payment;Reconciled;['KM-BRO: 2018-01', 'KM-Služebka-All'];
+Income;2018-01-30;00:00;KB - Personal - účet;2669.1;2669.1;CZK;Income;Wage,_invoices;Služební_Cesty;Konica Minolta;Web payment;Reconciled;['KM-BRO: 2018-01', 'KM-Služebka-All'];
 Expense;2018-01-31;00:00;Stravenky;100.0;100.0;CZK;Food & Drinks;Work;Oběd;IQ Restaurant;Cash;Reconciled;[];
 Expense;2018-01-31;00:00;CZK;70.0;70.0;CZK;Food & Drinks;Groceries;Alkohol;Hulata Vinoteka;Cash;Reconciled;[];
 Expense;2018-02-01;00:00;Stravenky;100.0;100.0;CZK;Food & Drinks;Work;Oběd;IQ Restaurant;Cash;Reconciled;[];
@@ -140,7 +140,7 @@ Expense;2018-02-07;00:00;CZK;4.0;4.0;CZK;Food & Drinks;Work;Oběd;IQ Restaurant;
 Expense;2018-02-08;00:00;CZK;200.0;200.0;CZK;Life & Entertaiment;Wellness, beauty;Kadeřník;Kadernictvi - Studio Belle;Cash;Reconciled;[];
 Expense;2018-02-08;00:00;CZK;30.0;30.0;CZK;Food & Drinks;Work;Svačina;Okay Market;Cash;Reconciled;[];
 Expense;2018-02-08;00:00;CZK;25.0;25.0;CZK;Food & Drinks;Občerstvení;Fastfood;Fastfood - no name;Cash;Reconciled;[];
-Income;2018-02-08;00:00;Stravenky;1600.0;1600.0;CZK;Income;Wage, invoices;Stravenky;Konica Minolta;Cash;Reconciled;[];
+Income;2018-02-08;00:00;Stravenky;1600.0;1600.0;CZK;Income;Wage,_invoices;Stravenky;Konica Minolta;Cash;Reconciled;[];
 Expense;2018-02-09;00:00;CZK;500.0;500.0;CZK;Financial expenses;Financial Expenses;Dary;Vaško Andrea;Cash;Reconciled;[];
 Expense;2018-02-09;00:00;Stravenky;250.0;250.0;CZK;Food & Drinks;Groceries;Potraviny;Albert;Cash;Reconciled;[];
 Expense;2018-02-09;00:00;Stravenky;100.0;100.0;CZK;Food & Drinks;Work;Oběd;IQ Restaurant;Cash;Reconciled;[];
@@ -164,8 +164,8 @@ Expense;2018-02-14;00:00;KB - Personal - účet;220.8;220.8;CZK;Shopping;Home, g
 Expense;2018-02-14;00:00;Stravenky;100.0;100.0;CZK;Food & Drinks;Work;Oběd;Sklizeno;Cash;Reconciled;[];
 Expense;2018-02-14;00:00;KB - Personal - účet;65.7;65.7;CZK;Food & Drinks;Groceries;Potraviny;Albert;Debit card;Reconciled;[];
 Expense;2018-02-14;00:00;CZK;10.0;10.0;CZK;Food & Drinks;Work;Oběd;Sklizeno;Cash;Reconciled;[];
-Income;2018-02-14;00:00;KB - Personal - účet;35392.0;35392.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Reconciled;[];
-Income;2018-02-14;00:00;KB - Personal - účet;3000.0;3000.0;CZK;Income;Wage, invoices;OnCall_Duty;Konica Minolta;Web payment;Reconciled;[];
+Income;2018-02-14;00:00;KB - Personal - účet;35392.0;35392.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Reconciled;[];
+Income;2018-02-14;00:00;KB - Personal - účet;3000.0;3000.0;CZK;Income;Wage,_invoices;OnCall_Duty;Konica Minolta;Web payment;Reconciled;[];
 Expense;2018-02-15;00:00;KB - Personal - účet;1500.0;1500.0;CZK;Housing;Energy, utilities;Elektřina;Eon;Debit card;Reconciled;['Byt - Těsná'];
 Expense;2018-02-15;00:00;KB - Personal - účet;920.0;920.0;CZK;Life & Entertaiment;Services_-_General;Pronájem_věcí;Polagraph Polaroid;Debit card;Reconciled;[];
 Expense;2018-02-15;00:00;KB - Personal - účet;504.99;504.99;CZK;Communication, PC;Internet;;O2;Debit card;Reconciled;['Byt - Těsná'];
@@ -266,7 +266,7 @@ Expense;2018-03-07;00:00;CZK;30.0;30.0;CZK;Food & Drinks;Work;Svačina;Crocus;Ca
 Expense;2018-03-08;00:00;CZK;200.0;200.0;CZK;Food & Drinks;Občerstvení;Fastfood;CinemaCity;Cash;Reconciled;[];
 Expense;2018-03-08;00:00;Stravenky;100.0;100.0;CZK;Food & Drinks;Work;Oběd;IQ Restaurant;Cash;Reconciled;[];
 Expense;2018-03-08;00:00;CZK;15.0;15.0;CZK;Food & Drinks;Work;Oběd;IQ Restaurant;Cash;Reconciled;[];
-Income;2018-03-08;00:00;Stravenky;2000.0;2000.0;CZK;Income;Wage, invoices;Stravenky;Konica Minolta;Cash;Reconciled;[];
+Income;2018-03-08;00:00;Stravenky;2000.0;2000.0;CZK;Income;Wage,_invoices;Stravenky;Konica Minolta;Cash;Reconciled;[];
 Expense;2018-03-09;00:00;KB - Personal - účet;999.6;999.6;CZK;Vehicle;Fuel;Diesel;Unicorn;Debit card;Reconciled;['Renault Laguna'];
 Expense;2018-03-09;00:00;KB - Personal - účet;504.99;504.99;CZK;Communication, PC;Internet;;O2;Debit card;Reconciled;['Byt - Těsná'];
 Expense;2018-03-09;00:00;KB - Personal - účet;500.0;500.0;CZK;Food & Drinks;Občerstvení;Restaurace;Tusto;Debit card;Reconciled;[];
@@ -276,7 +276,7 @@ Expense;2018-03-09;00:00;CZK;90.0;90.0;CZK;Life & Entertaiment;Active sport, fit
 Expense;2018-03-09;00:00;CZK;50.0;50.0;CZK;Vehicle;Vehicle maintenance;Mytí;DoubleWash;Cash;Reconciled;['Renault Laguna'];
 Expense;2018-03-09;00:00;CZK;15.0;15.0;CZK;Food & Drinks;Work;Oběd;IQ Restaurant;Cash;Reconciled;[];
 Income;2018-03-09;00:00;CZK;200.0;200.0;CZK;Income;Lending, renting;Osobní_půjčky_-_Income;KM - Folwarczny Jakub;Cash;Reconciled;[];
-Income;2018-03-09;00:00;KB - Personal - účet;35520.0;35520.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Reconciled;[];
+Income;2018-03-09;00:00;KB - Personal - účet;35520.0;35520.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Reconciled;[];
 Expense;2018-03-10;00:00;KB - Personal - účet;200.0;200.0;CZK;Shopping;Gifts, joy;Květiny;Halflor kvetinarstvi;Debit card;Reconciled;[];
 Expense;2018-03-10;00:00;KB - Personal - účet;119.0;119.0;CZK;Food & Drinks;Groceries;Alkohol;Lidl;Debit card;Reconciled;[];
 Expense;2018-03-10;00:00;KB - Personal - účet;47.8;47.8;CZK;Food & Drinks;Groceries;Potraviny;Lidl;Debit card;Reconciled;[];
@@ -381,12 +381,12 @@ Expense;2018-04-03;12:57;KB - Personal - účet;540.0;540.0;CZK;Life & Entertaim
 Expense;2018-04-03;17:20;CZK;80.0;80.0;CZK;Food & Drinks;Groceries;Potraviny;Raj Orisku;Cash;Reconciled;[];
 Expense;2018-04-04;11:04;Stravenky;100.0;100.0;CZK;Food & Drinks;Work;Oběd;IQ Restaurant;Cash;Reconciled;[];
 Expense;2018-04-05;06:52;CZK;435.0;435.0;CZK;Food & Drinks;Groceries;Potraviny;Kaufland;Cash;Reconciled;[];
-Income;2018-04-05;07:56;KB - Personal - účet;31970.0;31970.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Reconciled;[];
-Income;2018-04-05;07:56;KB - Personal - účet;20000.0;20000.0;CZK;Income;Wage, invoices;Bonusy;Konica Minolta;Web payment;Reconciled;[];
+Income;2018-04-05;07:56;KB - Personal - účet;31970.0;31970.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Reconciled;[];
+Income;2018-04-05;07:56;KB - Personal - účet;20000.0;20000.0;CZK;Income;Wage,_invoices;Bonusy;Konica Minolta;Web payment;Reconciled;[];
 Expense;2018-04-05;08:53;KB - Personal - účet;28.0;28.0;CZK;Food & Drinks;Work;Svačina;My Food;Debit card;Reconciled;[];
 Expense;2018-04-05;09:11;KB - Personal - účet;400.0;400.0;CZK;Life & Entertaiment;Holiday,_trips,_hotels;Zájezdy;SlevaDne.cz;Debit card;Reconciled;['2018 - Francie', 'Dovolena: All'];
 Expense;2018-04-05;10:56;Stravenky;100.0;100.0;CZK;Food & Drinks;Work;Oběd;IQ Restaurant;Cash;Reconciled;[];
-Income;2018-04-05;12:54;Stravenky;2100.0;2100.0;CZK;Income;Wage, invoices;Stravenky;Konica Minolta;Cash;Reconciled;[];
+Income;2018-04-05;12:54;Stravenky;2100.0;2100.0;CZK;Income;Wage,_invoices;Stravenky;Konica Minolta;Cash;Reconciled;[];
 Expense;2018-04-05;14:11;CZK;25.0;25.0;CZK;Food & Drinks;Work;Svačina;Okay Market;Cash;Reconciled;[];
 Expense;2018-04-05;17:02;KB - Personal - účet;678.0;678.0;CZK;Shopping;Electronic, acesories;Elektronika;eva.cz;Debit card;Reconciled;['Renault Laguna'];
 Expense;2018-04-06;10:58;CZK;15.0;15.0;CZK;Food & Drinks;Work;Oběd;IQ Restaurant;Cash;Reconciled;[];
@@ -545,7 +545,7 @@ Expense;2018-05-07;15:17;KB - Personal - účet;573.42;573.42;CZK;Food & Drinks;
 Expense;2018-05-08;12:32;CZK;255.0;255.0;CZK;Life & Entertaiment;Events - General;Trhy,_Streetfood;Znojmo;Cash;Reconciled;[];
 Expense;2018-05-08;15:46;KB - Personal - účet;365.0;365.0;CZK;Food & Drinks;Občerstvení;Restaurace;Capuccino;Debit card;Reconciled;[];
 Expense;2018-05-09;10:58;CZK;100.0;100.0;CZK;Food & Drinks;Work;Oběd;IQ Restaurant;Cash;Reconciled;[];
-Income;2018-05-09;13:43;Stravenky;1900.0;1900.0;CZK;Income;Wage, invoices;Stravenky;Konica Minolta;Cash;Reconciled;[];
+Income;2018-05-09;13:43;Stravenky;1900.0;1900.0;CZK;Income;Wage,_invoices;Stravenky;Konica Minolta;Cash;Reconciled;[];
 Expense;2018-05-09;14:01;CZK;34.0;34.0;CZK;Food & Drinks;Work;Svačina;Okay Market;Cash;Reconciled;[];
 Expense;2018-05-09;15:51;KB - Personal - účet;504.99;504.99;CZK;Communication, PC;Internet;;O2;Debit card;Reconciled;['Byt - Těsná'];
 Expense;2018-05-09;17:13;CZK;90.0;90.0;CZK;Shopping;Ostatní;;Ostatni;Cash;Reconciled;[];
@@ -577,8 +577,8 @@ Income;2018-05-15;07:00;KB - Stavební spoření - úvěr 2;670.0;670.0;CZK;Inco
 Income;2018-05-15;07:00;KB - Hypotéka;4114.69;4114.69;CZK;Income;Technical;Technical_-_Hypotéka_-_úmor;Komercni Banka;Transfer;Reconciled;[];
 Expense;2018-05-15;10:58;CZK;15.0;15.0;CZK;Food & Drinks;Work;Oběd;IQ Restaurant;Cash;Reconciled;[];
 Expense;2018-05-15;10:58;Stravenky;100.0;100.0;CZK;Food & Drinks;Work;Oběd;IQ Restaurant;Cash;Reconciled;[];
-Income;2018-05-15;11:14;KB - Personal - účet;37057.0;37057.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Reconciled;[];
-Income;2018-05-15;11:14;KB - Personal - účet;3000.0;3000.0;CZK;Income;Wage, invoices;OnCall_Duty;Konica Minolta;Web payment;Reconciled;[];
+Income;2018-05-15;11:14;KB - Personal - účet;37057.0;37057.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Reconciled;[];
+Income;2018-05-15;11:14;KB - Personal - účet;3000.0;3000.0;CZK;Income;Wage,_invoices;OnCall_Duty;Konica Minolta;Web payment;Reconciled;[];
 Expense;2018-05-15;12:30;KB - Personal - účet;339.1;339.1;CZK;Life & Entertaiment;Education, development;Kurzy;Udemy;Debit card;Reconciled;[];Complete Guide to TensorFlow
 Expense;2018-05-15;17:07;KB - Personal - účet;1200.0;1200.0;CZK;Financial expenses;Loan, interests;Osobní_půjčky_-_Expense;Hyza Radek;Debit card;Reconciled;[];Smetanova Litomysl
 Expense;2018-05-15;17:07;KB - Personal - účet;1760.0;1760.0;CZK;Life & Entertaiment;Events_-_Culture,_Sports;Představení;Ticketportal;Debit card;Reconciled;[];Smetanova Litomysl
@@ -687,7 +687,7 @@ Expense;2018-06-07;16:59;CZK;110.0;110.0;CZK;Financial expenses;Financial Expens
 Expense;2018-06-07;19:19;CZK;100.0;100.0;CZK;Life & Entertaiment;Free Time;Party;Salsa pod Petrovem;Cash;Reconciled;[];
 Expense;2018-06-08;10:55;CZK;115.0;115.0;CZK;Food & Drinks;Work;Oběd;IQ Restaurant;Cash;Reconciled;[];
 Expense;2018-06-08;11:09;CZK;500.0;500.0;CZK;Financial expenses;Loan, interests;Osobní_půjčky_-_Expense;KM - Tomasovic Zbyna;Cash;Reconciled;[];
-Income;2018-06-08;13:13;Stravenky;2000.0;2000.0;CZK;Income;Wage, invoices;Stravenky;Konica Minolta;Cash;Reconciled;[];
+Income;2018-06-08;13:13;Stravenky;2000.0;2000.0;CZK;Income;Wage,_invoices;Stravenky;Konica Minolta;Cash;Reconciled;[];
 Expense;2018-06-09;14:11;CZK;130.0;130.0;CZK;Food & Drinks;Občerstvení;Hospoda;Katolicky dum;Cash;Reconciled;[];
 Expense;2018-06-09;17:00;CZK;458.0;458.0;CZK;Food & Drinks;Občerstvení;Hospoda;U Volejniku;Cash;Reconciled;[];
 Expense;2018-06-09;17:00;CZK;272.0;272.0;CZK;Financial expenses;Loan, interests;Osobní_půjčky_-_Expense;KM - Kacel Jakub;Cash;Reconciled;[];
@@ -698,8 +698,8 @@ Expense;2018-06-10;21:53;EUR;2.0;50.84;EUR;Food & Drinks;Work;Svačina;Vienna ai
 Expense;2018-06-11;08:06;EUR;2.1;53.97;EUR;Food & Drinks;Work;Svačina;Konica Minolta;Cash;Reconciled;['KM-BEU: 2018-06', 'KM-Služebka-All'];
 Expense;2018-06-11;19:33;EUR;2.7;68.63;EUR;Food & Drinks;Work;Svačina;Rewe;Cash;Reconciled;['KM-BEU: 2018-06', 'KM-Služebka-All'];
 Expense;2018-06-11;23:40;EUR;16.0;406.72;EUR;Transportation;Transport;Taxi;Taxi - Hannover;Cash;Reconciled;['KM-BEU: 2018-06', 'KM-Služebka-All'];
-Income;2018-06-12;07:00;KB - Personal - účet;37156.0;37156.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Reconciled;[];
-Income;2018-06-12;07:00;KB - Personal - účet;3000.0;3000.0;CZK;Income;Wage, invoices;OnCall_Duty;Konica Minolta;Web payment;Reconciled;[];
+Income;2018-06-12;07:00;KB - Personal - účet;37156.0;37156.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Reconciled;[];
+Income;2018-06-12;07:00;KB - Personal - účet;3000.0;3000.0;CZK;Income;Wage,_invoices;OnCall_Duty;Konica Minolta;Web payment;Reconciled;[];
 Expense;2018-06-12;12:31;EUR;2.7;68.63;EUR;Food & Drinks;Work;Oběd;Konica Minolta;Cash;Reconciled;['KM-BEU: 2018-06', 'KM-Služebka-All'];
 Expense;2018-06-12;19:33;KB - Personal - účet;7.95;209.48;EUR;Food & Drinks;Work;Svačina;Rewe;Debit card;Reconciled;['KM-BEU: 2018-06', 'KM-Služebka-All'];
 Expense;2018-06-13;07:00;KB - Personal - účet;1610.0;1610.0;CZK;Housing;Energy, utilities;Elektřina;Eon;Debit card;Reconciled;['Byt - Těsná'];
@@ -734,7 +734,7 @@ Expense;2018-06-17;18:52;KB - Personal - účet;34.9;34.9;CZK;Shopping;Ostatní;
 Expense;2018-06-18;11:02;Stravenky;100.0;100.0;CZK;Food & Drinks;Work;Oběd;IQ Restaurant;Cash;Reconciled;[];
 Expense;2018-06-18;12:26;CZK;82.0;82.0;CZK;Work-Expense;Others;Penalty_Sheet;Konica Minolta;Cash;Reconciled;[];
 Expense;2018-06-18;17:26;KB - Personal - účet;429.0;429.0;CZK;Shopping;Gifts, joy;Květiny;Vonekl kvetinarstvi;Debit card;Reconciled;[];
-Income;2018-06-19;09:35;KB - Personal - účet;5030.0;5030.0;CZK;Income;Wage, invoices;Služební_Cesty;Konica Minolta;Web payment;Reconciled;['KM-BEU: 2018-06', 'KM-Služebka-All'];
+Income;2018-06-19;09:35;KB - Personal - účet;5030.0;5030.0;CZK;Income;Wage,_invoices;Služební_Cesty;Konica Minolta;Web payment;Reconciled;['KM-BEU: 2018-06', 'KM-Služebka-All'];
 Expense;2018-06-19;11:05;CZK;14.0;14.0;CZK;Food & Drinks;Work;Oběd;IQ Restaurant;Cash;Reconciled;[];
 Expense;2018-06-19;11:05;Stravenky;100.0;100.0;CZK;Food & Drinks;Work;Oběd;IQ Restaurant;Cash;Reconciled;[];
 Expense;2018-06-19;17:43;KB - Personal - účet;434.0;434.0;CZK;Vehicle;Car shopping;Nákup;Auto Kelly;Debit card;Reconciled;['Renault Laguna'];
@@ -837,7 +837,7 @@ Expense;2018-07-09;11:27;Stravenky;100.0;100.0;CZK;Food & Drinks;Work;Oběd;My F
 Expense;2018-07-10;10:47;CZK;509.0;509.0;CZK;Shopping;Gifts, joy;Erotic;sexshopik.cz;Cash;Reconciled;[];
 Expense;2018-07-10;10:57;CZK;15.0;15.0;CZK;Food & Drinks;Work;Oběd;IQ Restaurant;Cash;Reconciled;[];
 Expense;2018-07-10;10:57;Stravenky;100.0;100.0;CZK;Food & Drinks;Work;Oběd;IQ Restaurant;Cash;Reconciled;[];
-Income;2018-07-10;11:23;Stravenky;1700.0;1700.0;CZK;Income;Wage, invoices;Stravenky;Konica Minolta;Cash;Reconciled;[];
+Income;2018-07-10;11:23;Stravenky;1700.0;1700.0;CZK;Income;Wage,_invoices;Stravenky;Konica Minolta;Cash;Reconciled;[];
 Expense;2018-07-10;17:27;KB - Personal - účet;401.34;401.34;CZK;Food & Drinks;Groceries;Potraviny;Lidl;Debit card;Reconciled;[];
 Expense;2018-07-10;21:59;KB - Personal - účet;479.0;479.0;CZK;Shopping;Electronic, acesories;Elektronika;Others;Debit card;Reconciled;[];
 Expense;2018-07-11;11:02;CZK;14.0;14.0;CZK;Food & Drinks;Work;Oběd;IQ Restaurant;Cash;Reconciled;[];
@@ -845,12 +845,12 @@ Expense;2018-07-11;11:02;Stravenky;100.0;100.0;CZK;Food & Drinks;Work;Oběd;IQ R
 Expense;2018-07-11;14:18;CZK;26.0;26.0;CZK;Food & Drinks;Work;Svačina;Okay Market;Cash;Reconciled;[];
 Expense;2018-07-11;17:46;KB - Personal - účet;159.0;159.0;CZK;Shopping;Drug-store, chemist;Drogerie,_Hyg._potřeby;DM Drogerie;Debit card;Reconciled;[];
 Expense;2018-07-11;22:20;CZK;150.0;150.0;CZK;Food & Drinks;Občerstvení;Hospoda;Kozlovna;Cash;Reconciled;[];
-Income;2018-07-12;07:00;KB - Personal - účet;2719.5;2719.5;CZK;Income;Wage, invoices;Služební_Cesty;Konica Minolta;Web payment;Reconciled;['KM-BHR: 2018-06', 'KM-Služebka-All'];
+Income;2018-07-12;07:00;KB - Personal - účet;2719.5;2719.5;CZK;Income;Wage,_invoices;Služební_Cesty;Konica Minolta;Web payment;Reconciled;['KM-BHR: 2018-06', 'KM-Služebka-All'];
 Expense;2018-07-12;11:01;CZK;15.0;15.0;CZK;Food & Drinks;Work;Oběd;IQ Restaurant;Cash;Reconciled;[];
 Expense;2018-07-12;11:01;Stravenky;100.0;100.0;CZK;Food & Drinks;Work;Oběd;IQ Restaurant;Cash;Reconciled;[];
 Expense;2018-07-12;14:49;KB - Personal - účet;504.99;504.99;CZK;Communication, PC;Internet;;O2;Debit card;Reconciled;['Byt - Těsná'];
 Expense;2018-07-13;07:00;KB - Personal - účet;1610.0;1610.0;CZK;Housing;Energy, utilities;Elektřina;Eon;Debit card;Reconciled;['Byt - Těsná'];
-Income;2018-07-13;07:00;KB - Personal - účet;37725.0;37725.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Reconciled;[];
+Income;2018-07-13;07:00;KB - Personal - účet;37725.0;37725.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Reconciled;[];
 Expense;2018-07-13;07:42;CZK;24.0;24.0;CZK;Food & Drinks;Work;Svačina;My Food;Cash;Reconciled;[];
 Expense;2018-07-13;11:03;CZK;5.0;5.0;CZK;Food & Drinks;Work;Oběd;IQ Restaurant;Cash;Reconciled;[];
 Expense;2018-07-13;11:03;Stravenky;100.0;100.0;CZK;Food & Drinks;Work;Oběd;IQ Restaurant;Cash;Reconciled;[];
@@ -932,7 +932,7 @@ Expense;2018-07-30;11:01;CZK;410.0;410.0;CZK;Shopping;Electronic, acesories;Elek
 Expense;2018-07-30;11:28;Stravenky;100.0;100.0;CZK;Food & Drinks;Work;Oběd;Kometa;Cash;Reconciled;[];
 Expense;2018-07-30;11:41;CZK;500.0;500.0;CZK;Financial expenses;Loan, interests;Osobní_půjčky_-_Expense;KM - Dokulil Tomas;Cash;Reconciled;[];
 Expense;2018-07-30;13:06;CZK;109.0;109.0;CZK;Financial expenses;Financial Expenses;Ztráty;Ostatni;Cash;Reconciled;[];
-Income;2018-07-30;17:04;KB - Personal - účet;2000.0;2000.0;CZK;Income;Wage, invoices;;Konica Minolta;Web payment;Reconciled;[];Zbynal darek
+Income;2018-07-30;17:04;KB - Personal - účet;2000.0;2000.0;CZK;Income;Wage,_invoices;;Konica Minolta;Web payment;Reconciled;[];Zbynal darek
 Expense;2018-07-30;17:31;CZK;20.0;20.0;CZK;Transportation;Transport;MHD;Brno;Cash;Reconciled;[];
 Expense;2018-07-30;18:52;KB - Personal - účet;2000.0;2000.0;CZK;Work-Expense;Others;;Pikatec;Debit card;Reconciled;[];Zbyna darek
 Expense;2018-07-31;07:00;KB - Personal - účet;39.0;39.0;CZK;Financial expenses;Charges, Fees;Poplatek_za_vedení_účtu;Komercni Banka;Debit card;Reconciled;[];
@@ -966,7 +966,7 @@ Expense;2018-08-06;16:40;KB - Personal - účet;374.25;374.25;CZK;Shopping;Cloth
 Expense;2018-08-06;19:04;KB - Personal - účet;51.69;183.17;HRK;Food & Drinks;Work;Svačina;Konzum;Debit card;Reconciled;['KM-BHR: 2018-08A', 'KM-Služebka-All'];
 Expense;2018-08-07;19:00;KB - Personal - účet;30.85;109.56;HRK;Food & Drinks;Work;Svačina;Lidl;Debit card;Reconciled;['KM-BHR: 2018-08A', 'KM-Služebka-All'];
 Expense;2018-08-08;17:47;KB - Personal - účet;26.12;92.51;HRK;Food & Drinks;Work;Svačina;Konzum;Debit card;Reconciled;['KM-BHR: 2018-08A', 'KM-Služebka-All'];
-Income;2018-08-09;07:00;KB - Personal - účet;38620.0;38620.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Reconciled;[];
+Income;2018-08-09;07:00;KB - Personal - účet;38620.0;38620.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Reconciled;[];
 Expense;2018-08-09;18:47;KB - Personal - účet;44.94;159.23;HRK;Food & Drinks;Work;Svačina;Kaufland;Debit card;Reconciled;['KM-BHR: 2018-08A', 'KM-Služebka-All'];
 Expense;2018-08-09;19:21;KB - Personal - účet;499.0;499.0;CZK;Communication, PC;Internet;;O2;Debit card;Reconciled;['Byt - Těsná'];
 Income;2018-08-11;10:51;CZK;80.0;80.0;CZK;Income;Lending, renting;Osobní_půjčky_-_Income;Vaško Andrea;Cash;Reconciled;[];Dary na mycku aut
@@ -1033,7 +1033,7 @@ Expense;2018-08-19;09:37;KB - Personal - účet;57.99;1529.81;EUR;Vehicle;Fuel;D
 Expense;2018-08-19;17:24;KB - Personal - účet;9.3;245.34;EUR;Food & Drinks;Občerstvení;Fastfood;Shell;Debit card;Reconciled;['2018 - Slovinsko', 'Dovolena: All'];
 Expense;2018-08-19;17:32;KB - Personal - účet;4.68;123.46;EUR;Food & Drinks;Občerstvení;Fastfood;Shell;Debit card;Reconciled;['2018 - Slovinsko', 'Dovolena: All'];
 Expense;2018-08-19;19:38;KB - Personal - účet;391.0;391.0;CZK;Food & Drinks;Občerstvení;Fastfood;MC Donald;Debit card;Reconciled;[];
-Income;2018-08-20;07:00;Stravenky;1300.0;1300.0;CZK;Income;Wage, invoices;Stravenky;Konica Minolta;Cash;Reconciled;[];
+Income;2018-08-20;07:00;Stravenky;1300.0;1300.0;CZK;Income;Wage,_invoices;Stravenky;Konica Minolta;Cash;Reconciled;[];
 Expense;2018-08-20;11:09;Stravenky;100.0;100.0;CZK;Food & Drinks;Work;Oběd;Dragon restaurant;Cash;Reconciled;[];
 Expense;2018-08-20;11:27;Hornbach Karta;356.0;356.0;CZK;Shopping;Home, garden;Bydlení,_accessories;Hornbach;Debit card;Reconciled;['Byt - Těsná'];
 Expense;2018-08-20;11:27;Hornbach Karta;69.0;69.0;CZK;Shopping;Electronic, acesories;Elektronika;Hornbach;Debit card;Reconciled;['Renault Laguna'];Baterky do klicu
@@ -1098,7 +1098,7 @@ Expense;2018-09-03;17:22;KB - Personal - účet;66.0;66.0;CZK;Shopping;Ostatní;
 Expense;2018-09-03;19:43;CZK;250.0;250.0;CZK;Food & Drinks;Občerstvení;Restaurace;Cafe Spilberk;Cash;Reconciled;[];
 Expense;2018-09-03;20:46;CZK;90.0;90.0;CZK;Life & Entertaiment;Events_-_Culture,_Sports;Koncerty;Spilberk;Cash;Reconciled;[];
 Expense;2018-09-03;23:44;CZK;80.0;80.0;CZK;Food & Drinks;Občerstvení;Fastfood;Fastfood - no name;Cash;Reconciled;[];
-Income;2018-09-04;07:00;KB - Personal - účet;4189.41;4189.41;CZK;Income;Wage, invoices;Služební_Cesty;Konica Minolta;Web payment;Cleared;['KM-BHR: 2018-08A', 'KM-Služebka-All'];
+Income;2018-09-04;07:00;KB - Personal - účet;4189.41;4189.41;CZK;Income;Wage,_invoices;Služební_Cesty;Konica Minolta;Web payment;Cleared;['KM-BHR: 2018-08A', 'KM-Služebka-All'];
 Expense;2018-09-04;11:05;CZK;45.0;45.0;CZK;Food & Drinks;Work;Svačina;My Food;Cash;Reconciled;[];
 Expense;2018-09-04;12:47;CZK;200.0;200.0;CZK;Life & Entertaiment;Wellness, beauty;Kadeřník;Kadernictvi - Studio Belle;Cash;Reconciled;[];
 Expense;2018-09-04;13:05;CZK;66.0;66.0;CZK;Food & Drinks;Work;Svačina;Okay Market;Cash;Reconciled;[];
@@ -1108,14 +1108,14 @@ Expense;2018-09-05;16:56;CZK;19.0;19.0;CZK;Shopping;Ostatní;;Hornbach;Cash;Reco
 Expense;2018-09-05;16:56;CZK;25.0;25.0;CZK;Shopping;Pets, animals;Pets-Hračky;Hornbach;Cash;Reconciled;['Schampy'];
 Expense;2018-09-05;16:56;CZK;65.0;65.0;CZK;Shopping;Drug-store, chemist;Drogerie,_Hyg._potřeby;Hornbach;Cash;Reconciled;['Schampy'];
 Expense;2018-09-05;17:37;KB - Personal - účet;229.73;229.73;CZK;Food & Drinks;Groceries;Potraviny;Kaufland;Debit card;Cleared;[];
-Income;2018-09-06;07:00;KB - Personal - účet;2612.78;2612.78;CZK;Income;Wage, invoices;Služební_Cesty;Konica Minolta;Web payment;Cleared;['KM-BHR: 2018-08B', 'KM-Služebka-All'];
+Income;2018-09-06;07:00;KB - Personal - účet;2612.78;2612.78;CZK;Income;Wage,_invoices;Služební_Cesty;Konica Minolta;Web payment;Cleared;['KM-BHR: 2018-08B', 'KM-Služebka-All'];
 Expense;2018-09-06;11:18;Stravenky;100.0;100.0;CZK;Food & Drinks;Work;Oběd;Moravka;Cash;Reconciled;[];
 Expense;2018-09-06;11:18;CZK;10.0;10.0;CZK;Food & Drinks;Work;Oběd;Moravka;Cash;Reconciled;[];
 Expense;2018-09-06;15:19;KB - Personal - účet;262.0;262.0;CZK;Shopping;Stationery, tools;Nářadí;Unimagnet;Debit card;Cleared;['VASKO TechDesign', 'VASKO: Energy Sol.'];
 Expense;2018-09-06;20:14;CZK;70.0;70.0;CZK;Food & Drinks;Občerstvení;Hospoda;U Sosny;Cash;Reconciled;[];
 Expense;2018-09-07;11:17;CZK;25.0;25.0;CZK;Food & Drinks;Work;Oběd;Kometa;Cash;Reconciled;[];
 Expense;2018-09-07;11:17;Stravenky;100.0;100.0;CZK;Food & Drinks;Work;Oběd;Kometa;Cash;Reconciled;[];
-Income;2018-09-07;11:27;Stravenky;1100.0;1100.0;CZK;Income;Wage, invoices;Stravenky;Konica Minolta;Cash;Reconciled;[];
+Income;2018-09-07;11:27;Stravenky;1100.0;1100.0;CZK;Income;Wage,_invoices;Stravenky;Konica Minolta;Cash;Reconciled;[];
 Expense;2018-09-07;15:20;CZK;890.0;890.0;CZK;Shopping;Electronic, acesories;Elektronika;Antikfoto;Cash;Reconciled;[];Canon EOS 550D
 Expense;2018-09-07;20:33;CZK;20.0;20.0;CZK;Food & Drinks;Groceries;Potraviny;Market Point;Cash;Reconciled;[];
 Expense;2018-09-07;21:55;CZK;4500.0;4500.0;CZK;Shopping;Electronic, acesories;Elektronika;Ostatni;Cash;Reconciled;[];Canon EOS 550D
@@ -1126,7 +1126,7 @@ Expense;2018-09-10;18:54;KB - Personal - účet;65.0;65.0;CZK;Food & Drinks;Groc
 Expense;2018-09-11;08:01;KB - Personal - účet;499.0;499.0;CZK;Communication, PC;Internet;;O2;Debit card;Cleared;['Byt - Těsná'];
 Expense;2018-09-11;11:08;Stravenky;100.0;100.0;CZK;Food & Drinks;Work;Oběd;Dragon restaurant;Cash;Reconciled;[];
 Expense;2018-09-11;18:32;Trezor;1000.0;1000.0;CZK;Financial expenses;Loan, interests;Osobní_půjčky_-_Expense;Vaško Andrea;Cash;Reconciled;[];
-Income;2018-09-12;07:00;KB - Personal - účet;39540.0;39540.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2018-09-12;07:00;KB - Personal - účet;39540.0;39540.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
 Expense;2018-09-12;10:56;Stravenky;100.0;100.0;CZK;Food & Drinks;Work;Oběd;Jean Pauls Bistro;Cash;Reconciled;[];
 Expense;2018-09-12;10:56;CZK;20.0;20.0;CZK;Food & Drinks;Work;Oběd;Jean Pauls Bistro;Cash;Reconciled;[];
 Expense;2018-09-12;11:44;CZK;200.0;200.0;CZK;Work-Expense;Others;Penalty_Sheet;Konica Minolta;Cash;Reconciled;[];
@@ -1232,7 +1232,7 @@ Expense;2018-10-07;19:00;CZK;90.0;90.0;CZK;Food & Drinks;Groceries;Alkohol;Hulat
 Expense;2018-10-07;19:15;CZK;3000.0;3000.0;CZK;Financial expenses;Financial Expenses;Dary;Vaško Andrea;Cash;Reconciled;[];
 Expense;2018-10-08;11:05;Stravenky;50.0;50.0;CZK;Food & Drinks;Work;Oběd;Eatology;Cash;Reconciled;[];
 Expense;2018-10-08;11:05;CZK;66.0;66.0;CZK;Food & Drinks;Work;Oběd;Eatology;Cash;Reconciled;[];
-Income;2018-10-08;12:14;Stravenky;1900.0;1900.0;CZK;Income;Wage, invoices;Stravenky;Konica Minolta;Cash;Reconciled;[];
+Income;2018-10-08;12:14;Stravenky;1900.0;1900.0;CZK;Income;Wage,_invoices;Stravenky;Konica Minolta;Cash;Reconciled;[];
 Expense;2018-10-08;13:52;CZK;50.0;50.0;CZK;Food & Drinks;Work;Svačina;Okay Market;Cash;Reconciled;[];
 Expense;2018-10-08;17:21;KB - Personal - účet;1651.0;1651.0;CZK;Shopping;Electronic, acesories;Elektronika;Laskarduino;Debit card;Cleared;['VASKO TechDesign', 'VASKO: Energy Sol.'];
 Expense;2018-10-08;17:30;KB - Personal - účet;96.18;96.18;CZK;Food & Drinks;Work;Svačina;Lidl;Debit card;Cleared;['KM-BHR: 2018-10A', 'KM-Služebka-All'];
@@ -1240,8 +1240,8 @@ Expense;2018-10-08;18:22;KB - Personal - účet;78.0;78.0;CZK;Shopping;Electroni
 Expense;2018-10-08;21:55;KB - Personal - účet;48.0;172.73;HRK;Transportation;Highway, Tolls;Dalnicni_známka;Hrvatske autoceste;Debit card;Reconciled;['KM-BHR: 2018-10A', 'KM-Služebka-All'];
 Expense;2018-10-09;19:29;KB - Personal - účet;78.07;280.72;HRK;Food & Drinks;Work;Svačina;Konzum;Debit card;Reconciled;['KM-BHR: 2018-10A', 'KM-Služebka-All'];
 Expense;2018-10-10;18:22;KB - Personal - účet;30.95;111.27;HRK;Food & Drinks;Work;Svačina;Konzum;Debit card;Reconciled;['KM-BHR: 2018-10A', 'KM-Služebka-All'];
-Income;2018-10-11;07:00;KB - Personal - účet;36579.0;36579.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
-Income;2018-10-11;07:00;KB - Personal - účet;20000.0;20000.0;CZK;Income;Wage, invoices;Bonusy;Konica Minolta;Web payment;Cleared;[];
+Income;2018-10-11;07:00;KB - Personal - účet;36579.0;36579.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2018-10-11;07:00;KB - Personal - účet;20000.0;20000.0;CZK;Income;Wage,_invoices;Bonusy;Konica Minolta;Web payment;Cleared;[];
 Expense;2018-10-11;17:55;KB - Personal - účet;10660.0;10660.0;CZK;Shopping;Electronic, acesories;Elektronika;Alza;Debit card;Cleared;['VASKO TechDesign'];
 Expense;2018-10-12;18:32;KB - Personal - účet;48.0;172.12;HRK;Transportation;Highway, Tolls;Dalnicni_známka;Hrvatske autoceste;Debit card;Reconciled;['KM-BHR: 2018-10A', 'KM-Služebka-All'];
 Expense;2018-10-13;07:00;KB - Personal - účet;1610.0;1610.0;CZK;Housing;Energy, utilities;Elektřina;Eon;Debit card;Cleared;['Byt - Těsná'];
@@ -1292,7 +1292,7 @@ Expense;2018-10-23;17:10;KB - Personal - účet;249.0;249.0;CZK;Shopping;Pets, a
 Expense;2018-10-23;17:10;KB - Personal - účet;84.0;84.0;CZK;Shopping;Drug-store, chemist;Drogerie,_Hyg._potřeby;Hornbach;Debit card;Cleared;['Byt - Těsná', 'Schampy'];
 Expense;2018-10-23;17:10;KB - Personal - účet;205.0;205.0;CZK;Shopping;Home, garden;Bydlení,_accessories;Hornbach;Debit card;Cleared;['Byt - Těsná', 'Schampy'];
 Expense;2018-10-23;20:37;CZK;90.0;90.0;CZK;Food & Drinks;Groceries;Alkohol;Hulata Vinoteka;Cash;Reconciled;[];
-Income;2018-10-24;07:00;KB - Personal - účet;4236.07;4236.07;CZK;Income;Wage, invoices;Služební_Cesty;Konica Minolta;Web payment;Cleared;['KM-BHR: 2018-10A', 'KM-Služebka-All'];
+Income;2018-10-24;07:00;KB - Personal - účet;4236.07;4236.07;CZK;Income;Wage,_invoices;Služební_Cesty;Konica Minolta;Web payment;Cleared;['KM-BHR: 2018-10A', 'KM-Služebka-All'];
 Expense;2018-10-24;10:59;Stravenky;100.0;100.0;CZK;Food & Drinks;Work;Oběd;Eatology;Cash;Reconciled;[];
 Expense;2018-10-24;10:59;CZK;10.0;10.0;CZK;Food & Drinks;Work;Oběd;Eatology;Cash;Reconciled;[];
 Expense;2018-10-24;14:55;CZK;66.0;66.0;CZK;Food & Drinks;Work;Svačina;Okay Market;Cash;Reconciled;[];
@@ -1320,7 +1320,7 @@ Expense;2018-10-29;12:33;CZK;53.0;53.0;CZK;Food & Drinks;Work;Svačina;Okay Mark
 Expense;2018-10-29;19:00;CZK;110.0;110.0;CZK;Food & Drinks;Občerstvení;Bar;Narodni Divadlo Brno;Cash;Reconciled;[];
 Expense;2018-10-29;22:53;KB - Personal - účet;260.0;260.0;CZK;Food & Drinks;Občerstvení;Bar;SKOG Urban Hub;Debit card;Cleared;[];
 Expense;2018-10-29;23:05;CZK;75.0;75.0;CZK;Food & Drinks;Občerstvení;Fastfood;Fastfood - no name;Cash;Reconciled;[];
-Income;2018-10-30;07:00;KB - Personal - účet;3010.09;3010.09;CZK;Income;Wage, invoices;Služební_Cesty;Konica Minolta;Web payment;Cleared;['KM-BHR: 2018-10B', 'KM-Služebka-All'];
+Income;2018-10-30;07:00;KB - Personal - účet;3010.09;3010.09;CZK;Income;Wage,_invoices;Služební_Cesty;Konica Minolta;Web payment;Cleared;['KM-BHR: 2018-10B', 'KM-Služebka-All'];
 Expense;2018-10-30;07:35;CZK;32.0;32.0;CZK;Food & Drinks;Work;Svačina;Billa;Cash;Reconciled;[];
 Expense;2018-10-30;10:59;Stravenky;100.0;100.0;CZK;Food & Drinks;Work;Oběd;Eatology;Cash;Reconciled;[];
 Expense;2018-10-30;13:38;KB - Personal - účet;314.0;314.0;CZK;Shopping;Stationery, tools;Nářadí;Alza;Debit card;Cleared;['VASKO TechDesign', 'VASKO: Energy Sol.'];Momentovy klic
@@ -1376,15 +1376,15 @@ Expense;2018-11-08;10:58;CZK;20.0;20.0;CZK;Food & Drinks;Work;Oběd;Eatology;Cas
 Expense;2018-11-08;10:58;Stravenky;100.0;100.0;CZK;Food & Drinks;Work;Oběd;Eatology;Cash;Reconciled;[];
 Expense;2018-11-08;17:26;KB - Personal - účet;68.7;68.7;CZK;Food & Drinks;Groceries;Potraviny;Albert;Debit card;Cleared;[];
 Expense;2018-11-08;21:39;CZK;170.0;170.0;CZK;Food & Drinks;Občerstvení;Hospoda;Kozlovna;Cash;Reconciled;[];
-Income;2018-11-09;07:00;KB - Personal - účet;31655.0;31655.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];+ bonusy za BHR
-Income;2018-11-09;07:00;KB - Personal - účet;20000.0;20000.0;CZK;Income;Wage, invoices;Bonusy;Konica Minolta;Web payment;Cleared;[];+ bonusy za BHR
+Income;2018-11-09;07:00;KB - Personal - účet;31655.0;31655.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];+ bonusy za BHR
+Income;2018-11-09;07:00;KB - Personal - účet;20000.0;20000.0;CZK;Income;Wage,_invoices;Bonusy;Konica Minolta;Web payment;Cleared;[];+ bonusy za BHR
 Expense;2018-11-09;07:08;KB - Personal - účet;276.0;276.0;CZK;Food & Drinks;Groceries;Potraviny;Feromat;Debit card;Cleared;['VASKO TechDesign', 'VASKO: Energy Sol.'];
 Expense;2018-11-09;07:40;KB - Personal - účet;358.0;358.0;CZK;Life & Entertaiment;Hobbies;Gadgets;Mateza;Debit card;Cleared;['VASKO TechDesign', 'VASKO: Energy Sol.'];Loziska
 Expense;2018-11-09;08:09;CZK;30.0;30.0;CZK;Food & Drinks;Work;Svačina;Crocus;Cash;Reconciled;[];
 Expense;2018-11-09;10:45;KB - Personal - účet;1183.0;1183.0;CZK;Shopping;Electronic, acesories;Elektronika;Laskarduino;Debit card;Cleared;['VASKO TechDesign', 'VASKO: Energy Sol.'];
 Expense;2018-11-09;11:15;CZK;20.0;20.0;CZK;Food & Drinks;Work;Oběd;Eatology;Cash;Reconciled;[];
 Expense;2018-11-09;11:15;Stravenky;100.0;100.0;CZK;Food & Drinks;Work;Oběd;Eatology;Cash;Reconciled;[];
-Income;2018-11-09;13:46;Stravenky;1400.0;1400.0;CZK;Income;Wage, invoices;Stravenky;Konica Minolta;Cash;Reconciled;[];
+Income;2018-11-09;13:46;Stravenky;1400.0;1400.0;CZK;Income;Wage,_invoices;Stravenky;Konica Minolta;Cash;Reconciled;[];
 Expense;2018-11-09;18:20;KB - Personal - účet;55.8;55.8;CZK;Shopping;Drug-store, chemist;Drogerie,_Hyg._potřeby;Lidl;Debit card;Cleared;[];
 Expense;2018-11-09;18:20;KB - Personal - účet;544.65;544.65;CZK;Food & Drinks;Groceries;Potraviny;Lidl;Debit card;Cleared;[];
 Expense;2018-11-09;20:56;KB - Personal - účet;83.0;83.0;CZK;Shopping;Stationery, tools;Nářadí;Unimagnet;Debit card;Cleared;['VASKO TechDesign', 'VASKO: Energy Sol.'];
@@ -1545,7 +1545,7 @@ Expense;2018-12-10;11:06;Stravenky;100.0;100.0;CZK;Food & Drinks;Work;Oběd;Eato
 Expense;2018-12-10;15:53;Hornbach Karta;70.0;70.0;CZK;Shopping;Electronic, acesories;Elektronika;Hornbach;Debit card;Reconciled;['Byt - Těsná'];
 Expense;2018-12-10;15:53;KB - Personal - účet;49.0;49.0;CZK;Shopping;Electronic, acesories;Elektronika;Hornbach;Debit card;Reconciled;['Byt - Těsná'];
 Expense;2018-12-10;16:54;KB - Personal - účet;398.35;398.35;CZK;Food & Drinks;Groceries;Potraviny;Billa;Debit card;Cleared;[];
-Income;2018-12-11;07:00;Stravenky;1800.0;1800.0;CZK;Income;Wage, invoices;Stravenky;Konica Minolta;Cash;Reconciled;[];
+Income;2018-12-11;07:00;Stravenky;1800.0;1800.0;CZK;Income;Wage,_invoices;Stravenky;Konica Minolta;Cash;Reconciled;[];
 Expense;2018-12-11;07:40;CZK;30.0;30.0;CZK;Food & Drinks;Work;Svačina;Crocus;Cash;Reconciled;[];
 Expense;2018-12-11;11:22;KB - Personal - účet;188.0;188.0;CZK;Shopping;Ostatní;;Hornbach;Debit card;Cleared;[];
 Expense;2018-12-11;13:09;KB - Personal - účet;2.49;66.11;EUR;Communication, PC;Software, subscriptions;Software;Google;Debit card;Reconciled;[];
@@ -1565,8 +1565,8 @@ Income;2018-12-12;12:08;KB - Personal - účet;2100.0;2100.0;CZK;Income;Lending,
 Expense;2018-12-12;20:49;CZK;90.0;90.0;CZK;Food & Drinks;Groceries;Alkohol;Hulata Vinoteka;Cash;Reconciled;[];
 Expense;2018-12-13;07:00;KB - Personal - účet;300.0;300.0;CZK;Life & Entertaiment;Active sport, fitness;Multisport;Multisport;Debit card;Cleared;[];Zapocitano ve vyplate
 Expense;2018-12-13;07:00;KB - Personal - účet;1610.0;1610.0;CZK;Housing;Energy, utilities;Elektřina;Eon;Debit card;Cleared;['Byt - Těsná'];
-Income;2018-12-13;07:00;KB - Personal - účet;37903.0;37903.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
-Income;2018-12-13;07:00;KB - Personal - účet;3000.0;3000.0;CZK;Income;Wage, invoices;OnCall_Duty;Konica Minolta;Web payment;Cleared;[];
+Income;2018-12-13;07:00;KB - Personal - účet;37903.0;37903.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2018-12-13;07:00;KB - Personal - účet;3000.0;3000.0;CZK;Income;Wage,_invoices;OnCall_Duty;Konica Minolta;Web payment;Cleared;[];
 Expense;2018-12-13;11:15;CZK;19.0;19.0;CZK;Food & Drinks;Work;Oběd;Eatology;Cash;Reconciled;[];
 Expense;2018-12-13;11:15;Stravenky;100.0;100.0;CZK;Food & Drinks;Work;Oběd;Eatology;Cash;Reconciled;[];
 Expense;2018-12-13;11:38;KB - Personal - účet;118.0;118.0;CZK;Shopping;Ostatní;;Hornbach;Debit card;Cleared;[];

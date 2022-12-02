@@ -34,11 +34,11 @@ def Restart_application(pyautogui, time, Cancel_cross, App_button) -> None:
     time.sleep(3)
     mouse_move(pyautogui, time, 0.25, App_button)
     mouse_clic(pyautogui, time, 0.1)
-    time.sleep(10)
+    time.sleep(15)
     print("WEB page restarted")
 
 def BlueCoin_create_labels(text) -> str:
-    Label_list = ["2017 - Budapešť", "2017 - Španělsko", "2018 - Amsterdam", "2018 - Francie", "2018 - Praha", "2018 - Slovinsko", "2019 - Beskydy", "2019 - Harrachov", "2019 - Itálie", "2019 - Kapverdy", "2019 - Mušov", "2019 - Slovensko", "2020 - Kanárské ost.", "2020 - Lukavice", "2020 - Velikonoce", "2020 - Wichterle", "2021 - Kréta", "2021 - Kutná Hora", "2021 - Pluskoveček", "2021 - Slovinsko", "2021 - Šumava", "2022 - Chorvatsko", "2022 - Rokytnice", "Byt - Rogoznica", "Byt - Provazníkova", "Byt - Těsná", "Dovolená: All", "KM-BBL: 2019-08", "KM-BBL: 2022-08", "KM-BBL: 2022-11","KM-BEU: 2018-06", "KM-BHR: 2018-01", "KM-BHR: 2018-06", "KM-BHR: 2018-08A", "KM-BHR: 2018-08B", "KM-BHR: 2018-10A", "KM-BHR: 2018-10B", "KM-BPL: 2019-10", "KM-BPL: 2019-12", "KM-BPL: 2020-07", "KM-BPL: 2020-08", "KM-BPL: 2021-11", "KM-BR: 2019-01", "KM-BRO: 2018-01", "KM-BSL: 2017-10", "KM-BSL: 2019-03", "KM-BSL: 2019-05", "KM-BSL: 2019-09", "KM-BSL: 2019-10", "KM-BSL: 2019-11", "KM-BSL: 2020-01", "KM-BSL: 2020-02", "KM-Dubai: 2019-03", "KM-Služebka-All", "Renault Laguna", "Sebastien Vaško", "Schampy", "Svatba", "Vánoce", "VASKO TechDesign", "VASKO: Energy Sol.", "VASKO: IoT - PUR", "VASKO: SportBet", "Vklad - Andrea", "Vklad - Honza", "Výlety"]
+    Label_list = ["2017 - Budapešť", "2017 - Španělsko", "2018 - Amsterdam", "2018 - Francie", "2018 - Praha", "2018 - Slovinsko", "2019 - Beskydy", "2019 - Harrachov", "2019 - Itálie", "2019 - Kapverdy", "2019 - Mušov", "2019 - Slovensko", "2020 - Kanárské ost.", "2020 - Lukavice", "2020 - Velikonoce", "2020 - Wichterle", "2021 - Kréta", "2021 - Kutná Hora", "2021 - Pluskoveček", "2021 - Slovinsko", "2021 - Šumava", "2022 - Chorvatsko", "2022 - Rokytnice", "Byt - Rogoznica", "Byt - Provazníkova", "Byt - Těsná", "Dovolena: All", "KM-BBL: 2019-08", "KM-BBL: 2022-08", "KM-BBL: 2022-11","KM-BEU: 2018-06", "KM-BHR: 2018-01", "KM-BHR: 2018-06", "KM-BHR: 2018-08A", "KM-BHR: 2018-08B", "KM-BHR: 2018-10A", "KM-BHR: 2018-10B", "KM-BPL: 2019-10", "KM-BPL: 2019-12", "KM-BPL: 2020-07", "KM-BPL: 2020-08", "KM-BPL: 2021-11", "KM-BR: 2019-01", "KM-BRO: 2018-01", "KM-BSL: 2017-10", "KM-BSL: 2019-03", "KM-BSL: 2019-05", "KM-BSL: 2019-09", "KM-BSL: 2019-10", "KM-BSL: 2019-11", "KM-BSL: 2020-01", "KM-BSL: 2020-02", "KM-Dubai: 2019-03", "KM-Služebka-All", "Renault Laguna", "Sebastien Vaško", "Schampy", "Svatba", "Vánoce", "VASKO TechDesign", "VASKO: Energy Sol.", "VASKO: IoT - PUR", "VASKO: SportBet", "Vklad - Andrea", "Vklad - Honza", "Výlety"]
     row_label = []
     if text == "nan":
         return "[]"
@@ -184,7 +184,7 @@ def Calendar_direct_write(pyautogui, Transaction_date, datetime, time) -> None:
     Transaction_Month = Months[Transaction_Month]
     Transaction_Year = Transaction_date.year
     date_formated = f"{Transaction_Month} {Transaction_Day}, {Transaction_Year}"
-    write_text(pyautogui, time, 0.1, date_formated)
+    write_text(pyautogui, time, 0.2, date_formated)
        
 def Time_Scroll_up(pyautogui, time, first_line) -> None:
     mouse_move(pyautogui, time, 0.25, first_line)
@@ -228,9 +228,9 @@ pandas.options.mode.chained_assignment = None
 # Currency and amount Method
 Expense_Income_Method = "CZK" # Values: "CZK", "Original"
 Transfer_Method = "CZK" # Values: "CZK", "Original"
-Data_to_WEB_Process = "Both"  # "Income_Expense", "Transfers", "Both"
+Data_to_WEB_Process = "Transfers"  # "Income_Expense", "Transfers", "Both"
 Year_to_Process = 2018
-No_cycle_to_restar = 100
+No_cycle_to_restar = 110
 From_File_Name = f"{Year_to_Process}_transactions_list"
 To_File_Name = f"{Year_to_Process}_transactions_list_process"
 Replace_signs_in_file(From_File_Name, To_File_Name)
@@ -523,10 +523,12 @@ if Data_to_WEB_Process == "Income_Expense" or Data_to_WEB_Process == "Both":
         row_df = pandas.Series(data=row[1])
 
         # New Record
+        time.sleep(0.1)
         mouse_move(pyautogui, time, 0.25, New_record_button_possition)
         mouse_clic(pyautogui, time, 0.1)
 
-        # Type:
+        # Type
+        time.sleep(0.1)
         if row_df["Type"] == "Expense":
             mouse_move(pyautogui, time, 0.25, Expense_button_possition)
             mouse_clic(pyautogui, time, 0.1)
@@ -537,6 +539,7 @@ if Data_to_WEB_Process == "Income_Expense" or Data_to_WEB_Process == "Both":
             Log_file_Errors_write(row_df, "Type is not Expense or Income")
         
         # Account
+        time.sleep(0.1)
         Account_index = Accounts_df[Accounts_df["Account"] == row_df["Account"]].index
         Account_pos = int(Accounts_df.iloc[Account_index]["Account_Possition"].values[0])
         mouse_move(pyautogui, time, 0.25, Account_possition)
@@ -547,24 +550,25 @@ if Data_to_WEB_Process == "Income_Expense" or Data_to_WEB_Process == "Both":
         press_one_key(pyautogui, time, 0.1, "tab")
 
         # Amount
+        time.sleep(0.1)
         Account_Type = str(Accounts_df.iloc[Account_index]["Account_Type"].values[0])
         if Account_Type == "Bank":
             if Expense_Income_Method == "CZK":
                 if  row_df["Currency"] != "CZK":
-                    write_text(pyautogui, time, 0.1, str(row_df["Amount_LCY"]))
+                    write_text(pyautogui, time, 0.2, str(row_df["Amount_LCY"]))
                 else:
-                    write_text(pyautogui, time, 0.1, str(row_df["Amount"]))
+                    write_text(pyautogui, time, 0.2, str(row_df["Amount"]))
             elif Expense_Income_Method == "Original":
-                write_text(pyautogui, time, 0.1, str(row_df["Amount"]))
+                write_text(pyautogui, time, 0.2, str(row_df["Amount"]))
             else:
                 Log_file_Errors_write(row_df, "Amount cannot be set becaue Currency Method setup do not exists")   
         else:
-            write_text(pyautogui, time, 0.1, str(row_df["Amount"]))
+            write_text(pyautogui, time, 0.2, str(row_df["Amount"]))
+        press_one_key(pyautogui, time, 0.1, "tab")
 
         # Currency   
+        time.sleep(0.1)   
         if Account_Type == "Bank":
-            mouse_move(pyautogui, time, 0.25, Currency_possition)
-            mouse_clic(pyautogui, time, 0.1)
             if Expense_Income_Method == "CZK":
                 Currency_index = Currency_df[Currency_df["Currency"] == "CZK"].index
                 Currency_pos = int(Currency_df.iloc[Currency_index]["Currency_Posstion"].values[0])
@@ -579,17 +583,18 @@ if Data_to_WEB_Process == "Income_Expense" or Data_to_WEB_Process == "Both":
             mouse_clic(pyautogui, time, 0.1)
         else:
             pass
+        press_one_key(pyautogui, time, 0.1, "tab")
             
         # Category
+        time.sleep(0.1)
         mouse_move(pyautogui, time, 0.25, Category_Search_possition)
         mouse_clic(pyautogui, time, 0.1)
-        mouse_clic(pyautogui, time, 0.1)
         if str(row_df["Category_3"]) != "":
-            write_text(pyautogui, time, 0.1, Replace_diacritic(str(row_df["Category_3"])))
+            write_text(pyautogui, time, 0.2, Replace_diacritic(str(row_df["Category_3"])))
         elif str(row_df["Category_2"]) != "":
-            write_text(pyautogui, time, 0.1, Replace_diacritic(str(row_df["Category_2"])))
+            write_text(pyautogui, time, 0.2, Replace_diacritic(str(row_df["Category_2"])))
         elif str(row_df["Category_1"]) != "":
-            write_text(pyautogui, time, 0.1, Replace_diacritic(str(row_df["Category_1"])))
+            write_text(pyautogui, time, 0.2, Replace_diacritic(str(row_df["Category_1"])))
         else:
             pyautogui.alert(text='Record with empty Category', title='Allert - stop running', button='OK')
         mouse_move(pyautogui, time, 0.25, Category_First_line)
@@ -598,13 +603,16 @@ if Data_to_WEB_Process == "Income_Expense" or Data_to_WEB_Process == "Both":
         press_one_key(pyautogui, time, 0.1, "tab")
 
         # Date
+        time.sleep(0.1)
         Calendar_direct_write(pyautogui, row_df["Date"], datetime, time)
         press_one_key(pyautogui, time, 0.1, "tab")
 
         # Time
+        time.sleep(0.1)
         Time_Set_correct(pyautogui, row_df["Time"], time, 0.5, Time_First_line)
 
         # Payee
+        time.sleep(0.1)
         mouse_move(pyautogui, time, 0.25, Payee_possition)
         mouse_clic(pyautogui, time, 0.1)
         pyperclip.copy(str(row_df["Payee"]))
@@ -612,16 +620,17 @@ if Data_to_WEB_Process == "Income_Expense" or Data_to_WEB_Process == "Both":
         press_one_key(pyautogui, time, 0.1, "tab")
 
         # Note
+        time.sleep(0.1)
         if row_df["Currency"] != "CZK":
             if Account_Type == "Bank":
                 if Expense_Income_Method == "CZK":
-                    write_text(pyautogui, time, 0.1, str(f"""{row_df["Currency"]}: {row_df["Amount"]},"""))     # Original transaction currency and amount
+                    write_text(pyautogui, time, 0.2, str(f"""{row_df["Currency"]}: {row_df["Amount"]},"""))     # Original transaction currency and amount
                 elif Expense_Income_Method == "Original":
-                    write_text(pyautogui, time, 0.1, str(f"""CZK: {row_df["Amount_LCY"]},"""))                  # Transaction Currency = CZK and Amount recallculated to CZK
+                    write_text(pyautogui, time, 0.2, str(f"""CZK: {row_df["Amount_LCY"]},"""))                  # Transaction Currency = CZK and Amount recallculated to CZK
                 else:
                     Log_file_Errors_write(row_df, "Note cannot be set becaue Currency Method setup do not exists")
             else:
-                write_text(pyautogui, time, 0.1, str(f"""CZK: {row_df["Amount_LCY"]},"""))                      # Transaction Currency = CZK and Amount recallculated to CZK
+                write_text(pyautogui, time, 0.2, str(f"""CZK: {row_df["Amount_LCY"]},"""))                      # Transaction Currency = CZK and Amount recallculated to CZK
             press_one_key(pyautogui, time, 0.25, "enter")
         else:
             pass
@@ -633,6 +642,7 @@ if Data_to_WEB_Process == "Income_Expense" or Data_to_WEB_Process == "Both":
         press_one_key(pyautogui, time, 0.1, "tab")
 
         # Payment Type
+        time.sleep(0.1)
         Payment_Type_index = Payment_Type_df[Payment_Type_df["Payment_Type"] == str(row_df["Payment_type"])].index
         Payment_Type_pos = int(Payment_Type_df.iloc[Payment_Type_index]["Payment_Type_Possition"].values[0])
         for i in range(Payment_Type_pos):
@@ -641,6 +651,7 @@ if Data_to_WEB_Process == "Income_Expense" or Data_to_WEB_Process == "Both":
         press_one_key(pyautogui, time, 0.1, "tab")
         
         # Payment Status
+        time.sleep(0.1)
         Payment_Status_index = Payment_Status_df[Payment_Status_df["Payment_Status"] == str(row_df["Payment_Status"])].index
         Payment_Status_pos = int(Payment_Status_df.iloc[Payment_Status_index]["Payment_Status_Possition"].values[0])
         for i in range(Payment_Status_pos):
@@ -648,6 +659,7 @@ if Data_to_WEB_Process == "Income_Expense" or Data_to_WEB_Process == "Both":
         press_one_key(pyautogui, time, 0.25, "enter")
 
         # Labels
+        time.sleep(0.1)
         if str(row_df["Labels"]) != "[]":
             # Return to Labels --> beucase if there is a lot of them then it change measurements of page
             mouse_move(pyautogui, time, 0.25, Labels_Search_possition)
@@ -657,7 +669,7 @@ if Data_to_WEB_Process == "Income_Expense" or Data_to_WEB_Process == "Both":
             labels_text = Replace_diacritic(str(row_df["Labels"]))
             labels = Wallet_Labels_List(labels_text)
             for label in labels:
-                write_text(pyautogui, time, 0.1, label)
+                write_text(pyautogui, time, 0.2, label)
                 press_one_key(pyautogui, time, 0.25, "enter")
 
             # Record Transaction
@@ -669,7 +681,7 @@ if Data_to_WEB_Process == "Income_Expense" or Data_to_WEB_Process == "Both":
             mouse_move(pyautogui, time, 0.25, Add_record)
             mouse_clic(pyautogui, time, 0.1)
 
-        time.sleep(1)
+        time.sleep(1.5)
 
         # Restart Web before another read
         Cycle_Counter += 1
@@ -684,6 +696,7 @@ if Data_to_WEB_Process == "Transfers" or Data_to_WEB_Process == "Both":
         row_df = pandas.Series(data=row[1])
 
         # New Record
+        time.sleep(0.1)
         mouse_move(pyautogui, time, 0.25, New_record_button_possition)
         mouse_clic(pyautogui, time, 0.1)
 
@@ -692,37 +705,38 @@ if Data_to_WEB_Process == "Transfers" or Data_to_WEB_Process == "Both":
             mouse_clic(pyautogui, time, 0.1)
         else:
             Log_file_Errors_write(row_df, "Type is not Transfer")
+        press_one_key(pyautogui, time, 0.1, "tab")
 
         # From
         # From Account
+        time.sleep(0.1)
         From_Account_index = Accounts_df[Accounts_df["Account"] == row_df["From_Account"]].index
         From_Account_pos = int(Accounts_df.iloc[From_Account_index]["Account_possition_From_list"].values[0])
-        mouse_move(pyautogui, time, 0.25, Trasnfer_From_Account)
-        mouse_clic(pyautogui, time, 0.1)
         for i in range(From_Account_pos):
             press_one_key(pyautogui, time, 0.1, "down")
         press_one_key(pyautogui, time, 0.25, "enter")
         press_one_key(pyautogui, time, 0.1, "tab")
 
         # From Amount
+        time.sleep(0.1)
         From_Account_Type = str(Accounts_df.iloc[From_Account_index]["Account_Type"].values[0])
         if From_Account_Type == "Bank":
             if Transfer_Method == "CZK":
                 if  row_df["From_Currency"] != "CZK":
-                    write_text(pyautogui, time, 0.1, str(row_df["From_Amount_LCY"]))
+                    write_text(pyautogui, time, 0.2, str(row_df["From_Amount_LCY"]))
                 else:
-                    write_text(pyautogui, time, 0.1, str(row_df["From_Amount"]))
+                    write_text(pyautogui, time, 0.2, str(row_df["From_Amount"]))
             elif Transfer_Method == "Original":
-                write_text(pyautogui, time, 0.1, str(row_df["From_Amount"]))
+                write_text(pyautogui, time, 0.2, str(row_df["From_Amount"]))
             else:
                 Log_file_Errors_write(row_df, "From Amount cannot be set becaue Currency Method setup do not exists")
         else:
-            write_text(pyautogui, time, 0.1, str(row_df["From_Amount"]))
+            write_text(pyautogui, time, 0.2, str(row_df["From_Amount"]))
+        press_one_key(pyautogui, time, 0.1, "tab")
 
         # From_Currency   
+        time.sleep(0.1) 
         if From_Account_Type == "Bank":
-            mouse_move(pyautogui, time, 0.25, Transfer_From_Currency)
-            mouse_clic(pyautogui, time, 0.1)
             if Transfer_Method == "CZK":
                 From_Currency_index = Currency_df[Currency_df["Currency"] == "CZK"].index
                 From_Currency_pos = int(Currency_df.iloc[From_Currency_index]["Currency_Posstion"].values[0])
@@ -737,22 +751,25 @@ if Data_to_WEB_Process == "Transfers" or Data_to_WEB_Process == "Both":
             mouse_clic(pyautogui, time, 0.1)
         else:
             pass
+        press_one_key(pyautogui, time, 0.1, "tab")
 
         # To
         # To Account
+        time.sleep(0.1)
         To_Account_index = Accounts_df[Accounts_df["Account"] == row_df["To_Account"]].index
         To_Account_pos = int(Accounts_df.iloc[To_Account_index]["Account_possition_TO_list"].values[0])
-        mouse_move(pyautogui, time, 0.25, Trasnfer_To_Account)
-        mouse_clic(pyautogui, time, 0.1)
         for i in range(To_Account_pos):
             press_one_key(pyautogui, time, 0.1, "down")
         press_one_key(pyautogui, time, 0.25, "enter")
+        press_one_key(pyautogui, time, 0.1, "tab")
+        
+        # To Amount
+        press_one_key(pyautogui, time, 0.1, "tab")
 
         # To Currency
+        time.sleep(0.1)
         To_Account_Type = str(Accounts_df.iloc[To_Account_index]["Account_Type"].values[0])
         if To_Account_Type == "Bank":
-            mouse_move(pyautogui, time, 0.25, Transfer_To_Currency)
-            mouse_clic(pyautogui, time, 0.1)
             if Transfer_Method == "CZK":
                 To_Currency_index = Currency_df[Currency_df["Currency"] == "CZK"].index
                 To_Currency_pos = int(Currency_df.iloc[To_Currency_index]["Currency_Posstion"].values[0])
@@ -767,24 +784,27 @@ if Data_to_WEB_Process == "Transfers" or Data_to_WEB_Process == "Both":
             mouse_clic(pyautogui, time, 0.1)
         else:
             pass
+        press_one_key(pyautogui, time, 0.1, "tab")
+        press_one_key(pyautogui, time, 0.1, "tab")
 
         # Date
-        mouse_move(pyautogui, time, 0.25, Callendar_date)
-        mouse_clic(pyautogui, time, 0.1)
+        time.sleep(0.1)
         Calendar_direct_write(pyautogui, row_df["Date"], datetime, time)
         press_one_key(pyautogui, time, 0.1, "tab")
 
         # Time
+        time.sleep(0.1)
         Time_Set_correct(pyautogui, row_df["Time"], time, 0.5, Time_First_line)
-        
+
         # Notes
+        time.sleep(0.1)
         mouse_move(pyautogui, time, 0.25, Note_possition)
         mouse_clic(pyautogui, time, 0.1)
         if (row_df["From_Currency"] != "CZK") or (row_df["To_Currency"] != "CZK"):
-            write_text(pyautogui, time, 0.1, str(f"""{row_df["From_Currency"]}: {row_df["From_Amount"]} = CZK: {row_df["From_Amount_LCY"]}, """))       # Original From Currency and From Amount + recallculation to CZK
+            write_text(pyautogui, time, 0.2, str(f"""{row_df["From_Currency"]}: {row_df["From_Amount"]} = CZK: {row_df["From_Amount_LCY"]}, """))       # Original From Currency and From Amount + recallculation to CZK
             press_one_key(pyautogui, time, 0.25, "enter")
 
-            write_text(pyautogui, time, 0.1, str(f"""{row_df["To_Currency"]}: {row_df["To_Amount"]} = CZK: {row_df["To_Amount_LCY"]}, """))             # Original To Currency and To Amount + recallculation to CZK
+            write_text(pyautogui, time, 0.2, str(f"""{row_df["To_Currency"]}: {row_df["To_Amount"]} = CZK: {row_df["To_Amount_LCY"]}, """))             # Original To Currency and To Amount + recallculation to CZK
             press_one_key(pyautogui, time, 0.25, "enter")
         else:
             pass
@@ -796,6 +816,7 @@ if Data_to_WEB_Process == "Transfers" or Data_to_WEB_Process == "Both":
         press_one_key(pyautogui, time, 0.1, "tab")
 
         # Payment Type -> Always Transfer
+        time.sleep(0.1)
         Payment_Type_index = Payment_Type_df[Payment_Type_df["Payment_Type"] == "Transfer"].index
         Payment_Type_pos = int(Payment_Type_df.iloc[Payment_Type_index]["Payment_Type_Possition"].values[0])
         for i in range(Payment_Type_pos):
@@ -804,6 +825,7 @@ if Data_to_WEB_Process == "Transfers" or Data_to_WEB_Process == "Both":
         press_one_key(pyautogui, time, 0.1, "tab")
 
         # Payment Status
+        time.sleep(0.1)
         Payment_Status_index = Payment_Status_df[Payment_Status_df["Payment_Status"] == str(row_df["Payment_Status"])].index
         Payment_Status_pos = int(Payment_Status_df.iloc[Payment_Status_index]["Payment_Status_Possition"].values[0])
         for i in range(Payment_Status_pos):
@@ -811,6 +833,7 @@ if Data_to_WEB_Process == "Transfers" or Data_to_WEB_Process == "Both":
         press_one_key(pyautogui, time, 0.25, "enter")
 
         # Labels
+        time.sleep(0.1)
         if str(row_df["Labels"]) != "[]":
             # Return to Labels --> beucase if there is a lot of them then it change measurements of page
             mouse_move(pyautogui, time, 0.25, Labels_Search_possition)
@@ -820,7 +843,7 @@ if Data_to_WEB_Process == "Transfers" or Data_to_WEB_Process == "Both":
             labels_text = Replace_diacritic(str(row_df["Labels"]))
             labels = Wallet_Labels_List(labels_text)
             for label in labels:
-                write_text(pyautogui, time, 0.1, label)
+                write_text(pyautogui, time, 0.2, label)
                 press_one_key(pyautogui, time, 0.25, "enter")
 
             # Record Transaction
@@ -832,7 +855,7 @@ if Data_to_WEB_Process == "Transfers" or Data_to_WEB_Process == "Both":
             mouse_move(pyautogui, time, 0.25, Add_record)
             mouse_clic(pyautogui, time, 0.1)
         
-        time.sleep(1)
+        time.sleep(1.5)
 
         # Restart Web before another read
         Cycle_Counter += 1

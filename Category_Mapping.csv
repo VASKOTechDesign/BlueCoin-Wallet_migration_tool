@@ -180,11 +180,11 @@ Income;Lottery, gambling;;;;;
 Income;Refunds;Vratky;Income;Others;Vratky;
 Income;Rental income;;;;;
 Income;Sale;;Income;Others;Prodej;na Skupinu 2
-Income;Wage, invoices;;Income;Prace;Ostatni;na Skupinu 2
-Income;Wage, invoices;Bonusy;Income;Prace;Bonusy;
-Income;Wage, invoices;OnCall_Duty;Income;Prace;OnCall duty;
-Income;Wage, invoices;Služební_Cesty;Income;Prace;Sluzebni cesty;
-Income;Wage, invoices;Stravenky;Income;Prace;Stravenky;
-Income;Wage, invoices;Výplata;Income;Prace;Vyplata;
+Income;Wage,_invoices;;Income;Prace;Ostatni;na Skupinu 2
+Income;Wage,_invoices;Bonusy;Income;Prace;Bonusy;
+Income;Wage,_invoices;OnCall_Duty;Income;Prace;OnCall duty;
+Income;Wage,_invoices;Služební_Cesty;Income;Prace;Sluzebni cesty;
+Income;Wage,_invoices;Stravenky;Income;Prace;Stravenky;
+Income;Wage,_invoices;Výplata;Income;Prace;Vyplata;
 Work-Expense;Others;;Expense;Prace;Ostatni;na Skupinu 2
 Work-Expense;Others;Penalty_Sheet;Expense;Prace;Penalty sheet;

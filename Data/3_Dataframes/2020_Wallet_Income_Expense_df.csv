@@ -58,9 +58,9 @@ Expense;2020-01-13;16:59;KB - Personal - účet;335.0;335.0;CZK;Shopping;Gifts, 
 Expense;2020-01-13;17:05;KB - Personal - účet;40.0;40.0;CZK;Transportation;Transport;MHD;Trafika;Debit card;Cleared;[];
 Expense;2020-01-14;07:00;KB - Personal - účet;129.0;129.0;CZK;Communication, PC;Phone, Mobile phone;Mobilní_data;Konica Minolta;Debit card;Cleared;[];
 Expense;2020-01-14;07:00;KB - Personal - účet;300.0;300.0;CZK;Life & Entertaiment;Active sport, fitness;Multisport;Multisport;Debit card;Cleared;[];Zapocitano ve vyplate
-Income;2020-01-14;07:00;KB - Personal - účet;40502.0;40502.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
-Income;2020-01-14;07:00;KB - Personal - účet;300.0;300.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
-Income;2020-01-14;07:00;KB - Personal - účet;129.0;129.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2020-01-14;07:00;KB - Personal - účet;40502.0;40502.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2020-01-14;07:00;KB - Personal - účet;300.0;300.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2020-01-14;07:00;KB - Personal - účet;129.0;129.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
 Expense;2020-01-14;07:23;KB - Personal - účet;4750.0;4750.0;CZK;Transportation;Transport;MHD;Brno;Debit card;Cleared;[];
 Expense;2020-01-14;07:37;KB - Personal - účet;26.7;26.7;CZK;Food & Drinks;Work;Svačina;Billa;Debit card;Cleared;[];
 Expense;2020-01-14;10:57;CZK;110.0;110.0;CZK;Food & Drinks;Work;Oběd;Eatology;Cash;Reconciled;[];
@@ -68,7 +68,7 @@ Expense;2020-01-14;11:21;KB - Personal - účet;153.0;153.0;CZK;Shopping;Home, g
 Expense;2020-01-15;07:00;KB - Personal - účet;4267.5;4267.5;CZK;Housing;Mortage, loans;Hypotéka_-_úmor;Komercni Banka;Debit card;Cleared;['Byt - Těsná'];
 Expense;2020-01-15;07:00;KB - Personal - účet;2816.5;2816.5;CZK;Housing;Mortage, loans;Hypotéka_-_úrok;Komercni Banka;Debit card;Cleared;['Byt - Těsná'];
 Expense;2020-01-15;07:00;KB - Personal - účet;670.0;670.0;CZK;Housing;Services;Popelnice;Brno;Debit card;Cleared;['Byt - Těsná'];
-Income;2020-01-15;07:00;Stravenková Karta;1100.0;1100.0;CZK;Income;Wage, invoices;Stravenky;Konica Minolta;Web payment;Reconciled;[];
+Income;2020-01-15;07:00;Stravenková Karta;1100.0;1100.0;CZK;Income;Wage,_invoices;Stravenky;Konica Minolta;Web payment;Reconciled;[];
 Income;2020-01-15;07:00;KB - Stavební spoření - úvěr 1;736.0;736.0;CZK;Income;Technical;Technical_-_Stavebko_-_úmor;Modra Pyramida;Transfer;Reconciled;[];
 Income;2020-01-15;07:00;KB - Stavební spoření - úvěr 2;670.0;670.0;CZK;Income;Technical;Technical_-_Stavebko_-_úmor;Modra Pyramida;Transfer;Reconciled;[];
 Expense;2020-01-15;07:00;KB - Personal - účet;736.0;736.0;CZK;Housing;Mortage, loans;Stavebko_-_úmor;Modra Pyramida;Debit card;Cleared;['Byt - Těsná'];
@@ -150,24 +150,24 @@ Expense;2020-02-03;09:12;CZK;175.0;175.0;CZK;Food & Drinks;Work;Svačina;Lidl;Ca
 Expense;2020-02-03;18:33;KB - Personal - účet;21.55;554.69;EUR;Food & Drinks;Work;Svačina;Mercator;Debit card;Reconciled;['KM-BSL: 2020-02', 'KM-Služebka-All'];
 Expense;2020-02-04;18:32;KB - Personal - účet;1.09;27.99;EUR;Food & Drinks;Work;Svačina;Mercator;Debit card;Reconciled;['KM-BSL: 2020-02', 'KM-Služebka-All'];
 Expense;2020-02-04;18:32;KB - Personal - účet;8.38;215.2;EUR;Shopping;Drug-store, chemist;Drogerie,_Hyg._potřeby;Mercator;Debit card;Reconciled;['KM-BSL: 2020-02', 'KM-Služebka-All'];
-Income;2020-02-05;07:00;KB - Personal - účet;1769.55;1769.55;CZK;Income;Wage, invoices;Služební_Cesty;Konica Minolta;Web payment;Cleared;['KM-BSL: 2020-01', 'KM-Služebka-All'];
+Income;2020-02-05;07:00;KB - Personal - účet;1769.55;1769.55;CZK;Income;Wage,_invoices;Služební_Cesty;Konica Minolta;Web payment;Cleared;['KM-BSL: 2020-01', 'KM-Služebka-All'];
 Expense;2020-02-06;19:18;KB - Personal - účet;4.95;128.21;EUR;Food & Drinks;Work;Svačina;Petrol;Debit card;Reconciled;['KM-BSL: 2020-02', 'KM-Služebka-All'];
 Expense;2020-02-07;11:08;KB - Personal - účet;102.0;102.0;CZK;Food & Drinks;Work;Oběd;Dragon restaurant;Debit card;Cleared;[];
 Expense;2020-02-07;12:08;KB - Personal - účet;50.0;50.0;CZK;Food & Drinks;Work;Svačina;KM - Dokulil Tomas;Debit card;Cleared;['KM-BSL: 2020-02', 'KM-Služebka-All'];
-Income;2020-02-07;12:08;KB - Personal - účet;60.0;60.0;CZK;Income;Wage, invoices;Služební_Cesty;KM - Dokulil Tomas;Web payment;Cleared;['KM-BSL: 2020-02', 'KM-Služebka-All'];
-Income;2020-02-07;12:16;KB - Personal - účet;70.0;70.0;CZK;Income;Wage, invoices;Služební_Cesty;KM - Dokulil Tomas;Web payment;Cleared;['KM-BSL: 2020-02', 'KM-Služebka-All'];
-Income;2020-02-07;12:44;KB - Personal - účet;130.0;130.0;CZK;Income;Wage, invoices;Služební_Cesty;KM- Slabotinsky Milos;Web payment;Cleared;['KM-BSL: 2020-02', 'KM-Služebka-All'];
+Income;2020-02-07;12:08;KB - Personal - účet;60.0;60.0;CZK;Income;Wage,_invoices;Služební_Cesty;KM - Dokulil Tomas;Web payment;Cleared;['KM-BSL: 2020-02', 'KM-Služebka-All'];
+Income;2020-02-07;12:16;KB - Personal - účet;70.0;70.0;CZK;Income;Wage,_invoices;Služební_Cesty;KM - Dokulil Tomas;Web payment;Cleared;['KM-BSL: 2020-02', 'KM-Služebka-All'];
+Income;2020-02-07;12:44;KB - Personal - účet;130.0;130.0;CZK;Income;Wage,_invoices;Služební_Cesty;KM- Slabotinsky Milos;Web payment;Cleared;['KM-BSL: 2020-02', 'KM-Služebka-All'];
 Expense;2020-02-07;15:43;Stravenková Karta;11.9;11.9;CZK;Food & Drinks;Work;Svačina;Okay Market;Debit card;Reconciled;[];
 Expense;2020-02-07;16:31;KB - Personal - účet;572.68;572.68;CZK;Food & Drinks;Groceries;Potraviny;Lidl;Debit card;Cleared;[];
 Expense;2020-02-07;16:44;KB - Personal - účet;95.0;95.0;CZK;Food & Drinks;Groceries;Alkohol;Hulata Vinoteka;Debit card;Cleared;[];
 Expense;2020-02-08;11:03;KB - Personal - účet;20.0;20.0;CZK;Life & Entertaiment;Books, audio;Hudba;Supraphonline;Debit card;Cleared;[];
-Expense;2020-02-09;10:05;KB - Personal - účet;6990.0;6990.0;CZK;Life & Entertaiment;Holiday,_trips,_hotels;Zájezdy;Zamek Wichterle;Debit card;Cleared;['2020 - Wichterle'];
+Expense;2020-02-09;10:05;KB - Personal - účet;6990.0;6990.0;CZK;Life & Entertaiment;Holiday,_trips,_hotels;Zájezdy;Zamek Wichterle;Debit card;Cleared;['2020 - Wichterle', 'Dovolena: All'];
 Expense;2020-02-09;11:32;KB - Personal - účet;993.0;993.0;CZK;Shopping;Home, garden;Bydlení,_accessories;Ikea;Debit card;Cleared;[];
 Expense;2020-02-09;12:23;CZK;180.0;180.0;CZK;Food & Drinks;Občerstvení;Kavárna;Cafe infinit;Cash;Reconciled;[];
 Expense;2020-02-09;12:24;KB - Personal - účet;224.0;224.0;CZK;Shopping;Gifts, joy;Květiny;Vonekl kvetinarstvi;Debit card;Cleared;[];
 Expense;2020-02-10;09:34;KB - Personal - účet;4.1;96.31;USD;Shopping;Electronic, acesories;Elektronika;Aliexpress;Debit card;Reconciled;['VASKO TechDesign', 'VASKO: Energy Sol.'];
 Expense;2020-02-10;11:02;KB - Personal - účet;98.04;98.04;CZK;Food & Drinks;Work;Oběd;Eatology;Debit card;Cleared;[];
-Income;2020-02-10;12:57;KB - Personal - účet;130.0;130.0;CZK;Income;Wage, invoices;Služební_Cesty;KM - Musiol Marek;Web payment;Cleared;['KM-BSL: 2020-02', 'KM-Služebka-All'];
+Income;2020-02-10;12:57;KB - Personal - účet;130.0;130.0;CZK;Income;Wage,_invoices;Služební_Cesty;KM - Musiol Marek;Web payment;Cleared;['KM-BSL: 2020-02', 'KM-Služebka-All'];
 Expense;2020-02-10;16:04;Stravenková Karta;48.7;48.7;CZK;Food & Drinks;Work;Svačina;Okay Market;Debit card;Reconciled;[];
 Expense;2020-02-10;17:33;KB - Personal - účet;1899.0;1899.0;CZK;Shopping;Clothes & shoes;Oblečení;Samsonite;Debit card;Cleared;[];Anda penezenka
 Expense;2020-02-10;17:38;CZK;5.0;5.0;CZK;Life & Entertaiment;Services_-_General;Toaleta;Vankovka;Cash;Reconciled;[];
@@ -180,14 +180,14 @@ Expense;2020-02-11;17:03;KB - Personal - účet;95.0;95.0;CZK;Food & Drinks;Groc
 Expense;2020-02-11;17:03;KB - Personal - účet;60.0;60.0;CZK;Food & Drinks;Groceries;Potraviny;Hulata Vinoteka;Debit card;Cleared;[];
 Expense;2020-02-12;07:00;KB - Personal - účet;129.0;129.0;CZK;Communication, PC;Phone, Mobile phone;Mobilní_data;Konica Minolta;Debit card;Cleared;[];
 Expense;2020-02-12;07:00;KB - Personal - účet;300.0;300.0;CZK;Life & Entertaiment;Active sport, fitness;Multisport;Multisport;Debit card;Cleared;[];Zapocitano ve vyplate
-Income;2020-02-12;07:00;KB - Personal - účet;39583.0;39583.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
-Income;2020-02-12;07:00;KB - Personal - účet;300.0;300.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
-Income;2020-02-12;07:00;KB - Personal - účet;129.0;129.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2020-02-12;07:00;KB - Personal - účet;39583.0;39583.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2020-02-12;07:00;KB - Personal - účet;300.0;300.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2020-02-12;07:00;KB - Personal - účet;129.0;129.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
 Expense;2020-02-12;07:47;KB - Personal - účet;26.7;26.7;CZK;Food & Drinks;Work;Svačina;Billa;Debit card;Cleared;[];
 Expense;2020-02-12;17:19;KB - Personal - účet;48.8;48.8;CZK;Food & Drinks;Groceries;Potraviny;Albert;Debit card;Cleared;[];
 Expense;2020-02-12;17:19;KB - Personal - účet;48.8;48.8;CZK;Shopping;Drug-store, chemist;Drogerie,_Hyg._potřeby;Albert;Debit card;Cleared;[];
-Income;2020-02-13;07:00;KB - Personal - účet;3230.71;3230.71;CZK;Income;Wage, invoices;Služební_Cesty;Konica Minolta;Web payment;Cleared;['KM-BSL: 2020-02', 'KM-Služebka-All'];
-Income;2020-02-13;07:00;Stravenková Karta;1800.0;1800.0;CZK;Income;Wage, invoices;Stravenky;Konica Minolta;Web payment;Reconciled;[];
+Income;2020-02-13;07:00;KB - Personal - účet;3230.71;3230.71;CZK;Income;Wage,_invoices;Služební_Cesty;Konica Minolta;Web payment;Cleared;['KM-BSL: 2020-02', 'KM-Služebka-All'];
+Income;2020-02-13;07:00;Stravenková Karta;1800.0;1800.0;CZK;Income;Wage,_invoices;Stravenky;Konica Minolta;Web payment;Reconciled;[];
 Expense;2020-02-13;08:50;KB - Personal - účet;64.7;1652.65;EUR;Life & Entertaiment;Active sport, fitness;Závody;Spartan Race;Debit card;Reconciled;[];Honza
 Expense;2020-02-13;08:58;KB - Personal - účet;64.7;1652.65;EUR;Life & Entertaiment;Active sport, fitness;Závody;Spartan Race;Debit card;Reconciled;[];Anda
 Expense;2020-02-13;11:03;Stravenková Karta;30.0;30.0;CZK;Food & Drinks;Work;Oběd;Eatology;Debit card;Reconciled;[];
@@ -212,7 +212,7 @@ Expense;2020-02-15;07:00;KB - Personal - účet;1760.0;1760.0;CZK;Housing;Mainte
 Expense;2020-02-15;12:44;KB - Personal - účet;134.75;134.75;CZK;Food & Drinks;Groceries;Potraviny;Billa;Debit card;Cleared;[];
 Expense;2020-02-16;15:06;KB - Personal - účet;360.0;360.0;CZK;Shopping;Home, garden;Bydlení,_accessories;Ikea;Debit card;Cleared;[];
 Expense;2020-02-16;17:32;KB - Personal - účet;329.0;329.0;CZK;Shopping;Home, garden;Bydlení,_accessories;Pepco;Debit card;Cleared;[];
-Expense;2020-02-16;18:19;KB - Personal - účet;4354.28;4354.28;CZK;Life & Entertaiment;Holiday,_trips,_hotels;Ubytování;Chalupa Zdarky;Debit card;Cleared;['2020 - Velikonoce'];
+Expense;2020-02-16;18:19;KB - Personal - účet;4354.28;4354.28;CZK;Life & Entertaiment;Holiday,_trips,_hotels;Ubytování;Chalupa Zdarky;Debit card;Cleared;['2020 - Velikonoce', 'Dovolena: All'];
 Expense;2020-02-17;07:00;KB - Personal - účet;4275.29;4275.29;CZK;Housing;Mortage, loans;Hypotéka_-_úmor;Komercni Banka;Debit card;Cleared;['Byt - Těsná'];
 Expense;2020-02-17;07:00;KB - Personal - účet;2808.71;2808.71;CZK;Housing;Mortage, loans;Hypotéka_-_úrok;Komercni Banka;Debit card;Cleared;['Byt - Těsná'];
 Income;2020-02-17;07:00;KB - Stavební spoření - úvěr 1;750.0;750.0;CZK;Income;Technical;Technical_-_Stavebko_-_úmor;Modra Pyramida;Transfer;Reconciled;[];
@@ -305,14 +305,14 @@ Expense;2020-03-09;09:17;CZK;24.0;24.0;CZK;Food & Drinks;Groceries;Potraviny;Fer
 Expense;2020-03-09;15:48;CZK;80.0;80.0;CZK;Food & Drinks;Občerstvení;Kavárna;Kavarna;Cash;Reconciled;[];
 Expense;2020-03-10;07:17;CZK;20.0;20.0;CZK;Vehicle;Parking;Parkování;Nemocnice Bohunice;Cash;Reconciled;['Renault Laguna'];
 Expense;2020-03-10;07:28;KB - Personal - účet;33.0;33.0;CZK;Food & Drinks;Work;Svačina;Crocus;Debit card;Cleared;[];
-Income;2020-03-10;08:03;Stravenková Karta;1600.0;1600.0;CZK;Income;Wage, invoices;Stravenky;Konica Minolta;Web payment;Reconciled;[];
+Income;2020-03-10;08:03;Stravenková Karta;1600.0;1600.0;CZK;Income;Wage,_invoices;Stravenky;Konica Minolta;Web payment;Reconciled;[];
 Expense;2020-03-10;10:57;Stravenková Karta;112.88;112.88;CZK;Food & Drinks;Work;Oběd;Eatology;Debit card;Reconciled;[];
 Expense;2020-03-10;14:58;Stravenková Karta;62.7;62.7;CZK;Food & Drinks;Work;Svačina;Okay Market;Debit card;Reconciled;[];
 Expense;2020-03-11;07:00;KB - Personal - účet;129.0;129.0;CZK;Communication, PC;Phone, Mobile phone;Mobilní_data;Konica Minolta;Debit card;Cleared;[];
 Expense;2020-03-11;07:00;KB - Personal - účet;300.0;300.0;CZK;Life & Entertaiment;Active sport, fitness;Multisport;Multisport;Debit card;Cleared;[];Zapocitano ve vyplate
-Income;2020-03-11;07:00;KB - Personal - účet;39431.0;39431.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
-Income;2020-03-11;07:00;KB - Personal - účet;300.0;300.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
-Income;2020-03-11;07:00;KB - Personal - účet;129.0;129.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2020-03-11;07:00;KB - Personal - účet;39431.0;39431.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2020-03-11;07:00;KB - Personal - účet;300.0;300.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2020-03-11;07:00;KB - Personal - účet;129.0;129.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
 Expense;2020-03-11;07:42;Stravenková Karta;33.0;33.0;CZK;Food & Drinks;Work;Svačina;Crocus;Debit card;Reconciled;[];
 Expense;2020-03-11;11:03;Stravenková Karta;108.96;108.96;CZK;Food & Drinks;Work;Oběd;Eatology;Debit card;Reconciled;[];
 Expense;2020-03-11;11:26;KB - Personal - účet;49.0;49.0;CZK;Shopping;Stationery, tools;Nářadí;Hornbach;Debit card;Cleared;['Byt - Těsná'];
@@ -400,16 +400,16 @@ Expense;2020-04-06;14:10;CZK;500.0;500.0;CZK;Vehicle;Vehicle maintenance;Servis;
 Expense;2020-04-06;14:17;CZK;10.0;10.0;CZK;Vehicle;Vehicle maintenance;Mytí;A1wash;Cash;Reconciled;['Renault Laguna'];
 Expense;2020-04-06;14:31;KB - Personal - účet;1334.5;1334.5;CZK;Vehicle;Fuel;Diesel;EuroOil;Debit card;Cleared;['Renault Laguna'];
 Expense;2020-04-06;19:00;KB - Personal - účet;95.0;95.0;CZK;Food & Drinks;Groceries;Alkohol;Hulata Vinoteka;Debit card;Cleared;[];
-Income;2020-04-07;07:00;KB - Personal - účet;4354.28;4354.28;CZK;Income;Refunds;Vratky;Chalupa Zdarky;Web payment;Cleared;['2020 - Velikonoce'];
+Income;2020-04-07;07:00;KB - Personal - účet;4354.28;4354.28;CZK;Income;Refunds;Vratky;Chalupa Zdarky;Web payment;Cleared;['2020 - Velikonoce', 'Dovolena: All'];
 Expense;2020-04-07;17:51;CZK;63.0;63.0;CZK;Food & Drinks;Občerstvení;Hospoda;U Sosny;Cash;Reconciled;[];
 Expense;2020-04-07;17:51;CZK;2.0;2.0;CZK;Financial expenses;Financial Expenses;Tuzer;U Sosny;Cash;Reconciled;[];
 Expense;2020-04-07;17:53;KB - Personal - účet;20.0;20.0;CZK;Financial expenses;Financial Expenses;Dary;Vaško Andrea;Debit card;Reconciled;[];
-Income;2020-04-09;07:00;Stravenková Karta;1900.0;1900.0;CZK;Income;Wage, invoices;Stravenky;Konica Minolta;Web payment;Reconciled;[];
-Income;2020-04-09;07:00;KB - Personal - účet;35956.0;35956.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
-Income;2020-04-09;07:00;KB - Personal - účet;116.0;116.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
-Income;2020-04-09;07:00;KB - Personal - účet;100.0;100.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
-Income;2020-04-09;07:00;KB - Personal - účet;20000.0;20000.0;CZK;Income;Wage, invoices;Bonusy;Konica Minolta;Web payment;Cleared;[];
-Income;2020-04-09;07:00;KB - Personal - účet;3000.0;3000.0;CZK;Income;Wage, invoices;OnCall_Duty;Konica Minolta;Web payment;Cleared;[];
+Income;2020-04-09;07:00;Stravenková Karta;1900.0;1900.0;CZK;Income;Wage,_invoices;Stravenky;Konica Minolta;Web payment;Reconciled;[];
+Income;2020-04-09;07:00;KB - Personal - účet;35956.0;35956.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2020-04-09;07:00;KB - Personal - účet;116.0;116.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2020-04-09;07:00;KB - Personal - účet;100.0;100.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2020-04-09;07:00;KB - Personal - účet;20000.0;20000.0;CZK;Income;Wage,_invoices;Bonusy;Konica Minolta;Web payment;Cleared;[];
+Income;2020-04-09;07:00;KB - Personal - účet;3000.0;3000.0;CZK;Income;Wage,_invoices;OnCall_Duty;Konica Minolta;Web payment;Cleared;[];
 Expense;2020-04-09;07:00;KB - Personal - účet;116.0;116.0;CZK;Life & Entertaiment;Active sport, fitness;Multisport;Multisport;Debit card;Cleared;[];Zapocitano ve vyplate
 Expense;2020-04-09;07:00;KB - Personal - účet;100.0;100.0;CZK;Communication, PC;Phone, Mobile phone;Mobilní_data;Konica Minolta;Debit card;Cleared;[];
 Expense;2020-04-09;16:57;CZK;63.0;63.0;CZK;Food & Drinks;Občerstvení;Hospoda;U Sosny;Cash;Reconciled;[];
@@ -485,7 +485,7 @@ Expense;2020-04-30;17:48;KB - Personal - účet;285.0;285.0;CZK;Food & Drinks;Gr
 Expense;2020-04-30;17:48;CZK;10.0;10.0;CZK;Financial expenses;Financial Expenses;Tuzer;Hulata Vinoteka;Cash;Cleared;[];
 Expense;2020-05-01;07:00;KB - Personal - účet;159.0;159.0;CZK;Life & Entertaiment;TV&Audio Streaming;Televize;HBOGO;Debit card;Cleared;['Byt - Těsná'];
 Expense;2020-05-01;09:03;KB - Personal - účet;1000.0;1000.0;CZK;Food & Drinks;Groceries;Potraviny;Vaško Andrea;Debit card;Cleared;[];Za nakup v Kauflandu
-Expense;2020-05-01;09:19;KB - Personal - účet;2970.0;2970.0;CZK;Life & Entertaiment;Holiday,_trips,_hotels;Ubytování;Hyza Radek;Debit card;Cleared;['2020 - Velikonoce'];
+Expense;2020-05-01;09:19;KB - Personal - účet;2970.0;2970.0;CZK;Life & Entertaiment;Holiday,_trips,_hotels;Ubytování;Hyza Radek;Debit card;Cleared;['2020 - Velikonoce', 'Dovolena: All'];
 Expense;2020-05-01;16:54;CZK;196.0;196.0;CZK;Food & Drinks;Občerstvení;Cukrárna;Tomivo Gelato;Cash;Reconciled;[];
 Expense;2020-05-01;16:54;CZK;4.0;4.0;CZK;Financial expenses;Financial Expenses;Tuzer;Tomivo Gelato;Cash;Reconciled;[];
 Expense;2020-05-02;17:17;KB - Personal - účet;917.0;917.0;CZK;Shopping;Drug-store, chemist;Drogerie,_Hyg._potřeby;Mall;Debit card;Cleared;[];
@@ -525,7 +525,7 @@ Expense;2020-05-12;18:03;KB - Personal - účet;664.21;664.21;CZK;Food & Drinks;
 Expense;2020-05-13;07:00;KB - Personal - účet;1730.0;1730.0;CZK;Housing;Energy, utilities;Elektřina;Eon;Debit card;Cleared;['Byt - Těsná'];
 Expense;2020-05-13;07:48;Stravenková Karta;33.0;33.0;CZK;Food & Drinks;Work;Svačina;Crocus;Debit card;Reconciled;[];
 Expense;2020-05-13;10:39;Stravenková Karta;110.0;110.0;CZK;Food & Drinks;Work;Oběd;Eatology;Debit card;Reconciled;[];
-Income;2020-05-14;07:00;Stravenková Karta;2000.0;2000.0;CZK;Income;Wage, invoices;Stravenky;Konica Minolta;Web payment;Reconciled;[];
+Income;2020-05-14;07:00;Stravenková Karta;2000.0;2000.0;CZK;Income;Wage,_invoices;Stravenky;Konica Minolta;Web payment;Reconciled;[];
 Expense;2020-05-14;07:29;KB - Personal - účet;525.0;525.0;CZK;Financial expenses;Taxes;Daň_z_nemovitosti;Brno;Debit card;Cleared;['Byt - Těsná'];
 Expense;2020-05-14;13:00;CZK;20.0;20.0;CZK;Financial expenses;Financial Expenses;Tuzer;Pablo burger;Cash;Reconciled;[];
 Expense;2020-05-14;13:03;CZK;35.0;35.0;CZK;Food & Drinks;Občerstvení;Fastfood;Pablo burger;Cash;Reconciled;[];
@@ -542,15 +542,15 @@ Income;2020-05-15;07:00;KB - Stavební spoření - úvěr 2;670.0;670.0;CZK;Inco
 Expense;2020-05-15;07:00;KB - Personal - účet;750.0;750.0;CZK;Housing;Mortage, loans;Stavebko_-_úmor;Modra Pyramida;Debit card;Cleared;['Byt - Těsná'];
 Expense;2020-05-15;07:00;KB - Personal - účet;670.0;670.0;CZK;Vehicle;Rentals, Loans;Vehicle_-_Půjčka_-_úmor;Modra Pyramida;Debit card;Cleared;['Renault Laguna'];
 Expense;2020-05-15;07:00;KB - Personal - účet;748.5;748.5;CZK;Vehicle;Rentals, Loans;Vehicle_-_Půjčka_-_úrok;Modra Pyramida;Debit card;Cleared;['Renault Laguna'];
-Income;2020-05-15;07:00;KB - Personal - účet;41630.0;41630.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
-Income;2020-05-15;07:00;KB - Personal - účet;100.0;100.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2020-05-15;07:00;KB - Personal - účet;41630.0;41630.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2020-05-15;07:00;KB - Personal - účet;100.0;100.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
 Expense;2020-05-16;19:00;KB - Personal - účet;407.0;407.0;CZK;Financial expenses;Loan, interests;Osobní_půjčky_-_Expense;Vaško Andrea;Debit card;Cleared;['Byt - Provazníkova'];Bauhaus: Prodluzky, silikon
 Expense;2020-05-17;16:22;CZK;34.0;34.0;CZK;Food & Drinks;Občerstvení;Bar;Studio Samalka;Cash;Reconciled;[];
 Expense;2020-05-17;16:22;CZK;6.0;6.0;CZK;Financial expenses;Financial Expenses;Tuzer;Studio Samalka;Cash;Reconciled;[];
 Expense;2020-05-18;11:02;Stravenková Karta;110.0;110.0;CZK;Food & Drinks;Work;Oběd;Eatology;Debit card;Reconciled;[];
 Expense;2020-05-18;14:01;Stravenková Karta;46.8;46.8;CZK;Food & Drinks;Work;Oběd;Okay Market;Debit card;Reconciled;[];
 Expense;2020-05-18;14:01;Stravenková Karta;21.9;21.9;CZK;Financial expenses;Loan, interests;Osobní_půjčky_-_Expense;KM - Tomasovic Zbyna;Debit card;Reconciled;[];
-Expense;2020-05-18;15:42;KB - Personal - účet;200.0;200.0;CZK;Life & Entertaiment;Holiday,_trips,_hotels;Ubytování;Chalupa Zdarky;Debit card;Cleared;['2020 - Velikonoce'];
+Expense;2020-05-18;15:42;KB - Personal - účet;200.0;200.0;CZK;Life & Entertaiment;Holiday,_trips,_hotels;Ubytování;Chalupa Zdarky;Debit card;Cleared;['2020 - Velikonoce', 'Dovolena: All'];
 Expense;2020-05-18;16:41;CZK;10.0;10.0;CZK;Vehicle;Vehicle maintenance;Mytí;IQ Wash;Cash;Reconciled;['Renault Laguna'];
 Expense;2020-05-19;11:41;CZK;20.0;20.0;CZK;Food & Drinks;Groceries;Potraviny;Feromat;Cash;Reconciled;['VASKO TechDesign', 'VASKO: Energy Sol.'];
 Expense;2020-05-19;19:12;KB - Personal - účet;324.0;324.0;CZK;Food & Drinks;Občerstvení;Fastfood;Pablo burger;Debit card;Cleared;['Byt - Provazníkova'];
@@ -586,23 +586,23 @@ Expense;2020-05-27;17:43;CZK;18.0;18.0;CZK;Financial expenses;Financial Expenses
 Expense;2020-05-28;07:17;Stravenková Karta;33.0;33.0;CZK;Food & Drinks;Work;Svačina;Crocus;Debit card;Reconciled;[];
 Expense;2020-05-28;10:59;Stravenková Karta;110.0;110.0;CZK;Food & Drinks;Work;Oběd;Eatology;Debit card;Reconciled;[];
 Expense;2020-05-28;13:01;Stravenková Karta;47.9;47.9;CZK;Food & Drinks;Work;Svačina;Okay Market;Debit card;Reconciled;[];
-Expense;2020-05-28;16:28;KB - Personal - účet;992.7;992.7;CZK;Vehicle;Fuel;Diesel;EuroOil;Debit card;Cleared;['2020 - Velikonoce', 'Renault Laguna'];
+Expense;2020-05-28;16:28;KB - Personal - účet;992.7;992.7;CZK;Vehicle;Fuel;Diesel;EuroOil;Debit card;Cleared;['2020 - Velikonoce', 'Dovolena: All', 'Renault Laguna'];
 Expense;2020-05-28;18:10;KB - Personal - účet;185.0;185.0;CZK;Food & Drinks;Groceries;Alkohol;Hulata Vinoteka;Debit card;Cleared;[];
-Expense;2020-05-28;20:40;Stravenková Karta;284.8;284.8;CZK;Food & Drinks;Groceries;Potraviny;Penny Market;Debit card;Reconciled;['2020 - Velikonoce'];
-Expense;2020-05-29;09:33;CZK;80.0;80.0;CZK;Vehicle;Parking;Parkování;Adršpach;Cash;Reconciled;['2020 - Velikonoce', 'Renault Laguna'];
-Expense;2020-05-29;10:49;KB - Personal - účet;240.0;240.0;CZK;Life & Entertaiment;Holiday,_trips,_hotels;Výlety;Adršpach;Debit card;Cleared;['2020 - Velikonoce'];
-Expense;2020-05-29;11:20;CZK;20.0;20.0;CZK;Life & Entertaiment;Holiday,_trips,_hotels;Výlety;Adršpach;Cash;Reconciled;['2020 - Velikonoce'];
-Expense;2020-05-29;13:44;CZK;270.0;270.0;CZK;Food & Drinks;Občerstvení;Hospoda;Hospoda lesni zatisi;Cash;Reconciled;['2020 - Velikonoce'];
-Expense;2020-05-29;13:44;CZK;30.0;30.0;CZK;Financial expenses;Financial Expenses;Tuzer;Hospoda lesni zatisi;Cash;Reconciled;['2020 - Velikonoce'];
-Expense;2020-05-29;14:00;CZK;110.0;110.0;CZK;Food & Drinks;Občerstvení;Fastfood;Bistro Veronika;Cash;Reconciled;['2020 - Velikonoce'];
-Expense;2020-05-29;14:00;CZK;10.0;10.0;CZK;Financial expenses;Financial Expenses;Tuzer;Bistro Veronika;Cash;Reconciled;['2020 - Velikonoce'];
-Expense;2020-05-29;14:44;CZK;100.0;100.0;CZK;Vehicle;Parking;Parkování;Teplicke Skaly;Cash;Reconciled;['2020 - Velikonoce', 'Renault Laguna'];
-Expense;2020-05-29;14:51;CZK;240.0;240.0;CZK;Life & Entertaiment;Holiday,_trips,_hotels;Výlety;Teplicke Skaly;Cash;Reconciled;['2020 - Velikonoce'];
-Expense;2020-05-30;20:19;CZK;540.0;540.0;CZK;Life & Entertaiment;Events - General;Zoo;Zoo Dvur Kralove;Cash;Cleared;['2020 - Velikonoce'];
+Expense;2020-05-28;20:40;Stravenková Karta;284.8;284.8;CZK;Food & Drinks;Groceries;Potraviny;Penny Market;Debit card;Reconciled;['2020 - Velikonoce', 'Dovolena: All'];
+Expense;2020-05-29;09:33;CZK;80.0;80.0;CZK;Vehicle;Parking;Parkování;Adršpach;Cash;Reconciled;['2020 - Velikonoce', 'Dovolena: All', 'Renault Laguna'];
+Expense;2020-05-29;10:49;KB - Personal - účet;240.0;240.0;CZK;Life & Entertaiment;Holiday,_trips,_hotels;Výlety;Adršpach;Debit card;Cleared;['2020 - Velikonoce', 'Dovolena: All'];
+Expense;2020-05-29;11:20;CZK;20.0;20.0;CZK;Life & Entertaiment;Holiday,_trips,_hotels;Výlety;Adršpach;Cash;Reconciled;['2020 - Velikonoce', 'Dovolena: All'];
+Expense;2020-05-29;13:44;CZK;270.0;270.0;CZK;Food & Drinks;Občerstvení;Hospoda;Hospoda lesni zatisi;Cash;Reconciled;['2020 - Velikonoce', 'Dovolena: All'];
+Expense;2020-05-29;13:44;CZK;30.0;30.0;CZK;Financial expenses;Financial Expenses;Tuzer;Hospoda lesni zatisi;Cash;Reconciled;['2020 - Velikonoce', 'Dovolena: All'];
+Expense;2020-05-29;14:00;CZK;110.0;110.0;CZK;Food & Drinks;Občerstvení;Fastfood;Bistro Veronika;Cash;Reconciled;['2020 - Velikonoce', 'Dovolena: All'];
+Expense;2020-05-29;14:00;CZK;10.0;10.0;CZK;Financial expenses;Financial Expenses;Tuzer;Bistro Veronika;Cash;Reconciled;['2020 - Velikonoce', 'Dovolena: All'];
+Expense;2020-05-29;14:44;CZK;100.0;100.0;CZK;Vehicle;Parking;Parkování;Teplicke Skaly;Cash;Reconciled;['2020 - Velikonoce', 'Dovolena: All', 'Renault Laguna'];
+Expense;2020-05-29;14:51;CZK;240.0;240.0;CZK;Life & Entertaiment;Holiday,_trips,_hotels;Výlety;Teplicke Skaly;Cash;Reconciled;['2020 - Velikonoce', 'Dovolena: All'];
+Expense;2020-05-30;20:19;CZK;540.0;540.0;CZK;Life & Entertaiment;Events - General;Zoo;Zoo Dvur Kralove;Cash;Cleared;['2020 - Velikonoce', 'Dovolena: All'];
 Expense;2020-05-31;07:00;KB - Personal - účet;39.0;39.0;CZK;Financial expenses;Charges, Fees;Poplatek_za_vedení_účtu;Komercni Banka;Debit card;Reconciled;[];
-Expense;2020-05-31;09:42;CZK;225.0;225.0;CZK;Food & Drinks;Občerstvení;Kavárna;Kavarna Ve dvore;Cash;Reconciled;['2020 - Velikonoce'];
-Expense;2020-05-31;09:42;CZK;15.0;15.0;CZK;Financial expenses;Financial Expenses;Tuzer;Kavarna Ve dvore;Cash;Reconciled;['2020 - Velikonoce'];
-Expense;2020-05-31;18:15;CZK;500.0;500.0;CZK;Food & Drinks;Občerstvení;Hospoda;Hostinec U Hubalku;Cash;Reconciled;['2020 - Velikonoce'];
+Expense;2020-05-31;09:42;CZK;225.0;225.0;CZK;Food & Drinks;Občerstvení;Kavárna;Kavarna Ve dvore;Cash;Reconciled;['2020 - Velikonoce', 'Dovolena: All'];
+Expense;2020-05-31;09:42;CZK;15.0;15.0;CZK;Financial expenses;Financial Expenses;Tuzer;Kavarna Ve dvore;Cash;Reconciled;['2020 - Velikonoce', 'Dovolena: All'];
+Expense;2020-05-31;18:15;CZK;500.0;500.0;CZK;Food & Drinks;Občerstvení;Hospoda;Hostinec U Hubalku;Cash;Reconciled;['2020 - Velikonoce', 'Dovolena: All'];
 Expense;2020-06-01;10:00;KB - Personal - účet;159.0;159.0;CZK;Life & Entertaiment;TV&Audio Streaming;Televize;HBOGO;Debit card;Cleared;['Byt - Těsná'];
 Expense;2020-06-01;11:11;Stravenková Karta;92.44;92.44;CZK;Food & Drinks;Work;Oběd;Eatology;Debit card;Reconciled;[];
 Income;2020-06-01;18:23;CZK;1088.0;1088.0;CZK;Housing;Energy, utilities;Voda;SVJ Tesna;Cash;Reconciled;['Byt - Těsná'];
@@ -639,7 +639,7 @@ Expense;2020-06-08;11:02;CZK;102.0;102.0;CZK;Food & Drinks;Work;Oběd;Eatology;C
 Expense;2020-06-08;14:27;Stravenková Karta;29.0;29.0;CZK;Food & Drinks;Work;Svačina;Blue mango;Debit card;Reconciled;[];
 Expense;2020-06-08;19:34;CZK;34.0;34.0;CZK;Food & Drinks;Občerstvení;Bar;Studio Samalka;Cash;Cleared;[];
 Expense;2020-06-08;19:34;CZK;6.0;6.0;CZK;Financial expenses;Financial Expenses;Tuzer;Studio Samalka;Cash;Cleared;[];
-Income;2020-06-09;07:00;Stravenková Karta;1600.0;1600.0;CZK;Income;Wage, invoices;Stravenky;Konica Minolta;Web payment;Reconciled;[];
+Income;2020-06-09;07:00;Stravenková Karta;1600.0;1600.0;CZK;Income;Wage,_invoices;Stravenky;Konica Minolta;Web payment;Reconciled;[];
 Expense;2020-06-09;11:43;CZK;111.0;111.0;CZK;Food & Drinks;Work;Oběd;Eatology;Cash;Reconciled;[];
 Expense;2020-06-10;07:26;Stravenková Karta;33.0;33.0;CZK;Food & Drinks;Work;Svačina;Crocus;Debit card;Reconciled;[];
 Expense;2020-06-10;08:41;KB - Personal - účet;588.16;588.16;CZK;Vehicle;Car shopping;Nákup;Aliexpress;Debit card;Cleared;['Renault Laguna'];Obzsiti volantu
@@ -657,10 +657,10 @@ Expense;2020-06-11;13:51;CZK;30.0;30.0;CZK;Financial expenses;Financial Expenses
 Expense;2020-06-12;07:00;KB - Personal - účet;100.0;100.0;CZK;Communication, PC;Phone, Mobile phone;Mobilní_data;Konica Minolta;Debit card;Cleared;[];
 Expense;2020-06-12;07:00;KB - Personal - účet;518.0;518.0;CZK;Shopping;Electronic, acesories;Elektronika;Konica Minolta;Debit card;Cleared;[];Huawei P10
 Expense;2020-06-12;07:00;KB - Personal - účet;300.0;300.0;CZK;Life & Entertaiment;Active sport, fitness;Multisport;Multisport;Debit card;Cleared;[];Zapocitano ve vyplate
-Income;2020-06-12;07:00;KB - Personal - účet;41053.0;41053.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
-Income;2020-06-12;07:00;KB - Personal - účet;300.0;300.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
-Income;2020-06-12;07:00;KB - Personal - účet;100.0;100.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
-Income;2020-06-12;07:00;KB - Personal - účet;518.0;518.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2020-06-12;07:00;KB - Personal - účet;41053.0;41053.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2020-06-12;07:00;KB - Personal - účet;300.0;300.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2020-06-12;07:00;KB - Personal - účet;100.0;100.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2020-06-12;07:00;KB - Personal - účet;518.0;518.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
 Expense;2020-06-12;07:21;Stravenková Karta;33.0;33.0;CZK;Food & Drinks;Work;Svačina;Crocus;Debit card;Reconciled;[];
 Expense;2020-06-12;09:17;KB - Personal - účet;69.62;69.62;CZK;Vehicle;Car shopping;Nákup;Aliexpress;Debit card;Cleared;['Renault Laguna'];Krytky zamku dveri
 Expense;2020-06-12;10:57;Stravenková Karta;96.92;96.92;CZK;Food & Drinks;Work;Oběd;Eatology;Debit card;Reconciled;[];
@@ -680,7 +680,7 @@ Expense;2020-06-14;16:29;CZK;6.0;6.0;CZK;Financial expenses;Financial Expenses;T
 Expense;2020-06-14;20:17;KB - Personal - účet;65.0;65.0;CZK;Food & Drinks;Groceries;Alkohol;Hulata Vinoteka;Debit card;Reconciled;[];
 Expense;2020-06-14;20:17;KB - Personal - účet;5.0;5.0;CZK;Financial expenses;Financial Expenses;Tuzer;Hulata Vinoteka;Debit card;Reconciled;[];
 Expense;2020-06-15;08:33;Stravenková Karta;33.0;33.0;CZK;Food & Drinks;Work;Svačina;Crocus;Debit card;Reconciled;[];
-Expense;2020-06-15;10:52;KB - Personal - účet;6500.0;6500.0;CZK;Life & Entertaiment;Holiday,_trips,_hotels;Ubytování;Apartman - Lukavice;Debit card;Cleared;['2020 - Lukavice'];Dovolena s Hyzovic
+Expense;2020-06-15;10:52;KB - Personal - účet;6500.0;6500.0;CZK;Life & Entertaiment;Holiday,_trips,_hotels;Ubytování;Apartman - Lukavice;Debit card;Cleared;['2020 - Lukavice', 'Dovolena: All'];Dovolena s Hyzovic
 Expense;2020-06-15;11:02;Stravenková Karta;111.2;111.2;CZK;Food & Drinks;Občerstvení;Restaurace;Eatology;Debit card;Reconciled;[];
 Expense;2020-06-15;12:54;KB - Personal - účet;1001.64;1001.64;CZK;Shopping;Gifts, joy;Erotic;Aliexpress;Debit card;Cleared;[];
 Expense;2020-06-15;13:55;Stravenková Karta;42.0;42.0;CZK;Food & Drinks;Work;Svačina;Okay Market;Debit card;Reconciled;[];
@@ -727,13 +727,13 @@ Expense;2020-06-18;17:08;CZK;5.0;5.0;CZK;Financial expenses;Financial Expenses;T
 Expense;2020-06-18;18:42;CZK;200.0;200.0;CZK;Vehicle;Vehicle maintenance;Mytí;IQ Wash;Cash;Reconciled;['Renault Laguna'];
 Expense;2020-06-19;10:54;KB - Personal - účet;9.99;273.71;EUR;Communication, PC;Software, subscriptions;Software;Google;Debit card;Reconciled;['2020 - Wichterle'];
 Expense;2020-06-19;12:50;KB - Personal - účet;1421.4;1421.4;CZK;Vehicle;Fuel;Diesel;EuroOil;Debit card;Cleared;['2020 - Wichterle', 'Renault Laguna'];
-Expense;2020-06-19;18:40;KB - Personal - účet;1180.0;1180.0;CZK;Life & Entertaiment;Wellness, beauty;Sauna;Zamek Wichterle;Debit card;Cleared;['2020 - Wichterle'];
-Expense;2020-06-21;09:29;KB - Personal - účet;1658.0;1658.0;CZK;Food & Drinks;Občerstvení;Restaurace;Zamek Wichterle;Debit card;Cleared;['2020 - Wichterle'];
-Expense;2020-06-21;09:29;KB - Personal - účet;350.0;350.0;CZK;Financial expenses;Financial Expenses;Tuzer;Zamek Wichterle;Debit card;Cleared;['2020 - Wichterle'];
-Expense;2020-06-21;10:14;CZK;258.0;258.0;CZK;Life & Entertaiment;Events - General;Výstavy,_Hrady,_zámky_...;Museum Zlin;Cash;Reconciled;['2020 - Wichterle'];
-Expense;2020-06-21;10:14;CZK;12.0;12.0;CZK;Financial expenses;Financial Expenses;Tuzer;Museum Zlin;Cash;Reconciled;['2020 - Wichterle'];
-Expense;2020-06-21;13:04;CZK;356.0;356.0;CZK;Food & Drinks;Občerstvení;Restaurace;Restaurace Fit Foodie;Cash;Reconciled;['2020 - Wichterle'];
-Expense;2020-06-21;13:04;CZK;44.0;44.0;CZK;Financial expenses;Financial Expenses;Tuzer;Restaurace Fit Foodie;Cash;Reconciled;['2020 - Wichterle'];
+Expense;2020-06-19;18:40;KB - Personal - účet;1180.0;1180.0;CZK;Life & Entertaiment;Wellness, beauty;Sauna;Zamek Wichterle;Debit card;Cleared;['2020 - Wichterle', 'Dovolena: All'];
+Expense;2020-06-21;09:29;KB - Personal - účet;1658.0;1658.0;CZK;Food & Drinks;Občerstvení;Restaurace;Zamek Wichterle;Debit card;Cleared;['2020 - Wichterle', 'Dovolena: All'];
+Expense;2020-06-21;09:29;KB - Personal - účet;350.0;350.0;CZK;Financial expenses;Financial Expenses;Tuzer;Zamek Wichterle;Debit card;Cleared;['2020 - Wichterle', 'Dovolena: All'];
+Expense;2020-06-21;10:14;CZK;258.0;258.0;CZK;Life & Entertaiment;Events - General;Výstavy,_Hrady,_zámky_...;Museum Zlin;Cash;Reconciled;['2020 - Wichterle', 'Dovolena: All'];
+Expense;2020-06-21;10:14;CZK;12.0;12.0;CZK;Financial expenses;Financial Expenses;Tuzer;Museum Zlin;Cash;Reconciled;['2020 - Wichterle', 'Dovolena: All'];
+Expense;2020-06-21;13:04;CZK;356.0;356.0;CZK;Food & Drinks;Občerstvení;Restaurace;Restaurace Fit Foodie;Cash;Reconciled;['2020 - Wichterle', 'Dovolena: All'];
+Expense;2020-06-21;13:04;CZK;44.0;44.0;CZK;Financial expenses;Financial Expenses;Tuzer;Restaurace Fit Foodie;Cash;Reconciled;['2020 - Wichterle', 'Dovolena: All'];
 Expense;2020-06-21;16:23;CZK;34.0;34.0;CZK;Food & Drinks;Občerstvení;Bar;Studio Samalka;Cash;Reconciled;[];
 Expense;2020-06-21;16:23;CZK;6.0;6.0;CZK;Financial expenses;Financial Expenses;Tuzer;Studio Samalka;Cash;Reconciled;[];
 Expense;2020-06-22;07:00;KB - Personal - účet;2809.15;2809.15;CZK;Financial expenses;Loan, interests;Pujčky_ostatní_-_úmor;Komercni Banka;Debit card;Cleared;['VASKO TechDesign', 'VASKO: Energy Sol.'];PMG
@@ -779,7 +779,7 @@ Expense;2020-06-30;08:34;Stravenková Karta;33.0;33.0;CZK;Food & Drinks;Work;Sva
 Expense;2020-06-30;10:57;KB - Personal - účet;110.0;110.0;CZK;Food & Drinks;Work;Oběd;Eatology;Debit card;Cleared;[];
 Expense;2020-06-30;13:08;CZK;48.0;48.0;CZK;Food & Drinks;Work;Svačina;Okay Market;Cash;Reconciled;[];
 Expense;2020-06-30;14:49;CZK;1.0;1.0;CZK;Work-Expense;Others;;Konica Minolta;Cash;Reconciled;[];
-Expense;2020-06-30;18:43;KB - Personal - účet;2131.0;2131.0;CZK;Life & Entertaiment;Services_-_General;Hlídání;HolidayCat;Debit card;Cleared;['2020 - Lukavice', 'Schampy'];
+Expense;2020-06-30;18:43;KB - Personal - účet;2131.0;2131.0;CZK;Life & Entertaiment;Services_-_General;Hlídání;HolidayCat;Debit card;Cleared;['2020 - Lukavice', 'Dovolena: All', 'Schampy'];
 Expense;2020-07-01;08:32;KB - Personal - účet;33.0;33.0;CZK;Food & Drinks;Work;Svačina;Crocus;Debit card;Cleared;[];
 Expense;2020-07-01;10:09;KB - Personal - účet;159.0;159.0;CZK;Life & Entertaiment;TV&Audio Streaming;Televize;HBOGO;Debit card;Cleared;['Byt - Těsná'];
 Expense;2020-07-01;11:15;KB - Personal - účet;101.96;101.96;CZK;Food & Drinks;Work;Oběd;Eatology;Debit card;Cleared;[];
@@ -800,50 +800,50 @@ Expense;2020-07-03;15:25;KB - Personal - účet;1049.4;1049.4;CZK;Vehicle;Fuel;D
 Expense;2020-07-03;19:48;CZK;26.0;26.0;CZK;Financial expenses;Financial Expenses;Tuzer;U Sosny;Cash;Reconciled;[];
 Expense;2020-07-03;19:48;CZK;234.0;234.0;CZK;Food & Drinks;Občerstvení;Hospoda;U Sosny;Cash;Reconciled;[];
 Expense;2020-07-03;20:11;CZK;50.0;50.0;CZK;Life & Entertaiment;Events_-_Culture,_Sports;Koncerty;U Sosny;Cash;Reconciled;[];
-Expense;2020-07-04;13:42;KB - Personal - účet;1417.9;1417.9;CZK;Food & Drinks;Groceries;Alkohol;Tesco;Debit card;Cleared;['2020 - Lukavice'];
-Expense;2020-07-04;13:42;KB - Personal - účet;331.8;331.8;CZK;Shopping;Drug-store, chemist;Drogerie,_Hyg._potřeby;Tesco;Debit card;Cleared;['2020 - Lukavice'];
-Expense;2020-07-04;13:42;KB - Personal - účet;1762.17;1762.17;CZK;Food & Drinks;Groceries;Potraviny;Tesco;Debit card;Cleared;['2020 - Lukavice'];
-Expense;2020-07-05;11:36;KB - Personal - účet;407.0;407.0;CZK;Food & Drinks;Groceries;Alkohol;Kaufland;Debit card;Cleared;['2020 - Lukavice'];
-Expense;2020-07-05;11:36;KB - Personal - účet;39.9;39.9;CZK;Shopping;Drug-store, chemist;Drogerie,_Hyg._potřeby;Kaufland;Debit card;Cleared;['2020 - Lukavice'];
-Expense;2020-07-05;11:36;KB - Personal - účet;716.6;716.6;CZK;Food & Drinks;Groceries;Potraviny;Kaufland;Debit card;Cleared;['2020 - Lukavice'];
-Expense;2020-07-05;11:46;KB - Personal - účet;99.0;99.0;CZK;Financial expenses;Loan, interests;Osobní_půjčky_-_Expense;Hyzova Misa;Debit card;Cleared;['2020 - Lukavice'];
-Income;2020-07-05;22:40;CZK;100.0;100.0;CZK;Income;Lending, renting;Osobní_půjčky_-_Income;Hyzova Misa;Cash;Reconciled;['2020 - Lukavice'];
-Expense;2020-07-06;10:08;CZK;300.0;300.0;CZK;Transportation;Transport;Lanovka;Dolni Morava;Cash;Cleared;['2020 - Lukavice'];Lanovka
-Expense;2020-07-06;16:47;KB - Personal - účet;118.0;118.0;CZK;Food & Drinks;Občerstvení;Restaurace;Restaurace Marcelka;Debit card;Cleared;['2020 - Lukavice'];
+Expense;2020-07-04;13:42;KB - Personal - účet;1417.9;1417.9;CZK;Food & Drinks;Groceries;Alkohol;Tesco;Debit card;Cleared;['2020 - Lukavice', 'Dovolena: All'];
+Expense;2020-07-04;13:42;KB - Personal - účet;331.8;331.8;CZK;Shopping;Drug-store, chemist;Drogerie,_Hyg._potřeby;Tesco;Debit card;Cleared;['2020 - Lukavice', 'Dovolena: All'];
+Expense;2020-07-04;13:42;KB - Personal - účet;1762.17;1762.17;CZK;Food & Drinks;Groceries;Potraviny;Tesco;Debit card;Cleared;['2020 - Lukavice', 'Dovolena: All'];
+Expense;2020-07-05;11:36;KB - Personal - účet;407.0;407.0;CZK;Food & Drinks;Groceries;Alkohol;Kaufland;Debit card;Cleared;['2020 - Lukavice', 'Dovolena: All'];
+Expense;2020-07-05;11:36;KB - Personal - účet;39.9;39.9;CZK;Shopping;Drug-store, chemist;Drogerie,_Hyg._potřeby;Kaufland;Debit card;Cleared;['2020 - Lukavice', 'Dovolena: All'];
+Expense;2020-07-05;11:36;KB - Personal - účet;716.6;716.6;CZK;Food & Drinks;Groceries;Potraviny;Kaufland;Debit card;Cleared;['2020 - Lukavice', 'Dovolena: All'];
+Expense;2020-07-05;11:46;KB - Personal - účet;99.0;99.0;CZK;Financial expenses;Loan, interests;Osobní_půjčky_-_Expense;Hyzova Misa;Debit card;Cleared;['2020 - Lukavice', 'Dovolena: All'];
+Income;2020-07-05;22:40;CZK;100.0;100.0;CZK;Income;Lending, renting;Osobní_půjčky_-_Income;Hyzova Misa;Cash;Reconciled;['2020 - Lukavice', 'Dovolena: All'];
+Expense;2020-07-06;10:08;CZK;300.0;300.0;CZK;Transportation;Transport;Lanovka;Dolni Morava;Cash;Cleared;['2020 - Lukavice', 'Dovolena: All'];Lanovka
+Expense;2020-07-06;16:47;KB - Personal - účet;118.0;118.0;CZK;Food & Drinks;Občerstvení;Restaurace;Restaurace Marcelka;Debit card;Cleared;['2020 - Lukavice', 'Dovolena: All'];
 Expense;2020-07-07;13:45;KB - Personal - účet;49.0;49.0;CZK;Shopping;Drug-store, chemist;Léky;Dr.Max;Debit card;Cleared;[];
-Expense;2020-07-07;18:07;CZK;72.0;72.0;CZK;Food & Drinks;Občerstvení;Fastfood;Obcerstveni na cyklotrase;Cash;Reconciled;['2020 - Lukavice'];
-Expense;2020-07-07;18:07;CZK;3.0;3.0;CZK;Financial expenses;Financial Expenses;Tuzer;Obcerstveni na cyklotrase;Cash;Reconciled;['2020 - Lukavice'];
+Expense;2020-07-07;18:07;CZK;72.0;72.0;CZK;Food & Drinks;Občerstvení;Fastfood;Obcerstveni na cyklotrase;Cash;Reconciled;['2020 - Lukavice', 'Dovolena: All'];
+Expense;2020-07-07;18:07;CZK;3.0;3.0;CZK;Financial expenses;Financial Expenses;Tuzer;Obcerstveni na cyklotrase;Cash;Reconciled;['2020 - Lukavice', 'Dovolena: All'];
 Income;2020-07-08;07:00;CZK;351.3;351.3;CZK;Income;Gifts;Nálezy;Ostatni;Cash;Reconciled;[];
-Expense;2020-07-08;14:45;KB - Personal - účet;658.0;658.0;CZK;Food & Drinks;Občerstvení;Restaurace;Restaurace U hradu;Debit card;Cleared;['2020 - Lukavice'];
-Expense;2020-07-08;14:45;CZK;100.0;100.0;CZK;Financial expenses;Financial Expenses;Tuzer;Restaurace U hradu;Cash;Cleared;['2020 - Lukavice'];
-Expense;2020-07-08;15:50;CZK;300.0;300.0;CZK;Life & Entertaiment;Events - General;Výstavy,_Hrady,_zámky_...;Hrad Sternberk;Cash;Reconciled;['2020 - Lukavice'];
-Expense;2020-07-08;19:38;KB - Personal - účet;328.8;328.8;CZK;Food & Drinks;Groceries;Alkohol;Kaufland;Debit card;Cleared;['2020 - Lukavice'];
-Expense;2020-07-08;19:38;KB - Personal - účet;29.9;29.9;CZK;Food & Drinks;Groceries;Potraviny;Kaufland;Debit card;Cleared;['2020 - Lukavice'];
-Expense;2020-07-09;11:45;CZK;82.0;82.0;CZK;Food & Drinks;Občerstvení;Fastfood;Morava reka bar;Cash;Reconciled;['2020 - Lukavice'];
-Expense;2020-07-09;11:45;CZK;8.0;8.0;CZK;Financial expenses;Financial Expenses;Tuzer;Morava reka bar;Cash;Reconciled;['2020 - Lukavice'];
+Expense;2020-07-08;14:45;KB - Personal - účet;658.0;658.0;CZK;Food & Drinks;Občerstvení;Restaurace;Restaurace U hradu;Debit card;Cleared;['2020 - Lukavice', 'Dovolena: All'];
+Expense;2020-07-08;14:45;CZK;100.0;100.0;CZK;Financial expenses;Financial Expenses;Tuzer;Restaurace U hradu;Cash;Cleared;['2020 - Lukavice', 'Dovolena: All'];
+Expense;2020-07-08;15:50;CZK;300.0;300.0;CZK;Life & Entertaiment;Events - General;Výstavy,_Hrady,_zámky_...;Hrad Sternberk;Cash;Reconciled;['2020 - Lukavice', 'Dovolena: All'];
+Expense;2020-07-08;19:38;KB - Personal - účet;328.8;328.8;CZK;Food & Drinks;Groceries;Alkohol;Kaufland;Debit card;Cleared;['2020 - Lukavice', 'Dovolena: All'];
+Expense;2020-07-08;19:38;KB - Personal - účet;29.9;29.9;CZK;Food & Drinks;Groceries;Potraviny;Kaufland;Debit card;Cleared;['2020 - Lukavice', 'Dovolena: All'];
+Expense;2020-07-09;11:45;CZK;82.0;82.0;CZK;Food & Drinks;Občerstvení;Fastfood;Morava reka bar;Cash;Reconciled;['2020 - Lukavice', 'Dovolena: All'];
+Expense;2020-07-09;11:45;CZK;8.0;8.0;CZK;Financial expenses;Financial Expenses;Tuzer;Morava reka bar;Cash;Reconciled;['2020 - Lukavice', 'Dovolena: All'];
 Expense;2020-07-09;17:55;KB - Personal - účet;1094.72;1094.72;CZK;Life & Entertaiment;Holiday,_trips,_hotels;Ubytování;Airbnb;Debit card;Cleared;['Výlety'];Koncert Marese
 Expense;2020-07-09;17:56;KB - Personal - účet;1094.72;1094.72;CZK;Financial expenses;Loan, interests;Osobní_půjčky_-_Expense;Cupak Martin - Automechanik;Debit card;Cleared;[];Koncert Marese
-Income;2020-07-10;07:00;Stravenková Karta;1900.0;1900.0;CZK;Income;Wage, invoices;Stravenky;Konica Minolta;Web payment;Reconciled;[];
-Expense;2020-07-10;08:51;KB - Personal - účet;400.0;400.0;CZK;Life & Entertaiment;Holiday,_trips,_hotels;Zájezdy;Hyza Radek;Debit card;Cleared;['2020 - Lukavice'];Plavba po Morave
-Expense;2020-07-10;08:51;KB - Personal - účet;1640.0;1640.0;CZK;Life & Entertaiment;Holiday,_trips,_hotels;Ubytování;Apartman - Lukavice;Debit card;Cleared;['2020 - Lukavice'];Doplatek: Energie
-Expense;2020-07-10;10:31;KB - Personal - účet;760.0;760.0;CZK;Life & Entertaiment;Holiday,_trips,_hotels;Výlety;Dolni Morava;Debit card;Cleared;['2020 - Lukavice'];Bobova draha
-Expense;2020-07-10;11:18;CZK;75.0;75.0;CZK;Food & Drinks;Občerstvení;Fastfood;Dolni Morava;Cash;Reconciled;['2020 - Lukavice'];
-Expense;2020-07-10;11:18;CZK;5.0;5.0;CZK;Financial expenses;Financial Expenses;Tuzer;Dolni Morava;Cash;Reconciled;['2020 - Lukavice'];
-Expense;2020-07-10;12:45;KB - Personal - účet;148.9;148.9;CZK;Food & Drinks;Groceries;Alkohol;Kaufland;Debit card;Cleared;['2020 - Lukavice'];
-Expense;2020-07-10;12:45;KB - Personal - účet;309.8;309.8;CZK;Food & Drinks;Groceries;Potraviny;Kaufland;Debit card;Cleared;['2020 - Lukavice'];
-Expense;2020-07-11;13:07;KB - Personal - účet;735.0;735.0;CZK;Food & Drinks;Občerstvení;Restaurace;Restaurace U kola;Debit card;Cleared;['2020 - Lukavice'];
-Expense;2020-07-11;13:07;CZK;100.0;100.0;CZK;Financial expenses;Financial Expenses;Tuzer;Restaurace U kola;Cash;Cleared;['2020 - Lukavice'];
-Income;2020-07-11;13:14;CZK;200.0;200.0;CZK;Income;Gifts;Dary_-_Income;Otahal Milan;Cash;Reconciled;['2020 - Lukavice'];
+Income;2020-07-10;07:00;Stravenková Karta;1900.0;1900.0;CZK;Income;Wage,_invoices;Stravenky;Konica Minolta;Web payment;Reconciled;[];
+Expense;2020-07-10;08:51;KB - Personal - účet;400.0;400.0;CZK;Life & Entertaiment;Holiday,_trips,_hotels;Zájezdy;Hyza Radek;Debit card;Cleared;['2020 - Lukavice', 'Dovolena: All'];Plavba po Morave
+Expense;2020-07-10;08:51;KB - Personal - účet;1640.0;1640.0;CZK;Life & Entertaiment;Holiday,_trips,_hotels;Ubytování;Apartman - Lukavice;Debit card;Cleared;['2020 - Lukavice', 'Dovolena: All'];Doplatek: Energie
+Expense;2020-07-10;10:31;KB - Personal - účet;760.0;760.0;CZK;Life & Entertaiment;Holiday,_trips,_hotels;Výlety;Dolni Morava;Debit card;Cleared;['2020 - Lukavice', 'Dovolena: All'];Bobova draha
+Expense;2020-07-10;11:18;CZK;75.0;75.0;CZK;Food & Drinks;Občerstvení;Fastfood;Dolni Morava;Cash;Reconciled;['2020 - Lukavice', 'Dovolena: All'];
+Expense;2020-07-10;11:18;CZK;5.0;5.0;CZK;Financial expenses;Financial Expenses;Tuzer;Dolni Morava;Cash;Reconciled;['2020 - Lukavice', 'Dovolena: All'];
+Expense;2020-07-10;12:45;KB - Personal - účet;148.9;148.9;CZK;Food & Drinks;Groceries;Alkohol;Kaufland;Debit card;Cleared;['2020 - Lukavice', 'Dovolena: All'];
+Expense;2020-07-10;12:45;KB - Personal - účet;309.8;309.8;CZK;Food & Drinks;Groceries;Potraviny;Kaufland;Debit card;Cleared;['2020 - Lukavice', 'Dovolena: All'];
+Expense;2020-07-11;13:07;KB - Personal - účet;735.0;735.0;CZK;Food & Drinks;Občerstvení;Restaurace;Restaurace U kola;Debit card;Cleared;['2020 - Lukavice', 'Dovolena: All'];
+Expense;2020-07-11;13:07;CZK;100.0;100.0;CZK;Financial expenses;Financial Expenses;Tuzer;Restaurace U kola;Cash;Cleared;['2020 - Lukavice', 'Dovolena: All'];
+Income;2020-07-11;13:14;CZK;200.0;200.0;CZK;Income;Gifts;Dary_-_Income;Otahal Milan;Cash;Reconciled;['2020 - Lukavice', 'Dovolena: All'];
 Expense;2020-07-11;20:49;KB - Personal - účet;1.66;50.94;GBP;Life & Entertaiment;Books, audio;Hudba;Supraphonline;Debit card;Reconciled;[];
 Expense;2020-07-11;21:21;KB - Personal - účet;1094.72;1094.72;CZK;Financial expenses;Loan, interests;Osobní_půjčky_-_Expense;Cupak Martin - Automechanik;Debit card;Cleared;[];Koncert Marese
 Expense;2020-07-11;21:21;KB - Personal - účet;1094.72;1094.72;CZK;Life & Entertaiment;Holiday,_trips,_hotels;Ubytování;Airbnb;Debit card;Cleared;['Výlety'];Koncert Marese
 Expense;2020-07-13;07:00;KB - Personal - účet;100.0;100.0;CZK;Communication, PC;Phone, Mobile phone;Mobilní_data;Konica Minolta;Debit card;Cleared;[];
 Expense;2020-07-13;07:00;KB - Personal - účet;300.0;300.0;CZK;Life & Entertaiment;Active sport, fitness;Multisport;Multisport;Debit card;Cleared;[];Zapocitano ve vyplate
-Income;2020-07-13;07:00;KB - Personal - účet;38568.0;38568.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
-Income;2020-07-13;07:00;KB - Personal - účet;300.0;300.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
-Income;2020-07-13;07:00;KB - Personal - účet;100.0;100.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
-Income;2020-07-13;07:00;KB - Personal - účet;2530.0;2530.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
-Income;2020-07-13;07:00;KB - Personal - účet;3000.0;3000.0;CZK;Income;Wage, invoices;OnCall_Duty;Konica Minolta;Web payment;Cleared;[];
+Income;2020-07-13;07:00;KB - Personal - účet;38568.0;38568.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2020-07-13;07:00;KB - Personal - účet;300.0;300.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2020-07-13;07:00;KB - Personal - účet;100.0;100.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2020-07-13;07:00;KB - Personal - účet;2530.0;2530.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2020-07-13;07:00;KB - Personal - účet;3000.0;3000.0;CZK;Income;Wage,_invoices;OnCall_Duty;Konica Minolta;Web payment;Cleared;[];
 Expense;2020-07-13;07:00;KB - Personal - účet;2530.0;2530.0;CZK;Shopping;Gifts, joy;Dárky;Konica Minolta;Debit card;Cleared;[];Bracha Notebook
 Expense;2020-07-13;14:08;CZK;200.0;200.0;CZK;Life & Entertaiment;Health care, doctor;Veterinář;Veterinarni ordinace - Boris Seman;Cash;Reconciled;['Schampy'];
 Expense;2020-07-14;07:00;KB - Personal - účet;1730.0;1730.0;CZK;Housing;Energy, utilities;Elektřina;Eon;Debit card;Cleared;['Byt - Těsná'];
@@ -983,7 +983,7 @@ Expense;2020-08-08;13:23;CZK;119.0;119.0;CZK;Food & Drinks;Občerstvení;Bar;Dob
 Expense;2020-08-08;13:23;CZK;11.0;11.0;CZK;Financial expenses;Financial Expenses;Tuzer;Dobrej Bar;Cash;Reconciled;[];
 Expense;2020-08-08;13:49;CZK;120.0;120.0;CZK;Life & Entertaiment;Free Time;Koupaliště;Kupaliste Dobrak;Cash;Reconciled;[];
 Income;2020-08-08;16:01;CZK;1.0;1.0;CZK;Income;Gifts;Nálezy;;Cash;Reconciled;[];
-Expense;2020-08-09;10:31;KB - Personal - účet;4838.38;4838.38;CZK;Transportation;Long distance;Letadlo;Wizzair;Debit card;Cleared;['2020 - Kanárské ost.'];
+Expense;2020-08-09;10:31;KB - Personal - účet;4838.38;4838.38;CZK;Transportation;Long distance;Letadlo;Wizzair;Debit card;Cleared;['2020 - Kanárské ost.', 'Dovolena: All'];
 Expense;2020-08-09;16:38;KB - Personal - účet;70.0;70.0;CZK;Life & Entertaiment;Free Time;Koupaliště;Biotop Brno;Debit card;Cleared;[];
 Expense;2020-08-09;17:24;CZK;35.0;35.0;CZK;Financial expenses;Financial Expenses;Dary;Oslejskovi;Cash;Reconciled;[];
 Expense;2020-08-09;17:24;CZK;265.0;265.0;CZK;Financial expenses;Loan, interests;Osobní_půjčky_-_Expense;Oslejskovi;Cash;Reconciled;[];
@@ -1000,15 +1000,15 @@ Expense;2020-08-10;13:19;Stravenková Karta;110.0;110.0;CZK;Food & Drinks;Work;O
 Expense;2020-08-10;13:35;Stravenková Karta;39.7;39.7;CZK;Food & Drinks;Work;Svačina;Okay Market;Debit card;Reconciled;['KM-BPL: 2020-08', 'KM-Služebka-All'];
 Expense;2020-08-10;16:26;KB - Personal - účet;187.1;187.1;CZK;Food & Drinks;Groceries;Potraviny;Lidl;Debit card;Cleared;['KM-BPL: 2020-08', 'KM-Služebka-All'];
 Expense;2020-08-10;18:52;KB - Personal - účet;49.99;49.99;CZK;Communication, PC;Software, subscriptions;Cloud_storage;Microsoft;Debit card;Reconciled;[];OneDrive subscription
-Income;2020-08-11;14:00;KB - Personal - účet;3492.58;3492.58;CZK;Income;Wage, invoices;Služební_Cesty;Konica Minolta;Web payment;Cleared;['KM-BPL: 2020-07', 'KM-Služebka-All'];
+Income;2020-08-11;14:00;KB - Personal - účet;3492.58;3492.58;CZK;Income;Wage,_invoices;Služební_Cesty;Konica Minolta;Web payment;Cleared;['KM-BPL: 2020-07', 'KM-Služebka-All'];
 Expense;2020-08-11;23:51;KB - Personal - účet;14.0;85.57;PLN;Food & Drinks;Občerstvení;Fastfood;Kebab kinf;Debit card;Reconciled;['KM-BPL: 2020-08', 'KM-Služebka-All'];
-Income;2020-08-12;07:00;Stravenková Karta;1700.0;1700.0;CZK;Income;Wage, invoices;Stravenky;Konica Minolta;Web payment;Reconciled;[];
+Income;2020-08-12;07:00;Stravenková Karta;1700.0;1700.0;CZK;Income;Wage,_invoices;Stravenky;Konica Minolta;Web payment;Reconciled;[];
 Expense;2020-08-12;18:23;KB - Personal - účet;6.27;38.39;PLN;Food & Drinks;Groceries;Potraviny;Carrefour;Debit card;Reconciled;['KM-BPL: 2020-08', 'KM-Služebka-All'];
 Expense;2020-08-13;07:00;KB - Personal - účet;100.0;100.0;CZK;Communication, PC;Phone, Mobile phone;Mobilní_data;Konica Minolta;Debit card;Cleared;[];
-Income;2020-08-13;07:00;KB - Personal - účet;39853.0;39853.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
-Income;2020-08-13;07:00;KB - Personal - účet;300.0;300.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
-Income;2020-08-13;07:00;KB - Personal - účet;100.0;100.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
-Income;2020-08-13;07:00;KB - Personal - účet;3000.0;3000.0;CZK;Income;Wage, invoices;OnCall_Duty;Konica Minolta;Web payment;Cleared;[];
+Income;2020-08-13;07:00;KB - Personal - účet;39853.0;39853.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2020-08-13;07:00;KB - Personal - účet;300.0;300.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2020-08-13;07:00;KB - Personal - účet;100.0;100.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2020-08-13;07:00;KB - Personal - účet;3000.0;3000.0;CZK;Income;Wage,_invoices;OnCall_Duty;Konica Minolta;Web payment;Cleared;[];
 Expense;2020-08-13;07:00;KB - Personal - účet;300.0;300.0;CZK;Life & Entertaiment;Active sport, fitness;Multisport;Multisport;Debit card;Cleared;[];Zapocitano ve vyplate
 Expense;2020-08-13;15:11;KB - Personal - účet;7.4;45.04;PLN;Food & Drinks;Groceries;Potraviny;Piekarnia kia;Debit card;Reconciled;['KM-BPL: 2020-08', 'KM-Služebka-All'];
 Expense;2020-08-13;15:14;KB - Personal - účet;11.57;11.57;CZK;Food & Drinks;Groceries;Potraviny;Piekarnia kia;Debit card;Cleared;['KM-BPL: 2020-08', 'KM-Služebka-All'];
@@ -1064,8 +1064,8 @@ Expense;2020-08-21;11:23;KB - Personal - účet;4.99;133.74;EUR;Communication, P
 Expense;2020-08-21;15:35;KB - Personal - účet;59.8;59.8;CZK;Shopping;Drug-store, chemist;Drogerie,_Hyg._potřeby;Lidl;Debit card;Cleared;[];
 Expense;2020-08-21;15:35;KB - Personal - účet;307.8;307.8;CZK;Food & Drinks;Groceries;Alkohol;Lidl;Debit card;Cleared;[];
 Expense;2020-08-21;15:35;KB - Personal - účet;349.6;349.6;CZK;Food & Drinks;Groceries;Potraviny;Lidl;Debit card;Cleared;[];
-Expense;2020-08-21;17:22;KB - Personal - účet;376.0;376.0;CZK;Transportation;Transport;Autobus;Flixbus;Debit card;Cleared;['2020 - Kanárské ost.'];
-Expense;2020-08-21;17:28;KB - Personal - účet;416.0;416.0;CZK;Transportation;Transport;Autobus;Flixbus;Debit card;Cleared;['2020 - Kanárské ost.'];
+Expense;2020-08-21;17:22;KB - Personal - účet;376.0;376.0;CZK;Transportation;Transport;Autobus;Flixbus;Debit card;Cleared;['2020 - Kanárské ost.', 'Dovolena: All'];
+Expense;2020-08-21;17:28;KB - Personal - účet;416.0;416.0;CZK;Transportation;Transport;Autobus;Flixbus;Debit card;Cleared;['2020 - Kanárské ost.', 'Dovolena: All'];
 Expense;2020-08-22;11:27;CZK;160.0;160.0;CZK;Life & Entertaiment;Free Time;Koupaliště;Kupaliste Dobrak;Cash;Reconciled;[];
 Expense;2020-08-22;13:17;KB - Personal - účet;198.0;198.0;CZK;Food & Drinks;Občerstvení;Bar;Dobrej Bar;Debit card;Cleared;[];
 Expense;2020-08-22;13:17;CZK;20.0;20.0;CZK;Financial expenses;Financial Expenses;Tuzer;Dobrej Bar;Cash;Cleared;[];
@@ -1090,8 +1090,8 @@ Expense;2020-08-23;19:12;KB - Personal - účet;226.31;226.31;CZK;Food & Drinks;
 Income;2020-08-23;19:13;CZK;150.0;150.0;CZK;Income;Gifts;Dary_-_Income;Pur Martin;Cash;Reconciled;[];
 Expense;2020-08-24;07:00;KB - Personal - účet;26.62;26.62;CZK;Communication, PC;Phone, Mobile phone;Tarif;T-Mobile;Debit card;Cleared;['VASKO TechDesign', 'VASKO: Energy Sol.'];
 Expense;2020-08-24;07:00;KB - Personal - účet;628.99;628.99;CZK;Communication, PC;Internet;;T-Mobile;Debit card;Cleared;['Byt - Těsná'];
-Expense;2020-08-24;08:13;KB - Personal - účet;140.0;140.0;CZK;Transportation;Transport;Autobus;Flixbus;Debit card;Cleared;['2020 - Kanárské ost.'];
-Expense;2020-08-24;09:31;KB - Personal - účet;2136.82;2136.82;CZK;Vehicle;Rentals, Loans;Pronájem;Rentalcars.com;Debit card;Cleared;['2020 - Kanárské ost.'];Pronajem auta
+Expense;2020-08-24;08:13;KB - Personal - účet;140.0;140.0;CZK;Transportation;Transport;Autobus;Flixbus;Debit card;Cleared;['2020 - Kanárské ost.', 'Dovolena: All'];
+Expense;2020-08-24;09:31;KB - Personal - účet;2136.82;2136.82;CZK;Vehicle;Rentals, Loans;Pronájem;Rentalcars.com;Debit card;Cleared;['2020 - Kanárské ost.', 'Dovolena: All'];Pronajem auta
 Expense;2020-08-24;10:57;Stravenková Karta;110.0;110.0;CZK;Food & Drinks;Work;Oběd;Eatology;Debit card;Reconciled;[];
 Expense;2020-08-24;13:34;Stravenková Karta;30.0;30.0;CZK;Food & Drinks;Work;Svačina;Crocus;Debit card;Reconciled;[];
 Expense;2020-08-24;17:24;KB - Personal - účet;422.2;422.2;CZK;Food & Drinks;Groceries;Potraviny;Zdravi s chuti;Debit card;Cleared;[];
@@ -1106,7 +1106,7 @@ Expense;2020-08-25;19:24;CZK;1.0;1.0;CZK;Financial expenses;Financial Expenses;T
 Expense;2020-08-25;19:43;CZK;230.0;230.0;CZK;Food & Drinks;Občerstvení;Bar;Spilberk;Cash;Reconciled;[];
 Expense;2020-08-25;19:43;CZK;20.0;20.0;CZK;Financial expenses;Financial Expenses;Tuzer;Spilberk;Cash;Reconciled;[];
 Expense;2020-08-25;23:04;CZK;140.0;140.0;CZK;Vehicle;Parking;Parkování;Domini Park;Cash;Reconciled;['Renault Laguna'];
-Income;2020-08-26;07:00;KB - Personal - účet;3491.25;3491.25;CZK;Income;Wage, invoices;Služební_Cesty;Konica Minolta;Web payment;Cleared;['KM-BPL: 2020-08', 'KM-Služebka-All'];
+Income;2020-08-26;07:00;KB - Personal - účet;3491.25;3491.25;CZK;Income;Wage,_invoices;Služební_Cesty;Konica Minolta;Web payment;Cleared;['KM-BPL: 2020-08', 'KM-Služebka-All'];
 Expense;2020-08-26;11:01;Stravenková Karta;107.84;107.84;CZK;Food & Drinks;Work;Oběd;Eatology;Debit card;Reconciled;[];
 Expense;2020-08-26;11:26;CZK;189.0;189.0;CZK;Financial expenses;Loan, interests;Osobní_půjčky_-_Expense;KM - Tomasovic Zbyna;Cash;Reconciled;[];Hornbach - pila do primocarky
 Expense;2020-08-26;11:26;CZK;35.0;35.0;CZK;Shopping;Home, garden;Bydlení,_accessories;Hornbach;Cash;Reconciled;['Byt - Těsná'];Police do kuchynske linky
@@ -1123,9 +1123,9 @@ Expense;2020-08-27;10:56;Stravenková Karta;110.0;110.0;CZK;Food & Drinks;Work;O
 Expense;2020-08-27;16:26;KB - Personal - účet;291.0;291.0;CZK;Food & Drinks;Groceries;Potraviny;Kaufland;Debit card;Cleared;[];
 Expense;2020-08-27;19:44;CZK;75.0;75.0;CZK;Food & Drinks;Groceries;Alkohol;Hulata Vinoteka;Cash;Reconciled;[];
 Expense;2020-08-27;19:44;CZK;5.0;5.0;CZK;Financial expenses;Financial Expenses;Tuzer;Hulata Vinoteka;Cash;Reconciled;[];
-Expense;2020-08-27;20:25;KB - Personal - účet;1382.0;1382.0;CZK;Life & Entertaiment;Services_-_General;Hlídání;HolidayCat;Debit card;Cleared;['2020 - Kanárské ost.', 'Schampy'];
-Expense;2020-08-27;21:57;KB - Personal - účet;3378.45;3378.45;CZK;Life & Entertaiment;Holiday,_trips,_hotels;Ubytování;Airbnb;Debit card;Cleared;['2020 - Kanárské ost.'];
-Expense;2020-08-27;22:03;KB - Personal - účet;5251.87;5251.87;CZK;Life & Entertaiment;Holiday,_trips,_hotels;Ubytování;Airbnb;Debit card;Cleared;['2020 - Kanárské ost.'];
+Expense;2020-08-27;20:25;KB - Personal - účet;1382.0;1382.0;CZK;Life & Entertaiment;Services_-_General;Hlídání;HolidayCat;Debit card;Cleared;['2020 - Kanárské ost.', 'Dovolena: All', 'Schampy'];
+Expense;2020-08-27;21:57;KB - Personal - účet;3378.45;3378.45;CZK;Life & Entertaiment;Holiday,_trips,_hotels;Ubytování;Airbnb;Debit card;Cleared;['2020 - Kanárské ost.', 'Dovolena: All'];
+Expense;2020-08-27;22:03;KB - Personal - účet;5251.87;5251.87;CZK;Life & Entertaiment;Holiday,_trips,_hotels;Ubytování;Airbnb;Debit card;Cleared;['2020 - Kanárské ost.', 'Dovolena: All'];
 Expense;2020-08-28;07:12;Stravenková Karta;22.0;22.0;CZK;Food & Drinks;Work;Svačina;Crocus;Debit card;Reconciled;[];
 Expense;2020-08-28;11:31;Stravenková Karta;101.96;101.96;CZK;Food & Drinks;Work;Oběd;Eatology;Debit card;Reconciled;[];
 Expense;2020-08-28;11:37;CZK;8.0;8.0;CZK;Shopping;Ostatní;;Hornbach;Cash;Reconciled;['Byt - Těsná'];
@@ -1142,7 +1142,7 @@ Expense;2020-08-31;10:57;Stravenková Karta;110.0;110.0;CZK;Food & Drinks;Work;O
 Expense;2020-08-31;18:09;KB - Personal - účet;721.8;721.8;CZK;Food & Drinks;Groceries;Potraviny;Albert;Debit card;Cleared;[];
 Expense;2020-08-31;19:09;KB - Personal - účet;153.0;153.0;CZK;Food & Drinks;Občerstvení;Kavárna;Cafe Zatti;Debit card;Cleared;[];
 Expense;2020-08-31;19:09;KB - Personal - účet;27.0;27.0;CZK;Financial expenses;Financial Expenses;Tuzer;Cafe Zatti;Debit card;Cleared;[];
-Expense;2020-09-01;09:06;KB - Personal - účet;845.0;845.0;CZK;Financial expenses;Insurances;Životní_pojištění;Direct pojistovna;Debit card;Cleared;['2020 - Kanárské ost.'];
+Expense;2020-09-01;09:06;KB - Personal - účet;845.0;845.0;CZK;Financial expenses;Insurances;Životní_pojištění;Direct pojistovna;Debit card;Cleared;['2020 - Kanárské ost.', 'Dovolena: All'];
 Expense;2020-09-01;10:07;KB - Personal - účet;159.0;159.0;CZK;Life & Entertaiment;TV&Audio Streaming;Televize;HBOGO;Debit card;Cleared;['Byt - Těsná'];
 Expense;2020-09-01;10:57;Stravenková Karta;110.0;110.0;CZK;Food & Drinks;Work;Oběd;Eatology;Debit card;Reconciled;[];
 Expense;2020-09-01;17:14;CZK;75.0;75.0;CZK;Shopping;Drug-store, chemist;Léky;Chytra lekarna;Cash;Cleared;[];
@@ -1153,25 +1153,25 @@ Expense;2020-09-02;11:00;Stravenková Karta;101.96;101.96;CZK;Food & Drinks;Work
 Expense;2020-09-02;13:13;KB - Personal - účet;2.19;58.97;EUR;Communication, PC;Software, subscriptions;Software;Google;Debit card;Reconciled;[];Adobe Lightroom
 Expense;2020-09-02;17:02;KB - Personal - účet;1000.0;1000.0;CZK;Financial expenses;Loan, interests;Osobní_půjčky_-_Expense;Vaško Andrea;Debit card;Reconciled;[];
 Expense;2020-09-02;17:13;KB - Personal - účet;30.0;30.0;CZK;Vehicle;Parking;Parkování;Parking JD;Debit card;Reconciled;['Renault Laguna'];
-Expense;2020-09-03;20:05;KB - Personal - účet;500.0;13600.8;EUR;Financial expenses;Loan, interests;Osobní_půjčky_-_Expense;TopCar Tenerife;Debit card;Reconciled;['2020 - Kanárské ost.'];
-Expense;2020-09-05;20:07;KB - Personal - účet;25.38;690.38;EUR;Vehicle;Fuel;Benzín;Shell;Debit card;Reconciled;['2020 - Kanárské ost.'];
-Expense;2020-09-06;18:10;KB - Personal - účet;5.65;153.77;EUR;Food & Drinks;Groceries;Potraviny;Lidl;Debit card;Reconciled;['2020 - Kanárské ost.'];
-Expense;2020-09-09;14:51;KB - Personal - účet;13.8;376.45;EUR;Food & Drinks;Občerstvení;Bar;People Beach;Debit card;Reconciled;['2020 - Kanárské ost.'];
+Expense;2020-09-03;20:05;KB - Personal - účet;500.0;13600.8;EUR;Financial expenses;Loan, interests;Osobní_půjčky_-_Expense;TopCar Tenerife;Debit card;Reconciled;['2020 - Kanárské ost.', 'Dovolena: All'];
+Expense;2020-09-05;20:07;KB - Personal - účet;25.38;690.38;EUR;Vehicle;Fuel;Benzín;Shell;Debit card;Reconciled;['2020 - Kanárské ost.', 'Dovolena: All'];
+Expense;2020-09-06;18:10;KB - Personal - účet;5.65;153.77;EUR;Food & Drinks;Groceries;Potraviny;Lidl;Debit card;Reconciled;['2020 - Kanárské ost.', 'Dovolena: All'];
+Expense;2020-09-09;14:51;KB - Personal - účet;13.8;376.45;EUR;Food & Drinks;Občerstvení;Bar;People Beach;Debit card;Reconciled;['2020 - Kanárské ost.', 'Dovolena: All'];
 Expense;2020-09-10;07:00;KB - Personal - účet;49.99;49.99;CZK;Communication, PC;Software, subscriptions;Cloud_storage;Microsoft;Debit card;Cleared;[];OneDrive subscription
 Expense;2020-09-11;07:00;KB - Personal - účet;100.0;100.0;CZK;Communication, PC;Phone, Mobile phone;Mobilní_data;Konica Minolta;Debit card;Cleared;[];
 Expense;2020-09-11;07:00;KB - Personal - účet;300.0;300.0;CZK;Life & Entertaiment;Active sport, fitness;Multisport;Multisport;Debit card;Cleared;[];Zapocitano ve vyplate
-Income;2020-09-11;08:25;KB - Personal - účet;44089.0;44089.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
-Income;2020-09-11;08:25;KB - Personal - účet;300.0;300.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
-Income;2020-09-11;08:25;KB - Personal - účet;100.0;100.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
-Income;2020-09-11;09:02;Stravenková Karta;1300.0;1300.0;CZK;Income;Wage, invoices;Stravenky;Konica Minolta;Web payment;Reconciled;[];
+Income;2020-09-11;08:25;KB - Personal - účet;44089.0;44089.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2020-09-11;08:25;KB - Personal - účet;300.0;300.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2020-09-11;08:25;KB - Personal - účet;100.0;100.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2020-09-11;09:02;Stravenková Karta;1300.0;1300.0;CZK;Income;Wage,_invoices;Stravenky;Konica Minolta;Web payment;Reconciled;[];
 Expense;2020-09-12;07:00;KB - Personal - účet;1730.0;1730.0;CZK;Housing;Energy, utilities;Elektřina;Eon;Debit card;Cleared;['Byt - Těsná'];
-Expense;2020-09-12;11:45;KB - Personal - účet;26.0;709.49;EUR;Vehicle;Fuel;Benzín;T-Gas;Debit card;Reconciled;['2020 - Kanárské ost.'];Palivo do auta
-Expense;2020-09-12;11:52;KB - Personal - účet;1.14;31.11;EUR;Food & Drinks;Groceries;Potraviny;Supermercado;Debit card;Reconciled;['2020 - Kanárské ost.'];
-Expense;2020-09-12;18:08;KB - Personal - účet;17.6;481.8;EUR;Financial expenses;Financial Expenses;Dary;WDFG Tenerife SUR;Debit card;Reconciled;['2020 - Kanárské ost.'];
-Expense;2020-09-12;18:08;KB - Personal - účet;42.0;1149.76;EUR;Food & Drinks;Groceries;Alkohol;WDFG Tenerife SUR;Debit card;Reconciled;['2020 - Kanárské ost.'];
-Expense;2020-09-12;18:08;KB - Personal - účet;5.35;146.46;EUR;Food & Drinks;Groceries;Potraviny;WDFG Tenerife SUR;Debit card;Reconciled;['2020 - Kanárské ost.'];
-Expense;2020-09-12;18:08;KB - Personal - účet;17.45;477.7;EUR;Shopping;Drug-store, chemist;Drogerie,_Hyg._potřeby;WDFG Tenerife SUR;Debit card;Reconciled;['2020 - Kanárské ost.'];
-Income;2020-09-14;07:00;KB - Personal - účet;500.0;13644.05;EUR;Income;Lending, renting;Osobní_půjčky_-_Income;TopCar Tenerife;Web payment;Reconciled;['2020 - Kanárské ost.'];
+Expense;2020-09-12;11:45;KB - Personal - účet;26.0;709.49;EUR;Vehicle;Fuel;Benzín;T-Gas;Debit card;Reconciled;['2020 - Kanárské ost.', 'Dovolena: All'];Palivo do auta
+Expense;2020-09-12;11:52;KB - Personal - účet;1.14;31.11;EUR;Food & Drinks;Groceries;Potraviny;Supermercado;Debit card;Reconciled;['2020 - Kanárské ost.', 'Dovolena: All'];
+Expense;2020-09-12;18:08;KB - Personal - účet;17.6;481.8;EUR;Financial expenses;Financial Expenses;Dary;WDFG Tenerife SUR;Debit card;Reconciled;['2020 - Kanárské ost.', 'Dovolena: All'];
+Expense;2020-09-12;18:08;KB - Personal - účet;42.0;1149.76;EUR;Food & Drinks;Groceries;Alkohol;WDFG Tenerife SUR;Debit card;Reconciled;['2020 - Kanárské ost.', 'Dovolena: All'];
+Expense;2020-09-12;18:08;KB - Personal - účet;5.35;146.46;EUR;Food & Drinks;Groceries;Potraviny;WDFG Tenerife SUR;Debit card;Reconciled;['2020 - Kanárské ost.', 'Dovolena: All'];
+Expense;2020-09-12;18:08;KB - Personal - účet;17.45;477.7;EUR;Shopping;Drug-store, chemist;Drogerie,_Hyg._potřeby;WDFG Tenerife SUR;Debit card;Reconciled;['2020 - Kanárské ost.', 'Dovolena: All'];
+Income;2020-09-14;07:00;KB - Personal - účet;500.0;13644.05;EUR;Income;Lending, renting;Osobní_půjčky_-_Income;TopCar Tenerife;Web payment;Reconciled;['2020 - Kanárské ost.', 'Dovolena: All'];
 Expense;2020-09-14;09:22;KB - Personal - účet;69.0;69.0;CZK;Communication, PC;Postal services;Shipping_Cost;Rohlik;Debit card;Cleared;[];
 Expense;2020-09-14;09:22;KB - Personal - účet;846.19;846.19;CZK;Food & Drinks;Groceries;Potraviny;Rohlik;Debit card;Cleared;[];
 Expense;2020-09-14;13:30;KB - Personal - účet;1350.0;1350.0;CZK;Life & Entertaiment;Health care, doctor;Dentální_hygiena;Terident;Debit card;Cleared;[];Dentalni hygiena
@@ -1285,7 +1285,7 @@ Expense;2020-10-09;10:13;KB - Personal - účet;29.55;29.55;CZK;Vehicle;Car shop
 Expense;2020-10-09;10:13;KB - Personal - účet;19.15;19.15;CZK;Communication, PC;Postal services;Shipping_Cost;Aliexpress;Debit card;Cleared;['Renault Laguna'];
 Expense;2020-10-09;19:47;AirBank - Společný;70.0;70.0;CZK;Food & Drinks;Groceries;Alkohol;Hulata Vinoteka;Debit card;Reconciled;[];
 Expense;2020-10-09;19:47;AirBank - Společný;5.0;5.0;CZK;Financial expenses;Financial Expenses;Tuzer;Hulata Vinoteka;Debit card;Reconciled;[];
-Income;2020-10-10;10:59;Stravenková Karta;1400.0;1400.0;CZK;Income;Wage, invoices;Stravenky;Konica Minolta;Web payment;Reconciled;[];
+Income;2020-10-10;10:59;Stravenková Karta;1400.0;1400.0;CZK;Income;Wage,_invoices;Stravenky;Konica Minolta;Web payment;Reconciled;[];
 Expense;2020-10-10;12:43;AirBank - Společný;1613.5;1613.5;CZK;Vehicle;Fuel;Diesel;EuroOil;Debit card;Reconciled;['Renault Laguna'];
 Expense;2020-10-10;13:08;AirBank - Společný;258.0;258.0;CZK;Shopping;Gifts, joy;Dárky;Pompo;Debit card;Reconciled;[];Darek Valerie
 Expense;2020-10-10;13:09;AirBank - Společný;46.9;46.9;CZK;Food & Drinks;Groceries;Potraviny;Albert;Debit card;Reconciled;[];
@@ -1298,10 +1298,10 @@ Income;2020-10-11;13:53;AirBank - Společný;10.0;10.0;CZK;Income;Lending, renti
 Expense;2020-10-12;07:00;KB - Personal - účet;100.0;100.0;CZK;Communication, PC;Phone, Mobile phone;Mobilní_data;Konica Minolta;Debit card;Cleared;[];
 Expense;2020-10-12;07:00;KB - Personal - účet;300.0;300.0;CZK;Life & Entertaiment;Active sport, fitness;Multisport;Multisport;Debit card;Cleared;[];Zapocitano ve vyplate
 Income;2020-10-12;07:00;KB - Personal - účet;5000.0;5000.0;CZK;Income;Lending, renting;Osobní_půjčky_-_Income;KM - Tomasovic Zbyna;Web payment;Cleared;[];
-Income;2020-10-12;07:00;KB - Personal - účet;39531.0;39531.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
-Income;2020-10-12;07:00;KB - Personal - účet;300.0;300.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
-Income;2020-10-12;07:00;KB - Personal - účet;100.0;100.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
-Income;2020-10-12;07:00;KB - Personal - účet;20000.0;20000.0;CZK;Income;Wage, invoices;Bonusy;Konica Minolta;Web payment;Cleared;[];
+Income;2020-10-12;07:00;KB - Personal - účet;39531.0;39531.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2020-10-12;07:00;KB - Personal - účet;300.0;300.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2020-10-12;07:00;KB - Personal - účet;100.0;100.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2020-10-12;07:00;KB - Personal - účet;20000.0;20000.0;CZK;Income;Wage,_invoices;Bonusy;Konica Minolta;Web payment;Cleared;[];
 Expense;2020-10-12;11:32;KB - Personal - účet;119.0;119.0;CZK;Food & Drinks;Work;Oběd;Majlontska Rychta;Debit card;Cleared;[];
 Expense;2020-10-12;11:32;CZK;4.0;4.0;CZK;Financial expenses;Financial Expenses;Tuzer;Majlontska Rychta;Cash;Cleared;[];
 Expense;2020-10-12;13:45;CZK;499.0;499.0;CZK;Housing;Maintenance, repairs;Úklid;docista.cz;Cash;Reconciled;['Byt - Těsná'];Cisteni sedacky
@@ -1410,16 +1410,16 @@ Income;2020-11-10;07:00;AirBank - Společný;160.0;160.0;CZK;Life & Entertaiment
 Expense;2020-11-11;07:00;KB - Personal - účet;100.0;100.0;CZK;Communication, PC;Phone, Mobile phone;Mobilní_data;Konica Minolta;Debit card;Cleared;[];
 Expense;2020-11-11;07:00;AirBank - Společný;319.0;319.0;CZK;Life & Entertaiment;TV&Audio Streaming;Televize;Netflix;Debit card;Reconciled;['Byt - Těsná'];
 Expense;2020-11-11;07:00;KB - Personal - účet;77.0;77.0;CZK;Life & Entertaiment;Active sport, fitness;Multisport;Multisport;Debit card;Cleared;[];Zapocitano ve vyplate
-Income;2020-11-11;07:41;KB - Personal - účet;41503.0;41503.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
-Income;2020-11-11;07:41;KB - Personal - účet;77.0;77.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
-Income;2020-11-11;07:41;KB - Personal - účet;100.0;100.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2020-11-11;07:41;KB - Personal - účet;41503.0;41503.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2020-11-11;07:41;KB - Personal - účet;77.0;77.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2020-11-11;07:41;KB - Personal - účet;100.0;100.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
 Expense;2020-11-11;08:31;KB - Personal - účet;18.0;18.0;CZK;Food & Drinks;Groceries;Potraviny;Brnenka;Debit card;Cleared;[];
 Expense;2020-11-11;09:15;CZK;850.0;850.0;CZK;Vehicle;Car shopping;Nákup;Neuzil Auto;Cash;Reconciled;['Renault Laguna'];Piskovani VIN
 Expense;2020-11-11;09:22;CZK;70.0;70.0;CZK;Vehicle;Vehicle maintenance;Mytí;DoubleWash;Cash;Reconciled;['Renault Laguna'];
 Expense;2020-11-11;11:46;Stravenková Karta;119.0;119.0;CZK;Food & Drinks;Work;Oběd;Svatoboj;Debit card;Reconciled;[];
 Expense;2020-11-11;16:57;AirBank - Společný;70.0;70.0;CZK;Food & Drinks;Groceries;Alkohol;Hulata Vinoteka;Debit card;Reconciled;[];
 Expense;2020-11-11;16:57;AirBank - Společný;5.0;5.0;CZK;Financial expenses;Financial Expenses;Tuzer;Hulata Vinoteka;Debit card;Reconciled;[];
-Income;2020-11-12;15:51;Stravenková Karta;2100.0;2100.0;CZK;Income;Wage, invoices;Stravenky;Konica Minolta;Web payment;Reconciled;[];
+Income;2020-11-12;15:51;Stravenková Karta;2100.0;2100.0;CZK;Income;Wage,_invoices;Stravenky;Konica Minolta;Web payment;Reconciled;[];
 Expense;2020-11-12;18:30;AirBank - Společný;20.0;20.0;CZK;Financial expenses;Financial Expenses;Dary;Lidl;Debit card;Reconciled;[];
 Expense;2020-11-12;18:30;AirBank - Společný;100.7;100.7;CZK;Shopping;Drug-store, chemist;Drogerie,_Hyg._potřeby;Lidl;Debit card;Reconciled;[];
 Expense;2020-11-12;18:30;AirBank - Společný;1126.69;1126.69;CZK;Food & Drinks;Groceries;Potraviny;Lidl;Debit card;Reconciled;[];
@@ -1529,7 +1529,7 @@ Expense;2020-12-08;18:16;Stravenková Karta;549.69;549.69;CZK;Food & Drinks;Groc
 Expense;2020-12-08;23:03;KB - Personal - účet;114.43;114.43;CZK;Communication, PC;Software, subscriptions;Software;3D Mapper;Debit card;Cleared;['VASKO TechDesign'];3D mapa
 Expense;2020-12-09;07:56;Stravenková Karta;50.7;50.7;CZK;Food & Drinks;Work;Svačina;Albert;Debit card;Reconciled;[];
 Expense;2020-12-09;11:57;Stravenková Karta;125.0;125.0;CZK;Food & Drinks;Work;Oběd;Mitrovski;Debit card;Reconciled;[];
-Income;2020-12-10;07:00;Stravenková Karta;1900.0;1900.0;CZK;Income;Wage, invoices;Stravenky;Konica Minolta;Web payment;Reconciled;[];
+Income;2020-12-10;07:00;Stravenková Karta;1900.0;1900.0;CZK;Income;Wage,_invoices;Stravenky;Konica Minolta;Web payment;Reconciled;[];
 Income;2020-12-10;07:20;AirBank - Společný;160.0;160.0;CZK;Life & Entertaiment;TV&Audio Streaming;Televize;Hyzovi;Web payment;Reconciled;['Byt - Těsná'];Netflix
 Expense;2020-12-10;07:47;Stravenková Karta;33.0;33.0;CZK;Food & Drinks;Work;Svačina;Crocus;Debit card;Reconciled;[];
 Expense;2020-12-10;11:08;Stravenková Karta;100.0;100.0;CZK;Food & Drinks;Work;Oběd;Eatology;Debit card;Reconciled;[];
@@ -1541,8 +1541,8 @@ Income;2020-12-10;19:42;CZK;20.0;20.0;CZK;Income;Lending, renting;Osobní_půjč
 Expense;2020-12-11;07:00;KB - Personal - účet;100.0;100.0;CZK;Communication, PC;Phone, Mobile phone;Mobilní_data;Konica Minolta;Debit card;Cleared;[];
 Expense;2020-12-11;07:00;AirBank - Společný;319.0;319.0;CZK;Life & Entertaiment;TV&Audio Streaming;Televize;Netflix;Debit card;Reconciled;['Byt - Těsná'];
 Expense;2020-12-11;07:00;KB - Personal - účet;1830.0;1830.0;CZK;Housing;Energy, utilities;Elektřina;Eon;Debit card;Cleared;['Byt - Těsná'];
-Income;2020-12-11;08:14;KB - Personal - účet;41764.0;41764.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
-Income;2020-12-11;08:14;KB - Personal - účet;100.0;100.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2020-12-11;08:14;KB - Personal - účet;41764.0;41764.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2020-12-11;08:14;KB - Personal - účet;100.0;100.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
 Expense;2020-12-11;08:26;KB - Personal - účet;8932.0;8932.0;CZK;Vehicle;Vehicle maintenance;Servis;Cupak Martin - Automechanik;Debit card;Cleared;['Renault Laguna'];
 Expense;2020-12-11;11:09;Stravenková Karta;134.0;134.0;CZK;Food & Drinks;Work;Oběd;Svatoboj;Debit card;Reconciled;[];
 Expense;2020-12-11;14:34;AirBank - Společný;1744.0;1744.0;CZK;Shopping;Home, garden;Bydlení,_accessories;LSStyle;Debit card;Reconciled;[];povleceni
@@ -1566,7 +1566,7 @@ Expense;2020-12-14;17:28;AirBank - Společný;66.0;66.0;CZK;Shopping;Drug-store,
 Expense;2020-12-14;17:31;CZK;39.0;39.0;CZK;Food & Drinks;Občerstvení;Fastfood;Fastfood - no name;Cash;Reconciled;[];
 Expense;2020-12-14;17:31;CZK;1.0;1.0;CZK;Financial expenses;Financial Expenses;Tuzer;Fastfood - no name;Cash;Reconciled;[];
 Expense;2020-12-14;18:04;CZK;800.0;800.0;CZK;Housing;Maintenance, repairs;Úklid;SVJ Tesna;Cash;Reconciled;['Byt - Těsná'];
-Income;2020-12-15;07:00;KB - Personal - účet;2425.0;2425.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];Doplatek za on-call
+Income;2020-12-15;07:00;KB - Personal - účet;2425.0;2425.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];Doplatek za on-call
 Expense;2020-12-15;11:18;Stravenková Karta;134.0;134.0;CZK;Food & Drinks;Work;Oběd;Svatoboj;Debit card;Reconciled;[];
 Expense;2020-12-15;19:16;KB - Personal - účet;35.0;35.0;CZK;Food & Drinks;Občerstvení;Fastfood;Pablo burger;Debit card;Cleared;[];
 Expense;2020-12-15;20:05;KB - Personal - účet;188.0;188.0;CZK;Food & Drinks;Občerstvení;Fastfood;Pablo burger;Debit card;Cleared;[];

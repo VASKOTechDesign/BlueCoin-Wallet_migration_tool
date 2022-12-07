@@ -911,3 +911,7 @@ Transfer;2022-11-24;18:34;AirBank - Společný;KB - Personal - účet;1000.0;100
 Transfer;2022-11-26;16:08;AirBank - Společný;CZK - Společný;1000.0;1000.0;1000.0;1000.0;CZK;CZK;Transfer;Cleared;[];
 Transfer;2022-11-27;13:01;KB - Personal - účet;AirBank - VASKO TechDesign;100.0;100.0;100.0;100.0;CZK;CZK;Transfer;Cleared;[];
 Transfer;2022-11-27;19:40;AirBank - Spořící;AirBank - Společný;2500.0;2500.0;2500.0;2500.0;CZK;CZK;Transfer;Cleared;[];
+Transfer;2022-11-29;17:55;KB - Personal - účet;CZK;2000.0;2000.0;2000.0;2000.0;CZK;CZK;Transfer;Cleared;[];
+Transfer;2022-11-30;05:39;AirBank - Spořící;KB - Personal - účet;2000.0;2000.0;2000.0;2000.0;CZK;CZK;Transfer;Reconciled;['Vklad - Honza'];
+Transfer;2022-11-30;05:40;AirBank - Spořící;AirBank - Společný;1000.0;1000.0;1000.0;1000.0;CZK;CZK;Transfer;Reconciled;[];
+Transfer;2022-11-30;09:10;AirBank - Spořící;AirBank - Společný;2000.0;2000.0;2000.0;2000.0;CZK;CZK;Transfer;Reconciled;[];

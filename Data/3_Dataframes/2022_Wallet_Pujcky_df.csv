@@ -1,18 +1,1 @@
 Type;Date;Set Time;Title;Amount;Currency;Exchange Rate;Category Group Name;Category;Account;Notes;Labels;Status
-Expense;2022-11-14 14:41:52;14:41;KM - Fiala David;-1000.0;CZK;1.0;Financni sluzby;Pujcky - vraceni;KB - Personal - účet;;[];Cleared
-Income;2022-11-02 08:34:19;08:34;KM - Fiala David;1000.0;CZK;1.0;Others;Pujcky - pujceni;KB - Personal - účet;;[];Cleared
-Income;2022-09-29 11:32:14;11:32;KM - Klimas Radis;315.0;CZK;1.0;Others;Pujcky - vraceni;KB - Personal - účet;Za nákup v Hornbachu;[];Cleared
-Expense;2022-09-29 11:25:13;11:25;KM - Klimas Radis;-315.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;KB - Personal - účet;Za nákup v Hornbachu;[];Cleared
-Income;2022-09-07 21:34:56;21:34;Chorvatsko;1.0;HRK;0.2967356083;Others;Pujcky - vraceni;AirBank - Společný;Ověření karty;['2022 - Chorvatsko', 'Dovolena: All'];Reconciled
-Expense;2022-09-07 21:32:33;21:32;Chorvatsko;-1.0;HRK;0.296735905;Financni sluzby;Pujcky - pujceni;AirBank - Společný;Ověření karty;['2022 - Chorvatsko', 'Dovolena: All'];Reconciled
-Income;2022-08-30 12:29:42;12:29;Mynar;100.0;CZK;1.0;Others;Pujcky - vraceni;CZK - Společný;Vrácení 100kc z mi ule lekce;[];Cleared
-Expense;2022-07-26 14:39:23;14:39;Mynar;-100.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;CZK - Společný;Neměl 100kc nazpet;[];Reconciled
-Expense;2022-07-20 12:48:29;12:48;Vaško Andrea;-1000.0;CZK;1.0;Financni sluzby;Pujcky - vraceni;CZK;Za Sunshield, ale měl jsem jen 1000kc;[];Reconciled
-Income;2022-07-20 12:45:16;12:45;Vaško Andrea;800.0;CZK;1.0;Others;Pujcky - pujceni;CZK;Sunshield drobné na platbu;[];Reconciled
-Expense;2022-04-25 10:15:12;10:15;Vaško Andrea;-1232.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;AirBank - Společný;Za PPL balik;[];Reconciled
-Income;2022-03-20 09:53:11;09:53;Kaufland;160.0;CZK;1.0;Others;Pujcky - vraceni;CZK - Společný;Zaloha na basu piv;[];Reconciled
-Expense;2022-03-03 18:44:00;18:44;Kaufland;-160.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;AirBank - Společný;zaloha na basu piv;[];Reconciled
-Income;2022-02-10 09:50:07;09:50;Sportisimo;646.0;CZK;1.0;Others;Pujcky - vraceni;AirBank - Společný;Pantofle do porodnice;['Sebastien Vaško'];Reconciled
-Income;2022-01-25 12:54:15;12:54;Konica Minolta;89.0;CZK;1.0;Others;Pujcky - vraceni;CZK;Nakup 9V baterek v Hornbachu do teplomeru;[];Reconciled
-Expense;2022-01-25 11:36:14;11:36;Konica Minolta;-89.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;CZK;Nakup 9V baterek v Hornbachu do teplomeru;[];Reconciled
-Expense;2022-01-24 14:43:21;14:43;Sportisimo;-646.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;AirBank - Společný;Pantofle do porodnice;['Sebastien Vaško'];Reconciled

@@ -26,11 +26,11 @@ Expense;2021-01-10;13:42;CZK;10.0;10.0;CZK;Financial expenses;Financial Expenses
 Expense;2021-01-11;07:46;Stravenková Karta;26.7;26.7;CZK;Food & Drinks;Work;Svačina;Billa;Debit card;Reconciled;[];
 Expense;2021-01-11;11:00;Stravenková Karta;110.0;110.0;CZK;Food & Drinks;Work;Oběd;Eatology;Debit card;Reconciled;[];
 Expense;2021-01-11;11:50;AirBank - Společný;319.0;319.0;CZK;Life & Entertaiment;TV&Audio Streaming;Televize;Netflix;Debit card;Reconciled;['Byt - Těsná'];
-Income;2021-01-13;07:00;KB - Personal - účet;41742.0;41742.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
-Income;2021-01-13;07:00;KB - Personal - účet;145.0;145.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
-Income;2021-01-13;07:00;KB - Personal - účet;100.0;100.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2021-01-13;07:00;KB - Personal - účet;41742.0;41742.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2021-01-13;07:00;KB - Personal - účet;145.0;145.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2021-01-13;07:00;KB - Personal - účet;100.0;100.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
 Expense;2021-01-13;07:00;KB - Personal - účet;100.0;100.0;CZK;Communication, PC;Phone, Mobile phone;Mobilní_data;Konica Minolta;Debit card;Cleared;[];
-Income;2021-01-13;07:00;Stravenková Karta;2000.0;2000.0;CZK;Income;Wage, invoices;Stravenky;Konica Minolta;Web payment;Reconciled;[];
+Income;2021-01-13;07:00;Stravenková Karta;2000.0;2000.0;CZK;Income;Wage,_invoices;Stravenky;Konica Minolta;Web payment;Reconciled;[];
 Expense;2021-01-13;07:00;KB - Personal - účet;145.0;145.0;CZK;Life & Entertaiment;Active sport, fitness;Multisport;Multisport;Debit card;Cleared;[];Zapocitano ve vyplate
 Expense;2021-01-13;17:08;AirBank - Společný;54.8;54.8;CZK;Shopping;Drug-store, chemist;Drogerie,_Hyg._potřeby;Lidl;Debit card;Reconciled;[];
 Expense;2021-01-13;17:08;AirBank - Společný;400.54;400.54;CZK;Food & Drinks;Groceries;Potraviny;Lidl;Debit card;Reconciled;[];
@@ -154,8 +154,8 @@ Expense;2021-02-10;14:52;AirBank - Společný;319.5;319.5;CZK;Shopping;Drug-stor
 Expense;2021-02-10;14:52;AirBank - Společný;440.1;440.1;CZK;Food & Drinks;Groceries;Potraviny;Kaufland;Debit card;Reconciled;[];
 Expense;2021-02-10;23:37;KB - Personal - účet;252.0;252.0;CZK;Transportation;Transport;Vlak;Ceske Drahy;Debit card;Cleared;['Výlety'];
 Expense;2021-02-11;07:00;AirBank - Společný;319.0;319.0;CZK;Life & Entertaiment;TV&Audio Streaming;Televize;Netflix;Debit card;Reconciled;['Byt - Těsná'];
-Income;2021-02-11;07:00;KB - Personal - účet;45569.0;45569.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
-Income;2021-02-11;07:00;KB - Personal - účet;3000.0;3000.0;CZK;Income;Wage, invoices;OnCall_Duty;Konica Minolta;Web payment;Cleared;[];
+Income;2021-02-11;07:00;KB - Personal - účet;45569.0;45569.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2021-02-11;07:00;KB - Personal - účet;3000.0;3000.0;CZK;Income;Wage,_invoices;OnCall_Duty;Konica Minolta;Web payment;Cleared;[];
 Expense;2021-02-11;18:10;AirBank - Společný;30.0;30.0;CZK;Food & Drinks;Groceries;Potraviny;Hulata Vinoteka;Debit card;Reconciled;[];
 Expense;2021-02-11;18:10;AirBank - Společný;10.0;10.0;CZK;Financial expenses;Financial Expenses;Tuzer;Hulata Vinoteka;Debit card;Reconciled;[];
 Expense;2021-02-11;18:10;AirBank - Společný;220.0;220.0;CZK;Food & Drinks;Groceries;Alkohol;Hulata Vinoteka;Debit card;Reconciled;[];
@@ -271,8 +271,8 @@ Expense;2021-03-08;17:03;AirBank - Společný;662.0;662.0;CZK;Shopping;Gifts, jo
 Expense;2021-03-08;17:07;KB - Personal - účet;709.0;709.0;CZK;Shopping;Gifts, joy;Květiny;Kvetiny Flamengo;Debit card;Cleared;[];
 Expense;2021-03-09;07:05;KB - Personal - účet;29.7;29.7;CZK;Food & Drinks;Work;Svačina;Albert;Debit card;Cleared;[];
 Expense;2021-03-09;12:12;KB - Personal - účet;110.0;110.0;CZK;Food & Drinks;Work;Oběd;Eatology;Debit card;Cleared;[];
-Income;2021-03-10;07:00;KB - Personal - účet;45937.0;45937.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
-Income;2021-03-10;07:00;KB - Personal - účet;950.0;950.0;CZK;Income;Wage, invoices;Stravenky;Konica Minolta;Web payment;Cleared;[];
+Income;2021-03-10;07:00;KB - Personal - účet;45937.0;45937.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2021-03-10;07:00;KB - Personal - účet;950.0;950.0;CZK;Income;Wage,_invoices;Stravenky;Konica Minolta;Web payment;Cleared;[];
 Expense;2021-03-11;07:00;AirBank - Společný;319.0;319.0;CZK;Life & Entertaiment;TV&Audio Streaming;Televize;Netflix;Debit card;Reconciled;['Byt - Těsná'];
 Expense;2021-03-11;08:10;AirBank - Společný;2495.0;2495.0;CZK;Shopping;Clothes & shoes;Oblečení;Blazek;Debit card;Reconciled;['Svatba'];Honza oblekova vesta
 Expense;2021-03-11;16:55;AirBank - Společný;81.0;81.0;CZK;Food & Drinks;Groceries;Alkohol;Hulata Vinoteka;Debit card;Reconciled;[];
@@ -384,15 +384,15 @@ Expense;2021-04-07;18:53;AirBank - Společný;2037.5;2037.5;CZK;Food & Drinks;Gr
 Income;2021-04-08;07:00;KB - Personal - účet;198.9;198.9;CZK;Income;Lending, renting;Osobní_půjčky_-_Income;KM - Hauzar Petr;Web payment;Cleared;[];Kaufland: Republika
 Income;2021-04-08;07:00;KB - Personal - účet;1.1;1.1;CZK;Income;Gifts;Dary_-_Income;KM - Hauzar Petr;Web payment;Cleared;[];Kaufland: Republika
 Income;2021-04-08;07:31;AirBank - Společný;6180.0;6180.0;CZK;Income;Lending, renting;Osobní_půjčky_-_Income;Vaško Andrea;Web payment;Reconciled;[];OneDent beleni zubu
-Income;2021-04-08;07:47;KB - Personal - účet;45562.0;45562.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
-Income;2021-04-08;07:47;KB - Personal - účet;20000.0;20000.0;CZK;Income;Wage, invoices;Bonusy;Konica Minolta;Web payment;Cleared;[];
-Income;2021-04-08;07:47;KB - Personal - účet;800.0;800.0;CZK;Income;Wage, invoices;Stravenky;Konica Minolta;Web payment;Cleared;[];
+Income;2021-04-08;07:47;KB - Personal - účet;45562.0;45562.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2021-04-08;07:47;KB - Personal - účet;20000.0;20000.0;CZK;Income;Wage,_invoices;Bonusy;Konica Minolta;Web payment;Cleared;[];
+Income;2021-04-08;07:47;KB - Personal - účet;800.0;800.0;CZK;Income;Wage,_invoices;Stravenky;Konica Minolta;Web payment;Cleared;[];
 Expense;2021-04-08;18:33;AirBank - Společný;110.0;110.0;CZK;Food & Drinks;Groceries;Alkohol;Hulata Vinoteka;Debit card;Reconciled;[];
 Expense;2021-04-10;10:50;CZK;22.0;22.0;CZK;Financial expenses;Financial Expenses;Dary;Jeleni obora;Cash;Reconciled;[];
 Expense;2021-04-11;07:00;AirBank - Společný;319.0;319.0;CZK;Life & Entertaiment;TV&Audio Streaming;Televize;Netflix;Debit card;Reconciled;['Byt - Těsná'];
 Expense;2021-04-11;11:15;CZK;236.0;236.0;CZK;Food & Drinks;Občerstvení;Kavárna;La siska;Cash;Reconciled;[];
 Expense;2021-04-11;11:15;CZK;14.0;14.0;CZK;Financial expenses;Financial Expenses;Tuzer;La siska;Cash;Reconciled;[];
-Expense;2021-04-12;11:36;KB - Personal - účet;3166.0;3166.0;CZK;Life & Entertaiment;Holiday,_trips,_hotels;Ubytování;Pluskovecek;Debit card;Cleared;['2021 - Pluskoveček'];Platba na Raduv ucet
+Expense;2021-04-12;11:36;KB - Personal - účet;3166.0;3166.0;CZK;Life & Entertaiment;Holiday,_trips,_hotels;Ubytování;Pluskovecek;Debit card;Cleared;['2021 - Pluskoveček', 'Dovolena: All'];Platba na Raduv ucet
 Income;2021-04-12;12:36;AirBank - Společný;4104.0;4104.0;CZK;Income;Refunds;Vratky;Zalando;Web payment;Reconciled;['Svatba'];Honza: obuv a pasky
 Expense;2021-04-12;17:20;AirBank - Společný;80.0;80.0;CZK;Food & Drinks;Groceries;Alkohol;Hulata Vinoteka;Debit card;Reconciled;[];
 Expense;2021-04-12;17:20;AirBank - Společný;5.0;5.0;CZK;Financial expenses;Financial Expenses;Tuzer;Hulata Vinoteka;Debit card;Reconciled;[];
@@ -403,7 +403,7 @@ Expense;2021-04-14;16:14;KB - Personal - účet;999.0;999.0;CZK;Shopping;Gifts, 
 Expense;2021-04-14;16:14;KB - Personal - účet;99.0;99.0;CZK;Communication, PC;Postal services;Shipping_Cost;Kvetiny Jana;Debit card;Cleared;[];Mamka narozeniny
 Expense;2021-04-14;18:57;AirBank - Společný;149.0;149.0;CZK;Shopping;Drug-store, chemist;Drogerie,_Hyg._potřeby;Lidl;Debit card;Reconciled;[];
 Expense;2021-04-14;18:57;AirBank - Společný;1498.1;1498.1;CZK;Food & Drinks;Groceries;Potraviny;Lidl;Debit card;Reconciled;[];
-Expense;2021-04-14;20:12;KB - Personal - účet;834.29;834.29;CZK;Life & Entertaiment;Holiday,_trips,_hotels;Ubytování;Pluskovecek;Debit card;Cleared;['2021 - Pluskoveček'];Platba na Andi ucet
+Expense;2021-04-14;20:12;KB - Personal - účet;834.29;834.29;CZK;Life & Entertaiment;Holiday,_trips,_hotels;Ubytování;Pluskovecek;Debit card;Cleared;['2021 - Pluskoveček', 'Dovolena: All'];Platba na Andi ucet
 Expense;2021-04-15;10:42;KB - Personal - účet;45.97;1222.92;EUR;Life & Entertaiment;Education, development;Kurzy;Udemy;Debit card;Reconciled;[];TensorFlow 2.0 - multiple courses
 Expense;2021-04-15;10:59;KB - Personal - účet;11.99;318.97;EUR;Life & Entertaiment;Education, development;Kurzy;Udemy;Debit card;Reconciled;[];TensorFlow course
 Expense;2021-04-15;12:16;KB - Personal - účet;119.0;119.0;CZK;Food & Drinks;Work;Oběd;Svatoboj;Debit card;Cleared;[];
@@ -523,9 +523,9 @@ Expense;2021-05-11;13:38;AirBank - Společný;6400.0;6400.0;CZK;Life & Entertaim
 Expense;2021-05-11;19:11;AirBank - Společný;883.9;883.9;CZK;Food & Drinks;Work;Svačina;Billa;Debit card;Reconciled;[];
 Expense;2021-05-11;19:11;AirBank - Společný;79.9;79.9;CZK;Shopping;Ostatní;;Billa;Debit card;Reconciled;['Svatba'];Napln do bublifuku
 Expense;2021-05-11;19:18;AirBank - Společný;259.7;259.7;CZK;Shopping;Drug-store, chemist;Drogerie,_Hyg._potřeby;Teta;Debit card;Reconciled;[];
-Income;2021-05-12;07:00;KB - Personal - účet;45569.0;45569.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
-Income;2021-05-12;07:00;KB - Personal - účet;1000.0;1000.0;CZK;Income;Wage, invoices;Stravenky;Konica Minolta;Web payment;Cleared;[];
-Income;2021-05-12;07:00;KB - Personal - účet;3000.0;3000.0;CZK;Income;Wage, invoices;OnCall_Duty;Konica Minolta;Web payment;Cleared;[];
+Income;2021-05-12;07:00;KB - Personal - účet;45569.0;45569.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2021-05-12;07:00;KB - Personal - účet;1000.0;1000.0;CZK;Income;Wage,_invoices;Stravenky;Konica Minolta;Web payment;Cleared;[];
+Income;2021-05-12;07:00;KB - Personal - účet;3000.0;3000.0;CZK;Income;Wage,_invoices;OnCall_Duty;Konica Minolta;Web payment;Cleared;[];
 Expense;2021-05-12;07:33;KB - Personal - účet;22.0;22.0;CZK;Food & Drinks;Work;Svačina;Crocus;Debit card;Cleared;[];
 Expense;2021-05-12;12:10;KB - Personal - účet;120.0;120.0;CZK;Food & Drinks;Work;Oběd;Eatology;Debit card;Cleared;[];
 Expense;2021-05-12;19:21;CZK;60.0;60.0;CZK;Food & Drinks;Občerstvení;Hospoda;U Sosny;Cash;Reconciled;[];
@@ -682,9 +682,9 @@ Income;2021-06-10;16:58;CZK;477.0;477.0;CZK;Income;Lending, renting;Osobní_půj
 Expense;2021-06-10;17:09;CZK;209.0;209.0;CZK;Vehicle;Vehicle maintenance;Mytí;Globus;Cash;Reconciled;['Renault Laguna'];
 Expense;2021-06-10;17:09;CZK;1.0;1.0;CZK;Financial expenses;Financial Expenses;Tuzer;Globus;Cash;Reconciled;['Renault Laguna'];
 Expense;2021-06-10;19:58;AirBank - Spořící;10900.0;10900.0;CZK;Life & Entertaiment;Services_-_General;Fotography/Video;Fotograf - Wagnerova;Debit card;Reconciled;['Svatba'];Fotografka: Doplatek
-Income;2021-06-11;07:00;KB - Personal - účet;45835.0;45835.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
-Income;2021-06-11;07:00;KB - Personal - účet;145.0;145.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
-Income;2021-06-11;07:00;KB - Personal - účet;1050.0;1050.0;CZK;Income;Wage, invoices;Stravenky;Konica Minolta;Web payment;Cleared;[];
+Income;2021-06-11;07:00;KB - Personal - účet;45835.0;45835.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2021-06-11;07:00;KB - Personal - účet;145.0;145.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2021-06-11;07:00;KB - Personal - účet;1050.0;1050.0;CZK;Income;Wage,_invoices;Stravenky;Konica Minolta;Web payment;Cleared;[];
 Income;2021-06-11;07:00;AirBank - Spořící;50000.0;50000.0;CZK;Income;Gifts;Dary_-_Income;Vasko Jan;Web payment;Reconciled;['Svatba'];Svatebni dary
 Expense;2021-06-11;07:00;AirBank - Společný;319.0;319.0;CZK;Life & Entertaiment;TV&Audio Streaming;Televize;Netflix;Debit card;Reconciled;['Byt - Těsná'];
 Expense;2021-06-11;07:00;KB - Personal - účet;145.0;145.0;CZK;Life & Entertaiment;Active sport, fitness;Multisport;Multisport;Debit card;Cleared;[];Zapocitano ve vyplate
@@ -811,7 +811,7 @@ Expense;2021-06-24;16:51;AirBank - Společný;618.18;618.18;CZK;Food & Drinks;Gr
 Expense;2021-06-24;22:32;AirBank - Společný;1298.0;1298.0;CZK;Shopping;Pets, animals;Krmivo;Vase krmivo;Debit card;Reconciled;['Schampy'];Granule
 Expense;2021-06-24;23:30;AirBank - VASKO TechDesign;18.61;485.78;EUR;Communication, PC;Software, subscriptions;Software;Microsoft;Debit card;Reconciled;['VASKO TechDesign'];Azure
 Expense;2021-06-25;07:14;KB - Personal - účet;20.7;20.7;CZK;Food & Drinks;Work;Svačina;Billa;Debit card;Cleared;[];
-Expense;2021-06-25;08:01;AirBank - Spořící;15582.0;15582.0;CZK;Transportation;Long distance;Letadlo;Smartwings;Debit card;Reconciled;['2021 - Kréta'];
+Expense;2021-06-25;08:01;AirBank - Spořící;15582.0;15582.0;CZK;Transportation;Long distance;Letadlo;Smartwings;Debit card;Reconciled;['2021 - Kréta', 'Dovolena: All'];
 Income;2021-06-25;08:02;AirBank - Spořící;765.0;765.0;CZK;Income;Sale;;Marketplace;Web payment;Reconciled;['Svatba'];Prodej Instax film + postovne
 Expense;2021-06-25;08:42;KB - Personal - účet;2400.0;2400.0;CZK;Communication, PC;Software, subscriptions;Software;Webtrh;Debit card;Cleared;['VASKO TechDesign'];Python scrapper
 Income;2021-06-25;09:01;KB - Personal - účet;181.69;181.69;CZK;Income;Lending, renting;Osobní_půjčky_-_Income;Hyza Radek;Web payment;Cleared;[];Za Monte Bu
@@ -840,45 +840,45 @@ Expense;2021-06-29;17:27;CZK;500.0;500.0;CZK;Financial expenses;Financial Expens
 Expense;2021-06-30;07:00;KB - Personal - účet;39.0;39.0;CZK;Financial expenses;Charges, Fees;Poplatek_za_vedení_účtu;Komercni Banka;Debit card;Reconciled;[];
 Expense;2021-06-30;11:59;KB - Personal - účet;119.0;119.0;CZK;Food & Drinks;Work;Oběd;Svatoboj;Debit card;Cleared;[];
 Expense;2021-06-30;17:35;AirBank - Společný;1038.78;1038.78;CZK;Food & Drinks;Groceries;Potraviny;Lidl;Debit card;Reconciled;[];
-Expense;2021-06-30;19:17;AirBank - Společný;1296.66;1296.66;CZK;Life & Entertaiment;Holiday,_trips,_hotels;Ubytování;Hotel Gendorf;Debit card;Reconciled;['2021 - Kutná Hora'];
-Expense;2021-06-30;19:58;AirBank - Společný;840.0;840.0;CZK;Life & Entertaiment;Events - General;Výstavy,_Hrady,_zámky_...;Kostnice Sedlec;Debit card;Reconciled;['2021 - Kutná Hora'];
+Expense;2021-06-30;19:17;AirBank - Společný;1296.66;1296.66;CZK;Life & Entertaiment;Holiday,_trips,_hotels;Ubytování;Hotel Gendorf;Debit card;Reconciled;['2021 - Kutná Hora', 'Dovolena: All'];
+Expense;2021-06-30;19:58;AirBank - Společný;840.0;840.0;CZK;Life & Entertaiment;Events - General;Výstavy,_Hrady,_zámky_...;Kostnice Sedlec;Debit card;Reconciled;['2021 - Kutná Hora', 'Dovolena: All'];
 Expense;2021-07-01;07:00;AirBank - Spořící;6.53;6.53;CZK;Financial expenses;Taxes;Daň_z_úroku_z_vkladu;AirBank;Debit card;Reconciled;[];
 Income;2021-07-01;07:00;AirBank - Společný;160.0;160.0;CZK;Life & Entertaiment;TV&Audio Streaming;Televize;Hyzovi;Web payment;Reconciled;['Byt - Těsná'];Netflix
 Expense;2021-07-01;07:00;AirBank - VASKO TechDesign;10.0;10.0;CZK;Financial expenses;Charges, Fees;Poplatek_za_vedení_účtu;AirBank;Debit card;Reconciled;['VASKO TechDesign'];
 Income;2021-07-01;07:00;AirBank - Spořící;43.5;43.5;CZK;Income;Bank incomes;Úrok;AirBank;Web payment;Reconciled;[];
 Income;2021-07-01;16:04;CZK;1400.0;1400.0;CZK;Housing;Energy, utilities;Voda;SVJ Tesna;Cash;Reconciled;['Byt - Těsná'];
-Expense;2021-07-01;17:10;CZK;1400.0;1400.0;CZK;Vehicle;Fuel;Diesel;EuroOil;Cash;Reconciled;['2021 - Kutná Hora', 'Renault Laguna'];
-Expense;2021-07-01;19:44;AirBank - Společný;1079.0;1079.0;CZK;Life & Entertaiment;Services_-_General;Hlídání;HolidayCat;Debit card;Reconciled;['2021 - Kutná Hora', 'Schampy'];
+Expense;2021-07-01;17:10;CZK;1400.0;1400.0;CZK;Vehicle;Fuel;Diesel;EuroOil;Cash;Reconciled;['2021 - Kutná Hora', 'Dovolena: All', 'Renault Laguna'];
+Expense;2021-07-01;19:44;AirBank - Společný;1079.0;1079.0;CZK;Life & Entertaiment;Services_-_General;Hlídání;HolidayCat;Debit card;Reconciled;['2021 - Kutná Hora', 'Dovolena: All', 'Schampy'];
 Expense;2021-07-02;11:08;KB - Personal - účet;110.0;110.0;CZK;Food & Drinks;Work;Oběd;Eatology;Debit card;Cleared;[];
 Expense;2021-07-02;14:56;AirBank - VASKO TechDesign;116.0;116.0;CZK;Shopping;Electronic, acesories;Elektronika;GME;Debit card;Reconciled;['VASKO TechDesign', 'VASKO: IoT - PUR'];
-Expense;2021-07-02;19:15;CZK;16.0;16.0;CZK;Food & Drinks;Groceries;Potraviny;Trafika;Cash;Reconciled;['2021 - Kutná Hora'];
-Expense;2021-07-03;09:26;AirBank - Společný;300.0;300.0;CZK;Life & Entertaiment;Events - General;Výstavy,_Hrady,_zámky_...;Kutna Hora;Debit card;Reconciled;['2021 - Kutná Hora'];Prohlidka mesta
-Expense;2021-07-03;11:51;AirBank - Společný;390.0;390.0;CZK;Life & Entertaiment;Events - General;Výstavy,_Hrady,_zámky_...;Ceske muzeum stribra;Debit card;Reconciled;['2021 - Kutná Hora'];
-Expense;2021-07-03;11:56;CZK;145.0;145.0;CZK;Food & Drinks;Občerstvení;Kavárna;Justys Cafe;Cash;Reconciled;['2021 - Kutná Hora'];
-Expense;2021-07-03;11:56;CZK;15.0;15.0;CZK;Financial expenses;Financial Expenses;Tuzer;Justys Cafe;Cash;Reconciled;['2021 - Kutná Hora'];
-Expense;2021-07-03;14:08;AirBank - Společný;320.0;320.0;CZK;Life & Entertaiment;Events - General;Výstavy,_Hrady,_zámky_...;Chram sv. Barbory;Debit card;Reconciled;['2021 - Kutná Hora'];
-Expense;2021-07-03;15:06;CZK;90.0;90.0;CZK;Food & Drinks;Groceries;Alkohol;Kutnohorske vino;Cash;Reconciled;['2021 - Kutná Hora'];
-Expense;2021-07-03;16:09;AirBank - Společný;518.0;518.0;CZK;Food & Drinks;Občerstvení;Restaurace;Ctyri sestry;Debit card;Reconciled;['2021 - Kutná Hora'];
-Expense;2021-07-03;16:09;AirBank - Společný;32.0;32.0;CZK;Financial expenses;Financial Expenses;Tuzer;Ctyri sestry;Debit card;Reconciled;['2021 - Kutná Hora'];
-Expense;2021-07-03;16:32;CZK;259.0;259.0;CZK;Food & Drinks;Občerstvení;Kavárna;Kafirnictvi;Cash;Reconciled;['2021 - Kutná Hora'];
-Expense;2021-07-03;16:32;CZK;21.0;21.0;CZK;Financial expenses;Financial Expenses;Tuzer;Kafirnictvi;Cash;Reconciled;['2021 - Kutná Hora'];
-Expense;2021-07-03;16:55;AirBank - Společný;17.9;17.9;CZK;Food & Drinks;Groceries;Potraviny;Zabka;Debit card;Reconciled;['2021 - Kutná Hora'];
-Expense;2021-07-03;19:47;AirBank - Společný;327.0;327.0;CZK;Food & Drinks;Občerstvení;Restaurace;Restaurace v Ruthardce;Debit card;Reconciled;['2021 - Kutná Hora'];
-Expense;2021-07-03;19:47;AirBank - Společný;23.0;23.0;CZK;Financial expenses;Financial Expenses;Tuzer;Restaurace v Ruthardce;Debit card;Reconciled;['2021 - Kutná Hora'];
-Expense;2021-07-03;21:37;CZK;140.0;140.0;CZK;Food & Drinks;Občerstvení;Hospoda;Hotel Kreta;Cash;Reconciled;['2021 - Kutná Hora'];
-Expense;2021-07-03;21:37;CZK;14.0;14.0;CZK;Financial expenses;Financial Expenses;Tuzer;Hotel Kreta;Cash;Reconciled;['2021 - Kutná Hora'];
+Expense;2021-07-02;19:15;CZK;16.0;16.0;CZK;Food & Drinks;Groceries;Potraviny;Trafika;Cash;Reconciled;['2021 - Kutná Hora', 'Dovolena: All'];
+Expense;2021-07-03;09:26;AirBank - Společný;300.0;300.0;CZK;Life & Entertaiment;Events - General;Výstavy,_Hrady,_zámky_...;Kutna Hora;Debit card;Reconciled;['2021 - Kutná Hora', 'Dovolena: All'];Prohlidka mesta
+Expense;2021-07-03;11:51;AirBank - Společný;390.0;390.0;CZK;Life & Entertaiment;Events - General;Výstavy,_Hrady,_zámky_...;Ceske muzeum stribra;Debit card;Reconciled;['2021 - Kutná Hora', 'Dovolena: All'];
+Expense;2021-07-03;11:56;CZK;145.0;145.0;CZK;Food & Drinks;Občerstvení;Kavárna;Justys Cafe;Cash;Reconciled;['2021 - Kutná Hora', 'Dovolena: All'];
+Expense;2021-07-03;11:56;CZK;15.0;15.0;CZK;Financial expenses;Financial Expenses;Tuzer;Justys Cafe;Cash;Reconciled;['2021 - Kutná Hora', 'Dovolena: All'];
+Expense;2021-07-03;14:08;AirBank - Společný;320.0;320.0;CZK;Life & Entertaiment;Events - General;Výstavy,_Hrady,_zámky_...;Chram sv. Barbory;Debit card;Reconciled;['2021 - Kutná Hora', 'Dovolena: All'];
+Expense;2021-07-03;15:06;CZK;90.0;90.0;CZK;Food & Drinks;Groceries;Alkohol;Kutnohorske vino;Cash;Reconciled;['2021 - Kutná Hora', 'Dovolena: All'];
+Expense;2021-07-03;16:09;AirBank - Společný;518.0;518.0;CZK;Food & Drinks;Občerstvení;Restaurace;Ctyri sestry;Debit card;Reconciled;['2021 - Kutná Hora', 'Dovolena: All'];
+Expense;2021-07-03;16:09;AirBank - Společný;32.0;32.0;CZK;Financial expenses;Financial Expenses;Tuzer;Ctyri sestry;Debit card;Reconciled;['2021 - Kutná Hora', 'Dovolena: All'];
+Expense;2021-07-03;16:32;CZK;259.0;259.0;CZK;Food & Drinks;Občerstvení;Kavárna;Kafirnictvi;Cash;Reconciled;['2021 - Kutná Hora', 'Dovolena: All'];
+Expense;2021-07-03;16:32;CZK;21.0;21.0;CZK;Financial expenses;Financial Expenses;Tuzer;Kafirnictvi;Cash;Reconciled;['2021 - Kutná Hora', 'Dovolena: All'];
+Expense;2021-07-03;16:55;AirBank - Společný;17.9;17.9;CZK;Food & Drinks;Groceries;Potraviny;Zabka;Debit card;Reconciled;['2021 - Kutná Hora', 'Dovolena: All'];
+Expense;2021-07-03;19:47;AirBank - Společný;327.0;327.0;CZK;Food & Drinks;Občerstvení;Restaurace;Restaurace v Ruthardce;Debit card;Reconciled;['2021 - Kutná Hora', 'Dovolena: All'];
+Expense;2021-07-03;19:47;AirBank - Společný;23.0;23.0;CZK;Financial expenses;Financial Expenses;Tuzer;Restaurace v Ruthardce;Debit card;Reconciled;['2021 - Kutná Hora', 'Dovolena: All'];
+Expense;2021-07-03;21:37;CZK;140.0;140.0;CZK;Food & Drinks;Občerstvení;Hospoda;Hotel Kreta;Cash;Reconciled;['2021 - Kutná Hora', 'Dovolena: All'];
+Expense;2021-07-03;21:37;CZK;14.0;14.0;CZK;Financial expenses;Financial Expenses;Tuzer;Hotel Kreta;Cash;Reconciled;['2021 - Kutná Hora', 'Dovolena: All'];
 Income;2021-07-03;22:25;CZK;55.0;55.0;CZK;Income;Gifts;Dary_-_Income;Vaško Andrea;Cash;Reconciled;[];
-Expense;2021-07-04;09:19;AirBank - Společný;3272.0;3272.0;CZK;Life & Entertaiment;Holiday,_trips,_hotels;Ubytování;Hotel Kreta;Debit card;Reconciled;['2021 - Kutná Hora'];
-Expense;2021-07-04;10:35;CZK;50.0;50.0;CZK;Vehicle;Parking;Parkování;Zamek Zleby;Cash;Reconciled;['2021 - Kutná Hora', 'Renault Laguna'];
-Expense;2021-07-04;10:52;AirBank - Společný;380.0;380.0;CZK;Life & Entertaiment;Events - General;Výstavy,_Hrady,_zámky_...;Zamek Zleby;Debit card;Reconciled;['2021 - Kutná Hora'];
-Expense;2021-07-04;13:16;AirBank - Společný;317.0;317.0;CZK;Food & Drinks;Občerstvení;Restaurace;Restaurace Na Hrazi;Debit card;Reconciled;['2021 - Kutná Hora'];
-Expense;2021-07-04;13:16;AirBank - Společný;33.0;33.0;CZK;Financial expenses;Financial Expenses;Tuzer;Restaurace Na Hrazi;Debit card;Reconciled;['2021 - Kutná Hora'];
-Expense;2021-07-04;13:40;CZK;100.0;100.0;CZK;Life & Entertaiment;Events - General;Výstavy,_Hrady,_zámky_...;Jeleni obora;Cash;Reconciled;['2021 - Kutná Hora'];
-Expense;2021-07-04;20:51;AirBank - Společný;588.0;588.0;CZK;Food & Drinks;Občerstvení;Restaurace;Hotel Gendorf;Debit card;Reconciled;['2021 - Kutná Hora'];
-Expense;2021-07-04;20:51;AirBank - Společný;62.0;62.0;CZK;Financial expenses;Financial Expenses;Tuzer;Hotel Gendorf;Debit card;Reconciled;['2021 - Kutná Hora'];
-Expense;2021-07-05;09:44;AirBank - Společný;560.0;560.0;CZK;Life & Entertaiment;Events - General;Výstavy,_Hrady,_zámky_...;Stezka korunami stromu;Debit card;Reconciled;['2021 - Kutná Hora'];
-Expense;2021-07-05;10:40;AirBank - Společný;100.0;100.0;CZK;Life & Entertaiment;Events - General;Výstavy,_Hrady,_zámky_...;Stezka korunami stromu;Debit card;Reconciled;['2021 - Kutná Hora'];Tobogan
-Expense;2021-07-05;12:10;AirBank - Společný;100.0;100.0;CZK;Vehicle;Parking;Parkování;Stezka korunami stromu;Debit card;Reconciled;['2021 - Kutná Hora', 'Renault Laguna'];
+Expense;2021-07-04;09:19;AirBank - Společný;3272.0;3272.0;CZK;Life & Entertaiment;Holiday,_trips,_hotels;Ubytování;Hotel Kreta;Debit card;Reconciled;['2021 - Kutná Hora', 'Dovolena: All'];
+Expense;2021-07-04;10:35;CZK;50.0;50.0;CZK;Vehicle;Parking;Parkování;Zamek Zleby;Cash;Reconciled;['2021 - Kutná Hora', 'Dovolena: All', 'Renault Laguna'];
+Expense;2021-07-04;10:52;AirBank - Společný;380.0;380.0;CZK;Life & Entertaiment;Events - General;Výstavy,_Hrady,_zámky_...;Zamek Zleby;Debit card;Reconciled;['2021 - Kutná Hora', 'Dovolena: All'];
+Expense;2021-07-04;13:16;AirBank - Společný;317.0;317.0;CZK;Food & Drinks;Občerstvení;Restaurace;Restaurace Na Hrazi;Debit card;Reconciled;['2021 - Kutná Hora', 'Dovolena: All'];
+Expense;2021-07-04;13:16;AirBank - Společný;33.0;33.0;CZK;Financial expenses;Financial Expenses;Tuzer;Restaurace Na Hrazi;Debit card;Reconciled;['2021 - Kutná Hora', 'Dovolena: All'];
+Expense;2021-07-04;13:40;CZK;100.0;100.0;CZK;Life & Entertaiment;Events - General;Výstavy,_Hrady,_zámky_...;Jeleni obora;Cash;Reconciled;['2021 - Kutná Hora', 'Dovolena: All'];
+Expense;2021-07-04;20:51;AirBank - Společný;588.0;588.0;CZK;Food & Drinks;Občerstvení;Restaurace;Hotel Gendorf;Debit card;Reconciled;['2021 - Kutná Hora', 'Dovolena: All'];
+Expense;2021-07-04;20:51;AirBank - Společný;62.0;62.0;CZK;Financial expenses;Financial Expenses;Tuzer;Hotel Gendorf;Debit card;Reconciled;['2021 - Kutná Hora', 'Dovolena: All'];
+Expense;2021-07-05;09:44;AirBank - Společný;560.0;560.0;CZK;Life & Entertaiment;Events - General;Výstavy,_Hrady,_zámky_...;Stezka korunami stromu;Debit card;Reconciled;['2021 - Kutná Hora', 'Dovolena: All'];
+Expense;2021-07-05;10:40;AirBank - Společný;100.0;100.0;CZK;Life & Entertaiment;Events - General;Výstavy,_Hrady,_zámky_...;Stezka korunami stromu;Debit card;Reconciled;['2021 - Kutná Hora', 'Dovolena: All'];Tobogan
+Expense;2021-07-05;12:10;AirBank - Společný;100.0;100.0;CZK;Vehicle;Parking;Parkování;Stezka korunami stromu;Debit card;Reconciled;['2021 - Kutná Hora', 'Dovolena: All', 'Renault Laguna'];
 Expense;2021-07-05;13:03;AirBank - Společný;35.0;35.0;CZK;Financial expenses;Charges, Fees;Poplatek_za_výběr_z_bankomatu;AirBank;Debit card;Reconciled;[];
 Expense;2021-07-05;13:17;AirBank - Společný;92.8;92.8;CZK;Shopping;Drug-store, chemist;Drogerie,_Hyg._potřeby;DM Drogerie;Debit card;Reconciled;[];
 Expense;2021-07-05;13:27;AirBank - Společný;79.0;79.0;CZK;Shopping;Gifts, joy;Dárky;Kik;Debit card;Reconciled;[];
@@ -905,10 +905,10 @@ Expense;2021-07-13;10:58;KB - Personal - účet;110.0;110.0;CZK;Food & Drinks;Wo
 Expense;2021-07-13;13:24;KB - Personal - účet;42.9;42.9;CZK;Food & Drinks;Work;Svačina;Karlova pekarna;Debit card;Cleared;[];
 Expense;2021-07-13;17:15;AirBank - Společný;41.8;41.8;CZK;Food & Drinks;Groceries;Potraviny;Lidl;Debit card;Reconciled;[];
 Expense;2021-07-14;07:00;KB - Personal - účet;300.0;300.0;CZK;Life & Entertaiment;Active sport, fitness;Multisport;Multisport;Debit card;Cleared;[];Zapocitano ve vyplate
-Income;2021-07-14;07:10;KB - Personal - účet;45524.0;45524.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
-Income;2021-07-14;07:10;KB - Personal - účet;300.0;300.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
-Income;2021-07-14;07:10;KB - Personal - účet;1050.0;1050.0;CZK;Income;Wage, invoices;Stravenky;Konica Minolta;Web payment;Cleared;[];
-Income;2021-07-14;07:10;KB - Personal - účet;3000.0;3000.0;CZK;Income;Wage, invoices;OnCall_Duty;Konica Minolta;Web payment;Cleared;[];
+Income;2021-07-14;07:10;KB - Personal - účet;45524.0;45524.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2021-07-14;07:10;KB - Personal - účet;300.0;300.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2021-07-14;07:10;KB - Personal - účet;1050.0;1050.0;CZK;Income;Wage,_invoices;Stravenky;Konica Minolta;Web payment;Cleared;[];
+Income;2021-07-14;07:10;KB - Personal - účet;3000.0;3000.0;CZK;Income;Wage,_invoices;OnCall_Duty;Konica Minolta;Web payment;Cleared;[];
 Expense;2021-07-14;13:32;AirBank - VASKO TechDesign;399.0;399.0;CZK;Life & Entertaiment;Hobbies;3D_Printing;Alza;Debit card;Reconciled;['VASKO TechDesign'];Fillament
 Expense;2021-07-14;21:36;CZK;975.0;975.0;CZK;Food & Drinks;Občerstvení;Hospoda;U Mamlasu;Cash;Cleared;[];
 Expense;2021-07-14;21:36;CZK;225.0;225.0;CZK;Financial expenses;Financial Expenses;Tuzer;U Mamlasu;Cash;Cleared;[];
@@ -1074,64 +1074,64 @@ Expense;2021-08-09;11:29;KB - Personal - účet;9.0;9.0;CZK;Food & Drinks;Work;O
 Expense;2021-08-09;18:54;CZK;130.0;130.0;CZK;Food & Drinks;Občerstvení;Kavárna;Riverside Coffee;Cash;Reconciled;[];
 Expense;2021-08-09;18:54;CZK;10.0;10.0;CZK;Financial expenses;Financial Expenses;Tuzer;Riverside Coffee;Cash;Reconciled;[];
 Expense;2021-08-10;07:00;KB - Personal - účet;2.41;53.45;USD;Communication, PC;Software, subscriptions;Cloud_storage;Microsoft;Debit card;Reconciled;[];OneDrive subscription
-Expense;2021-08-10;10:53;AirBank - Společný;8180.5;8180.5;CZK;Life & Entertaiment;Holiday,_trips,_hotels;Ubytování;Airbnb;Debit card;Reconciled;['2021 - Slovinsko'];
+Expense;2021-08-10;10:53;AirBank - Společný;8180.5;8180.5;CZK;Life & Entertaiment;Holiday,_trips,_hotels;Ubytování;Airbnb;Debit card;Reconciled;['2021 - Slovinsko', 'Dovolena: All'];
 Expense;2021-08-10;18:08;KB - Personal - účet;43.9;43.9;CZK;Food & Drinks;Groceries;Potraviny;Billa;Debit card;Cleared;[];
 Expense;2021-08-10;21:54;CZK - Společný;211.0;211.0;CZK;Food & Drinks;Občerstvení;Bar;NokNok;Cash;Reconciled;[];
 Expense;2021-08-10;21:54;CZK - Společný;39.0;39.0;CZK;Financial expenses;Financial Expenses;Tuzer;NokNok;Cash;Reconciled;[];
 Expense;2021-08-10;22:09;CZK - Společný;150.0;150.0;CZK;Vehicle;Parking;Parkování;Domini Park;Cash;Reconciled;['Renault Laguna'];
 Expense;2021-08-11;10:49;AirBank - Společný;319.0;319.0;CZK;Life & Entertaiment;TV&Audio Streaming;Televize;Netflix;Debit card;Reconciled;['Byt - Těsná'];
-Expense;2021-08-11;12:23;AirBank - Společný;739.0;739.0;CZK;Life & Entertaiment;Services_-_General;Hlídání;HolidayCat;Debit card;Reconciled;['2021 - Slovinsko', 'Schampy'];
-Expense;2021-08-11;17:58;AirBank - Společný;1652.8;1652.8;CZK;Vehicle;Fuel;Diesel;EuroOil;Debit card;Reconciled;['2021 - Slovinsko', 'Renault Laguna'];
+Expense;2021-08-11;12:23;AirBank - Společný;739.0;739.0;CZK;Life & Entertaiment;Services_-_General;Hlídání;HolidayCat;Debit card;Reconciled;['2021 - Slovinsko', 'Dovolena: All', 'Schampy'];
+Expense;2021-08-11;17:58;AirBank - Společný;1652.8;1652.8;CZK;Vehicle;Fuel;Diesel;EuroOil;Debit card;Reconciled;['2021 - Slovinsko', 'Dovolena: All', 'Renault Laguna'];
 Expense;2021-08-11;18:12;CZK - Společný;91.0;91.0;CZK;Food & Drinks;Groceries;Potraviny;Lidl;Cash;Reconciled;[];
-Income;2021-08-12;07:00;KB - Personal - účet;45680.0;45680.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
-Income;2021-08-12;07:00;KB - Personal - účet;300.0;300.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
-Income;2021-08-12;07:00;KB - Personal - účet;1000.0;1000.0;CZK;Income;Wage, invoices;Stravenky;Konica Minolta;Web payment;Cleared;[];
+Income;2021-08-12;07:00;KB - Personal - účet;45680.0;45680.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2021-08-12;07:00;KB - Personal - účet;300.0;300.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2021-08-12;07:00;KB - Personal - účet;1000.0;1000.0;CZK;Income;Wage,_invoices;Stravenky;Konica Minolta;Web payment;Cleared;[];
 Expense;2021-08-12;07:00;KB - Personal - účet;300.0;300.0;CZK;Life & Entertaiment;Active sport, fitness;Multisport;Multisport;Debit card;Cleared;[];Zapocitano ve vyplate
 Expense;2021-08-12;07:11;KB - Personal - účet;26.7;26.7;CZK;Food & Drinks;Work;Svačina;Billa;Debit card;Cleared;[];
 Income;2021-08-12;16:35;CZK;2.0;2.0;CZK;Income;Gifts;Nálezy;Ostatni;Cash;Reconciled;[];
 Expense;2021-08-12;18:45;CZK - Společný;90.0;90.0;CZK;Life & Entertaiment;Health care, doctor;Doktor;Nemocnice - Obilnak;Cash;Reconciled;[];Poplatek
 Expense;2021-08-12;20:27;KB - Personal - účet;734.0;734.0;CZK;Food & Drinks;Občerstvení;Restaurace;La Cucina Nera;Debit card;Cleared;[];
 Expense;2021-08-12;20:27;KB - Personal - účet;66.0;66.0;CZK;Financial expenses;Financial Expenses;Tuzer;La Cucina Nera;Debit card;Cleared;[];
-Expense;2021-08-12;21:17;AirBank - Společný;50.0;50.0;CZK;Transportation;Long distance;Letadlo;Smartwings;Debit card;Reconciled;['2021 - Kréta'];
+Expense;2021-08-12;21:17;AirBank - Společný;50.0;50.0;CZK;Transportation;Long distance;Letadlo;Smartwings;Debit card;Reconciled;['2021 - Kréta', 'Dovolena: All'];
 Income;2021-08-13;05:21;EUR;16.6;433.7;EUR;Investments;Savings;Vklad;Vaško Andrea;Cash;Reconciled;[];
 Expense;2021-08-13;07:40;AirBank - Společný;297.0;297.0;CZK;Shopping;Drug-store, chemist;Léky;Dr.Max;Debit card;Reconciled;[];
-Expense;2021-08-13;08:29;AirBank - Společný;146.0;146.0;CZK;Food & Drinks;Groceries;Potraviny;Shell;Debit card;Reconciled;['2021 - Slovinsko', 'Renault Laguna'];
-Expense;2021-08-13;08:29;AirBank - Společný;338.0;338.0;CZK;Transportation;Highway, Tolls;Dalnicni_známka;Shell;Debit card;Reconciled;['2021 - Slovinsko', 'Renault Laguna'];Dálniční známka - AU
-Expense;2021-08-13;10:34;AirBank - Společný;15.0;391.05;EUR;Transportation;Highway, Tolls;Dalnicni_známka;Shell;Debit card;Reconciled;['2021 - Slovinsko', 'Renault Laguna'];Dálniční známka - SL
-Expense;2021-08-13;13:41;AirBank - Společný;5.7;148.6;EUR;Food & Drinks;Občerstvení;Kavárna;Restaurace Poper;Debit card;Reconciled;['2021 - Slovinsko'];
-Expense;2021-08-13;13:41;AirBank - Společný;0.3;7.82;EUR;Financial expenses;Financial Expenses;Tuzer;Restaurace Poper;Debit card;Reconciled;['2021 - Slovinsko'];
-Expense;2021-08-13;19:17;AirBank - Společný;2.09;54.5;EUR;Food & Drinks;Groceries;Alkohol;Tus;Debit card;Reconciled;['2021 - Slovinsko'];
-Expense;2021-08-13;19:17;AirBank - Společný;24.48;638.31;EUR;Food & Drinks;Groceries;Potraviny;Tus;Debit card;Reconciled;['2021 - Slovinsko'];
-Expense;2021-08-13;22:04;AirBank - Společný;13.0;338.98;EUR;Food & Drinks;Občerstvení;Restaurace;Gostilna pr Cici;Debit card;Reconciled;['2021 - Slovinsko'];
+Expense;2021-08-13;08:29;AirBank - Společný;146.0;146.0;CZK;Food & Drinks;Groceries;Potraviny;Shell;Debit card;Reconciled;['2021 - Slovinsko', 'Dovolena: All', 'Renault Laguna'];
+Expense;2021-08-13;08:29;AirBank - Společný;338.0;338.0;CZK;Transportation;Highway, Tolls;Dalnicni_známka;Shell;Debit card;Reconciled;['2021 - Slovinsko', 'Dovolena: All', 'Renault Laguna'];Dálniční známka - AU
+Expense;2021-08-13;10:34;AirBank - Společný;15.0;391.05;EUR;Transportation;Highway, Tolls;Dalnicni_známka;Shell;Debit card;Reconciled;['2021 - Slovinsko', 'Dovolena: All', 'Renault Laguna'];Dálniční známka - SL
+Expense;2021-08-13;13:41;AirBank - Společný;5.7;148.6;EUR;Food & Drinks;Občerstvení;Kavárna;Restaurace Poper;Debit card;Reconciled;['2021 - Slovinsko', 'Dovolena: All'];
+Expense;2021-08-13;13:41;AirBank - Společný;0.3;7.82;EUR;Financial expenses;Financial Expenses;Tuzer;Restaurace Poper;Debit card;Reconciled;['2021 - Slovinsko', 'Dovolena: All'];
+Expense;2021-08-13;19:17;AirBank - Společný;2.09;54.5;EUR;Food & Drinks;Groceries;Alkohol;Tus;Debit card;Reconciled;['2021 - Slovinsko', 'Dovolena: All'];
+Expense;2021-08-13;19:17;AirBank - Společný;24.48;638.31;EUR;Food & Drinks;Groceries;Potraviny;Tus;Debit card;Reconciled;['2021 - Slovinsko', 'Dovolena: All'];
+Expense;2021-08-13;22:04;AirBank - Společný;13.0;338.98;EUR;Food & Drinks;Občerstvení;Restaurace;Gostilna pr Cici;Debit card;Reconciled;['2021 - Slovinsko', 'Dovolena: All'];
 Expense;2021-08-14;07:00;KB - Personal - účet;2070.0;2070.0;CZK;Housing;Energy, utilities;Elektřina;Eon;Debit card;Cleared;['Byt - Těsná'];
 Expense;2021-08-14;07:00;KB - Personal - účet;60.0;60.0;CZK;Housing;Energy, utilities;Elektřina;SVJ Tesna;Debit card;Cleared;['Byt - Těsná'];
 Expense;2021-08-14;07:00;KB - Personal - účet;420.0;420.0;CZK;Housing;Energy, utilities;Voda;SVJ Tesna;Debit card;Cleared;['Byt - Těsná'];
 Expense;2021-08-14;07:00;KB - Personal - účet;1969.0;1969.0;CZK;Housing;Maintenance, repairs;Fond_Oprav;SVJ Tesna;Debit card;Cleared;['Byt - Těsná'];
-Expense;2021-08-14;09:23;EUR;3.6;91.51;EUR;Food & Drinks;Občerstvení;Kavárna;Plac pod Belvederjem;Cash;Reconciled;['2021 - Slovinsko'];
-Expense;2021-08-14;09:30;EUR;8.0;209.01;EUR;Vehicle;Parking;Parkování;Doubrava beach;Cash;Reconciled;['2021 - Slovinsko', 'Renault Laguna'];
-Expense;2021-08-14;13:12;EUR;1.8;47.03;EUR;Food & Drinks;Občerstvení;Kavárna;Plac pod Belvederjem;Cash;Reconciled;['2021 - Slovinsko'];
-Expense;2021-08-14;13:12;EUR;0.2;5.23;EUR;Financial expenses;Financial Expenses;Tuzer;Plac pod Belvederjem;Cash;Reconciled;['2021 - Slovinsko'];
-Expense;2021-08-14;19:18;EUR;14.91;389.54;EUR;Food & Drinks;Groceries;Potraviny;Eurospon;Cash;Reconciled;['2021 - Slovinsko'];
-Expense;2021-08-14;21:01;EUR;26.5;692.35;EUR;Food & Drinks;Občerstvení;Restaurace;Gostilna pr Cici;Cash;Reconciled;['2021 - Slovinsko'];
-Expense;2021-08-14;21:01;EUR;1.5;39.19;EUR;Financial expenses;Financial Expenses;Tuzer;Gostilna pr Cici;Cash;Reconciled;['2021 - Slovinsko'];
-Expense;2021-08-15;08:23;EUR;9.0;235.14;EUR;Vehicle;Parking;Parkování;Doubrava beach;Cash;Reconciled;['2021 - Slovinsko', 'Renault Laguna'];
-Expense;2021-08-15;08:41;EUR;6.6;172.43;EUR;Food & Drinks;Občerstvení;Kavárna;Plac pod Belvederjem;Cash;Reconciled;['2021 - Slovinsko'];
-Expense;2021-08-15;08:41;EUR;0.4;10.45;EUR;Financial expenses;Financial Expenses;Tuzer;Plac pod Belvederjem;Cash;Reconciled;['2021 - Slovinsko'];
-Expense;2021-08-15;12:46;EUR;1.8;47.03;EUR;Food & Drinks;Občerstvení;Kavárna;Plac pod Belvederjem;Cash;Reconciled;['2021 - Slovinsko'];
-Expense;2021-08-15;12:46;EUR;0.2;5.23;EUR;Financial expenses;Financial Expenses;Tuzer;Plac pod Belvederjem;Cash;Reconciled;['2021 - Slovinsko'];
-Expense;2021-08-15;21:16;EUR;7.5;195.95;EUR;Food & Drinks;Občerstvení;Restaurace;Gostilna pr Cici;Cash;Reconciled;['2021 - Slovinsko'];
-Expense;2021-08-15;21:16;EUR;0.5;13.06;EUR;Financial expenses;Financial Expenses;Tuzer;Gostilna pr Cici;Cash;Reconciled;['2021 - Slovinsko'];
-Expense;2021-08-16;07:50;EUR;8.0;209.01;EUR;Vehicle;Parking;Parkování;Doubrava beach;Cash;Reconciled;['2021 - Slovinsko', 'Renault Laguna'];
-Expense;2021-08-16;08:23;EUR;6.6;172.43;EUR;Food & Drinks;Občerstvení;Kavárna;Plac pod Belvederjem;Cash;Reconciled;['2021 - Slovinsko'];
-Expense;2021-08-16;08:23;EUR;0.4;10.45;EUR;Financial expenses;Financial Expenses;Tuzer;Plac pod Belvederjem;Cash;Reconciled;['2021 - Slovinsko'];
-Expense;2021-08-16;12:56;EUR;4.8;125.41;EUR;Food & Drinks;Občerstvení;Kavárna;Plac pod Belvederjem;Cash;Reconciled;['2021 - Slovinsko'];
-Expense;2021-08-16;12:56;EUR;0.2;5.23;EUR;Financial expenses;Financial Expenses;Tuzer;Plac pod Belvederjem;Cash;Reconciled;['2021 - Slovinsko'];
-Expense;2021-08-16;17:47;EUR;6.0;156.76;EUR;Food & Drinks;Občerstvení;Kavárna;Plac pod Belvederjem;Cash;Reconciled;['2021 - Slovinsko'];
-Expense;2021-08-16;17:47;EUR;1.0;26.13;EUR;Financial expenses;Financial Expenses;Tuzer;Plac pod Belvederjem;Cash;Reconciled;['2021 - Slovinsko'];
-Expense;2021-08-16;18:39;AirBank - Společný;0.99;25.85;EUR;Food & Drinks;Groceries;Alkohol;Tus;Debit card;Reconciled;['2021 - Slovinsko'];
-Expense;2021-08-16;18:39;AirBank - Společný;17.22;449.67;EUR;Food & Drinks;Groceries;Potraviny;Tus;Debit card;Reconciled;['2021 - Slovinsko'];
-Expense;2021-08-16;20:35;EUR;25.5;666.22;EUR;Food & Drinks;Občerstvení;Restaurace;Gostilna pr Cici;Cash;Reconciled;['2021 - Slovinsko'];
-Expense;2021-08-16;20:35;EUR;1.5;39.19;EUR;Financial expenses;Financial Expenses;Tuzer;Gostilna pr Cici;Cash;Reconciled;['2021 - Slovinsko'];
+Expense;2021-08-14;09:23;EUR;3.6;91.51;EUR;Food & Drinks;Občerstvení;Kavárna;Plac pod Belvederjem;Cash;Reconciled;['2021 - Slovinsko', 'Dovolena: All'];
+Expense;2021-08-14;09:30;EUR;8.0;209.01;EUR;Vehicle;Parking;Parkování;Doubrava beach;Cash;Reconciled;['2021 - Slovinsko', 'Dovolena: All', 'Renault Laguna'];
+Expense;2021-08-14;13:12;EUR;1.8;47.03;EUR;Food & Drinks;Občerstvení;Kavárna;Plac pod Belvederjem;Cash;Reconciled;['2021 - Slovinsko', 'Dovolena: All'];
+Expense;2021-08-14;13:12;EUR;0.2;5.23;EUR;Financial expenses;Financial Expenses;Tuzer;Plac pod Belvederjem;Cash;Reconciled;['2021 - Slovinsko', 'Dovolena: All'];
+Expense;2021-08-14;19:18;EUR;14.91;389.54;EUR;Food & Drinks;Groceries;Potraviny;Eurospon;Cash;Reconciled;['2021 - Slovinsko', 'Dovolena: All'];
+Expense;2021-08-14;21:01;EUR;26.5;692.35;EUR;Food & Drinks;Občerstvení;Restaurace;Gostilna pr Cici;Cash;Reconciled;['2021 - Slovinsko', 'Dovolena: All'];
+Expense;2021-08-14;21:01;EUR;1.5;39.19;EUR;Financial expenses;Financial Expenses;Tuzer;Gostilna pr Cici;Cash;Reconciled;['2021 - Slovinsko', 'Dovolena: All'];
+Expense;2021-08-15;08:23;EUR;9.0;235.14;EUR;Vehicle;Parking;Parkování;Doubrava beach;Cash;Reconciled;['2021 - Slovinsko', 'Dovolena: All', 'Renault Laguna'];
+Expense;2021-08-15;08:41;EUR;6.6;172.43;EUR;Food & Drinks;Občerstvení;Kavárna;Plac pod Belvederjem;Cash;Reconciled;['2021 - Slovinsko', 'Dovolena: All'];
+Expense;2021-08-15;08:41;EUR;0.4;10.45;EUR;Financial expenses;Financial Expenses;Tuzer;Plac pod Belvederjem;Cash;Reconciled;['2021 - Slovinsko', 'Dovolena: All'];
+Expense;2021-08-15;12:46;EUR;1.8;47.03;EUR;Food & Drinks;Občerstvení;Kavárna;Plac pod Belvederjem;Cash;Reconciled;['2021 - Slovinsko', 'Dovolena: All'];
+Expense;2021-08-15;12:46;EUR;0.2;5.23;EUR;Financial expenses;Financial Expenses;Tuzer;Plac pod Belvederjem;Cash;Reconciled;['2021 - Slovinsko', 'Dovolena: All'];
+Expense;2021-08-15;21:16;EUR;7.5;195.95;EUR;Food & Drinks;Občerstvení;Restaurace;Gostilna pr Cici;Cash;Reconciled;['2021 - Slovinsko', 'Dovolena: All'];
+Expense;2021-08-15;21:16;EUR;0.5;13.06;EUR;Financial expenses;Financial Expenses;Tuzer;Gostilna pr Cici;Cash;Reconciled;['2021 - Slovinsko', 'Dovolena: All'];
+Expense;2021-08-16;07:50;EUR;8.0;209.01;EUR;Vehicle;Parking;Parkování;Doubrava beach;Cash;Reconciled;['2021 - Slovinsko', 'Dovolena: All', 'Renault Laguna'];
+Expense;2021-08-16;08:23;EUR;6.6;172.43;EUR;Food & Drinks;Občerstvení;Kavárna;Plac pod Belvederjem;Cash;Reconciled;['2021 - Slovinsko', 'Dovolena: All'];
+Expense;2021-08-16;08:23;EUR;0.4;10.45;EUR;Financial expenses;Financial Expenses;Tuzer;Plac pod Belvederjem;Cash;Reconciled;['2021 - Slovinsko', 'Dovolena: All'];
+Expense;2021-08-16;12:56;EUR;4.8;125.41;EUR;Food & Drinks;Občerstvení;Kavárna;Plac pod Belvederjem;Cash;Reconciled;['2021 - Slovinsko', 'Dovolena: All'];
+Expense;2021-08-16;12:56;EUR;0.2;5.23;EUR;Financial expenses;Financial Expenses;Tuzer;Plac pod Belvederjem;Cash;Reconciled;['2021 - Slovinsko', 'Dovolena: All'];
+Expense;2021-08-16;17:47;EUR;6.0;156.76;EUR;Food & Drinks;Občerstvení;Kavárna;Plac pod Belvederjem;Cash;Reconciled;['2021 - Slovinsko', 'Dovolena: All'];
+Expense;2021-08-16;17:47;EUR;1.0;26.13;EUR;Financial expenses;Financial Expenses;Tuzer;Plac pod Belvederjem;Cash;Reconciled;['2021 - Slovinsko', 'Dovolena: All'];
+Expense;2021-08-16;18:39;AirBank - Společný;0.99;25.85;EUR;Food & Drinks;Groceries;Alkohol;Tus;Debit card;Reconciled;['2021 - Slovinsko', 'Dovolena: All'];
+Expense;2021-08-16;18:39;AirBank - Společný;17.22;449.67;EUR;Food & Drinks;Groceries;Potraviny;Tus;Debit card;Reconciled;['2021 - Slovinsko', 'Dovolena: All'];
+Expense;2021-08-16;20:35;EUR;25.5;666.22;EUR;Food & Drinks;Občerstvení;Restaurace;Gostilna pr Cici;Cash;Reconciled;['2021 - Slovinsko', 'Dovolena: All'];
+Expense;2021-08-16;20:35;EUR;1.5;39.19;EUR;Financial expenses;Financial Expenses;Tuzer;Gostilna pr Cici;Cash;Reconciled;['2021 - Slovinsko', 'Dovolena: All'];
 Income;2021-08-17;07:00;KB - Stavební spoření - úvěr 1;750.0;750.0;CZK;Income;Technical;Technical_-_Stavebko_-_úmor;Modra Pyramida;Transfer;Reconciled;[];
 Income;2021-08-17;07:00;KB - Stavební spoření - úvěr 2;670.0;670.0;CZK;Income;Technical;Technical_-_Stavebko_-_úmor;Modra Pyramida;Transfer;Reconciled;[];
 Income;2021-08-17;07:00;KB - Hypotéka;4417.93;4417.93;CZK;Income;Technical;Technical_-_Hypotéka_-_úmor;Komercni Banka;Transfer;Reconciled;[];
@@ -1140,23 +1140,23 @@ Expense;2021-08-17;07:00;KB - Personal - účet;4417.93;4417.93;CZK;Housing;Mort
 Expense;2021-08-17;07:00;KB - Personal - účet;2666.07;2666.07;CZK;Housing;Mortage, loans;Hypotéka_-_úrok;Komercni Banka;Debit card;Cleared;['Byt - Těsná'];
 Expense;2021-08-17;07:00;KB - Personal - účet;670.0;670.0;CZK;Vehicle;Rentals, Loans;Vehicle_-_Půjčka_-_úmor;Modra Pyramida;Debit card;Cleared;['Renault Laguna'];
 Expense;2021-08-17;07:00;KB - Personal - účet;748.5;748.5;CZK;Vehicle;Rentals, Loans;Vehicle_-_Půjčka_-_úrok;Modra Pyramida;Debit card;Cleared;['Renault Laguna'];
-Expense;2021-08-17;08:29;EUR;8.0;209.01;EUR;Vehicle;Parking;Parkování;Doubrava beach;Cash;Reconciled;['2021 - Slovinsko', 'Renault Laguna'];
-Expense;2021-08-17;08:50;EUR;9.6;250.81;EUR;Food & Drinks;Občerstvení;Kavárna;Plac pod Belvederjem;Cash;Reconciled;['2021 - Slovinsko'];
-Expense;2021-08-17;08:50;EUR;0.4;10.45;EUR;Financial expenses;Financial Expenses;Tuzer;Plac pod Belvederjem;Cash;Reconciled;['2021 - Slovinsko'];
-Expense;2021-08-17;10:58;KB - Personal - účet;20.0;522.82;EUR;Financial expenses;Fines;Pokuta;Policie SL;Debit card;Reconciled;['2021 - Slovinsko', 'Renault Laguna'];Pokuta za spatne parkovani prvni den
-Expense;2021-08-17;12:48;EUR;1.8;47.03;EUR;Food & Drinks;Občerstvení;Kavárna;Plac pod Belvederjem;Cash;Reconciled;['2021 - Slovinsko'];
-Expense;2021-08-17;12:48;EUR;0.3;7.84;EUR;Financial expenses;Financial Expenses;Tuzer;Plac pod Belvederjem;Cash;Reconciled;['2021 - Slovinsko'];
-Expense;2021-08-17;20:19;EUR;22.5;587.84;EUR;Food & Drinks;Občerstvení;Restaurace;Gostilna pr Cici;Cash;Reconciled;['2021 - Slovinsko'];
-Expense;2021-08-17;20:19;EUR;2.5;65.32;EUR;Financial expenses;Financial Expenses;Tuzer;Gostilna pr Cici;Cash;Reconciled;['2021 - Slovinsko'];
-Expense;2021-08-18;08:53;AirBank - Společný;16.0;418.45;EUR;Food & Drinks;Občerstvení;Restaurace;Gostilna pr Cici;Debit card;Reconciled;['2021 - Slovinsko'];
-Expense;2021-08-18;08:53;EUR;1.4;36.61;EUR;Financial expenses;Financial Expenses;Tuzer;Gostilna pr Cici;Cash;Reconciled;['2021 - Slovinsko'];
-Expense;2021-08-18;10:02;AirBank - Společný;73.37;1917.82;EUR;Vehicle;Fuel;Diesel;OMW;Debit card;Reconciled;['2021 - Slovinsko', 'Renault Laguna'];
-Expense;2021-08-18;10:34;AirBank - Společný;32.0;836.45;EUR;Life & Entertaiment;Events - General;Výstavy,_Hrady,_zámky_...;Lipica Horse stable;Debit card;Reconciled;['2021 - Slovinsko'];Prohlidka staji
-Expense;2021-08-18;13:49;EUR;2.0;52.25;EUR;Vehicle;Parking;Parkování;Ljublana;Cash;Reconciled;['2021 - Slovinsko', 'Renault Laguna'];
-Expense;2021-08-18;16:02;AirBank - Společný;38.4;1003.25;EUR;Food & Drinks;Občerstvení;Restaurace;Rosi Zgonc restaurace;Debit card;Reconciled;['2021 - Slovinsko'];
-Expense;2021-08-18;16:02;EUR;4.0;104.51;EUR;Financial expenses;Financial Expenses;Tuzer;Rosi Zgonc restaurace;Cash;Reconciled;['2021 - Slovinsko'];
-Expense;2021-08-18;17:27;EUR;3.78;98.76;EUR;Food & Drinks;Groceries;Potraviny;Petrol;Cash;Reconciled;['2021 - Slovinsko'];
-Expense;2021-08-18;17:27;EUR;0.02;0.52;EUR;Financial expenses;Financial Expenses;Tuzer;Petrol;Cash;Reconciled;['2021 - Slovinsko'];
+Expense;2021-08-17;08:29;EUR;8.0;209.01;EUR;Vehicle;Parking;Parkování;Doubrava beach;Cash;Reconciled;['2021 - Slovinsko', 'Dovolena: All', 'Renault Laguna'];
+Expense;2021-08-17;08:50;EUR;9.6;250.81;EUR;Food & Drinks;Občerstvení;Kavárna;Plac pod Belvederjem;Cash;Reconciled;['2021 - Slovinsko', 'Dovolena: All'];
+Expense;2021-08-17;08:50;EUR;0.4;10.45;EUR;Financial expenses;Financial Expenses;Tuzer;Plac pod Belvederjem;Cash;Reconciled;['2021 - Slovinsko', 'Dovolena: All'];
+Expense;2021-08-17;10:58;KB - Personal - účet;20.0;522.82;EUR;Financial expenses;Fines;Pokuta;Policie SL;Debit card;Reconciled;['2021 - Slovinsko', 'Dovolena: All', 'Renault Laguna'];Pokuta za spatne parkovani prvni den
+Expense;2021-08-17;12:48;EUR;1.8;47.03;EUR;Food & Drinks;Občerstvení;Kavárna;Plac pod Belvederjem;Cash;Reconciled;['2021 - Slovinsko', 'Dovolena: All'];
+Expense;2021-08-17;12:48;EUR;0.3;7.84;EUR;Financial expenses;Financial Expenses;Tuzer;Plac pod Belvederjem;Cash;Reconciled;['2021 - Slovinsko', 'Dovolena: All'];
+Expense;2021-08-17;20:19;EUR;22.5;587.84;EUR;Food & Drinks;Občerstvení;Restaurace;Gostilna pr Cici;Cash;Reconciled;['2021 - Slovinsko', 'Dovolena: All'];
+Expense;2021-08-17;20:19;EUR;2.5;65.32;EUR;Financial expenses;Financial Expenses;Tuzer;Gostilna pr Cici;Cash;Reconciled;['2021 - Slovinsko', 'Dovolena: All'];
+Expense;2021-08-18;08:53;AirBank - Společný;16.0;418.45;EUR;Food & Drinks;Občerstvení;Restaurace;Gostilna pr Cici;Debit card;Reconciled;['2021 - Slovinsko', 'Dovolena: All'];
+Expense;2021-08-18;08:53;EUR;1.4;36.61;EUR;Financial expenses;Financial Expenses;Tuzer;Gostilna pr Cici;Cash;Reconciled;['2021 - Slovinsko', 'Dovolena: All'];
+Expense;2021-08-18;10:02;AirBank - Společný;73.37;1917.82;EUR;Vehicle;Fuel;Diesel;OMW;Debit card;Reconciled;['2021 - Slovinsko', 'Dovolena: All', 'Renault Laguna'];
+Expense;2021-08-18;10:34;AirBank - Společný;32.0;836.45;EUR;Life & Entertaiment;Events - General;Výstavy,_Hrady,_zámky_...;Lipica Horse stable;Debit card;Reconciled;['2021 - Slovinsko', 'Dovolena: All'];Prohlidka staji
+Expense;2021-08-18;13:49;EUR;2.0;52.25;EUR;Vehicle;Parking;Parkování;Ljublana;Cash;Reconciled;['2021 - Slovinsko', 'Dovolena: All', 'Renault Laguna'];
+Expense;2021-08-18;16:02;AirBank - Společný;38.4;1003.25;EUR;Food & Drinks;Občerstvení;Restaurace;Rosi Zgonc restaurace;Debit card;Reconciled;['2021 - Slovinsko', 'Dovolena: All'];
+Expense;2021-08-18;16:02;EUR;4.0;104.51;EUR;Financial expenses;Financial Expenses;Tuzer;Rosi Zgonc restaurace;Cash;Reconciled;['2021 - Slovinsko', 'Dovolena: All'];
+Expense;2021-08-18;17:27;EUR;3.78;98.76;EUR;Food & Drinks;Groceries;Potraviny;Petrol;Cash;Reconciled;['2021 - Slovinsko', 'Dovolena: All'];
+Expense;2021-08-18;17:27;EUR;0.02;0.52;EUR;Financial expenses;Financial Expenses;Tuzer;Petrol;Cash;Reconciled;['2021 - Slovinsko', 'Dovolena: All'];
 Expense;2021-08-19;13:08;KB - Personal - účet;559.0;559.0;CZK;Shopping;Clothes & shoes;Oblečení;Reserved;Debit card;Cleared;[];Trenky 
 Expense;2021-08-19;13:18;KB - Personal - účet;132.0;132.0;CZK;Food & Drinks;Občerstvení;Fastfood;MC Donald;Debit card;Cleared;[];
 Expense;2021-08-19;18:36;AirBank - Společný;16.9;16.9;CZK;Shopping;Drug-store, chemist;Drogerie,_Hyg._potřeby;Kaufland;Debit card;Reconciled;[];
@@ -1262,9 +1262,9 @@ Expense;2021-09-08;11:43;KB - Personal - účet;120.0;120.0;CZK;Food & Drinks;Wo
 Expense;2021-09-08;18:47;CZK;65.0;65.0;CZK;Food & Drinks;Občerstvení;Hospoda;re.Set;Cash;Reconciled;[];
 Expense;2021-09-08;18:47;CZK;5.0;5.0;CZK;Financial expenses;Financial Expenses;Tuzer;re.Set;Cash;Reconciled;[];
 Expense;2021-09-09;07:00;KB - Personal - účet;300.0;300.0;CZK;Life & Entertaiment;Active sport, fitness;Multisport;Multisport;Debit card;Cleared;[];Zapocitano ve vyplate
-Income;2021-09-09;07:00;KB - Personal - účet;47158.0;47158.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
-Income;2021-09-09;07:00;KB - Personal - účet;300.0;300.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
-Income;2021-09-09;07:00;KB - Personal - účet;800.0;800.0;CZK;Income;Wage, invoices;Stravenky;Konica Minolta;Web payment;Cleared;[];
+Income;2021-09-09;07:00;KB - Personal - účet;47158.0;47158.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2021-09-09;07:00;KB - Personal - účet;300.0;300.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2021-09-09;07:00;KB - Personal - účet;800.0;800.0;CZK;Income;Wage,_invoices;Stravenky;Konica Minolta;Web payment;Cleared;[];
 Expense;2021-09-09;19:24;KB - Personal - účet;11000.0;11000.0;CZK;Financial expenses;Loan, interests;Osobní_půjčky_-_Expense;Vaško Andrea;Debit card;Cleared;[];Za skrin do pokoje
 Expense;2021-09-10;07:00;KB - Personal - účet;2.41;53.09;USD;Communication, PC;Software, subscriptions;Cloud_storage;Microsoft;Debit card;Reconciled;[];OneDrive subscription
 Income;2021-09-10;07:00;KB - Personal - účet;62.0;62.0;CZK;Income;Refunds;Vratky;Hornbach;Web payment;Cleared;['Byt - Těsná'];Klouby ke skrince k rozvodum
@@ -1273,7 +1273,7 @@ Expense;2021-09-10;16:34;AirBank - Společný;417.0;417.0;CZK;Food & Drinks;Groc
 Expense;2021-09-11;07:00;AirBank - Společný;319.0;319.0;CZK;Life & Entertaiment;TV&Audio Streaming;Televize;Netflix;Debit card;Reconciled;['Byt - Těsná'];
 Expense;2021-09-12;08:16;KB - Personal - účet;700.1;700.1;CZK;Vehicle;Fuel;Diesel;Benzina;Debit card;Cleared;['Renault Laguna'];
 Expense;2021-09-13;07:37;KB - Personal - účet;26.7;26.7;CZK;Food & Drinks;Work;Svačina;Billa;Debit card;Cleared;[];
-Expense;2021-09-13;11:02;AirBank - Společný;4214.97;4214.97;CZK;Life & Entertaiment;Holiday,_trips,_hotels;Ubytování;Airbnb;Debit card;Reconciled;['2021 - Šumava'];
+Expense;2021-09-13;11:02;AirBank - Společný;4214.97;4214.97;CZK;Life & Entertaiment;Holiday,_trips,_hotels;Ubytování;Airbnb;Debit card;Reconciled;['2021 - Šumava', 'Dovolena: All'];
 Expense;2021-09-13;11:23;KB - Personal - účet;2000.0;2000.0;CZK;Shopping;Ostatní;;Katastr nemovitosti;Debit card;Cleared;['Byt - Těsná'];Vklad prava - zmena pomeru na budove
 Expense;2021-09-13;11:34;KB - Personal - účet;66.0;66.0;CZK;Food & Drinks;Work;Oběd;MC Donald;Debit card;Cleared;[];
 Expense;2021-09-13;13:48;AirBank - Společný;657.89;657.89;CZK;Food & Drinks;Groceries;Potraviny;Kaufland;Debit card;Reconciled;[];
@@ -1324,38 +1324,38 @@ Expense;2021-09-23;12:51;KB - Personal - účet;628.99;628.99;CZK;Communication,
 Expense;2021-09-23;18:29;AirBank - Společný;837.5;837.5;CZK;Shopping;Clothes & shoes;Oblečení;Lidl;Debit card;Reconciled;[];
 Expense;2021-09-23;18:29;AirBank - Společný;174.5;174.5;CZK;Shopping;Drug-store, chemist;Drogerie,_Hyg._potřeby;Lidl;Debit card;Reconciled;[];
 Expense;2021-09-23;18:29;AirBank - Společný;1051.41;1051.41;CZK;Food & Drinks;Groceries;Potraviny;Lidl;Debit card;Reconciled;[];
-Expense;2021-09-23;22:56;AirBank - Spořící;444.0;444.0;CZK;Life & Entertaiment;Services_-_General;Hlídání;HolidayCat;Debit card;Reconciled;['2021 - Šumava', 'Schampy'];
+Expense;2021-09-23;22:56;AirBank - Spořící;444.0;444.0;CZK;Life & Entertaiment;Services_-_General;Hlídání;HolidayCat;Debit card;Reconciled;['2021 - Šumava', 'Dovolena: All', 'Schampy'];
 Expense;2021-09-24;07:25;KB - Personal - účet;26.7;26.7;CZK;Food & Drinks;Work;Svačina;Billa;Debit card;Cleared;[];
 Expense;2021-09-24;10:55;KB - Personal - účet;120.0;120.0;CZK;Food & Drinks;Work;Oběd;Eatology;Debit card;Cleared;[];
-Expense;2021-09-24;19:40;AirBank - Společný;1540.0;1540.0;CZK;Vehicle;Fuel;Diesel;ONO;Debit card;Reconciled;['2021 - Šumava', 'Renault Laguna'];
-Expense;2021-09-25;11:49;CZK;175.0;175.0;CZK;Food & Drinks;Občerstvení;Fastfood;Fastfood - no name;Cash;Reconciled;['2021 - Šumava'];
-Expense;2021-09-25;11:49;CZK;15.0;15.0;CZK;Financial expenses;Financial Expenses;Tuzer;Fastfood - no name;Cash;Reconciled;['2021 - Šumava'];
-Expense;2021-09-25;12:59;CZK;48.0;48.0;CZK;Food & Drinks;Občerstvení;Fastfood;Fastfood - no name;Cash;Reconciled;['2021 - Šumava'];
-Expense;2021-09-25;12:59;CZK;2.0;2.0;CZK;Financial expenses;Financial Expenses;Tuzer;Fastfood - no name;Cash;Reconciled;['2021 - Šumava'];
-Expense;2021-09-25;14:05;CZK;60.0;60.0;CZK;Life & Entertaiment;Events - General;Výstavy,_Hrady,_zámky_...;Velky Javornik;Cash;Reconciled;['2021 - Šumava'];
-Expense;2021-09-25;18:48;AirBank - Společný;1487.0;1487.0;CZK;Food & Drinks;Občerstvení;Restaurace;Restaurace u Stepana;Debit card;Reconciled;['2021 - Šumava'];
-Expense;2021-09-25;18:48;CZK;200.0;200.0;CZK;Financial expenses;Financial Expenses;Tuzer;Restaurace u Stepana;Cash;Reconciled;['2021 - Šumava'];
-Expense;2021-09-25;19:20;AirBank - Společný;64.9;64.9;CZK;Shopping;Drug-store, chemist;Drogerie,_Hyg._potřeby;Tesco;Debit card;Reconciled;['2021 - Šumava'];
-Expense;2021-09-25;19:20;AirBank - Společný;235.53;235.53;CZK;Food & Drinks;Groceries;Potraviny;Tesco;Debit card;Reconciled;['2021 - Šumava'];
-Expense;2021-09-26;11:52;CZK;50.0;50.0;CZK;Vehicle;Parking;Parkování;Svuhov;Cash;Reconciled;['2021 - Šumava', 'Renault Laguna'];
-Expense;2021-09-26;12:04;AirBank - Společný;500.0;500.0;CZK;Life & Entertaiment;Events - General;Výstavy,_Hrady,_zámky_...;Svihov;Debit card;Reconciled;['2021 - Šumava'];
-Expense;2021-09-26;18:38;KB - Personal - účet;535.0;535.0;CZK;Food & Drinks;Občerstvení;Restaurace;Pivovar u Svelchu;Debit card;Cleared;['2021 - Šumava'];
-Expense;2021-09-26;18:38;KB - Personal - účet;15.0;15.0;CZK;Financial expenses;Financial Expenses;Tuzer;Pivovar u Svelchu;Debit card;Cleared;['2021 - Šumava'];
+Expense;2021-09-24;19:40;AirBank - Společný;1540.0;1540.0;CZK;Vehicle;Fuel;Diesel;ONO;Debit card;Reconciled;['2021 - Šumava', 'Dovolena: All', 'Renault Laguna'];
+Expense;2021-09-25;11:49;CZK;175.0;175.0;CZK;Food & Drinks;Občerstvení;Fastfood;Fastfood - no name;Cash;Reconciled;['2021 - Šumava', 'Dovolena: All'];
+Expense;2021-09-25;11:49;CZK;15.0;15.0;CZK;Financial expenses;Financial Expenses;Tuzer;Fastfood - no name;Cash;Reconciled;['2021 - Šumava', 'Dovolena: All'];
+Expense;2021-09-25;12:59;CZK;48.0;48.0;CZK;Food & Drinks;Občerstvení;Fastfood;Fastfood - no name;Cash;Reconciled;['2021 - Šumava', 'Dovolena: All'];
+Expense;2021-09-25;12:59;CZK;2.0;2.0;CZK;Financial expenses;Financial Expenses;Tuzer;Fastfood - no name;Cash;Reconciled;['2021 - Šumava', 'Dovolena: All'];
+Expense;2021-09-25;14:05;CZK;60.0;60.0;CZK;Life & Entertaiment;Events - General;Výstavy,_Hrady,_zámky_...;Velky Javornik;Cash;Reconciled;['2021 - Šumava', 'Dovolena: All'];
+Expense;2021-09-25;18:48;AirBank - Společný;1487.0;1487.0;CZK;Food & Drinks;Občerstvení;Restaurace;Restaurace u Stepana;Debit card;Reconciled;['2021 - Šumava', 'Dovolena: All'];
+Expense;2021-09-25;18:48;CZK;200.0;200.0;CZK;Financial expenses;Financial Expenses;Tuzer;Restaurace u Stepana;Cash;Reconciled;['2021 - Šumava', 'Dovolena: All'];
+Expense;2021-09-25;19:20;AirBank - Společný;64.9;64.9;CZK;Shopping;Drug-store, chemist;Drogerie,_Hyg._potřeby;Tesco;Debit card;Reconciled;['2021 - Šumava', 'Dovolena: All'];
+Expense;2021-09-25;19:20;AirBank - Společný;235.53;235.53;CZK;Food & Drinks;Groceries;Potraviny;Tesco;Debit card;Reconciled;['2021 - Šumava', 'Dovolena: All'];
+Expense;2021-09-26;11:52;CZK;50.0;50.0;CZK;Vehicle;Parking;Parkování;Svuhov;Cash;Reconciled;['2021 - Šumava', 'Dovolena: All', 'Renault Laguna'];
+Expense;2021-09-26;12:04;AirBank - Společný;500.0;500.0;CZK;Life & Entertaiment;Events - General;Výstavy,_Hrady,_zámky_...;Svihov;Debit card;Reconciled;['2021 - Šumava', 'Dovolena: All'];
+Expense;2021-09-26;18:38;KB - Personal - účet;535.0;535.0;CZK;Food & Drinks;Občerstvení;Restaurace;Pivovar u Svelchu;Debit card;Cleared;['2021 - Šumava', 'Dovolena: All'];
+Expense;2021-09-26;18:38;KB - Personal - účet;15.0;15.0;CZK;Financial expenses;Financial Expenses;Tuzer;Pivovar u Svelchu;Debit card;Cleared;['2021 - Šumava', 'Dovolena: All'];
 Expense;2021-09-27;07:00;KB - Personal - účet;2.19;57.39;EUR;Communication, PC;Software, subscriptions;Software;Google;Debit card;Reconciled;[];Adobe Lightroom
-Expense;2021-09-27;08:38;CZK;20.0;20.0;CZK;Food & Drinks;Groceries;Potraviny;Vecerka;Cash;Reconciled;['2021 - Šumava'];
-Expense;2021-09-27;12:40;AirBank - Společný;100.0;100.0;CZK;Vehicle;Parking;Parkování;Vlci vybeh;Debit card;Reconciled;['2021 - Šumava', 'Renault Laguna'];
-Expense;2021-09-27;12:55;CZK;100.0;100.0;CZK;Vehicle;Parking;Parkování;Antygl;Cash;Reconciled;['2021 - Šumava', 'Renault Laguna'];
-Expense;2021-09-27;14:51;AirBank - Společný;530.0;530.0;CZK;Food & Drinks;Občerstvení;Hospoda;Turnerova chata;Debit card;Reconciled;['2021 - Šumava'];
-Expense;2021-09-27;14:51;AirBank - Společný;50.0;50.0;CZK;Financial expenses;Financial Expenses;Tuzer;Turnerova chata;Debit card;Reconciled;['2021 - Šumava'];
+Expense;2021-09-27;08:38;CZK;20.0;20.0;CZK;Food & Drinks;Groceries;Potraviny;Vecerka;Cash;Reconciled;['2021 - Šumava', 'Dovolena: All'];
+Expense;2021-09-27;12:40;AirBank - Společný;100.0;100.0;CZK;Vehicle;Parking;Parkování;Vlci vybeh;Debit card;Reconciled;['2021 - Šumava', 'Dovolena: All', 'Renault Laguna'];
+Expense;2021-09-27;12:55;CZK;100.0;100.0;CZK;Vehicle;Parking;Parkování;Antygl;Cash;Reconciled;['2021 - Šumava', 'Dovolena: All', 'Renault Laguna'];
+Expense;2021-09-27;14:51;AirBank - Společný;530.0;530.0;CZK;Food & Drinks;Občerstvení;Hospoda;Turnerova chata;Debit card;Reconciled;['2021 - Šumava', 'Dovolena: All'];
+Expense;2021-09-27;14:51;AirBank - Společný;50.0;50.0;CZK;Financial expenses;Financial Expenses;Tuzer;Turnerova chata;Debit card;Reconciled;['2021 - Šumava', 'Dovolena: All'];
 Expense;2021-09-27;14:55;CZK;5.0;5.0;CZK;Financial expenses;Financial Expenses;Dary;Vaško Andrea;Cash;Reconciled;[];
-Expense;2021-09-27;18:48;AirBank - Společný;79.9;79.9;CZK;Shopping;Clothes & shoes;Oblečení;Lidl;Debit card;Reconciled;['2021 - Šumava'];
-Expense;2021-09-27;18:48;AirBank - Společný;151.05;151.05;CZK;Food & Drinks;Groceries;Potraviny;Lidl;Debit card;Reconciled;['2021 - Šumava'];
-Expense;2021-09-28;11:47;AirBank - Společný;420.0;420.0;CZK;Life & Entertaiment;Events - General;Výstavy,_Hrady,_zámky_...;Hluboka;Debit card;Reconciled;['2021 - Šumava'];
-Expense;2021-09-28;14:14;AirBank - Společný;407.0;407.0;CZK;Transportation;Long distance;Letadlo;Smartwings;Debit card;Reconciled;['2021 - Kréta'];
-Expense;2021-09-28;14:39;AirBank - VASKO TechDesign;410.0;410.0;CZK;Transportation;Long distance;Letadlo;Smartwings;Debit card;Reconciled;['2021 - Kréta'];
-Expense;2021-09-28;15:44;AirBank - Společný;643.0;643.0;CZK;Food & Drinks;Občerstvení;Restaurace;Schneck;Debit card;Reconciled;['2021 - Šumava'];
-Expense;2021-09-28;15:44;AirBank - Společný;57.0;57.0;CZK;Financial expenses;Financial Expenses;Tuzer;Schneck;Debit card;Reconciled;['2021 - Šumava'];
-Expense;2021-09-28;17:24;AirBank - Společný;39.0;39.0;CZK;Food & Drinks;Groceries;Potraviny;Benzina;Debit card;Reconciled;['2021 - Šumava'];
+Expense;2021-09-27;18:48;AirBank - Společný;79.9;79.9;CZK;Shopping;Clothes & shoes;Oblečení;Lidl;Debit card;Reconciled;['2021 - Šumava', 'Dovolena: All'];
+Expense;2021-09-27;18:48;AirBank - Společný;151.05;151.05;CZK;Food & Drinks;Groceries;Potraviny;Lidl;Debit card;Reconciled;['2021 - Šumava', 'Dovolena: All'];
+Expense;2021-09-28;11:47;AirBank - Společný;420.0;420.0;CZK;Life & Entertaiment;Events - General;Výstavy,_Hrady,_zámky_...;Hluboka;Debit card;Reconciled;['2021 - Šumava', 'Dovolena: All'];
+Expense;2021-09-28;14:14;AirBank - Společný;407.0;407.0;CZK;Transportation;Long distance;Letadlo;Smartwings;Debit card;Reconciled;['2021 - Kréta', 'Dovolena: All'];
+Expense;2021-09-28;14:39;AirBank - VASKO TechDesign;410.0;410.0;CZK;Transportation;Long distance;Letadlo;Smartwings;Debit card;Reconciled;['2021 - Kréta', 'Dovolena: All'];
+Expense;2021-09-28;15:44;AirBank - Společný;643.0;643.0;CZK;Food & Drinks;Občerstvení;Restaurace;Schneck;Debit card;Reconciled;['2021 - Šumava', 'Dovolena: All'];
+Expense;2021-09-28;15:44;AirBank - Společný;57.0;57.0;CZK;Financial expenses;Financial Expenses;Tuzer;Schneck;Debit card;Reconciled;['2021 - Šumava', 'Dovolena: All'];
+Expense;2021-09-28;17:24;AirBank - Společný;39.0;39.0;CZK;Food & Drinks;Groceries;Potraviny;Benzina;Debit card;Reconciled;['2021 - Šumava', 'Dovolena: All'];
 Income;2021-09-29;11:07;CZK;140.0;140.0;CZK;Income;Lending, renting;Osobní_půjčky_-_Income;KM - Novotny Jan;Cash;Reconciled;[];
 Expense;2021-09-29;11:08;CZK;140.0;140.0;CZK;Food & Drinks;Work;Oběd;Jean Pauls Bistro;Cash;Reconciled;[];
 Expense;2021-09-30;07:00;KB - Personal - účet;39.0;39.0;CZK;Financial expenses;Charges, Fees;Poplatek_za_vedení_účtu;Komercni Banka;Debit card;Reconciled;[];
@@ -1398,18 +1398,18 @@ Expense;2021-10-11;08:20;CZK;10.0;10.0;CZK;Food & Drinks;Groceries;Potraviny;STK
 Expense;2021-10-11;08:39;AirBank - Společný;950.0;950.0;CZK;Vehicle;Vehicle maintenance;Servis;STK Lisen;Debit card;Reconciled;['Renault Laguna'];STK + Emise
 Expense;2021-10-11;08:39;AirBank - Společný;990.0;990.0;CZK;Vehicle;Vehicle maintenance;Servis;STK Lisen;Debit card;Reconciled;['Renault Laguna'];STK + Emise
 Expense;2021-10-11;10:55;AirBank - Společný;580.0;580.0;CZK;Life & Entertaiment;Events - General;Výstavy,_Hrady,_zámky_...;Festival Prototyp 2021;Debit card;Reconciled;[];
-Income;2021-10-12;07:00;KB - Personal - účet;43387.0;43387.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
-Income;2021-10-12;07:00;KB - Personal - účet;300.0;300.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
-Income;2021-10-12;07:00;KB - Personal - účet;20000.0;20000.0;CZK;Income;Wage, invoices;Bonusy;Konica Minolta;Web payment;Cleared;[];
-Income;2021-10-12;07:00;KB - Personal - účet;1000.0;1000.0;CZK;Income;Wage, invoices;Stravenky;Konica Minolta;Web payment;Cleared;[];
-Income;2021-10-12;07:00;KB - Personal - účet;3000.0;3000.0;CZK;Income;Wage, invoices;OnCall_Duty;Konica Minolta;Web payment;Cleared;[];
+Income;2021-10-12;07:00;KB - Personal - účet;43387.0;43387.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2021-10-12;07:00;KB - Personal - účet;300.0;300.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2021-10-12;07:00;KB - Personal - účet;20000.0;20000.0;CZK;Income;Wage,_invoices;Bonusy;Konica Minolta;Web payment;Cleared;[];
+Income;2021-10-12;07:00;KB - Personal - účet;1000.0;1000.0;CZK;Income;Wage,_invoices;Stravenky;Konica Minolta;Web payment;Cleared;[];
+Income;2021-10-12;07:00;KB - Personal - účet;3000.0;3000.0;CZK;Income;Wage,_invoices;OnCall_Duty;Konica Minolta;Web payment;Cleared;[];
 Expense;2021-10-12;07:00;KB - Personal - účet;300.0;300.0;CZK;Life & Entertaiment;Active sport, fitness;Multisport;Multisport;Debit card;Cleared;[];Zapocitano ve vyplate
 Expense;2021-10-12;07:20;KB - Personal - účet;450.0;450.0;CZK;Life & Entertaiment;Wellness, beauty;Kadeřník;HairFisher;Debit card;Cleared;[];
 Expense;2021-10-12;07:33;KB - Personal - účet;25.8;25.8;CZK;Food & Drinks;Work;Svačina;Billa;Debit card;Cleared;[];
 Expense;2021-10-12;07:38;KB - Personal - účet;60.0;60.0;CZK;Housing;Energy, utilities;Elektřina;SVJ Tesna;Debit card;Cleared;['Byt - Těsná'];
 Expense;2021-10-12;07:38;KB - Personal - účet;420.0;420.0;CZK;Housing;Energy, utilities;Voda;SVJ Tesna;Debit card;Cleared;['Byt - Těsná'];
 Expense;2021-10-12;07:38;KB - Personal - účet;1969.0;1969.0;CZK;Housing;Maintenance, repairs;Fond_Oprav;SVJ Tesna;Debit card;Cleared;['Byt - Těsná'];
-Expense;2021-10-12;08:16;KB - Personal - účet;430.0;430.0;CZK;Transportation;Long distance;Letadlo;Smartwings;Debit card;Cleared;['2021 - Kréta'];
+Expense;2021-10-12;08:16;KB - Personal - účet;430.0;430.0;CZK;Transportation;Long distance;Letadlo;Smartwings;Debit card;Cleared;['2021 - Kréta', 'Dovolena: All'];
 Expense;2021-10-12;10:56;KB - Personal - účet;120.0;120.0;CZK;Food & Drinks;Work;Oběd;Eatology;Debit card;Cleared;[];
 Expense;2021-10-12;10:56;KB - Personal - účet;37.0;37.0;CZK;Food & Drinks;Groceries;Potraviny;Eatology;Debit card;Cleared;[];Bavorsky vdolek Ande
 Expense;2021-10-12;17:25;CZK;7000.0;7000.0;CZK;Shopping;Home, garden;Nábytek;Pur Martin;Cash;Cleared;['Byt - Těsná'];Skrin do pokoje doplatek
@@ -1556,10 +1556,10 @@ Expense;2021-11-09;13:18;AirBank - Spořící;3670.0;3670.0;CZK;Life & Entertaim
 Expense;2021-11-09;13:20;AirBank - Spořící;500.0;500.0;CZK;Financial expenses;Financial Expenses;Záloha;W.O.W Studio;Debit card;Reconciled;['Sebastien Vaško'];Tehotenske foceni zaloha
 Expense;2021-11-09;18:54;AirBank - Společný;150.0;150.0;CZK;Shopping;Drug-store, chemist;Léky;Dr.Max;Debit card;Reconciled;[];
 Expense;2021-11-10;07:00;KB - Personal - účet;2.41;53.85;USD;Communication, PC;Software, subscriptions;Cloud_storage;Microsoft;Debit card;Reconciled;[];OneDrive subscription
-Income;2021-11-10;07:00;KB - Personal - účet;6852.0;6852.0;CZK;Income;Wage, invoices;Služební_Cesty;Konica Minolta;Web payment;Cleared;['KM-BPL: 2021-11', 'KM-Služebka-All'];
-Income;2021-11-10;07:00;KB - Personal - účet;45680.0;45680.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
-Income;2021-11-10;07:00;KB - Personal - účet;300.0;300.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
-Income;2021-11-10;07:00;KB - Personal - účet;1000.0;1000.0;CZK;Income;Wage, invoices;Stravenky;Konica Minolta;Web payment;Cleared;[];
+Income;2021-11-10;07:00;KB - Personal - účet;6852.0;6852.0;CZK;Income;Wage,_invoices;Služební_Cesty;Konica Minolta;Web payment;Cleared;['KM-BPL: 2021-11', 'KM-Služebka-All'];
+Income;2021-11-10;07:00;KB - Personal - účet;45680.0;45680.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2021-11-10;07:00;KB - Personal - účet;300.0;300.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2021-11-10;07:00;KB - Personal - účet;1000.0;1000.0;CZK;Income;Wage,_invoices;Stravenky;Konica Minolta;Web payment;Cleared;[];
 Expense;2021-11-10;07:00;KB - Personal - účet;300.0;300.0;CZK;Life & Entertaiment;Active sport, fitness;Multisport;Multisport;Debit card;Cleared;[];Zapocitano ve vyplate
 Expense;2021-11-10;07:38;AirBank - Spořící;498.0;498.0;CZK;Shopping;Clothes & shoes;Oblečení;C&A;Debit card;Reconciled;['Sebastien Vaško'];Poslano Ande na ucet, protoze to kupovala puvodne ze sveha
 Expense;2021-11-10;07:39;AirBank - Spořící;929.0;929.0;CZK;Shopping;Clothes & shoes;Oblečení;H&M;Debit card;Reconciled;['Sebastien Vaško'];Poslano Ande na ucet, protoze to kupovala puvodne ze sveha
@@ -1700,10 +1700,10 @@ Expense;2021-12-08;17:51;KB - Personal - účet;2219.8;2219.8;CZK;Vehicle;Fuel;D
 Expense;2021-12-09;07:39;KB - Personal - účet;29.7;29.7;CZK;Food & Drinks;Work;Svačina;Billa;Debit card;Cleared;[];
 Expense;2021-12-09;07:39;KB - Personal - účet;76.9;76.9;CZK;Food & Drinks;Work;Oběd;Billa;Debit card;Cleared;[];
 Expense;2021-12-09;11:53;KB - Personal - účet;300.0;300.0;CZK;Life & Entertaiment;Active sport, fitness;Multisport;Multisport;Debit card;Cleared;[];Zapocitano ve vyplate
-Income;2021-12-09;11:53;KB - Personal - účet;50638.0;50638.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
-Income;2021-12-09;11:53;KB - Personal - účet;300.0;300.0;CZK;Income;Wage, invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
-Income;2021-12-09;11:53;KB - Personal - účet;20000.0;20000.0;CZK;Income;Wage, invoices;Bonusy;Konica Minolta;Web payment;Cleared;[];
-Income;2021-12-09;11:53;KB - Personal - účet;750.0;750.0;CZK;Income;Wage, invoices;Stravenky;Konica Minolta;Web payment;Cleared;[];
+Income;2021-12-09;11:53;KB - Personal - účet;50638.0;50638.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2021-12-09;11:53;KB - Personal - účet;300.0;300.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2021-12-09;11:53;KB - Personal - účet;20000.0;20000.0;CZK;Income;Wage,_invoices;Bonusy;Konica Minolta;Web payment;Cleared;[];
+Income;2021-12-09;11:53;KB - Personal - účet;750.0;750.0;CZK;Income;Wage,_invoices;Stravenky;Konica Minolta;Web payment;Cleared;[];
 Expense;2021-12-09;19:08;AirBank - Společný;54.9;54.9;CZK;Shopping;Drug-store, chemist;Drogerie,_Hyg._potřeby;Teta drogerie;Debit card;Reconciled;[];
 Expense;2021-12-09;19:33;AirBank - Společný;532.01;532.01;CZK;Food & Drinks;Groceries;Potraviny;Billa;Debit card;Reconciled;[];
 Expense;2021-12-09;19:54;AirBank - Společný;180.0;180.0;CZK;Food & Drinks;Groceries;Potraviny;Hulata Vinoteka;Debit card;Reconciled;[];

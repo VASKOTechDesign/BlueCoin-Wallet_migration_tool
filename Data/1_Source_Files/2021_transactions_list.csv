@@ -1691,7 +1691,7 @@
 "Expense","2021-04-19 13:48:23","13:48","Udemy","-59.95","EUR","0.0375687769","Sluzby","Kurzy","KB - Personal - účet","Python, VS code, Azure, Docker, Git","","Reconciled"
 "Expense","2021-04-19 07:17:09","07:17","Crocus","-22.00","CZK","1.0000000000","Prace","Svacina","KB - Personal - účet","","","Cleared"
 "Income","2021-04-19 07:00:27","07:00","Stat","788.00","CZK","1.0000000000","Others","Dary","KB - Stavební spoření - úvěr 2","Zaloha statni podpory za rok 2020","","Reconciled"
-"Income","2021-04-19 07:00:08","07:00","Financni urad","5790.00","CZK","1.0000000000","Others","Vratky","KB - Personal - účet","Vratky dane 2020","","Cleared"
+"Income","2021-04-19 07:00:08","07:00","Financni urad","5790.00","CZK","1.0000000000","Others","Dan_vratky","KB - Personal - účet","Vratky dane 2020","","Cleared"
 "Expense","2021-04-18 19:05:35","19:05","Hulata Vinoteka","-80.00","CZK","1.0000000000","Nakup","Alkohol","AirBank - Společný","[{}]","","Reconciled"
 "Expense","2021-04-18 19:05:35","19:05","Hulata Vinoteka","-5.00","CZK","1.0000000000","Financni sluzby","Tuzer","AirBank - Společný","[{}]","","Reconciled"
 "Transfer","2021-04-18 14:47:57","14:47","Transfer","-4000.00","CZK","1.0000000000","(Transfer)","(Transfer)","KB - Personal - účet","","","Reconciled"

@@ -15,8 +15,8 @@ Expense;2020-10-07 08:53:22;08:53;KM - Tomasovic Zbyna;-5000.0;CZK;1.0;Financni 
 Expense;2020-10-02 11:42:51;11:42;SVJ Tesna;-996.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;CZK;Hornbach: kamery;['Byt - Těsná'];Reconciled
 Expense;2020-09-30 10:33:58;10:33;KM - Tomasovic Zbyna;-200.0;CZK;1.0;Financni sluzby;Pujcky - vraceni;KB - Personal - účet;;[];Reconciled
 Income;2020-09-29 19:54:10;19:54;KM - Tomasovic Zbyna;200.0;CZK;1.0;Others;Pujcky - pujceni;CZK;;[];Reconciled
-Income;2020-09-14 07:00:08;07:00;TopCar Tenerife;500.0;EUR;0.0366460105;Others;Pujcky - vraceni;KB - Personal - účet;;['2020 - Kanárské ost.'];Reconciled
-Expense;2020-09-03 20:05:01;20:05;TopCar Tenerife;-500.0;EUR;0.0367625434;Financni sluzby;Pujcky - pujceni;KB - Personal - účet;;['2020 - Kanárské ost.'];Reconciled
+Income;2020-09-14 07:00:08;07:00;TopCar Tenerife;500.0;EUR;0.0366460105;Others;Pujcky - vraceni;KB - Personal - účet;;['2020 - Kanárské ost.', 'Dovolena: All'];Reconciled
+Expense;2020-09-03 20:05:01;20:05;TopCar Tenerife;-500.0;EUR;0.0367625434;Financni sluzby;Pujcky - pujceni;KB - Personal - účet;;['2020 - Kanárské ost.', 'Dovolena: All'];Reconciled
 Expense;2020-09-02 17:02:14;17:02;Vaško Andrea;-1000.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;KB - Personal - účet;;[];Reconciled
 Expense;2020-08-26 11:26:50;11:26;KM - Tomasovic Zbyna;-189.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;CZK;Hornbach - pila do primocarky;[];Reconciled
 Income;2020-08-22 18:43:29;18:43;Vaško Andrea;200.0;CZK;1.0;Others;Pujcky - vraceni;CZK;;[];Reconciled
@@ -29,8 +29,8 @@ Income;2020-07-15 10:03:29;10:03;Cupak Martin - Automechanik;2190.0;CZK;1.0;Othe
 Income;2020-07-14 18:35:07;18:35;Vaško Andrea;1000.0;CZK;1.0;Others;Pujcky - vraceni;CZK;;['Byt - Provazníkova'];Reconciled
 Expense;2020-07-11 21:21:35;21:21;Cupak Martin - Automechanik;-1094.72;CZK;1.0;Financni sluzby;Pujcky - pujceni;KB - Personal - účet;Koncert Marese;[];Cleared
 Expense;2020-07-09 17:56:51;17:56;Cupak Martin - Automechanik;-1094.72;CZK;1.0;Financni sluzby;Pujcky - pujceni;KB - Personal - účet;Koncert Marese;[];Cleared
-Income;2020-07-05 22:40:43;22:40;Hyzova Misa;100.0;CZK;1.0;Others;Pujcky - vraceni;CZK;;['2020 - Lukavice'];Reconciled
-Expense;2020-07-05 11:46:59;11:46;Hyzova Misa;-99.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;KB - Personal - účet;;['2020 - Lukavice'];Cleared
+Income;2020-07-05 22:40:43;22:40;Hyzova Misa;100.0;CZK;1.0;Others;Pujcky - vraceni;CZK;;['2020 - Lukavice', 'Dovolena: All'];Reconciled
+Expense;2020-07-05 11:46:59;11:46;Hyzova Misa;-99.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;KB - Personal - účet;;['2020 - Lukavice', 'Dovolena: All'];Cleared
 Expense;2020-07-03 14:46:04;14:46;Vaško Andrea;-100.0;CZK;1.0;Financni sluzby;Pujcky - pujceni;CZK;Bauhaus: pokosova pila;['Byt - Provazníkova'];Reconciled
 Income;2020-07-03 14:45:29;14:45;Bauhaus;500.0;CZK;1.0;Others;Pujcky - vraceni;CZK;Pokosova pila;['Byt - Provazníkova'];Reconciled
 Expense;2020-07-03 11:23:42;11:23;Vaško Andrea;-127.5;CZK;1.0;Financni sluzby;Pujcky - pujceni;KB - Personal - účet;Hornbach: lepidlo, tesneni;['Byt - Provazníkova'];Cleared

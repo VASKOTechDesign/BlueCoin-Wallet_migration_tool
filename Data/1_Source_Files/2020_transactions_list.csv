@@ -1292,7 +1292,7 @@
 "Expense","2020-04-17 16:13:46","16:13","U Sosny","-63.00","CZK","1.0000000000","Obcerstveni","Hospoda","CZK","[{}]","","Reconciled"
 "Expense","2020-04-17 16:13:46","16:13","U Sosny","-7.00","CZK","1.0000000000","Financni sluzby","Tuzer","CZK","[{}]","","Reconciled"
 "Expense","2020-04-17 12:54:48","12:54","HairFisher","-200.00","CZK","1.0000000000","Sluzby","Kadernik","CZK","","","Reconciled"
-"Income","2020-04-17 07:00:28","07:00","Financni urad","5880.00","CZK","1.0000000000","Others","Vratky","KB - Personal - účet","Vratky dane 2019","","Cleared"
+"Income","2020-04-17 07:00:28","07:00","Financni urad","5880.00","CZK","1.0000000000","Others","Dan_vratky","KB - Personal - účet","Vratky dane 2019","","Cleared"
 "Income","2020-04-17 07:00:00","07:00","Stat","785.00","CZK","1.0000000000","Others","Dary","KB - Stavební spoření - úvěr 2","Zaloha statni podpory za rok 2019","","Reconciled"
 "Expense","2020-04-16 17:22:00","17:22","Hulata Vinoteka","-95.00","CZK","1.0000000000","Nakup","Alkohol","KB - Personal - účet","","","Cleared"
 "Expense","2020-04-16 17:12:58","17:12","Mikrofarma","-480.00","CZK","1.0000000000","Nakup","Potraviny","KB - Personal - účet","","","Cleared"

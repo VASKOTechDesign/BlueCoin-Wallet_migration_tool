@@ -1294,7 +1294,7 @@
 "Expense","2018-04-27 12:31:59","12:31","K1 Steak House","-100.00","CZK","1.0000000000","Prace","Obed","Stravenky","","","Reconciled"
 "Expense","2018-04-27 12:31:59","12:31","K1 Steak House","-100.00","CZK","1.0000000000","Obcerstveni","Restaurace","Stravenky","","","Reconciled"
 "Expense","2018-04-27 07:36:27","07:36","Mamca","-10000.00","CZK","1.0000000000","Financni sluzby","Pujcky - vraceni","KB - Personal - účet","","Půjčky","Reconciled"
-"Income","2018-04-27 07:19:56","07:19","Financni urad","10950.00","CZK","1.0000000000","Others","Vratky","KB - Personal - účet","Vratky dane 2017","","Reconciled"
+"Income","2018-04-27 07:19:56","07:19","Financni urad","10950.00","CZK","1.0000000000","Others","Dan_vratky","KB - Personal - účet","Vratky dane 2017","","Reconciled"
 "Expense","2018-04-26 11:02:46","11:02","IQ Restaurant","-100.00","CZK","1.0000000000","Prace","Obed","Stravenky","","","Reconciled"
 "Expense","2018-04-26 08:54:55","08:54","Crocus","-35.00","CZK","1.0000000000","Prace","Svacina","CZK","","","Reconciled"
 "Expense","2018-04-25 17:51:17","17:51","Brno","-20.00","CZK","1.0000000000","Doprava","MHD","CZK","","","Reconciled"

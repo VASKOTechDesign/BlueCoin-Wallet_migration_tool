@@ -138,6 +138,7 @@ Financial expenses;Financial Expenses;Dary;Expense;Financni sluzby;Dary;
 Financial expenses;Financial Expenses;Tuzer;Expense;Financni sluzby;Tuzer;
 Financial expenses;Financial Expenses;Záloha;Expense;Financni sluzby;Zaloha;
 Financial expenses;Financial Expenses;Ztráty;Expense;Financni sluzby;Ztraty;
+Financial expenses;Financial Expenses;Fin_Others;Expense;Others;Others;
 Financial expenses;Charges, Fees;Administrativní_poplatky;Expense;Sluzby;Administrativni poplatky;
 Financial expenses;Charges, Fees;Poplatek_za_ostatní;Expense;Bankovni operace - vydaje;Poplatek za ostatni;
 Financial expenses;Charges, Fees;Poplatek_za_oznámení;Expense;Bankovni operace - vydaje;Poplatek za oznameni;
@@ -159,6 +160,7 @@ Financial expenses;Taxes;Clo;Expense;Dane a clo;Clo;
 Financial expenses;Taxes;Daň_z_nemovitosti;Expense;Dane a clo;Dan z nemovitosti;
 Financial expenses;Taxes;Daň_z_úroku_z_vkladu;Expense;Dane a clo;Dan z uroku z vkladu;
 Financial expenses;Taxes;Daň_z_úroku_ze_státní_podpory;Expense;Dane a clo;Dan z uroku ze statni podpory;
+Financial expenses;Taxes;Daň_doplatek;;;;
 Investments;Collections;;;;;
 Investments;Financial investments;;;;;
 Investments;Reality;;;;;
@@ -178,6 +180,7 @@ Income;Lending, renting;Osobní_půjčky_-_Income;Income;Others;Pujcky - pujceni
 Income;Lending, renting;Osobní_půjčky_-_Income;Income;Others;Pujcky - vraceni;Anďa mi splatila dluh
 Income;Lottery, gambling;;;;;
 Income;Refunds;Vratky;Income;Others;Vratky;
+Income;Refunds;Daň_vratky;Income;Others;Dan_vratky;
 Income;Rental income;;;;;
 Income;Sale;;Income;Others;Prodej;na Skupinu 2
 Income;Wage,_invoices;;Income;Prace;Ostatni;na Skupinu 2

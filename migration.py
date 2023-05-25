@@ -228,8 +228,8 @@ pandas.options.mode.chained_assignment = None
 # Currency and amount Method
 Expense_Income_Method = "CZK" # Values: "CZK", "Original"
 Transfer_Method = "CZK" # Values: "CZK", "Original"
-Data_to_WEB_Process = "Income_Expense"  # "Income_Expense", "Transfers", "Both"
-Year_to_Process = 2022
+Data_to_WEB_Process = "Both"  # "Income_Expense", "Transfers", "Both"
+Year_to_Process = "2022"
 No_cycle_to_restar = 100
 From_File_Name = f"{Year_to_Process}_transactions_list"
 To_File_Name = f"{Year_to_Process}_transactions_list_process"

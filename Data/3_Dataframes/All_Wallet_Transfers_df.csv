@@ -915,3 +915,13 @@ Transfer;2022-11-29;17:55;KB - Personal - účet;CZK;2000.0;2000.0;2000.0;2000.0
 Transfer;2022-11-30;05:39;AirBank - Spořící;KB - Personal - účet;2000.0;2000.0;2000.0;2000.0;CZK;CZK;Transfer;Reconciled;['Vklad - Honza'];
 Transfer;2022-11-30;05:40;AirBank - Spořící;AirBank - Společný;1000.0;1000.0;1000.0;1000.0;CZK;CZK;Transfer;Reconciled;[];
 Transfer;2022-11-30;09:10;AirBank - Spořící;AirBank - Společný;2000.0;2000.0;2000.0;2000.0;CZK;CZK;Transfer;Reconciled;[];
+Transfer;2022-12-02;16:28;KB - Personal - účet;CZK;400.0;400.0;400.0;400.0;CZK;CZK;Transfer;Cleared;[];
+Transfer;2022-12-04;21:35;KB - Personal - účet;CZK;800.0;800.0;800.0;800.0;CZK;CZK;Transfer;Cleared;[];
+Transfer;2022-12-05;12:51;AirBank - Společný;CZK - Společný;1500.0;1500.0;1500.0;1500.0;CZK;CZK;Transfer;Reconciled;[];
+Transfer;2022-12-05;18:45;AirBank - Spořící;AirBank - Společný;3000.0;3000.0;3000.0;3000.0;CZK;CZK;Transfer;Reconciled;[];
+Transfer;2022-12-06;15:36;KB - Personal - účet;CZK;800.0;800.0;800.0;800.0;CZK;CZK;Transfer;Cleared;[];
+Transfer;2022-12-08;21:40;AirBank - Spořící;AirBank - Společný;1180.62;1180.62;1180.62;1180.62;CZK;CZK;Transfer;Reconciled;[];
+Transfer;2022-12-09;14:34;KB - Personal - účet;AirBank - Spořící;500.0;500.0;500.0;500.0;CZK;CZK;Transfer;Cleared;['Vklad - Honza'];Záloha na Salinkartu
+Transfer;2022-12-09;14:34;KB - Personal - účet;AirBank - Spořící;1000.0;1000.0;1000.0;1000.0;CZK;CZK;Transfer;Cleared;['Renault Laguna', 'Vklad - Honza'];Zaloha na Renault Laguna service, pojisteni, ruceni
+Transfer;2022-12-09;14:37;KB - Personal - účet;AirBank - Společný;10000.0;10000.0;10000.0;10000.0;CZK;CZK;Transfer;Cleared;['Vklad - Honza'];
+Transfer;2022-12-09;14:38;KB - Personal - účet;AirBank - Spořící;20000.0;20000.0;20000.0;20000.0;CZK;CZK;Transfer;Cleared;['Vklad - Honza'];

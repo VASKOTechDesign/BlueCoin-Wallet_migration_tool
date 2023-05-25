@@ -1,0 +1,11 @@
+Type;Date;Time;From_Account;To_Account;From_Amount;From_Amount_LCY;To_Amount;To_Amount_LCY;From_Currency;To_Currency;Payment_type;Payment_Status;Labels;Notes
+Transfer;2022-12-02;16:28;KB - Personal - účet;CZK;400.0;400.0;400.0;400.0;CZK;CZK;Transfer;Cleared;[];
+Transfer;2022-12-04;21:35;KB - Personal - účet;CZK;800.0;800.0;800.0;800.0;CZK;CZK;Transfer;Cleared;[];
+Transfer;2022-12-05;12:51;AirBank - Společný;CZK - Společný;1500.0;1500.0;1500.0;1500.0;CZK;CZK;Transfer;Reconciled;[];
+Transfer;2022-12-05;18:45;AirBank - Spořící;AirBank - Společný;3000.0;3000.0;3000.0;3000.0;CZK;CZK;Transfer;Reconciled;[];
+Transfer;2022-12-06;15:36;KB - Personal - účet;CZK;800.0;800.0;800.0;800.0;CZK;CZK;Transfer;Cleared;[];
+Transfer;2022-12-08;21:40;AirBank - Spořící;AirBank - Společný;1180.62;1180.62;1180.62;1180.62;CZK;CZK;Transfer;Reconciled;[];
+Transfer;2022-12-09;14:34;KB - Personal - účet;AirBank - Spořící;500.0;500.0;500.0;500.0;CZK;CZK;Transfer;Cleared;['Vklad - Honza'];Záloha na Salinkartu
+Transfer;2022-12-09;14:34;KB - Personal - účet;AirBank - Spořící;1000.0;1000.0;1000.0;1000.0;CZK;CZK;Transfer;Cleared;['Renault Laguna', 'Vklad - Honza'];Zaloha na Renault Laguna service, pojisteni, ruceni
+Transfer;2022-12-09;14:37;KB - Personal - účet;AirBank - Společný;10000.0;10000.0;10000.0;10000.0;CZK;CZK;Transfer;Cleared;['Vklad - Honza'];
+Transfer;2022-12-09;14:38;KB - Personal - účet;AirBank - Spořící;20000.0;20000.0;20000.0;20000.0;CZK;CZK;Transfer;Cleared;['Vklad - Honza'];

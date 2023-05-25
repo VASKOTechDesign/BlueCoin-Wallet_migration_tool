@@ -1,0 +1,41 @@
+Type;Date;Time;Account;Amount;Amount_LCY;Currency;Category_1;Category_2;Category_3;Payee;Payment_type;Payment_Status;Labels;Notes
+Income;2022-12-01;07:00;AirBank - Společný;160.0;160.0;CZK;Life & Entertaiment;TV&Audio Streaming;Televize;Hyzovi;Web payment;Reconciled;['Byt - Těsná'];Netflix
+Expense;2022-12-01;07:00;AirBank - VASKO TechDesign;10.0;10.0;CZK;Financial expenses;Charges, Fees;Poplatek_za_vedení_účtu;AirBank;Debit card;Reconciled;['VASKO TechDesign'];
+Expense;2022-12-01;07:00;AirBank - Spořící;31.87;31.87;CZK;Financial expenses;Taxes;Daň_z_úroku_z_vkladu;AirBank;Debit card;Reconciled;[];
+Income;2022-12-01;07:00;AirBank - Spořící;212.49;212.49;CZK;Income;Bank incomes;Úrok;AirBank;Web payment;Reconciled;[];
+Expense;2022-12-01;12:47;KB - Personal - účet;57.0;57.0;CZK;Shopping;Drug-store, chemist;Drogerie,_Hyg._potřeby;Lekarna Spielberk;Debit card;Cleared;[];Jeleni luj
+Income;2022-12-02;06:00;KB - Personal - účet;4547.0;4547.0;CZK;Income;Wage,_invoices;Služební_Cesty;Konica Minolta;Web payment;Cleared;['KM-BBL: 2022-11', 'KM-Služebka-All'];
+Expense;2022-12-02;07:00;KB - Personal - účet;45.0;45.0;CZK;Life & Entertaiment;TV&Audio Streaming;Music;Cesky Rozhlas;Debit card;Cleared;['Byt - Těsná', 'Renault Laguna'];
+Expense;2022-12-02;16:06;KB - Personal - účet;29.0;29.0;CZK;Shopping;Clothes & shoes;Boty;CCC;Debit card;Cleared;[];Tkanicky
+Expense;2022-12-02;16:20;KB - Personal - účet;100.0;100.0;CZK;Food & Drinks;Občerstvení;Fastfood;Fastfood - no name;Debit card;Cleared;[];
+Income;2022-12-02;19:00;Sazka;12.0;12.0;CZK;Financial expenses;Lottery, gambling;Win;Sazka;Transfer;Reconciled;[];Losovani: 2.12.2022
+Expense;2022-12-03;14:53;AirBank - Společný;74.7;74.7;CZK;Food & Drinks;Groceries;Potraviny;Billa;Debit card;Reconciled;[];
+Expense;2022-12-05;09:40;CZK;750.0;750.0;CZK;Housing;Maintenance, repairs;Revize;Uher - kominy;Cash;Reconciled;['Byt - Těsná'];
+Expense;2022-12-05;09:40;CZK;50.0;50.0;CZK;Financial expenses;Financial Expenses;Tuzer;Uher - kominy;Cash;Reconciled;['Byt - Těsná'];
+Expense;2022-12-05;12:54;AirBank - Společný;30.0;30.0;CZK;Vehicle;Parking;Parkování;Brno;Debit card;Reconciled;['Renault Laguna'];
+Expense;2022-12-05;14:30;CZK - Společný;1500.0;1500.0;CZK;Life & Entertaiment;Education, development;Psychologie,_Koučing,_Seberozvoj;Mynar;Cash;Reconciled;[];
+Expense;2022-12-05;19:27;AirBank - Společný;35.0;35.0;CZK;Shopping;Drug-store, chemist;Drogerie,_Hyg._potřeby;Pepco;Debit card;Reconciled;[];
+Expense;2022-12-05;19:27;AirBank - Společný;224.0;224.0;CZK;Shopping;Clothes & shoes;Oblečení;Pepco;Debit card;Reconciled;[];Anda puncochace
+Expense;2022-12-05;19:49;AirBank - Společný;274.2;274.2;CZK;Food & Drinks;Groceries;Alkohol;Penny Market;Debit card;Reconciled;[];
+Expense;2022-12-05;19:49;AirBank - Společný;18.0;18.0;CZK;Financial expenses;Financial Expenses;Záloha;Penny Market;Debit card;Reconciled;[];
+Expense;2022-12-05;19:49;AirBank - Společný;501.55;501.55;CZK;Food & Drinks;Groceries;Potraviny;Penny Market;Debit card;Reconciled;[];
+Expense;2022-12-05;20:36;AirBank - Společný;188.8;188.8;CZK;Shopping;Drug-store, chemist;Drogerie,_Hyg._potřeby;Lidl;Debit card;Reconciled;[];
+Expense;2022-12-05;20:36;AirBank - Společný;1210.36;1210.36;CZK;Food & Drinks;Groceries;Potraviny;Lidl;Debit card;Reconciled;[];
+Expense;2022-12-05;20:36;AirBank - Společný;219.0;219.0;CZK;Shopping;Drug-store, chemist;Drogerie,_Hyg._potřeby;Lidl;Debit card;Reconciled;['Sebastien Vaško'];Plenky
+Expense;2022-12-05;20:46;AirBank - Společný;149.0;149.0;CZK;Food & Drinks;Groceries;Alkohol;Lidl;Debit card;Reconciled;[];
+Expense;2022-12-05;20:46;AirBank - Společný;54.9;54.9;CZK;Food & Drinks;Groceries;Potraviny;Lidl;Debit card;Reconciled;[];
+Expense;2022-12-06;11:14;KB - Personal - účet;89.9;89.9;CZK;Food & Drinks;Work;Oběd;Billa;Debit card;Cleared;[];
+Expense;2022-12-06;11:14;KB - Personal - účet;275.5;275.5;CZK;Shopping;Gifts, joy;Dárky;Billa;Debit card;Cleared;[];Mikulas pro Andu
+Expense;2022-12-06;11:14;KB - Personal - účet;119.9;119.9;CZK;Shopping;Clothes & shoes;Oblečení;Billa;Debit card;Cleared;[];ponozky
+Expense;2022-12-06;15:56;KB - Personal - účet;4650.0;4650.0;CZK;Vehicle;Car shopping;Nákup;Hakr Brno;Debit card;Cleared;['Renault Laguna'];Nosniky na rakev +zamky
+Expense;2022-12-06;16:16;CZK;800.0;800.0;CZK;Housing;Maintenance, repairs;Úklid;SVJ Tesna;Cash;Reconciled;['Byt - Těsná'];
+Expense;2022-12-06;16:42;AirBank - Společný;150.0;150.0;CZK;Food & Drinks;Groceries;Alkohol;Hulata Vinoteka;Debit card;Reconciled;[];
+Expense;2022-12-07;15:49;AirBank - Společný;139.6;139.6;CZK;Food & Drinks;Groceries;Potraviny;Billa;Debit card;Reconciled;[];
+Expense;2022-12-08;11:36;AirBank - Společný;369.81;369.81;CZK;Shopping;Stationery, tools;Nářadí;Hornbach;Debit card;Reconciled;['Byt - Těsná'];Naradi na drzaky na kolo
+Expense;2022-12-08;16:53;AirBank - Společný;158.8;158.8;CZK;Food & Drinks;Groceries;Potraviny;Kaufland;Debit card;Reconciled;[];
+Expense;2022-12-09;06:23;KB - Personal - účet;30.0;30.0;CZK;Food & Drinks;Work;Svačina;Raj Peciva;Debit card;Cleared;[];
+Expense;2022-12-09;07:00;KB - Personal - účet;900.0;900.0;CZK;Financial expenses;Loan, interests;Osobní_půjčky_-_Expense;Vaško Andrea;Debit card;Cleared;[];Zapocitano ve vyplate
+Expense;2022-12-09;07:00;KB - Personal - účet;315.0;315.0;CZK;Work-Expense;Others;;Multisport;Debit card;Cleared;[];Zapocitano ve vyplate
+Income;2022-12-09;07:00;KB - Personal - účet;48887.0;48887.0;CZK;Income;Wage,_invoices;Výplata;Konica Minolta;Web payment;Cleared;[];
+Income;2022-12-09;07:00;KB - Personal - účet;600.0;600.0;CZK;Income;Wage,_invoices;Stravenky;Konica Minolta;Web payment;Cleared;[];
+Expense;2022-12-09;10:55;KB - Personal - účet;125.0;125.0;CZK;Food & Drinks;Work;Oběd;Jean Pauls Bistro;Debit card;Cleared;[];
